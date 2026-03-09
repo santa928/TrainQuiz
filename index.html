@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>でんしゃクイズ</title>
+    <meta
+      name="description"
+      content="プラレールにいる ほんもののでんしゃを しゃしんであてる 3さいむけクイズ"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="quiz-card" aria-label="でんしゃクイズ">
+        <header class="hero">
+          <p class="eyebrow">PLARAIL TRAIN QUIZ</p>
+          <div class="hero-row">
+            <div>
+              <p class="prompt-label">しゃしんをみて えらぼう</p>
+              <h1 data-title>これ なあに？</h1>
+            </div>
+            <p class="progress" data-status>0 / 0 もん</p>
+          </div>
+        </header>
+
+        <p class="loading" data-loader>クイズを じゅんびしてるよ…</p>
+        <p class="error" data-error hidden></p>
+
+        <div class="image-panel" data-image-wrap data-loaded="false">
+          <img data-image src="" alt="" />
+          <div class="image-glow" aria-hidden="true"></div>
+        </div>
+
+        <div class="feedback-panel">
+          <p class="feedback" data-feedback data-tone="idle"></p>
+          <p class="answer" data-answer hidden></p>
+        </div>
+
+        <section class="choices" data-choices aria-label="せんたくし"></section>
+
+        <button class="next-button" data-next hidden type="button">つぎへ</button>
+
+        <footer class="credit-panel">
+          <p class="credit-text" data-credit></p>
+          <div class="credit-links">
+            <a data-source-link href="#" target="_blank" rel="noreferrer">画像の出典</a>
+            <a data-article-link href="#" target="_blank" rel="noreferrer">Wikipedia</a>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

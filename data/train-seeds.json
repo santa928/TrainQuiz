@@ -1,0 +1,678 @@
+[
+  {
+    "id": "e5-hayabusa",
+    "displayName": "E5系新幹線はやぶさ",
+    "canonicalName": "E5系",
+    "productName": "S-03 E5系新幹線はやぶさ(連結仕様)",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E5系・H5系電車",
+    "wikipediaQuery": "E5系新幹線"
+  },
+  {
+    "id": "e6-komachi",
+    "displayName": "E6系新幹線こまち",
+    "canonicalName": "E6系",
+    "productName": "S-14 E6系新幹線こまち（連結仕様）",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E6系電車",
+    "wikipediaQuery": "E6系新幹線"
+  },
+  {
+    "id": "e3-tsubasa",
+    "displayName": "E3系新幹線つばさ",
+    "canonicalName": "E3系",
+    "productName": "S-06 E3系新幹線つばさ(連結仕様)",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E3系電車",
+    "wikipediaQuery": "E3系新幹線"
+  },
+  {
+    "id": "e4-max",
+    "displayName": "E4系新幹線Max",
+    "canonicalName": "E4系",
+    "productName": "S-10 E4系新幹線Max（連結仕様）",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E4系電車",
+    "wikipediaQuery": "E4系新幹線"
+  },
+  {
+    "id": "e7-kagayaki",
+    "displayName": "E7系新幹線かがやき",
+    "canonicalName": "E7系",
+    "productName": "S-05 ライト付Ｅ７系新幹線かがやき",
+    "category": "shinkansen",
+    "operator": "JR東日本 / JR西日本",
+    "wikipediaTitle": "新幹線E7系・W7系電車",
+    "wikipediaQuery": "E7系・W7系新幹線"
+  },
+  {
+    "id": "h5-hayabusa",
+    "displayName": "H5系新幹線はやぶさ",
+    "canonicalName": "H5系",
+    "productName": "S-40 レールで往復！Ｈ５系新幹線はやぶさ",
+    "category": "shinkansen",
+    "operator": "JR北海道",
+    "wikipediaTitle": "新幹線E5系・H5系電車",
+    "wikipediaQuery": "H5系新幹線"
+  },
+  {
+    "id": "500-nozomi",
+    "displayName": "500系新幹線",
+    "canonicalName": "500系",
+    "productName": "S-02 ライト付500系新幹線（ハイパワーライト)",
+    "category": "shinkansen",
+    "operator": "JR西日本",
+    "wikipediaTitle": "新幹線500系電車",
+    "wikipediaQuery": "500系新幹線"
+  },
+  {
+    "id": "doctor-yellow",
+    "displayName": "923形ドクターイエロー",
+    "canonicalName": "923形",
+    "productName": "S-07 ライト付923形ドクターイエローT4編成",
+    "category": "shinkansen",
+    "operator": "JR東海 / JR西日本",
+    "wikipediaTitle": "ドクターイエロー",
+    "wikipediaQuery": "923形新幹線電気軌道総合試験車"
+  },
+  {
+    "id": "800-tsubame",
+    "displayName": "800系新幹線つばめ",
+    "canonicalName": "800系",
+    "productName": "S-22 800系新幹線つばめ",
+    "category": "shinkansen",
+    "operator": "JR九州",
+    "wikipediaTitle": "新幹線800系電車",
+    "wikipediaQuery": "800系新幹線"
+  },
+  {
+    "id": "n700",
+    "displayName": "N700系新幹線",
+    "canonicalName": "N700系",
+    "productName": "S-11 サウンドN700系新幹線",
+    "category": "shinkansen",
+    "operator": "JR東海 / JR西日本 / JR九州",
+    "wikipediaTitle": "新幹線N700系電車",
+    "wikipediaQuery": "N700系新幹線"
+  },
+  {
+    "id": "yakumo-273",
+    "displayName": "273系特急やくも",
+    "canonicalName": "273系",
+    "productName": "S-08 273系特急やくも",
+    "category": "limited_express",
+    "operator": "JR西日本",
+    "wikipediaTitle": "273 series",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/273_series",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/JRW_Series273-Y1.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW_Series273-Y1.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "あたらしい やくも の とっきゅう でんしゃ"
+  },
+  {
+    "id": "yufuin-no-mori",
+    "displayName": "ゆふいんの森",
+    "canonicalName": "ゆふいんの森",
+    "productName": "S-21 JR九州ゆふいんの森",
+    "category": "limited_express",
+    "operator": "JR九州",
+    "wikipediaTitle": "Yufuin no Mori",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Yufuin_no_Mori",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2013-01-03_%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E3%81%AE%E6%A3%AE%E5%8F%B7.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2013-01-03_%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E3%81%AE%E6%A3%AE%E5%8F%B7.jpg",
+    "imageLicense": "CC BY 2.0",
+    "imageAuthor": "veroyama",
+    "descriptionShort": "もりの みどり が かっこいい とっきゅう"
+  },
+  {
+    "id": "e353-azusa",
+    "displayName": "E353系あずさ",
+    "canonicalName": "E353系",
+    "productName": "S-23 E353系あずさ（専用連結仕様）",
+    "category": "limited_express",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E353系電車",
+    "wikipediaQuery": "E353系電車"
+  },
+  {
+    "id": "nankai-rapit",
+    "displayName": "南海ラピート",
+    "canonicalName": "南海50000系",
+    "productName": "S-35 南海ラピート",
+    "category": "limited_express",
+    "operator": "南海電気鉄道",
+    "wikipediaTitle": "南海50000系電車",
+    "wikipediaQuery": "南海50000系電車"
+  },
+  {
+    "id": "spacia-x",
+    "displayName": "スペーシア X",
+    "canonicalName": "東武N100系",
+    "productName": "S-36 東武スペーシア X",
+    "category": "limited_express",
+    "operator": "東武鉄道",
+    "wikipediaTitle": "東武N100系電車",
+    "wikipediaQuery": "東武N100系電車"
+  },
+  {
+    "id": "hinotori",
+    "displayName": "近鉄ひのとり",
+    "canonicalName": "近鉄80000系",
+    "productName": "S-44 ライト付近鉄名阪特急ひのとり",
+    "category": "limited_express",
+    "operator": "近畿日本鉄道",
+    "wikipediaTitle": "近鉄80000系電車",
+    "wikipediaQuery": "近鉄80000系電車"
+  },
+  {
+    "id": "odakyu-gse",
+    "displayName": "小田急ロマンスカーGSE",
+    "canonicalName": "小田急70000形",
+    "productName": "S-52 小田急ロマンスカーGSE70000形",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急70000形電車",
+    "wikipediaQuery": "小田急70000形電車"
+  },
+  {
+    "id": "meitetsu-mu-sky",
+    "displayName": "名鉄ミュースカイ",
+    "canonicalName": "名鉄2000系",
+    "productName": "S-55 名鉄2000系ミュースカイ",
+    "category": "limited_express",
+    "operator": "名古屋鉄道",
+    "wikipediaTitle": "名鉄2000系電車",
+    "wikipediaQuery": "名鉄2000系電車"
+  },
+  {
+    "id": "haruka-281",
+    "displayName": "281系特急はるか",
+    "canonicalName": "281系",
+    "productName": "S-57 281系特急はるか（専用連結仕様）",
+    "category": "limited_express",
+    "operator": "JR西日本",
+    "wikipediaTitle": "JR西日本281系電車",
+    "wikipediaQuery": "281系電車"
+  },
+  {
+    "id": "super-hakuto",
+    "displayName": "特急スーパーはくと",
+    "canonicalName": "HOT7000系",
+    "productName": "S-63 智頭急行 特急スーパーはくと",
+    "category": "limited_express",
+    "operator": "智頭急行 / JR西日本",
+    "wikipediaTitle": "智頭急行HOT7000系気動車",
+    "wikipediaQuery": "HOT7000系気動車"
+  },
+  {
+    "id": "shimakaze",
+    "displayName": "近鉄しまかぜ",
+    "canonicalName": "近鉄50000系",
+    "productName": "S-48 近鉄観光特急しまかぜ",
+    "category": "limited_express",
+    "operator": "近畿日本鉄道",
+    "wikipediaTitle": "近鉄50000系電車",
+    "wikipediaQuery": "近鉄50000系電車"
+  },
+  {
+    "id": "e235-yamanote",
+    "displayName": "E235系山手線",
+    "canonicalName": "E235系",
+    "productName": "S-32 ドア開閉E235系山手線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E235系電車",
+    "wikipediaQuery": "E235系電車"
+  },
+  {
+    "id": "e231-near",
+    "displayName": "E231系近郊電車",
+    "canonicalName": "E231系",
+    "productName": "S-43 サウンドE231系近郊電車",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E231系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE231%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "wikipediaQuery": "E231系電車",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/E231%E7%B3%BB%E8%BF%91%E9%83%8A%E5%BD%A2%E3%83%BBK-38%E7%B7%A8%E6%88%90%EF%BC%88%E5%89%8D%E7%85%A7%E7%81%AF%E6%9B%B4%E6%96%B0%E5%BE%8C%EF%BC%89.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E231%E7%B3%BB%E8%BF%91%E9%83%8A%E5%BD%A2%E3%83%BBK-38%E7%B7%A8%E6%88%90%EF%BC%88%E5%89%8D%E7%85%A7%E7%81%AF%E6%9B%B4%E6%96%B0%E5%BE%8C%EF%BC%89.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "PQ Usui",
+    "descriptionShort": "しょうなんしんじゅくライン を はしる きんこうがた"
+  },
+  {
+    "id": "e531-joban",
+    "displayName": "E531系常磐線",
+    "canonicalName": "E531系",
+    "productName": "S-50 E531系常磐線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E531系電車",
+    "wikipediaQuery": "E531系電車"
+  },
+  {
+    "id": "shinkaisoku-225",
+    "displayName": "225系新快速",
+    "canonicalName": "225系",
+    "productName": "S-42 225系新快速（専用連結仕様）",
+    "category": "commuter",
+    "operator": "JR西日本",
+    "wikipediaTitle": "JR西日本225系電車",
+    "wikipediaQuery": "225系電車"
+  },
+  {
+    "id": "osaka-loop-323",
+    "displayName": "323系大阪環状線",
+    "canonicalName": "323系",
+    "productName": "S-45 323系大阪環状線",
+    "category": "commuter",
+    "operator": "JR西日本",
+    "wikipediaTitle": "JR西日本323系電車",
+    "wikipediaQuery": "323系電車"
+  },
+  {
+    "id": "chuo-315",
+    "displayName": "315系中央本線",
+    "canonicalName": "315系",
+    "productName": "S-39 315系中央本線",
+    "category": "commuter",
+    "operator": "JR東海",
+    "wikipediaTitle": "JR東海315系電車",
+    "wikipediaQuery": "315系電車"
+  },
+  {
+    "id": "tx-3000",
+    "displayName": "つくばエクスプレス3000系",
+    "canonicalName": "TX-3000系",
+    "productName": "S-62 つくばエクスプレス3000系",
+    "category": "commuter",
+    "operator": "首都圏新都市鉄道",
+    "wikipediaTitle": "首都圏新都市鉄道TX-3000系電車",
+    "wikipediaQuery": "首都圏新都市鉄道TX-3000系電車"
+  },
+  {
+    "id": "meitetsu-6500",
+    "displayName": "名鉄6500系",
+    "canonicalName": "名鉄6500系",
+    "productName": "S-65 名鉄6500系",
+    "category": "commuter",
+    "operator": "名古屋鉄道",
+    "wikipediaTitle": "名鉄6500系電車",
+    "wikipediaQuery": "名鉄6500系電車"
+  },
+  {
+    "id": "osaka-metro-400",
+    "displayName": "Osaka Metro中央線400系",
+    "canonicalName": "Osaka Metro400系",
+    "productName": "S-37 Osaka Metro中央線400系（クロスシート車仕様）",
+    "category": "commuter",
+    "operator": "Osaka Metro",
+    "wikipediaTitle": "Osaka Metro400系電車",
+    "wikipediaQuery": "Osaka Metro400系電車"
+  },
+  {
+    "id": "eh500-kintaro",
+    "displayName": "EH500金太郎",
+    "canonicalName": "EH500形",
+    "productName": "S-25 EH500金太郎",
+    "category": "freight",
+    "operator": "JR貨物",
+    "wikipediaTitle": "JR貨物EH500形電気機関車",
+    "wikipediaQuery": "EH500形電気機関車"
+  },
+  {
+    "id": "ef210-momotaro",
+    "displayName": "EF210桃太郎",
+    "canonicalName": "EF210形",
+    "productName": "S-26 EF210桃太郎",
+    "category": "freight",
+    "operator": "JR貨物",
+    "wikipediaTitle": "JR貨物EF210形電気機関車",
+    "wikipediaQuery": "EF210形電気機関車"
+  },
+  {
+    "id": "ef510-red-thunder",
+    "displayName": "EF510レッドサンダー",
+    "canonicalName": "EF510形",
+    "productName": "S-46 EF510レッドサンダー（シルバー仕様）",
+    "category": "freight",
+    "operator": "JR貨物 / JR東日本",
+    "wikipediaTitle": "JR貨物EF510形電気機関車",
+    "wikipediaQuery": "EF510形電気機関車"
+  },
+  {
+    "id": "ef66",
+    "displayName": "EF66電気機関車",
+    "canonicalName": "EF66形",
+    "productName": "S-60 EF66電気機関車",
+    "category": "freight",
+    "operator": "JR貨物 / JR西日本",
+    "wikipediaTitle": "国鉄EF66形電気機関車",
+    "wikipediaQuery": "EF66形電気機関車"
+  },
+  {
+    "id": "d51-200",
+    "displayName": "D51 200号機",
+    "canonicalName": "D51形",
+    "productName": "S-28 ライト付D51 200号機蒸気機関車",
+    "category": "steam",
+    "operator": "JR西日本",
+    "wikipediaTitle": "国鉄D51形蒸気機関車",
+    "wikipediaQuery": "D51形蒸気機関車"
+  },
+  {
+    "id": "c61-20",
+    "displayName": "C61 20号機",
+    "canonicalName": "C61形",
+    "productName": "S-29 ライト付C61 20号機蒸気機関車",
+    "category": "steam",
+    "operator": "JR東日本",
+    "wikipediaTitle": "国鉄C61形蒸気機関車",
+    "wikipediaQuery": "C61形蒸気機関車"
+  },
+  {
+    "id": "c57-yamaguchi",
+    "displayName": "C57 1号機SLやまぐち号",
+    "canonicalName": "C57形",
+    "productName": "S-53 C57 1号機SLやまぐち号",
+    "category": "steam",
+    "operator": "JR西日本",
+    "wikipediaTitle": "国鉄C57形蒸気機関車",
+    "wikipediaQuery": "C57形蒸気機関車"
+  },
+  {
+    "id": "n700a",
+    "displayName": "N700A新幹線",
+    "canonicalName": "N700A",
+    "productName": "S-01 ライト付Ｎ７００Ａ新幹線",
+    "category": "shinkansen",
+    "operator": "JR東海 / JR西日本",
+    "wikipediaTitle": "新幹線N700系電車",
+    "commonsFileTitle": "File:JR-Tokaido-Shinkansen-N700A 01.jpg"
+  },
+  {
+    "id": "n700-mizuho-sakura",
+    "displayName": "N700系新幹線みずほ・さくら",
+    "canonicalName": "N700系みずほ・さくら",
+    "productName": "S-04 ライト付N700系新幹線みずほ・さくら",
+    "category": "shinkansen",
+    "operator": "JR西日本 / JR九州",
+    "wikipediaTitle": "新幹線N700系電車",
+    "commonsFileTitle": "File:Series-N700-7000-S8 Sakura-540.jpg"
+  },
+  {
+    "id": "e3-tsubasa-2000",
+    "displayName": "E3系新幹線つばさ2000番代",
+    "canonicalName": "E3系2000番代",
+    "productName": "S-09 E3系新幹線つばさ2000番代（連結仕様）",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E3系電車",
+    "commonsFileTitle": "File:E3-2000-L67-of-Yamagata-Shinkansen.jpg"
+  },
+  {
+    "id": "doctor-yellow-t3",
+    "displayName": "922形ドクターイエローT3編成",
+    "canonicalName": "922形T3",
+    "productName": "S-12 ライト付922形ドクターイエローT3編成",
+    "category": "shinkansen",
+    "operator": "JR東海 / JR西日本",
+    "wikipediaTitle": "ドクターイエロー",
+    "commonsFileTitle": "File:Doctor Yellow 922-26 T3 SCMaglev and Railway Park.jpg"
+  },
+  {
+    "id": "e5-hayabusa-speed-change",
+    "displayName": "E5系新幹線はやぶさ",
+    "canonicalName": "E5系はやぶさ",
+    "productName": "S-16 レールで速度チェンジ!! E5系新幹線はやぶさ",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E5系・H5系電車",
+    "wikipediaQuery": "E5系新幹線"
+  },
+  {
+    "id": "narita-express",
+    "displayName": "成田エクスプレス",
+    "canonicalName": "成田エクスプレス",
+    "productName": "S-15 成田エクスプレス（専用連結仕様）",
+    "category": "limited_express",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E259系電車",
+    "wikipediaQuery": "成田エクスプレス E259系"
+  },
+  {
+    "id": "l0-maglev",
+    "displayName": "超電導リニアL0系 改良型試験車",
+    "canonicalName": "L0系改良型試験車",
+    "productName": "S-17 レールで速度チェンジ!! 超電導リニアL0系 改良型試験車",
+    "category": "maglev",
+    "operator": "JR東海",
+    "wikipediaTitle": "L0系",
+    "commonsFileTitle": "File:Series L0.JPG"
+  },
+  {
+    "id": "e657-hitachi-yellow",
+    "displayName": "E657系特急ひたち 黄色",
+    "canonicalName": "E657系ひたち黄色",
+    "productName": "S-19 E657系特急ひたち（リバイバルカラー黄色）",
+    "category": "limited_express",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E657系電車",
+    "commonsFileTitle": "File:JRE Series-E657-K12 Hitachi-6.jpg"
+  },
+  {
+    "id": "cassiopeia",
+    "displayName": "寝台特急カシオペア",
+    "canonicalName": "カシオペア",
+    "productName": "S-41 寝台特急カシオペア",
+    "category": "sleeper",
+    "operator": "JR東日本 / JR北海道",
+    "wikipediaTitle": "カシオペア (列車)",
+    "wikipediaQuery": "寝台特急カシオペア"
+  },
+  {
+    "id": "hankyu-2300-private",
+    "displayName": "阪急2300系PRiVACE",
+    "canonicalName": "阪急2300系PRiVACE",
+    "productName": "S-47 阪急電鉄2300系 PRiVACE（プライベース）",
+    "category": "commuter",
+    "operator": "阪急電鉄",
+    "wikipediaTitle": "阪急2300系電車 (2代)",
+    "commonsFileTitle": "File:Hankyu Kyoto Line Series-2300.jpg"
+  },
+  {
+    "id": "keisei-skyliner-ae",
+    "displayName": "京成スカイライナーAE形",
+    "canonicalName": "京成AE形",
+    "productName": "S-54 京成スカイライナーAE形",
+    "category": "limited_express",
+    "operator": "京成電鉄",
+    "wikipediaTitle": "京成AE形電車 (2代)",
+    "wikipediaQuery": "京成AE形 スカイライナー"
+  },
+  {
+    "id": "tobu-8000",
+    "displayName": "東武8000型",
+    "canonicalName": "東武8000型",
+    "productName": "S-61 東武8000型",
+    "category": "commuter",
+    "operator": "東武鉄道",
+    "wikipediaTitle": "東武8000系電車",
+    "wikipediaQuery": "東武8000系"
+  },
+  {
+    "id": "iyonada-monogatari",
+    "displayName": "伊予灘ものがたり",
+    "canonicalName": "伊予灘ものがたり",
+    "productName": "S-64 伊予灘ものがたり",
+    "category": "limited_express",
+    "operator": "JR四国",
+    "wikipediaTitle": "伊予灘ものがたり",
+    "commonsFileTitle": "File:Iyonada Monogatari 2020.08 (2).jpg"
+  },
+  {
+    "id": "urbanliner-next",
+    "displayName": "近鉄アーバンライナーnext",
+    "canonicalName": "アーバンライナーnext",
+    "productName": "近鉄アーバンライナーnext",
+    "category": "limited_express",
+    "operator": "近畿日本鉄道",
+    "wikipediaTitle": "近鉄21020系電車",
+    "wikipediaQuery": "近鉄21020系 アーバンライナーnext"
+  },
+  {
+    "id": "rapid-acty-211",
+    "displayName": "快速アクティー211系",
+    "canonicalName": "211系快速アクティー",
+    "productName": "ありがとう！快速アクティー211系",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "国鉄211系電車",
+    "commonsFileTitle": "File:国鉄211系電車.JPG"
+  },
+  {
+    "id": "hello-kitty-shinkansen",
+    "displayName": "ハローキティ新幹線",
+    "canonicalName": "ハローキティ新幹線",
+    "productName": "S-18 ハローキティ新幹線",
+    "category": "shinkansen",
+    "operator": "JR西日本",
+    "wikipediaTitle": "新幹線500系電車",
+    "commonsFileTitle": "File:Shinkansen 500 Hello Kitty at Nishi-Akashi Station 2019-11-15 (49765227723).jpg"
+  },
+  {
+    "id": "panda-kuroshio",
+    "displayName": "パンダくろしお",
+    "canonicalName": "パンダくろしお",
+    "productName": "S-24 パンダくろしお「Smileアドベンチャートレイン」（専用連結仕様）",
+    "category": "limited_express",
+    "operator": "JR西日本",
+    "wikipediaTitle": "JR西日本287系電車",
+    "commonsFileTitle": "File:JRW Series287-HC605 Panda-Kuroshio.jpg"
+  },
+  {
+    "id": "keihan-thomas",
+    "displayName": "京阪13000系きかんしゃトーマス号",
+    "canonicalName": "京阪13000系きかんしゃトーマス号",
+    "productName": "S-59 京阪電車13000系きかんしゃトーマス号",
+    "category": "commuter",
+    "operator": "京阪電気鉄道",
+    "wikipediaTitle": "京阪13000系電車",
+    "commonsFileTitle": "File:京阪13000系7両.jpg"
+  },
+  {
+    "id": "pikmin-train",
+    "displayName": "JR九州 ピクミントレイン",
+    "canonicalName": "ピクミントレイン",
+    "productName": "JR九州 ピクミントレイン",
+    "category": "limited_express",
+    "operator": "JR九州",
+    "wikipediaTitle": "JR九州885系電車",
+    "commonsFileTitle": "File:L Nippo 885.jpg"
+  },
+  {
+    "id": "blue-mu-sky-130th",
+    "displayName": "反転塗装ブルーミュースカイ",
+    "canonicalName": "反転塗装ブルーミュースカイ",
+    "productName": "名鉄創業130周年記念 反転塗装ブルーミュースカイ",
+    "category": "limited_express",
+    "operator": "名古屋鉄道",
+    "wikipediaTitle": "名鉄2000系電車",
+    "commonsFileTitle": "File:名鉄2000系電車（2003F） ブルーミュースカイ.jpg"
+  },
+  {
+    "id": "e235-yokosuka",
+    "displayName": "E235系横須賀線",
+    "canonicalName": "E235系横須賀線",
+    "productName": "S-27 E235系横須賀線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E235系電車",
+    "commonsFileTitle": "File:E235 YokosukaLine.jpg"
+  },
+  {
+    "id": "e233-chuo-green",
+    "displayName": "E233系中央線 グリーン車",
+    "canonicalName": "E233系中央線グリーン車",
+    "productName": "S-30 E233系中央線（2階建てグリーン車）",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E233系電車",
+    "commonsFileTitle": "File:JRE Series-E233-0 4-Green-cars.jpg"
+  },
+  {
+    "id": "e233-shonan",
+    "displayName": "E233系湘南色",
+    "canonicalName": "E233系湘南色",
+    "productName": "S-31 E233系湘南色（専用連結仕様）",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "東海道線 (JR東日本)",
+    "commonsFileTitle": "File:Tokaido-Line-Series-E233-3000.jpg"
+  },
+  {
+    "id": "e233-keihin-tohoku",
+    "displayName": "E233系京浜東北線",
+    "canonicalName": "E233系京浜東北線",
+    "productName": "S-33 E233系京浜東北線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "京浜東北線",
+    "commonsFileTitle": "File:20230911 JR East E233-1000 115 entering Shinagawa Station.jpg"
+  },
+  {
+    "id": "e231-sobu",
+    "displayName": "E231系総武線",
+    "canonicalName": "E231系総武線",
+    "productName": "S-49 サウンドE231系総武線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "中央・総武緩行線",
+    "commonsFileTitle": "File:Series_E231-500_A536_A509.jpg"
+  },
+  {
+    "id": "e233-keiyo",
+    "displayName": "E233系京葉線",
+    "canonicalName": "E233系京葉線",
+    "productName": "E233系京葉線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "京葉線",
+    "wikipediaQuery": "E233系 京葉線"
+  },
+  {
+    "id": "103-saikyo",
+    "displayName": "103系埼京線",
+    "canonicalName": "103系埼京線",
+    "productName": "103系埼京線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "国鉄103系電車",
+    "commonsFileTitle": "File:103-3500 56 Kawagoe 20020622.jpg"
+  },
+  {
+    "id": "103-joban",
+    "displayName": "103系常磐線",
+    "canonicalName": "103系常磐線",
+    "productName": "103系常磐線",
+    "category": "commuter",
+    "operator": "JR東日本",
+    "wikipediaTitle": "国鉄103系電車",
+    "commonsFileTitle": "File:JNR 103-0 Joban Line.jpg"
+  },
+  {
+    "id": "e3-tsubasa-2000-renewal",
+    "displayName": "E3系新幹線つばさ2000番代リニューアルカラー",
+    "canonicalName": "E3系2000番代リニューアルカラー",
+    "productName": "ありがとう！E3系新幹線つばさ2000番代リニューアルカラー（連結仕様）",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E3系電車",
+    "commonsFileTitle": "File:JR-East E3-2000 L63 Tokyo Station 20221116.jpg"
+  }
+]
