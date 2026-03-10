@@ -16,41 +16,68 @@
   <body>
     <main class="app-shell">
       <section class="quiz-card" aria-label="でんしゃクイズ">
-        <header class="hero">
-          <p class="eyebrow">PLARAIL TRAIN QUIZ</p>
-          <div class="hero-row">
-            <div>
-              <p class="prompt-label">しゃしんをみて えらぼう</p>
-              <h1 data-title>これ なあに？</h1>
+        <section class="title-screen" data-title-screen>
+          <div class="title-hero">
+            <p class="eyebrow">PLARAIL TRAIN QUIZ</p>
+            <p class="title-label">しゃしんをみて えらぼう</p>
+            <h1 class="title-heading">でんしゃクイズ</h1>
+            <p class="title-copy">
+              ほんもののでんしゃを しゃしんであてよう
+            </p>
+          </div>
+
+          <div class="title-actions">
+            <button class="start-button" data-start-button type="button" disabled>
+              クイズをはじめる
+            </button>
+            <button
+              class="menu-button"
+              data-encyclopedia-button
+              disabled
+              type="button"
+            >
+              ずかん は じゅんびちゅう
+            </button>
+          </div>
+
+          <p class="loading" data-loader>クイズを じゅんびしてるよ…</p>
+          <p class="error" data-error hidden></p>
+        </section>
+
+        <section class="quiz-screen" data-quiz-screen hidden>
+          <header class="hero">
+            <p class="eyebrow">PLARAIL TRAIN QUIZ</p>
+            <div class="hero-row">
+              <div>
+                <p class="prompt-label">しゃしんをみて えらぼう</p>
+                <h1 data-title>これ なあに？</h1>
+              </div>
+              <p class="progress" data-status>0 / 0 もん</p>
             </div>
-            <p class="progress" data-status>0 / 0 もん</p>
+          </header>
+
+          <div class="image-panel" data-image-wrap data-loaded="false">
+            <img data-image src="" alt="" />
+            <div class="image-glow" aria-hidden="true"></div>
           </div>
-        </header>
 
-        <p class="loading" data-loader>クイズを じゅんびしてるよ…</p>
-        <p class="error" data-error hidden></p>
-
-        <div class="image-panel" data-image-wrap data-loaded="false">
-          <img data-image src="" alt="" />
-          <div class="image-glow" aria-hidden="true"></div>
-        </div>
-
-        <div class="feedback-panel">
-          <p class="feedback" data-feedback data-tone="idle"></p>
-          <p class="answer" data-answer hidden></p>
-        </div>
-
-        <section class="choices" data-choices aria-label="せんたくし"></section>
-
-        <button class="next-button" data-next hidden type="button">つぎへ</button>
-
-        <footer class="credit-panel">
-          <p class="credit-text" data-credit></p>
-          <div class="credit-links">
-            <a data-source-link href="#" target="_blank" rel="noreferrer">画像の出典</a>
-            <a data-article-link href="#" target="_blank" rel="noreferrer">Wikipedia</a>
+          <div class="feedback-panel">
+            <p class="feedback" data-feedback data-tone="idle"></p>
+            <p class="answer" data-answer hidden></p>
           </div>
-        </footer>
+
+          <section class="choices" data-choices aria-label="せんたくし"></section>
+
+          <button class="next-button" data-next hidden type="button">つぎへ</button>
+
+          <footer class="credit-panel">
+            <p class="credit-text" data-credit></p>
+            <div class="credit-links">
+              <a data-source-link href="#" target="_blank" rel="noreferrer">画像の出典</a>
+              <a data-article-link href="#" target="_blank" rel="noreferrer">Wikipedia</a>
+            </div>
+          </footer>
+        </section>
       </section>
     </main>
 
