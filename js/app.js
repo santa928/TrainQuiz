@@ -1,4 +1,5 @@
 import { buildQuestion } from "./quiz-engine.js";
+import { buildRoundOrder } from "./round.js";
 
 const elements = {
   status: document.querySelector("[data-status]"),
@@ -25,17 +26,6 @@ const state = {
   disabledChoices: new Set(),
   completedRound: false,
 };
-
-function shuffle(list) {
-  const copy = [...list];
-
-  for (let index = copy.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
-  }
-
-  return copy;
-}
 
 function updateProgress() {
   elements.status.textContent = `${state.currentIndex + 1} / ${state.order.length} もん`;
@@ -151,7 +141,7 @@ function showCompletion() {
 function handleNext() {
   if (state.completedRound) {
     state.currentIndex = 0;
-    state.order = shuffle(state.order);
+    state.order = buildRoundOrder(state.trains.map((train) => train.id));
     elements.next.textContent = "つぎへ";
     renderQuestion();
     return;
@@ -161,7 +151,6 @@ function handleNext() {
 
   if (state.currentIndex >= state.order.length) {
     state.currentIndex = 0;
-    state.order = shuffle(state.order);
     showCompletion();
     return;
   }
@@ -182,7 +171,7 @@ async function loadTrains() {
 async function bootstrap() {
   try {
     state.trains = await loadTrains();
-    state.order = shuffle(state.trains.map((train) => train.id));
+    state.order = buildRoundOrder(state.trains.map((train) => train.id));
     elements.loader.hidden = true;
     elements.next.addEventListener("click", handleNext);
     renderQuestion();
