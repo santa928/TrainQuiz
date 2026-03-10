@@ -49,13 +49,14 @@ function clearFeedback() {
   elements.answer.textContent = "";
 }
 
-function createChoiceButton(choice) {
+function createChoiceButton(choice, slotIndex) {
   const button = document.createElement("button");
   button.type = "button";
   button.className = "choice-button";
   button.textContent = choice.displayName;
   button.dataset.choiceId = choice.id;
   button.dataset.category = choice.category;
+  button.dataset.slot = String(slotIndex);
   button.disabled = state.disabledChoices.has(choice.id);
   button.addEventListener("click", () => handleChoice(choice.id));
   return button;
@@ -81,7 +82,9 @@ function renderQuestion() {
     { once: true },
   );
 
-  elements.choices.replaceChildren(...choices.map(createChoiceButton));
+  elements.choices.replaceChildren(
+    ...choices.map((choice, index) => createChoiceButton(choice, index)),
+  );
   elements.next.hidden = true;
   clearFeedback();
   renderCredit(answer);
@@ -97,6 +100,7 @@ function markChoices(correctId, wrongId) {
       button.dataset.state = "wrong";
       button.disabled = true;
     } else if (state.answered) {
+      button.dataset.state = "inactive";
       button.disabled = true;
     }
   }
