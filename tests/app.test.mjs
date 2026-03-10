@@ -198,6 +198,27 @@ test("クイズをはじめるを押すとクイズ画面に切り替わる", as
   assert.equal(elements.choices.children.length, 2);
 });
 
+test("完了後の CTA でタイトル画面へ戻る", async () => {
+  const { app, elements } = createHarness();
+
+  await app.bootstrap();
+  app.startQuiz();
+  app.state.currentIndex = app.state.order.length - 1;
+
+  app.handleNext();
+
+  assert.equal(app.state.completedRound, true);
+  assert.equal(elements.next.textContent, "🏠 タイトルへ もどる");
+  assert.equal(elements.answer.textContent, "たいへん よくできました 💮");
+  assert.equal(elements.titleScreen.hidden, true);
+  assert.equal(elements.quizScreen.hidden, false);
+
+  app.handleNext();
+
+  assert.equal(elements.titleScreen.hidden, false);
+  assert.equal(elements.quizScreen.hidden, true);
+});
+
 test("データ読み込みに失敗したときはタイトル画面にエラーを出す", async () => {
   const { document, elements } = createDocument();
   const app = createApp({

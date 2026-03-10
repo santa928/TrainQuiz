@@ -152,10 +152,10 @@ export function createApp({
     elements.image.alt = "だいひょうの電車のしゃしん";
     elements.choices.replaceChildren();
     elements.answer.hidden = false;
-    elements.answer.textContent = "もういちど あそぶ？";
+    elements.answer.textContent = "たいへん よくできました 💮";
     showFeedback({ tone: "success", text: "🚆 おつかれさま！" });
     elements.next.hidden = false;
-    elements.next.textContent = "もう いっかい";
+    elements.next.textContent = "🏠 タイトルへ もどる";
     renderCredit(state.trains[0]);
     elements.status.textContent = `${state.order.length} / ${state.order.length} もん`;
     setView("quiz");
@@ -163,10 +163,10 @@ export function createApp({
 
   function handleNext() {
     if (state.completedRound) {
+      state.completedRound = false;
       state.currentIndex = 0;
-      state.order = buildRoundOrderFn(state.trains.map((train) => train.id));
       elements.next.textContent = "つぎへ";
-      renderQuestion();
+      setView("title");
       return;
     }
 
