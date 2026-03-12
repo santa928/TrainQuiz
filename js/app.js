@@ -111,7 +111,7 @@ export function createApp({
 
     state.answered = true;
     state.disabledChoices.add(choiceId);
-    showFeedback({ tone: "retry", text: "❌ もういちど えらんでね" });
+    showFeedback({ tone: "retry", text: "❌ おしい！ これだよ" });
     elements.answer.hidden = false;
     elements.answer.textContent = answer.displayName;
     elements.next.hidden = false;

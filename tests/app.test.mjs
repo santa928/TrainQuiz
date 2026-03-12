@@ -276,7 +276,7 @@ test("不正解直後に正解を表示して つぎへ 進める", async () => 
   const [correctButton, wrongButton] = elements.choices.children;
   wrongButton.click();
 
-  assert.equal(elements.feedback.textContent, "❌ もういちど えらんでね");
+  assert.equal(elements.feedback.textContent, "❌ おしい！ これだよ");
   assert.equal(elements.feedback.dataset.tone, "retry");
   assert.equal(correctButton.dataset.state, "correct");
   assert.equal(wrongButton.dataset.state, "wrong");
@@ -304,7 +304,7 @@ test("不正解後に正解を押し直しても正解数は増えない", async
 
   assert.equal(app.state.correctCount, 0);
   assert.equal(correctButton.disabled, true);
-  assert.equal(elements.feedback.textContent, "❌ もういちど えらんでね");
+  assert.equal(elements.feedback.textContent, "❌ おしい！ これだよ");
   assert.equal(elements.next.hidden, false);
 });
 
