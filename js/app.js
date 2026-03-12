@@ -25,6 +25,11 @@ export function createApp({
     quizScreen: document.querySelector("[data-quiz-screen]"),
     startButton: document.querySelector("[data-start-button]"),
     encyclopediaButton: document.querySelector("[data-encyclopedia-button]"),
+    resultPanel: document.querySelector("[data-result-panel]"),
+    score: document.querySelector("[data-score]"),
+    scoreTotal: document.querySelector("[data-score-total]"),
+    retryButton: document.querySelector("[data-retry-button]"),
+    homeButton: document.querySelector("[data-home-button]"),
   };
 
   const state = {
@@ -36,12 +41,18 @@ export function createApp({
     disabledChoices: new Set(),
     completedRound: false,
     currentView: "title",
+    correctCount: 0,
   };
 
   function setView(view) {
     state.currentView = view;
     elements.titleScreen.hidden = view !== "title";
     elements.quizScreen.hidden = view !== "quiz";
+  }
+
+  function setQuizMode(mode) {
+    elements.quizScreen.dataset.mode = mode;
+    elements.resultPanel.hidden = mode !== "result";
   }
 
   function updateProgress() {
@@ -88,6 +99,7 @@ export function createApp({
 
     const { answer } = state.currentQuestion;
     if (choiceId === answer.id) {
+      state.correctCount += 1;
       state.answered = true;
       showFeedback({ tone: "success", text: "⭕ せいかい！" });
       elements.answer.hidden = false;
@@ -125,6 +137,7 @@ export function createApp({
     state.answered = false;
     state.disabledChoices = new Set();
     state.completedRound = false;
+    setQuizMode("question");
 
     const { answer, choices, prompt } = state.currentQuestion;
     elements.title.textContent = prompt;
@@ -150,27 +163,51 @@ export function createApp({
   }
 
   function showCompletion() {
+    const total = state.order.length;
     state.completedRound = true;
     elements.title.textContent = "ぜんぶ できたね！";
-    elements.image.src = state.trains[0].imageUrl;
-    elements.image.alt = "だいひょうの電車のしゃしん";
-    elements.choices.replaceChildren();
-    elements.answer.hidden = false;
-    elements.answer.textContent = "たいへん よくできました 💮";
-    showFeedback({ tone: "success", text: "🚆 おつかれさま！" });
-    elements.next.hidden = false;
-    elements.next.textContent = "🏠 タイトルへ もどる";
-    renderCredit(state.trains[0]);
-    elements.status.textContent = `${state.order.length} / ${state.order.length} もん`;
+    elements.answer.hidden = true;
+    elements.answer.textContent = "";
+    if (state.correctCount === total) {
+      showFeedback({ tone: "success", text: "パーフェクト！ すごい！ ✨" });
+    } else if (state.correctCount === 0) {
+      showFeedback({ tone: "success", text: "いっぱい あそんだね！ 👏" });
+    } else {
+      showFeedback({ tone: "success", text: "たいへん よくできました 💮" });
+    }
+    elements.score.textContent = String(state.correctCount);
+    elements.scoreTotal.textContent = String(total);
+    elements.retryButton.textContent = "🔄 もういちど あそぶ";
+    elements.homeButton.textContent = "🏠 タイトルへ もどる";
+    elements.next.hidden = true;
+    elements.status.textContent = `${total} / ${total} もん`;
+    setQuizMode("result");
     setView("quiz");
+  }
+
+  function handleRetry() {
+    if (!state.trains.length) {
+      return;
+    }
+
+    state.currentIndex = 0;
+    state.correctCount = 0;
+    state.order = buildRoundOrderFn(state.trains.map((train) => train.id));
+    elements.next.textContent = "つぎへ";
+    renderQuestion();
+  }
+
+  function handleReturnToTitle() {
+    state.completedRound = false;
+    state.currentIndex = 0;
+    state.correctCount = 0;
+    elements.next.textContent = "つぎへ";
+    setQuizMode("question");
+    setView("title");
   }
 
   function handleNext() {
     if (state.completedRound) {
-      state.completedRound = false;
-      state.currentIndex = 0;
-      elements.next.textContent = "つぎへ";
-      setView("title");
       return;
     }
 
@@ -192,6 +229,7 @@ export function createApp({
     }
 
     state.currentIndex = 0;
+    state.correctCount = 0;
     state.order = buildRoundOrderFn(state.trains.map((train) => train.id));
     elements.next.textContent = "つぎへ";
     renderQuestion();
@@ -215,6 +253,8 @@ export function createApp({
     elements.encyclopediaButton.disabled = true;
     elements.next.addEventListener("click", handleNext);
     elements.startButton.addEventListener("click", startQuiz);
+    elements.retryButton.addEventListener("click", handleRetry);
+    elements.homeButton.addEventListener("click", handleReturnToTitle);
 
     try {
       state.trains = await loadTrains();

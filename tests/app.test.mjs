@@ -81,7 +81,13 @@ function createDocument() {
     quizScreen: new FakeElement("section"),
     startButton: new FakeElement("button"),
     encyclopediaButton: new FakeElement("button"),
+    resultPanel: new FakeElement("section"),
+    score: new FakeElement("span"),
+    scoreTotal: new FakeElement("span"),
+    retryButton: new FakeElement("button"),
+    homeButton: new FakeElement("button"),
   };
+  elements.resultPanel.hidden = true;
 
   const selectorMap = new Map([
     ["[data-status]", elements.status],
@@ -101,6 +107,11 @@ function createDocument() {
     ["[data-quiz-screen]", elements.quizScreen],
     ["[data-start-button]", elements.startButton],
     ["[data-encyclopedia-button]", elements.encyclopediaButton],
+    ["[data-result-panel]", elements.resultPanel],
+    ["[data-score]", elements.score],
+    ["[data-score-total]", elements.scoreTotal],
+    ["[data-retry-button]", elements.retryButton],
+    ["[data-home-button]", elements.homeButton],
   ]);
 
   return {
@@ -198,23 +209,60 @@ test("クイズをはじめるを押すとクイズ画面に切り替わる", as
   assert.equal(elements.choices.children.length, 2);
 });
 
-test("完了後の CTA でタイトル画面へ戻る", async () => {
+test("5問終了後は結果画面でせいかい数と 2 本の導線を表示する", async () => {
   const { app, elements } = createHarness();
 
   await app.bootstrap();
   app.startQuiz();
+  app.state.correctCount = 3;
   app.state.currentIndex = app.state.order.length - 1;
 
   app.handleNext();
 
   assert.equal(app.state.completedRound, true);
-  assert.equal(elements.next.textContent, "🏠 タイトルへ もどる");
-  assert.equal(elements.answer.textContent, "たいへん よくできました 💮");
+  assert.equal(elements.resultPanel.hidden, false);
+  assert.equal(elements.score.textContent, "3");
+  assert.equal(elements.retryButton.textContent, "🔄 もういちど あそぶ");
+  assert.equal(elements.homeButton.textContent, "🏠 タイトルへ もどる");
+  assert.equal(elements.next.hidden, true);
   assert.equal(elements.titleScreen.hidden, true);
   assert.equal(elements.quizScreen.hidden, false);
+});
+
+test("結果画面の もういちど で新しいラウンドを始める", async () => {
+  const { app, elements } = createHarness();
+
+  await app.bootstrap();
+  app.startQuiz();
+  app.state.correctCount = 2;
+  app.state.currentIndex = app.state.order.length - 1;
 
   app.handleNext();
+  elements.retryButton.click();
 
+  assert.equal(app.state.completedRound, false);
+  assert.equal(app.state.correctCount, 0);
+  assert.equal(elements.resultPanel.hidden, true);
+  assert.equal(elements.titleScreen.hidden, true);
+  assert.equal(elements.quizScreen.hidden, false);
+  assert.equal(elements.status.textContent, "1 / 5 もん");
+  assert.equal(elements.title.textContent, "これ なあに？");
+});
+
+test("結果画面の タイトルへ でタイトル画面へ戻る", async () => {
+  const { app, elements } = createHarness();
+
+  await app.bootstrap();
+  app.startQuiz();
+  app.state.correctCount = 4;
+  app.state.currentIndex = app.state.order.length - 1;
+
+  app.handleNext();
+  elements.homeButton.click();
+
+  assert.equal(app.state.completedRound, false);
+  assert.equal(app.state.correctCount, 0);
+  assert.equal(elements.resultPanel.hidden, true);
   assert.equal(elements.titleScreen.hidden, false);
   assert.equal(elements.quizScreen.hidden, true);
 });
