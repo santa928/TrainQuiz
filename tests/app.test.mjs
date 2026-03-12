@@ -292,6 +292,22 @@ test("不正解直後に正解を表示して つぎへ 進める", async () => 
   assert.equal(elements.next.hidden, true);
 });
 
+test("不正解後に正解を押し直しても正解数は増えない", async () => {
+  const { app, elements } = createHarness();
+
+  await app.bootstrap();
+  app.startQuiz();
+
+  const [correctButton, wrongButton] = elements.choices.children;
+  wrongButton.click();
+  correctButton.click();
+
+  assert.equal(app.state.correctCount, 0);
+  assert.equal(correctButton.disabled, true);
+  assert.equal(elements.feedback.textContent, "❌ もういちど えらんでね");
+  assert.equal(elements.next.hidden, false);
+});
+
 test("データ読み込みに失敗したときはタイトル画面にエラーを出す", async () => {
   const { document, elements } = createDocument();
   const app = createApp({

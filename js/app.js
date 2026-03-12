@@ -81,7 +81,7 @@ export function createApp({
     for (const button of elements.choices.querySelectorAll("button")) {
       if (button.dataset.choiceId === correctId) {
         button.dataset.state = "correct";
-        button.disabled = false;
+        button.disabled = state.answered;
       } else if (button.dataset.choiceId === wrongId) {
         button.dataset.state = "wrong";
         button.disabled = true;
@@ -93,7 +93,7 @@ export function createApp({
   }
 
   function handleChoice(choiceId) {
-    if (!state.currentQuestion) {
+    if (!state.currentQuestion || state.answered) {
       return;
     }
 
