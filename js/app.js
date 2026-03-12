@@ -97,8 +97,12 @@ export function createApp({
       return;
     }
 
+    state.answered = true;
     state.disabledChoices.add(choiceId);
     showFeedback({ tone: "retry", text: "❌ もういちど えらんでね" });
+    elements.answer.hidden = false;
+    elements.answer.textContent = answer.displayName;
+    elements.next.hidden = false;
     markChoices(answer.id, choiceId);
   }
 

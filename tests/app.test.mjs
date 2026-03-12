@@ -219,6 +219,31 @@ test("完了後の CTA でタイトル画面へ戻る", async () => {
   assert.equal(elements.quizScreen.hidden, true);
 });
 
+test("不正解直後に正解を表示して つぎへ 進める", async () => {
+  const { app, elements } = createHarness();
+
+  await app.bootstrap();
+  app.startQuiz();
+
+  const [correctButton, wrongButton] = elements.choices.children;
+  wrongButton.click();
+
+  assert.equal(elements.feedback.textContent, "❌ もういちど えらんでね");
+  assert.equal(elements.feedback.dataset.tone, "retry");
+  assert.equal(correctButton.dataset.state, "correct");
+  assert.equal(wrongButton.dataset.state, "wrong");
+  assert.equal(elements.answer.hidden, false);
+  assert.equal(elements.answer.textContent, "はやぶさ");
+  assert.equal(elements.next.hidden, false);
+
+  app.handleNext();
+
+  assert.equal(app.state.currentIndex, 1);
+  assert.equal(elements.status.textContent, "2 / 5 もん");
+  assert.equal(elements.answer.hidden, true);
+  assert.equal(elements.next.hidden, true);
+});
+
 test("データ読み込みに失敗したときはタイトル画面にエラーを出す", async () => {
   const { document, elements } = createDocument();
   const app = createApp({
