@@ -28,6 +28,12 @@ test("train data contains the minimum required fields", () => {
   }
 });
 
+test("descriptionShort is populated for every published train", () => {
+  for (const train of trains) {
+    assert.notEqual(train.descriptionShort.trim(), "");
+  }
+});
+
 test("id is unique across the published data", () => {
   const seenIds = new Set();
 

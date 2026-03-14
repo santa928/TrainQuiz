@@ -25,6 +25,32 @@ export function createApp({
     quizScreen: document.querySelector("[data-quiz-screen]"),
     startButton: document.querySelector("[data-start-button]"),
     encyclopediaButton: document.querySelector("[data-encyclopedia-button]"),
+    encyclopediaListScreen: document.querySelector("[data-encyclopedia-list-screen]"),
+    encyclopediaDetailScreen: document.querySelector("[data-encyclopedia-detail-screen]"),
+    encyclopediaList: document.querySelector("[data-encyclopedia-list]"),
+    encyclopediaCount: document.querySelector("[data-encyclopedia-count]"),
+    encyclopediaBackButton: document.querySelector("[data-encyclopedia-back-button]"),
+    encyclopediaDetailBackButton: document.querySelector(
+      "[data-encyclopedia-detail-back-button]",
+    ),
+    encyclopediaDetailTitle: document.querySelector(
+      "[data-encyclopedia-detail-title]",
+    ),
+    encyclopediaDetailImage: document.querySelector(
+      "[data-encyclopedia-detail-image]",
+    ),
+    encyclopediaDetailDescription: document.querySelector(
+      "[data-encyclopedia-detail-description]",
+    ),
+    encyclopediaDetailCredit: document.querySelector(
+      "[data-encyclopedia-detail-credit]",
+    ),
+    encyclopediaDetailSourceLink: document.querySelector(
+      "[data-encyclopedia-detail-source-link]",
+    ),
+    encyclopediaDetailArticleLink: document.querySelector(
+      "[data-encyclopedia-detail-article-link]",
+    ),
     resultPanel: document.querySelector("[data-result-panel]"),
     score: document.querySelector("[data-score]"),
     scoreTotal: document.querySelector("[data-score-total]"),
@@ -42,12 +68,15 @@ export function createApp({
     completedRound: false,
     currentView: "title",
     correctCount: 0,
+    selectedTrainId: null,
   };
 
   function setView(view) {
     state.currentView = view;
     elements.titleScreen.hidden = view !== "title";
     elements.quizScreen.hidden = view !== "quiz";
+    elements.encyclopediaListScreen.hidden = view !== "encyclopedia-list";
+    elements.encyclopediaDetailScreen.hidden = view !== "encyclopedia-detail";
   }
 
   function setQuizMode(mode) {
@@ -59,10 +88,10 @@ export function createApp({
     elements.status.textContent = `${state.currentIndex + 1} / ${state.order.length} もん`;
   }
 
-  function renderCredit(train) {
-    elements.credit.textContent = `しゃしん: ${train.imageAuthor} / ${train.imageLicense}`;
-    elements.sourceLink.href = train.imageSourceUrl;
-    elements.articleLink.href = train.wikipediaUrl;
+  function renderReferences(target, train) {
+    target.credit.textContent = `しゃしん: ${train.imageAuthor} / ${train.imageLicense}`;
+    target.sourceLink.href = train.imageSourceUrl;
+    target.articleLink.href = train.wikipediaUrl;
   }
 
   function showFeedback({ tone, text }) {
@@ -131,6 +160,69 @@ export function createApp({
     return button;
   }
 
+  function createEncyclopediaCard(train, index) {
+    const button = document.createElement("button");
+    const imageWrap = document.createElement("div");
+    const image = document.createElement("img");
+    const title = document.createElement("strong");
+    const meta = document.createElement("span");
+
+    button.type = "button";
+    button.className = "encyclopedia-card";
+    button.dataset.trainId = train.id;
+    button.dataset.slot = String(index % 4);
+    button.addEventListener("click", () => showEncyclopediaDetail(train.id));
+
+    imageWrap.className = "encyclopedia-card-image";
+    image.src = train.imageUrl;
+    image.alt = `${train.displayName} のしゃしん`;
+    image.loading = "lazy";
+    imageWrap.replaceChildren(image);
+
+    title.className = "encyclopedia-card-title";
+    title.textContent = train.displayName;
+
+    meta.className = "encyclopedia-card-meta";
+    meta.textContent = train.operator;
+
+    button.replaceChildren(imageWrap, title, meta);
+    return button;
+  }
+
+  function renderEncyclopediaList() {
+    elements.encyclopediaCount.textContent = `${state.trains.length} しゅるい`;
+    elements.encyclopediaList.replaceChildren(
+      ...state.trains.map((train, index) => createEncyclopediaCard(train, index)),
+    );
+  }
+
+  function showEncyclopediaList() {
+    renderEncyclopediaList();
+    setView("encyclopedia-list");
+  }
+
+  function showEncyclopediaDetail(trainId) {
+    const train = state.trains.find((entry) => entry.id === trainId);
+    if (!train) {
+      return;
+    }
+
+    state.selectedTrainId = train.id;
+    elements.encyclopediaDetailTitle.textContent = train.displayName;
+    elements.encyclopediaDetailImage.src = train.imageUrl;
+    elements.encyclopediaDetailImage.alt = `${train.displayName} のしゃしん`;
+    elements.encyclopediaDetailDescription.textContent = train.descriptionShort;
+    renderReferences(
+      {
+        credit: elements.encyclopediaDetailCredit,
+        sourceLink: elements.encyclopediaDetailSourceLink,
+        articleLink: elements.encyclopediaDetailArticleLink,
+      },
+      train,
+    );
+    setView("encyclopedia-detail");
+  }
+
   function renderQuestion() {
     const currentId = state.order[state.currentIndex];
     state.currentQuestion = buildQuestionFn(state.trains, currentId);
@@ -157,7 +249,14 @@ export function createApp({
     );
     elements.next.hidden = true;
     clearFeedback();
-    renderCredit(answer);
+    renderReferences(
+      {
+        credit: elements.credit,
+        sourceLink: elements.sourceLink,
+        articleLink: elements.articleLink,
+      },
+      answer,
+    );
     updateProgress();
     setView("quiz");
   }
@@ -201,6 +300,7 @@ export function createApp({
     state.completedRound = false;
     state.currentIndex = 0;
     state.correctCount = 0;
+    state.selectedTrainId = null;
     elements.next.textContent = "つぎへ";
     setQuizMode("question");
     setView("title");
@@ -253,6 +353,9 @@ export function createApp({
     elements.encyclopediaButton.disabled = true;
     elements.next.addEventListener("click", handleNext);
     elements.startButton.addEventListener("click", startQuiz);
+    elements.encyclopediaButton.addEventListener("click", showEncyclopediaList);
+    elements.encyclopediaBackButton.addEventListener("click", handleReturnToTitle);
+    elements.encyclopediaDetailBackButton.addEventListener("click", showEncyclopediaList);
     elements.retryButton.addEventListener("click", handleRetry);
     elements.homeButton.addEventListener("click", handleReturnToTitle);
 
@@ -261,6 +364,7 @@ export function createApp({
       state.order = buildRoundOrderFn(state.trains.map((train) => train.id));
       elements.loader.hidden = true;
       elements.startButton.disabled = false;
+      elements.encyclopediaButton.disabled = false;
     } catch (error) {
       console.error(error);
       elements.loader.hidden = true;

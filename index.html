@@ -36,12 +36,58 @@
               disabled
               type="button"
             >
-              ずかん は じゅんびちゅう
+              ずかん を みる
             </button>
           </div>
 
           <p class="loading" data-loader>クイズを じゅんびしてるよ…</p>
           <p class="error" data-error hidden></p>
+        </section>
+
+        <section class="encyclopedia-screen encyclopedia-list-screen" data-encyclopedia-list-screen hidden>
+          <header class="screen-header">
+            <button class="menu-button encyclopedia-back-button" data-encyclopedia-back-button type="button">
+              🔙 タイトルへ もどる
+            </button>
+            <p class="progress encyclopedia-count" data-encyclopedia-count>0 しゅるい</p>
+          </header>
+
+          <div class="encyclopedia-intro">
+            <p class="eyebrow">TRAIN ENCYCLOPEDIA</p>
+            <h1>ずかん</h1>
+            <p class="title-copy">しゃしんを えらんで でんしゃを みてみよう</p>
+          </div>
+
+          <section class="encyclopedia-list" data-encyclopedia-list aria-label="でんしゃ ずかん"></section>
+        </section>
+
+        <section class="encyclopedia-screen encyclopedia-detail-screen" data-encyclopedia-detail-screen hidden>
+          <header class="screen-header">
+            <button class="menu-button encyclopedia-back-button" data-encyclopedia-detail-back-button type="button">
+              🔙 ずかんへ もどる
+            </button>
+          </header>
+
+          <div class="encyclopedia-detail-body">
+            <div class="image-panel encyclopedia-detail-image-panel">
+              <img data-encyclopedia-detail-image src="" alt="" loading="lazy" />
+              <div class="image-glow" aria-hidden="true"></div>
+            </div>
+
+            <section class="encyclopedia-detail-copy">
+              <p class="prompt-label">でんしゃの なまえ</p>
+              <h1 data-encyclopedia-detail-title></h1>
+              <p class="encyclopedia-description" data-encyclopedia-detail-description></p>
+            </section>
+
+            <footer class="credit-panel encyclopedia-credit-panel">
+              <p class="credit-text" data-encyclopedia-detail-credit></p>
+              <div class="credit-links">
+                <a data-encyclopedia-detail-source-link href="#" target="_blank" rel="noreferrer">画像の出典</a>
+                <a data-encyclopedia-detail-article-link href="#" target="_blank" rel="noreferrer">Wikipedia</a>
+              </div>
+            </footer>
+          </div>
         </section>
 
         <section class="quiz-screen" data-quiz-screen hidden>

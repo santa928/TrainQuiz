@@ -86,8 +86,22 @@ function createDocument() {
     scoreTotal: new FakeElement("span"),
     retryButton: new FakeElement("button"),
     homeButton: new FakeElement("button"),
+    encyclopediaListScreen: new FakeElement("section"),
+    encyclopediaDetailScreen: new FakeElement("section"),
+    encyclopediaList: new FakeElement("section"),
+    encyclopediaCount: new FakeElement("p"),
+    encyclopediaBackButton: new FakeElement("button"),
+    encyclopediaDetailBackButton: new FakeElement("button"),
+    encyclopediaDetailTitle: new FakeElement("h1"),
+    encyclopediaDetailImage: new FakeElement("img"),
+    encyclopediaDetailDescription: new FakeElement("p"),
+    encyclopediaDetailCredit: new FakeElement("p"),
+    encyclopediaDetailSourceLink: new FakeElement("a"),
+    encyclopediaDetailArticleLink: new FakeElement("a"),
   };
   elements.resultPanel.hidden = true;
+  elements.encyclopediaListScreen.hidden = true;
+  elements.encyclopediaDetailScreen.hidden = true;
 
   const selectorMap = new Map([
     ["[data-status]", elements.status],
@@ -112,6 +126,18 @@ function createDocument() {
     ["[data-score-total]", elements.scoreTotal],
     ["[data-retry-button]", elements.retryButton],
     ["[data-home-button]", elements.homeButton],
+    ["[data-encyclopedia-list-screen]", elements.encyclopediaListScreen],
+    ["[data-encyclopedia-detail-screen]", elements.encyclopediaDetailScreen],
+    ["[data-encyclopedia-list]", elements.encyclopediaList],
+    ["[data-encyclopedia-count]", elements.encyclopediaCount],
+    ["[data-encyclopedia-back-button]", elements.encyclopediaBackButton],
+    ["[data-encyclopedia-detail-back-button]", elements.encyclopediaDetailBackButton],
+    ["[data-encyclopedia-detail-title]", elements.encyclopediaDetailTitle],
+    ["[data-encyclopedia-detail-image]", elements.encyclopediaDetailImage],
+    ["[data-encyclopedia-detail-description]", elements.encyclopediaDetailDescription],
+    ["[data-encyclopedia-detail-credit]", elements.encyclopediaDetailCredit],
+    ["[data-encyclopedia-detail-source-link]", elements.encyclopediaDetailSourceLink],
+    ["[data-encyclopedia-detail-article-link]", elements.encyclopediaDetailArticleLink],
   ]);
 
   return {
@@ -141,6 +167,10 @@ function createHarness() {
     {
       id: "train-a",
       displayName: "はやぶさ",
+      canonicalName: "E5系",
+      category: "shinkansen",
+      operator: "JR東日本",
+      descriptionShort: "はやい しんかんせん",
       imageUrl: "https://example.com/hayabusa.png",
       imageAuthor: "author",
       imageLicense: "license",
@@ -150,6 +180,10 @@ function createHarness() {
     {
       id: "train-b",
       displayName: "こまち",
+      canonicalName: "E6系",
+      category: "shinkansen",
+      operator: "JR東日本",
+      descriptionShort: "あかい しんかんせん",
       imageUrl: "https://example.com/komachi.png",
       imageAuthor: "author",
       imageLicense: "license",
@@ -193,7 +227,42 @@ test("bootstrap 後はタイトル画面が表示され、クイズ画面は隠�
   assert.equal(elements.titleScreen.hidden, false);
   assert.equal(elements.quizScreen.hidden, true);
   assert.equal(elements.startButton.disabled, false);
-  assert.equal(elements.encyclopediaButton.disabled, true);
+  assert.equal(elements.encyclopediaButton.disabled, false);
+});
+
+test("タイトル画面の ずかん を押すと図鑑一覧が表示される", async () => {
+  const { app, elements } = createHarness();
+
+  await app.bootstrap();
+  elements.encyclopediaButton.click();
+
+  assert.equal(elements.titleScreen.hidden, true);
+  assert.equal(elements.encyclopediaListScreen.hidden, false);
+  assert.equal(elements.encyclopediaDetailScreen.hidden, true);
+  assert.equal(elements.encyclopediaList.children.length, 2);
+  assert.equal(elements.encyclopediaCount.textContent, "2 しゅるい");
+});
+
+test("図鑑一覧のカードを押すと詳細が表示され、もどるで一覧へ戻れる", async () => {
+  const { app, elements } = createHarness();
+
+  await app.bootstrap();
+  elements.encyclopediaButton.click();
+  elements.encyclopediaList.children[0].click();
+
+  assert.equal(elements.encyclopediaListScreen.hidden, true);
+  assert.equal(elements.encyclopediaDetailScreen.hidden, false);
+  assert.equal(elements.encyclopediaDetailTitle.textContent, "はやぶさ");
+  assert.equal(elements.encyclopediaDetailDescription.textContent, "はやい しんかんせん");
+  assert.equal(elements.encyclopediaDetailImage.src, "https://example.com/hayabusa.png");
+  assert.equal(elements.encyclopediaDetailCredit.textContent, "しゃしん: author / license");
+  assert.equal(elements.encyclopediaDetailSourceLink.href, "https://example.com/source-a");
+  assert.equal(elements.encyclopediaDetailArticleLink.href, "https://example.com/article-a");
+
+  elements.encyclopediaDetailBackButton.click();
+
+  assert.equal(elements.encyclopediaListScreen.hidden, false);
+  assert.equal(elements.encyclopediaDetailScreen.hidden, true);
 });
 
 test("クイズをはじめるを押すとクイズ画面に切り替わる", async () => {
