@@ -17,12 +17,12 @@
     "encyclopedia": {
       "routeSummary": "とうきょう から しんあおもり・しんはこだてほくと ほうめん",
       "featureSummary": "みどり の しゃたい と、320キロで はしる ながい はな",
-      "speedLabel": "とても はやい",
       "topSpeedKmh": 320,
       "comparison": {
         "otherTrainId": "h5-hayabusa",
         "summary": "H5けい は JRほっかいどう の くるまで、ふじいろ の せん が ある"
-      }
+      },
+      "speedLabel": "とても はやい"
     }
   },
   {
@@ -39,7 +39,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E6_Z14_Komachi.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "あかい しゃたいで、とうきょう と あきたを むすぶ こまち"
+    "descriptionShort": "あかい しゃたいで、とうきょう と あきたを むすぶ こまち",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から もりおか を へて あきた ほうめん",
+      "featureSummary": "あかい しゃたい と、ざいらいせん にも はいる ミニしんかんせん",
+      "topSpeedKmh": 320,
+      "comparison": {
+        "otherTrainId": "e5-hayabusa",
+        "summary": "E5けい は 10りょうで、みどり の しゃたい と ながい はな が めだつ"
+      },
+      "speedLabel": "とても はやい"
+    }
   },
   {
     "id": "e3-tsubasa",
@@ -55,7 +65,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E3-Komachi-R20-131109.JPG",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Mutimaro",
-    "descriptionShort": "やまがたへ いく ミニしんかんせん の つばさ"
+    "descriptionShort": "やまがたへ いく ミニしんかんせん の つばさ",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
+      "featureSummary": "ざいらいせん にも はいる ミニしんかんせん の つばさ",
+      "topSpeedKmh": 275,
+      "comparison": {
+        "otherTrainId": "e3-tsubasa-2000",
+        "summary": "2000ばんだい は E5 と つなぐ ため かお が かわっている"
+      },
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "e4-max",
@@ -71,7 +91,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR_East_Shinkansen_E4.jpg",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Sui-setz",
-    "descriptionShort": "ぜんぶ 2かいだてで、Max の あいしょうで はしった しんかんせん"
+    "descriptionShort": "ぜんぶ 2かいだてで、Max の あいしょうで はしった しんかんせん",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から にいがた ほうめん を ちゅうしんに はしった",
+      "featureSummary": "ぜんしゃ 2かいだて で、たくさん のれる Max",
+      "topSpeedKmh": 240,
+      "speedLabel": "しんかんせん の はやさ"
+    }
   },
   {
     "id": "e7-kagayaki",
@@ -87,7 +113,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E7_F29_Tanigawa-410.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "あお と きん の いろで、ほくりくしんかんせん を はしる かがやき"
+    "descriptionShort": "あお と きん の いろで、ほくりくしんかんせん を はしる かがやき",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から かなざわ・つるが ほうめん",
+      "featureSummary": "あお と きん の しゃたい と グランクラス",
+      "topSpeedKmh": 260,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "h5-hayabusa",
@@ -107,12 +139,12 @@
     "encyclopedia": {
       "routeSummary": "しんあおもり から しんはこだてほくと ほうめん",
       "featureSummary": "E5けい に にているが、JRほっかいどう の はやぶさ",
-      "speedLabel": "とても はやい",
       "topSpeedKmh": 320,
       "comparison": {
         "otherTrainId": "e5-hayabusa",
         "summary": "E5けい は JRひがしにほん の くるまで、みどり が もっと めだつ"
-      }
+      },
+      "speedLabel": "とても はやい"
     }
   },
   {
@@ -129,7 +161,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW-500-nozomi.jpg",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Mitsuki-2368",
-    "descriptionShort": "とがった かおで、とうかいどう と さんよう を はしる しんかんせん"
+    "descriptionShort": "とがった かおで、とうかいどう と さんよう を はしる しんかんせん",
+    "encyclopedia": {
+      "routeSummary": "とうかいどう・さんようしんかんせん を はしる",
+      "featureSummary": "とがった せんとうぶ と えんどうけい の しゃたい",
+      "topSpeedKmh": 270,
+      "comparison": {
+        "otherTrainId": "hello-kitty-shinkansen",
+        "summary": "ハローキティ しんかんせん は 500けい を かわいく ラッピング した すがた"
+      },
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "doctor-yellow",
@@ -145,7 +187,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Type923-T4.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "きいろい からだで、せんろや でんきを しらべる しんかんせん"
+    "descriptionShort": "きいろい からだで、せんろや でんきを しらべる しんかんせん",
+    "encyclopedia": {
+      "routeSummary": "とうかいどう・さんようしんかんせん の せんろ と でんき を けんそく",
+      "featureSummary": "きいろい しゃたい で しんかんせん の あんぜん を しらべる",
+      "topSpeedKmh": 210,
+      "comparison": {
+        "otherTrainId": "doctor-yellow-t3",
+        "summary": "T3 へんせい は 0けい みたいな まるい かお が とくちょう"
+      },
+      "speedLabel": "しんかんせん の はやさ"
+    }
   },
   {
     "id": "800-tsubame",
@@ -161,7 +213,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:800_Series_in_Kagoshima-Chuo.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "Kazehayashi",
-    "descriptionShort": "きゅうしゅう を はしる、はじめて の きゅうしゅうしんかんせん"
+    "descriptionShort": "きゅうしゅう を はしる、はじめて の きゅうしゅうしんかんせん",
+    "encyclopedia": {
+      "routeSummary": "はかた から かごしまちゅうおう ほうめん の きゅうしゅうしんかんせん",
+      "featureSummary": "きゅうしゅう で さいしょ に はしった しんかんせん",
+      "topSpeedKmh": 260,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "n700",
@@ -177,7 +235,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700_z15.jpg",
     "imageLicense": "CC BY 3.0",
     "imageAuthor": "TC411-507 at Japanese Wikipedia",
-    "descriptionShort": "とうかいどう から きゅうしゅうまで、ひろく はしる しんかんせん"
+    "descriptionShort": "とうかいどう から きゅうしゅうまで、ひろく はしる しんかんせん",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から はかた・かごしまちゅうおう ほうめん",
+      "featureSummary": "かーぶ で からだを かたむける しくみ を もつ N700けい",
+      "topSpeedKmh": 300,
+      "comparison": {
+        "otherTrainId": "n700a",
+        "summary": "N700A は ブレーキ など を かいりょう した あんしん つよめ の かたち"
+      },
+      "speedLabel": "とても はやい"
+    }
   },
   {
     "id": "yakumo-273",
@@ -193,7 +261,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW_Series273-Y1.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "どういろ の しゃたいで、おかやま と いずもし を むすぶ やくも"
+    "descriptionShort": "どういろ の しゃたいで、おかやま と いずもし を むすぶ やくも",
+    "encyclopedia": {
+      "routeSummary": "おかやま から くらしき・よなご を へて いずもし ほうめん",
+      "featureSummary": "どういろ の しゃたい と、ゆれ を へらした あたらしい やくも",
+      "topSpeedKmh": 120,
+      "speedLabel": "とっきゅう の はやさ"
+    }
   },
   {
     "id": "yufuin-no-mori",
@@ -209,7 +283,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2013-01-03_%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E3%81%AE%E6%A3%AE%E5%8F%B7.jpg",
     "imageLicense": "CC BY 2.0",
     "imageAuthor": "veroyama",
-    "descriptionShort": "みどり の しゃたいで、はかた と ゆふいん を むすぶ とっきゅう"
+    "descriptionShort": "みどり の しゃたいで、はかた と ゆふいん を むすぶ とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "はかた から ゆふいん・べっぷ ほうめん",
+      "featureSummary": "みどり の しゃたい と おおきな まど の かんこう とっきゅう",
+      "topSpeedKmh": 120,
+      "speedLabel": "とっきゅう の はやさ"
+    }
   },
   {
     "id": "e353-azusa",
@@ -225,7 +305,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_E353_S107.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "ゆれを おさえて、しんじゅく から まつもとへ むかう あずさ"
+    "descriptionShort": "ゆれを おさえて、しんじゅく から まつもとへ むかう あずさ",
+    "encyclopedia": {
+      "routeSummary": "しんじゅく から こうふ・まつもと ほうめん",
+      "featureSummary": "くねくね した せんろでも ゆれ を おさえる あずさ",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "nankai-rapit",
@@ -241,7 +327,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nankai_Series50000.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "まるい まどが めだち、なんば から くうこうへ むかう とっきゅう"
+    "descriptionShort": "まるい まどが めだち、なんば から くうこうへ むかう とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "なんば から かんさいくうこう",
+      "featureSummary": "まるい まど と てつじん みたいな かお の ラピート",
+      "topSpeedKmh": 120,
+      "speedLabel": "とっきゅう の はやさ"
+    }
   },
   {
     "id": "spacia-x",
@@ -257,7 +349,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu_Series-N100-N101.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "かどばった かおで、あさくさ から にっこう ほうめんへ むかう とっきゅう"
+    "descriptionShort": "かどばった かおで、あさくさ から にっこう ほうめんへ むかう とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "あさくさ から とうぶにっこう・きぬがわおんせん ほうめん",
+      "featureSummary": "かどばった かお と ゆったり すわれる あたらしい スペーシア",
+      "topSpeedKmh": 120,
+      "speedLabel": "とっきゅう の はやさ"
+    }
   },
   {
     "id": "hinotori",
@@ -273,7 +371,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kintetsu_80000_Series_between_Kasumigaura_and_Kintetsu-Tomida.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "さりと",
-    "descriptionShort": "あかい しゃたいで、おおさか と なごやを むすぶ きんてつ とっきゅう"
+    "descriptionShort": "あかい しゃたいで、おおさか と なごやを むすぶ きんてつ とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "おおさかなんば と きんてつなごや を むすぶ",
+      "featureSummary": "まっかな しゃたい と、ひろびろ すわれる ざせき の ひのとり",
+      "topSpeedKmh": 130,
+      "comparison": {
+        "otherTrainId": "urbanliner-next",
+        "summary": "アーバンライナーnext は シルバー の からだ の ひとつまえ の きんてつ とっきゅう"
+      },
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "odakyu-gse",
@@ -289,7 +397,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-Series70000_GSE.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "まえが よく みえる せきがあり、ロマンスカー で はこねへ むかう"
+    "descriptionShort": "まえが よく みえる せきがあり、ロマンスカー で はこねへ むかう",
+    "encyclopedia": {
+      "routeSummary": "しんじゅく から はこねゆもと ほうめん",
+      "featureSummary": "まえめん てんぼう せき が ある ロマンスカー",
+      "topSpeedKmh": 110,
+      "speedLabel": "とっきゅう の はやさ"
+    }
   },
   {
     "id": "meitetsu-mu-sky",
@@ -309,12 +423,12 @@
     "encyclopedia": {
       "routeSummary": "なごや ほうめん から ちゅうぶこくさいくうこう",
       "featureSummary": "ぜんぶ とくべつしゃ の 4りょうへんせい",
-      "speedLabel": "はやい",
       "topSpeedKmh": 120,
       "comparison": {
         "otherTrainId": "blue-mu-sky-130th",
         "summary": "ブルーミュースカイ は 130しゅうねん きねんで、あお と しろ が ぎゃく"
-      }
+      },
+      "speedLabel": "とっきゅう の はやさ"
     }
   },
   {
@@ -331,7 +445,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series281_Hanwa_Line.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "しろ と あお の いろで、かんさいくうこう へ むかう はるか"
+    "descriptionShort": "しろ と あお の いろで、かんさいくうこう へ むかう はるか",
+    "encyclopedia": {
+      "routeSummary": "きょうと・しんおおさか から かんさいくうこう",
+      "featureSummary": "しろ と あお の しゃたい の くうこう とっきゅう",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "super-hakuto",
@@ -347,7 +467,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:HOT7000-7000.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "ディーゼルで はしり、きょうと と とっとり を むすぶ とっきゅう"
+    "descriptionShort": "ディーゼルで はしり、きょうと と とっとり を むすぶ とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "きょうと・おおさか から とっとり・くらよし ほうめん",
+      "featureSummary": "でんしゃ ではなく ディーゼルで はしる スーパーはくと",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "shimakaze",
@@ -363,7 +489,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:KINTETSU50000_20140121A.jpg",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "\"Oka21000\"",
-    "descriptionShort": "しまかぜ の なまえで、おおさか や なごや から いせしまへ むかう"
+    "descriptionShort": "しまかぜ の なまえで、おおさか や なごや から いせしまへ むかう",
+    "encyclopedia": {
+      "routeSummary": "おおさか・きょうと・なごや から いせしま ほうめん",
+      "featureSummary": "プレミアムシート や カフェしゃ が ある しまかぜ",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "e235-yamanote",
@@ -383,12 +515,12 @@
     "encyclopedia": {
       "routeSummary": "とうきょう の まんなか を 1しゅう する やまのてせん",
       "featureSummary": "おおきな まど と あたらしい しくみを もつ つうきんでんしゃ",
-      "speedLabel": "まちで はしる はやさ",
       "topSpeedKmh": 90,
       "comparison": {
         "otherTrainId": "e235-yokosuka",
         "summary": "よこすかせん の E235けい は こんいろ で、ながい きょりを はしる"
-      }
+      },
+      "speedLabel": "まちで はしる はやさ"
     }
   },
   {
@@ -405,7 +537,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E231%E7%B3%BB%E8%BF%91%E9%83%8A%E5%BD%A2%E3%83%BBK-38%E7%B7%A8%E6%88%90%EF%BC%88%E5%89%8D%E7%85%A7%E7%81%AF%E6%9B%B4%E6%96%B0%E5%BE%8C%EF%BC%89.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "PQ Usui",
-    "descriptionShort": "オレンジ と みどり の いろで、しょうなんしんじゅくライン も はしる"
+    "descriptionShort": "オレンジ と みどり の いろで、しょうなんしんじゅくライン も はしる",
+    "encyclopedia": {
+      "routeSummary": "うえのとうきょうライン・しょうなんしんじゅくライン で とうきょう と かながわ・さいたま・ぐんま ほうめん",
+      "featureSummary": "オレンジ と みどり の いろで、ながい きょりも はしる",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "e233-shonan",
+        "summary": "E233 しょうなんいろ は おなじ いろあい でも、より あたらしい でんしゃ"
+      },
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "e531-joban",
@@ -421,7 +563,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E531%E7%B3%BB0%E7%95%AA%E5%8F%B0%E3%82%AB%E3%83%84K425%E7%B7%A8%E6%88%90.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "えぬはち",
-    "descriptionShort": "あおい ラインで、じょうばんせん を はしる こうちょくりゅう でんしゃ"
+    "descriptionShort": "あおい ラインで、じょうばんせん を はしる こうちょくりゅう でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "しながわ・うえの から みと・いわき ほうめん の じょうばんせん",
+      "featureSummary": "あおい ライン と、こうちょくりょうよう の しくみ を もつ",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "shinkaisoku-225",
@@ -437,7 +585,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series225-0-I7-Rapid_(2021-09-07).jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "Himeji-Higashi11184",
-    "descriptionShort": "しろい かおで、おおさか と ひめじ ほうめんを はしる しんかいそく"
+    "descriptionShort": "しろい かおで、おおさか と ひめじ ほうめんを はしる しんかいそく",
+    "encyclopedia": {
+      "routeSummary": "きょうと・おおさか から こうべ・ひめじ ほうめん",
+      "featureSummary": "しろい かお と ひろい まど の しんかいそく",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "osaka-loop-323",
@@ -453,7 +607,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series323-LS21.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "オレンジ の ラインで、おおさかかんじょうせん を はしる"
+    "descriptionShort": "オレンジ の ラインで、おおさかかんじょうせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "おおさかえき を ぐるっと まわる おおさかかんじょうせん",
+      "featureSummary": "オレンジ の ライン と、ホームドア に あわせた あたらしい でんしゃ",
+      "topSpeedKmh": 100,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "chuo-315",
@@ -469,7 +629,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series315_C6.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "ひろばのさるの",
-    "descriptionShort": "JRとうかい の あたらしい でんしゃで、ちゅうおうほんせん を はしる"
+    "descriptionShort": "JRとうかい の あたらしい でんしゃで、ちゅうおうほんせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "なごや から たじみ・なかつがわ ほうめん",
+      "featureSummary": "JRとうかい の あたらしい つうきんでんしゃ",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "tx-3000",
@@ -485,7 +651,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:TX_Series3000-3685.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "あおい ラインで、つくばエクスプレス を はしる あたらしい でんしゃ"
+    "descriptionShort": "あおい ラインで、つくばエクスプレス を はしる あたらしい でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "あきはばら から つくば",
+      "featureSummary": "あおい ライン と ワンマン うんてん に そなえた あたらしい でんしゃ",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "meitetsu-6500",
@@ -501,7 +673,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Meitetsu_6000_series_031.JPG",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Tennen-Gas",
-    "descriptionShort": "あかい でんしゃで、めいてつ の まちの せんろを はしる"
+    "descriptionShort": "あかい でんしゃで、めいてつ の まちの せんろを はしる",
+    "encyclopedia": {
+      "routeSummary": "なごや ほうめん の ほんせん や まちの せんろ",
+      "featureSummary": "あかい しゃたい の めいてつ つうきんでんしゃ",
+      "topSpeedKmh": 110,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "osaka-metro-400",
@@ -517,7 +695,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:406-18f.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "Springuy",
-    "descriptionShort": "むらさき の ラインで、おおさかメトロ ちゅうおうせん を はしる"
+    "descriptionShort": "むらさき の ラインで、おおさかメトロ ちゅうおうせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "コスモスクエア から ながた ほうめん の ちゅうおうせん",
+      "featureSummary": "むらさき の ライン と みらいかん の ある かお",
+      "topSpeedKmh": 95,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "eh500-kintaro",
@@ -537,12 +721,12 @@
     "encyclopedia": {
       "routeSummary": "とうほくせん・じょうばんせん・さんようせん・かごしまほんせん",
       "featureSummary": "こうりゅう と ちょくりゅう の りょうほうで はしれる きかんしゃ",
-      "speedLabel": "はやい きかんしゃ",
       "topSpeedKmh": 110,
       "comparison": {
         "otherTrainId": "ef210-momotaro",
         "summary": "EF210 は ちょくりゅう せんく ようで、からだ が もっと みじかい"
-      }
+      },
+      "speedLabel": "はやい きかんしゃ"
     }
   },
   {
@@ -563,12 +747,12 @@
     "encyclopedia": {
       "routeSummary": "とうほくせん・たかさきせん・とうかいどうせん・さんようせん・よさんせん",
       "featureSummary": "JRかもつ の しゅりょく の でんききかんしゃ",
-      "speedLabel": "はやい きかんしゃ",
       "topSpeedKmh": 110,
       "comparison": {
         "otherTrainId": "eh500-kintaro",
         "summary": "EH500 は こうちょくりょうよう で、とうほく や かごしま ほうめん でも はしる"
-      }
+      },
+      "speedLabel": "はやい きかんしゃ"
     }
   },
   {
@@ -589,12 +773,12 @@
     "encyclopedia": {
       "routeSummary": "にほんかいがわ や しゅとけん ほうめん の かもつ せんく",
       "featureSummary": "あかい からだ と レッドサンダー の なまえが めじるし",
-      "speedLabel": "はやい きかんしゃ",
       "topSpeedKmh": 110,
       "comparison": {
         "otherTrainId": "ef210-momotaro",
         "summary": "EF210 は あおい からだで、ちょくりゅう せんく を ちゅうしんに はしる"
-      }
+      },
+      "speedLabel": "はやい きかんしゃ"
     }
   },
   {
@@ -611,7 +795,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR_EF66_42_20050308.jpg",
     "imageLicense": "CC BY 3.0",
     "imageAuthor": "ja:User:DD51612",
-    "descriptionShort": "パワーが つよく、こうそく かもつ も ひいた でんき きかんしゃ"
+    "descriptionShort": "パワーが つよく、こうそく かもつ も ひいた でんき きかんしゃ",
+    "encyclopedia": {
+      "routeSummary": "とうかいどう・さんよう ほうめん の かもつれっしゃ",
+      "featureSummary": "パワー が つよく、こうそく かもつ も ひいた でんききかんしゃ",
+      "topSpeedKmh": 110,
+      "comparison": {
+        "otherTrainId": "ef210-momotaro",
+        "summary": "EF210 は もっと あたらしい あおい かもつきかんしゃ"
+      },
+      "speedLabel": "はやい きかんしゃ"
+    }
   },
   {
     "id": "d51-200",
@@ -631,12 +825,12 @@
     "encyclopedia": {
       "routeSummary": "SLやまぐちごう など かんこうれっしゃ で かつやく",
       "featureSummary": "デゴイチ と よばれる、ちからもち の SL",
-      "speedLabel": "SL として はやい",
       "topSpeedKmh": 85,
       "comparison": {
         "otherTrainId": "c57-yamaguchi",
         "summary": "C57 は すらっと みえる きふじん で、たびきゃく れっしゃむき"
-      }
+      },
+      "speedLabel": "SL として はやい"
     }
   },
   {
@@ -657,8 +851,8 @@
     "encyclopedia": {
       "routeSummary": "ぐんま ほうめん の SLれっしゃ で かつやく",
       "featureSummary": "D51 の ボイラーから うまれた、たびきゃく れっしゃむき の SL",
-      "speedLabel": "SL として はやい",
-      "topSpeedKmh": 100
+      "topSpeedKmh": 100,
+      "speedLabel": "SL として はやい"
     }
   },
   {
@@ -679,12 +873,12 @@
     "encyclopedia": {
       "routeSummary": "しんやまぐち から つわの ほうめん の SLやまぐちごう",
       "featureSummary": "きふじん と よばれる、すらっと した すがた の SL",
-      "speedLabel": "SL として はやい",
       "topSpeedKmh": 100,
       "comparison": {
         "otherTrainId": "d51-200",
         "summary": "D51 は もっと ごつくて、デゴイチ の あだなで しられる"
-      }
+      },
+      "speedLabel": "SL として はやい"
     }
   },
   {
@@ -701,7 +895,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR-Tokaido-Shinkansen-N700A_01.jpg",
     "imageLicense": "CC BY 4.0",
     "imageAuthor": "RuinDig/Yuki Uchida",
-    "descriptionShort": "N700けい を もっと あんしんにした、A の しんかんせん"
+    "descriptionShort": "N700けい を もっと あんしんにした、A の しんかんせん",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から はかた・かごしまちゅうおう ほうめん",
+      "featureSummary": "N700 に ブレーキ などの かいりょう を くわえた A",
+      "topSpeedKmh": 300,
+      "comparison": {
+        "otherTrainId": "n700",
+        "summary": "N700 は もとの きほんけいしき で、A は かいりょうがた"
+      },
+      "speedLabel": "とても はやい"
+    }
   },
   {
     "id": "n700-mizuho-sakura",
@@ -717,7 +921,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-N700-7000-S8_Sakura-540.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "みずほ と さくら の なまえで、さんよう から きゅうしゅうを はしる"
+    "descriptionShort": "みずほ と さくら の なまえで、さんよう から きゅうしゅうを はしる",
+    "encyclopedia": {
+      "routeSummary": "しんおおさか・はかた から かごしまちゅうおう ほうめん",
+      "featureSummary": "みずほ と さくら に つかわれる、きゅうしゅう まで いく N700",
+      "topSpeedKmh": 300,
+      "comparison": {
+        "otherTrainId": "n700",
+        "summary": "N700 は とうかいどう から きゅうしゅう まで ひろく はしる きほん しゃ"
+      },
+      "speedLabel": "とても はやい"
+    }
   },
   {
     "id": "e3-tsubasa-2000",
@@ -733,7 +947,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E3-2000-L67-of-Yamagata-Shinkansen.jpg",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Original uploader was Jet-0 at ja.wikipedia",
-    "descriptionShort": "2000ばんだい の つばさで、やまがたしんかんせん を はしる"
+    "descriptionShort": "2000ばんだい の つばさで、やまがたしんかんせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
+      "featureSummary": "E5 と つなぐ ため せんとうしゃ の かお が かわった つばさ",
+      "topSpeedKmh": 275,
+      "comparison": {
+        "otherTrainId": "e3-tsubasa",
+        "summary": "もとの E3 つばさ は かお と しゃたい の いんしょう が すこし ちがう"
+      },
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "doctor-yellow-t3",
@@ -749,7 +973,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Doctor_Yellow_922-26_T3_SCMaglev_and_Railway_Park.jpg",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Morio",
-    "descriptionShort": "0けい みたいな かおで、せんろ を しらべた T3 へんせい"
+    "descriptionShort": "0けい みたいな かおで、せんろ を しらべた T3 へんせい",
+    "encyclopedia": {
+      "routeSummary": "とうかいどう・さんようしんかんせん の せんろ と でんき を けんそく",
+      "featureSummary": "0けい に にた まるい かお の T3 へんせい",
+      "topSpeedKmh": 210,
+      "comparison": {
+        "otherTrainId": "doctor-yellow",
+        "summary": "923がた は 700けい みたいな かお の けんそくしゃ"
+      },
+      "speedLabel": "しんかんせん の はやさ"
+    }
   },
   {
     "id": "e5-hayabusa-speed-change",
@@ -765,7 +999,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E5-U15_Yamabiko-50.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "みどり の しゃたいで、JRひがしにほん の はやぶさ として はしる"
+    "descriptionShort": "みどり の しゃたいで、JRひがしにほん の はやぶさ として はしる",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から しんあおもり・しんはこだてほくと ほうめん",
+      "featureSummary": "みどり の しゃたい と、320キロで はしる ながい はな",
+      "topSpeedKmh": 320,
+      "comparison": {
+        "otherTrainId": "e6-komachi",
+        "summary": "E6 こまち は あかい しゃたい の ミニしんかんせん"
+      },
+      "speedLabel": "とても はやい"
+    }
   },
   {
     "id": "narita-express",
@@ -781,7 +1025,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E259_NE018.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "くうこう へ むかう とっきゅうで、とうきょう と なりたを むすぶ"
+    "descriptionShort": "くうこう へ むかう とっきゅうで、とうきょう と なりたを むすぶ",
+    "encyclopedia": {
+      "routeSummary": "とうきょう・しんじゅく・よこはま から なりたくうこう",
+      "featureSummary": "しろ と くろ の しゃたい の くうこう とっきゅう",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "l0-maglev",
@@ -797,7 +1047,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_L0.JPG",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Saruno Hirobano",
-    "descriptionShort": "うかんで はしる リニアで、ちゅうおうしんかんせん の しけんしゃ"
+    "descriptionShort": "うかんで はしる リニアで、ちゅうおうしんかんせん の しけんしゃ",
+    "encyclopedia": {
+      "routeSummary": "やまなし じっけんせん で しけん そうこう",
+      "featureSummary": "しゃりん ではなく うかんで はしる リニア",
+      "topSpeedKmh": 603,
+      "speedLabel": "びっくりするほど はやい"
+    }
   },
   {
     "id": "e657-hitachi-yellow",
@@ -813,7 +1069,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_Series-E657-K12_Hitachi-6.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "きいろい ラッピングで、ひたち として じょうばんせん を はしる"
+    "descriptionShort": "きいろい ラッピングで、ひたち として じょうばんせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "とうきょう・うえの から みと・いわき ほうめん",
+      "featureSummary": "きいろい ラッピング の E657けい ひたち",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "cassiopeia",
@@ -829,7 +1091,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cassiopeia_No1.JPG",
     "imageLicense": "Public domain",
     "imageAuthor": "toshinori baba",
-    "descriptionShort": "ごうかな へやが あり、うえの と さっぽろを むすんだ しんだい とっきゅう"
+    "descriptionShort": "ごうかな へやが あり、うえの と さっぽろを むすんだ しんだい とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "うえの から さっぽろ を むすんだ しんだいとっきゅう",
+      "featureSummary": "スイート や ダイニングカー が ある ごうか れっしゃ",
+      "topSpeedKmh": 110,
+      "speedLabel": "とっきゅう の はやさ"
+    }
   },
   {
     "id": "hankyu-2300-private",
@@ -845,7 +1113,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hankyu_Kyoto_Line_Series-2300.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "Springuy",
-    "descriptionShort": "PRiVACE を つないで、おおさか と きょうとを むすぶ はんきゅう とっきゅう"
+    "descriptionShort": "PRiVACE を つないで、おおさか と きょうとを むすぶ はんきゅう とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "おおさかうめだ から きょうとかわらまち ほうめん",
+      "featureSummary": "PRiVACE の ざせき を つないだ はんきゅう とっきゅう",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "keisei-skyliner-ae",
@@ -861,7 +1135,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keisei-Type-AE.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "はやく くうこうへ むかう、スカイライナー の AEがた"
+    "descriptionShort": "はやく くうこうへ むかう、スカイライナー の AEがた",
+    "encyclopedia": {
+      "routeSummary": "けいせいうえの から なりたくうこう",
+      "featureSummary": "160キロ で くうこう へ むかう スカイライナー",
+      "topSpeedKmh": 160,
+      "speedLabel": "かなり はやい"
+    }
   },
   {
     "id": "tobu-8000",
@@ -877,7 +1157,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu-Series8000_8163.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "ながく あいされ、とうぶ てつどう の いろいろな せんを はしる"
+    "descriptionShort": "ながく あいされ、とうぶ てつどう の いろいろな せんを はしる",
+    "encyclopedia": {
+      "routeSummary": "とうぶ の いろいろな せんろ を ながく はしってきた",
+      "featureSummary": "ながく あいされる とうぶ の ベテラン でんしゃ",
+      "topSpeedKmh": 100,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "iyonada-monogatari",
@@ -893,7 +1179,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Iyonada_Monogatari_2020.08_(2).jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "Sunport1216",
-    "descriptionShort": "うみぞい を ながめながら、まつやま から いよおおず ほうめんへ むかう"
+    "descriptionShort": "うみぞい を ながめながら、まつやま から いよおおず ほうめんへ むかう",
+    "encyclopedia": {
+      "routeSummary": "まつやま から いよおおず・やわたはま ほうめん の うみぞい",
+      "featureSummary": "おおきな まど から いよなだ を たのしむ かんこうれっしゃ",
+      "topSpeedKmh": 110,
+      "speedLabel": "とっきゅう の はやさ"
+    }
   },
   {
     "id": "urbanliner-next",
@@ -909,7 +1201,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:UL21_Kasumori.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "Unmo371",
-    "descriptionShort": "アーバンライナー の しんしい すがたで、おおさか と なごやを むすぶ"
+    "descriptionShort": "アーバンライナー の しんしい すがたで、おおさか と なごやを むすぶ",
+    "encyclopedia": {
+      "routeSummary": "おおさかなんば と きんてつなごや を むすぶ",
+      "featureSummary": "シルバー の しゃたい と まるい まど の アーバンライナー",
+      "topSpeedKmh": 130,
+      "comparison": {
+        "otherTrainId": "hinotori",
+        "summary": "ひのとり は もっと あたらしい まっかな きんてつ とっきゅう"
+      },
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "rapid-acty-211",
@@ -925,7 +1227,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E9%89%84211%E7%B3%BB%E9%9B%BB%E8%BB%8A.JPG",
     "imageLicense": "Public domain",
     "imageAuthor": "41",
-    "descriptionShort": "2かい ドアで、とうかいどうせん の かいそくアクティー を はしった"
+    "descriptionShort": "2かい ドアで、とうかいどうせん の かいそくアクティー を はしった",
+    "encyclopedia": {
+      "routeSummary": "とうきょう・よこはま から あつぎ・おだわら ほうめん の とうかいどうせん",
+      "featureSummary": "2かい ドア で はしった 211けい の かいそくアクティー",
+      "topSpeedKmh": 120,
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "hello-kitty-shinkansen",
@@ -941,7 +1249,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen_500_Hello_Kitty_at_Nishi-Akashi_Station_2019-11-15_(49765227723).jpg",
     "imageLicense": "CC BY-SA 2.0",
     "imageAuthor": "Cheng-en Cheng from Taichung City, Taiwan",
-    "descriptionShort": "ハローキティ の えが ついて、さんようしんかんせん を はしる"
+    "descriptionShort": "ハローキティ の えが ついて、さんようしんかんせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "しんおおさか から はかた ほうめん の さんようしんかんせん",
+      "featureSummary": "ハローキティ の ラッピング と かわいい ないそう の 500けい",
+      "topSpeedKmh": 270,
+      "comparison": {
+        "otherTrainId": "500-nozomi",
+        "summary": "もとの 500けい は しろ と あお の すがた で はしっていた"
+      },
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "panda-kuroshio",
@@ -957,7 +1275,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW_Series287-HC605_Panda-Kuroshio.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "パンダ の かおが えがかれ、しらはま ほうめんへ むかう くろしお"
+    "descriptionShort": "パンダ の かおが えがかれ、しらはま ほうめんへ むかう くろしお",
+    "encyclopedia": {
+      "routeSummary": "てんのうじ・しんおおさか から しらはま・しんぐう ほうめん",
+      "featureSummary": "パンダ の かお を えがいた くろしお ラッピング",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "keihan-thomas",
@@ -973,7 +1297,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%AC%E9%98%AA13000%E7%B3%BB7%E4%B8%A1.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "模型鉄",
-    "descriptionShort": "トーマス の ラッピングで、けいはん の せんろを はしる"
+    "descriptionShort": "トーマス の ラッピングで、けいはん の せんろを はしる",
+    "encyclopedia": {
+      "routeSummary": "よどやばし・なかのしま から ひらかた・でまちやなぎ ほうめん",
+      "featureSummary": "きかんしゃトーマス の なかまたち を えがいた ラッピング",
+      "topSpeedKmh": 110,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "pikmin-train",
@@ -989,7 +1319,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:L_Nippo_885.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "東風みるく",
-    "descriptionShort": "ピクミン の ラッピングで、JRきゅうしゅう の とっきゅう として はしる"
+    "descriptionShort": "ピクミン の ラッピングで、JRきゅうしゅう の とっきゅう として はしる",
+    "encyclopedia": {
+      "routeSummary": "はかた から おおいた・みやざき ほうめん など JRきゅうしゅう の とっきゅう",
+      "featureSummary": "ピクミン の なかまたち を えがいた 885けい の ラッピング",
+      "topSpeedKmh": 130,
+      "speedLabel": "はやい"
+    }
   },
   {
     "id": "blue-mu-sky-130th",
@@ -1009,12 +1345,12 @@
     "encyclopedia": {
       "routeSummary": "ミュースカイ と おなじ くうこう ほうめん",
       "featureSummary": "めいてつ 130しゅうねん の きねん ぬりわけ",
-      "speedLabel": "はやい",
       "topSpeedKmh": 120,
       "comparison": {
         "otherTrainId": "meitetsu-mu-sky",
         "summary": "ふつう の ミュースカイ は しろ が おおく、いつもの ぬりわけ"
-      }
+      },
+      "speedLabel": "とっきゅう の はやさ"
     }
   },
   {
@@ -1035,12 +1371,12 @@
     "encyclopedia": {
       "routeSummary": "とうきょう から よこすか・ちば ほうめん",
       "featureSummary": "やまのてせん と おなじ E235けい でも、ながい きょりよう の でんしゃ",
-      "speedLabel": "はやめ",
       "topSpeedKmh": 120,
       "comparison": {
         "otherTrainId": "e235-yamanote",
         "summary": "やまのてせん の E235けい は みどり の ラインで、まちなか を 1しゅう する"
-      }
+      },
+      "speedLabel": "はやめ"
     }
   },
   {
@@ -1057,7 +1393,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_Series-E233-0_4-Green-cars.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "グリーンしゃ を つないで、ちゅうおうせん を はしる E233けい"
+    "descriptionShort": "グリーンしゃ を つないで、ちゅうおうせん を はしる E233けい",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から たちかわ・はちおうじ ほうめん の ちゅうおうせん",
+      "featureSummary": "2かいだて の グリーンしゃ を つないだ E233けい",
+      "topSpeedKmh": 100,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "e233-shonan",
@@ -1073,7 +1415,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokaido-Line-Series-E233-3000.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "オレンジ と みどり の いろで、しょうなん ほうめんを はしる"
+    "descriptionShort": "オレンジ と みどり の いろで、しょうなん ほうめんを はしる",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から しょうなん・おだわら ほうめん",
+      "featureSummary": "オレンジ と みどり の しょうなんいろ の E233けい",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "e231-near",
+        "summary": "E231 も おなじ いろあい で、しょうなんしんじゅくライン などを はしる"
+      },
+      "speedLabel": "はやめ"
+    }
   },
   {
     "id": "e233-keihin-tohoku",
@@ -1089,7 +1441,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20230911_JR_East_E233-1000_115_entering_Shinagawa_Station.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "Windmemories",
-    "descriptionShort": "みずいろ の ラインで、おおみや から よこはま を むすぶ"
+    "descriptionShort": "みずいろ の ラインで、おおみや から よこはま を むすぶ",
+    "encyclopedia": {
+      "routeSummary": "おおみや から とうきょう・よこはま",
+      "featureSummary": "みずいろ の ライン で まち を たてに むすぶ",
+      "topSpeedKmh": 90,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "e231-sobu",
@@ -1105,7 +1463,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_E231-500_A536_A509.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "きいろ の ラインで、そうぶせん を のんびり はしる"
+    "descriptionShort": "きいろ の ラインで、そうぶせん を のんびり はしる",
+    "encyclopedia": {
+      "routeSummary": "みたか から あきはばら・ちば ほうめん の そうぶせん",
+      "featureSummary": "きいろ の ライン で えき ひとつずつ とまる",
+      "topSpeedKmh": 95,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "e233-keiyo",
@@ -1121,7 +1485,13 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keiyo-Line-SeriesE233-209.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II",
-    "descriptionShort": "あかい ラインで、けいようせん を はしる"
+    "descriptionShort": "あかい ラインで、けいようせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から まいはま・そが ほうめん の けいようせん",
+      "featureSummary": "あかい ライン で、うみちかく を はしる E233けい",
+      "topSpeedKmh": 100,
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "103-saikyo",
@@ -1137,7 +1507,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:103-3500_56_Kawagoe_20020622.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "DAJF",
-    "descriptionShort": "みどり の ラインで、むかしの さいきょうせん を はしった"
+    "descriptionShort": "みどり の ラインで、むかしの さいきょうせん を はしった",
+    "encyclopedia": {
+      "routeSummary": "いけぶくろ・しんじゅく から おおみや ほうめん の むかしの さいきょうせん",
+      "featureSummary": "みどり の ライン で かつやく した むかしの つうきんでんしゃ",
+      "topSpeedKmh": 100,
+      "comparison": {
+        "otherTrainId": "103-joban",
+        "summary": "じょうばんせん の 103けい は エメラルドいろ の ライン が めじるし"
+      },
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "103-joban",
@@ -1153,7 +1533,17 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR_103-0_Joban_Line.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "シャレー女苑",
-    "descriptionShort": "エメラルドいろ で、むかしの じょうばんせん を はしった"
+    "descriptionShort": "エメラルドいろ で、むかしの じょうばんせん を はしった",
+    "encyclopedia": {
+      "routeSummary": "うえの から とりで ほうめん の むかしの じょうばんせん",
+      "featureSummary": "エメラルドいろ の ライン で かつやく した 103けい",
+      "topSpeedKmh": 100,
+      "comparison": {
+        "otherTrainId": "103-saikyo",
+        "summary": "さいきょうせん の 103けい は みどり の ライン で はしっていた"
+      },
+      "speedLabel": "まちで はしる はやさ"
+    }
   },
   {
     "id": "e3-tsubasa-2000-renewal",
@@ -1169,6 +1559,16 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR-East_E3-2000_L63_Tokyo_Station_20221116.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "Subscriptshoe9",
-    "descriptionShort": "あたらしい ぬりわけで、やまがたしんかんせん を はしる つばさ"
+    "descriptionShort": "あたらしい ぬりわけで、やまがたしんかんせん を はしる つばさ",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
+      "featureSummary": "あたらしい ぬりわけ に かわった つばさ 2000ばんだい",
+      "topSpeedKmh": 275,
+      "comparison": {
+        "otherTrainId": "e3-tsubasa-2000",
+        "summary": "ふつう の 2000ばんだい は まえ の ぬりわけ で はしる"
+      },
+      "speedLabel": "はやい"
+    }
   }
 ]

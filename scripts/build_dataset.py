@@ -188,6 +188,7 @@ def build_seed_record(seed: dict[str, Any], evidence_url: str) -> dict[str, Any]
             "imageLicense": seed["imageLicense"],
             "imageAuthor": seed["imageAuthor"],
             "descriptionShort": seed.get("descriptionShort", ""),
+            "encyclopedia": seed.get("encyclopedia"),
         }
 
     if seed.get("commonsFileTitle") and seed.get("wikipediaTitle"):
@@ -216,6 +217,7 @@ def build_seed_record(seed: dict[str, Any], evidence_url: str) -> dict[str, Any]
             "imageLicense": file_details["license"],
             "imageAuthor": file_details["author"],
             "descriptionShort": seed.get("descriptionShort", ""),
+            "encyclopedia": seed.get("encyclopedia"),
         }
 
     wikipedia_title = seed.get("wikipediaTitle") or search_wikipedia(seed["wikipediaQuery"])
@@ -240,6 +242,7 @@ def build_seed_record(seed: dict[str, Any], evidence_url: str) -> dict[str, Any]
         "imageLicense": page_details["image_license"],
         "imageAuthor": page_details["image_author"],
         "descriptionShort": seed.get("descriptionShort", ""),
+        "encyclopedia": seed.get("encyclopedia"),
     }
 
 

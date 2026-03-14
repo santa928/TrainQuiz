@@ -75,28 +75,20 @@ test("descriptionShort stays in sync between train seeds and published data", ()
   }
 });
 
-test("selected trains expose encyclopedia fields for parent-child learning", () => {
-  const sampleIds = new Set([
-    "e5-hayabusa",
-    "h5-hayabusa",
-    "e235-yamanote",
-    "e235-yokosuka",
-    "meitetsu-mu-sky",
-    "blue-mu-sky-130th",
-    "eh500-kintaro",
-    "ef210-momotaro",
-    "ef510-red-thunder",
-    "d51-200",
-    "c61-20",
-    "c57-yamaguchi",
-  ]);
+test("every published train exposes encyclopedia fields for parent-child learning", () => {
+  const publishedIds = new Set(trains.map((train) => train.id));
 
-  for (const train of trains.filter((entry) => sampleIds.has(entry.id))) {
+  for (const train of trains) {
     assert.ok(train.encyclopedia);
     assert.notEqual(train.encyclopedia.routeSummary.trim(), "");
     assert.notEqual(train.encyclopedia.featureSummary.trim(), "");
     assert.notEqual(train.encyclopedia.speedLabel.trim(), "");
     assert.ok(typeof train.encyclopedia.topSpeedKmh === "number");
+
+    if (train.encyclopedia.comparison) {
+      assert.ok(publishedIds.has(train.encyclopedia.comparison.otherTrainId));
+      assert.notEqual(train.encyclopedia.comparison.summary.trim(), "");
+    }
   }
 });
 
