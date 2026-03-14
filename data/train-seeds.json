@@ -7,7 +7,8 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E5系・H5系電車",
-    "wikipediaQuery": "E5系新幹線"
+    "wikipediaQuery": "E5系新幹線",
+    "descriptionShort": "ながい はなで、とうほく と ほっかいどうを はしる はやぶさ"
   },
   {
     "id": "e6-komachi",
@@ -17,7 +18,8 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E6系電車",
-    "wikipediaQuery": "E6系新幹線"
+    "wikipediaQuery": "E6系新幹線",
+    "descriptionShort": "あかい しゃたいで、とうきょう と あきたを むすぶ こまち"
   },
   {
     "id": "e3-tsubasa",
@@ -27,7 +29,8 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
-    "wikipediaQuery": "E3系新幹線"
+    "wikipediaQuery": "E3系新幹線",
+    "descriptionShort": "やまがたへ いく ミニしんかんせん の つばさ"
   },
   {
     "id": "e4-max",
@@ -37,7 +40,8 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E4系電車",
-    "wikipediaQuery": "E4系新幹線"
+    "wikipediaQuery": "E4系新幹線",
+    "descriptionShort": "ぜんぶ 2かいだてで、Max の あいしょうで はしった しんかんせん"
   },
   {
     "id": "e7-kagayaki",
@@ -47,7 +51,8 @@
     "category": "shinkansen",
     "operator": "JR東日本 / JR西日本",
     "wikipediaTitle": "新幹線E7系・W7系電車",
-    "wikipediaQuery": "E7系・W7系新幹線"
+    "wikipediaQuery": "E7系・W7系新幹線",
+    "descriptionShort": "あお と きん の いろで、ほくりくしんかんせん を はしる かがやき"
   },
   {
     "id": "h5-hayabusa",
@@ -57,7 +62,8 @@
     "category": "shinkansen",
     "operator": "JR北海道",
     "wikipediaTitle": "新幹線E5系・H5系電車",
-    "wikipediaQuery": "H5系新幹線"
+    "wikipediaQuery": "H5系新幹線",
+    "descriptionShort": "ふじいろ の せんがあり、JRほっかいどう の はやぶさ"
   },
   {
     "id": "500-nozomi",
@@ -67,7 +73,8 @@
     "category": "shinkansen",
     "operator": "JR西日本",
     "wikipediaTitle": "新幹線500系電車",
-    "wikipediaQuery": "500系新幹線"
+    "wikipediaQuery": "500系新幹線",
+    "descriptionShort": "とがった かおで、とうかいどう と さんよう を はしる しんかんせん"
   },
   {
     "id": "doctor-yellow",
@@ -77,7 +84,8 @@
     "category": "shinkansen",
     "operator": "JR東海 / JR西日本",
     "wikipediaTitle": "ドクターイエロー",
-    "wikipediaQuery": "923形新幹線電気軌道総合試験車"
+    "wikipediaQuery": "923形新幹線電気軌道総合試験車",
+    "descriptionShort": "きいろい からだで、せんろや でんきを しらべる しんかんせん"
   },
   {
     "id": "800-tsubame",
@@ -87,7 +95,8 @@
     "category": "shinkansen",
     "operator": "JR九州",
     "wikipediaTitle": "新幹線800系電車",
-    "wikipediaQuery": "800系新幹線"
+    "wikipediaQuery": "800系新幹線",
+    "descriptionShort": "きゅうしゅう を はしる、はじめて の きゅうしゅうしんかんせん"
   },
   {
     "id": "n700",
@@ -97,7 +106,8 @@
     "category": "shinkansen",
     "operator": "JR東海 / JR西日本 / JR九州",
     "wikipediaTitle": "新幹線N700系電車",
-    "wikipediaQuery": "N700系新幹線"
+    "wikipediaQuery": "N700系新幹線",
+    "descriptionShort": "とうかいどう から きゅうしゅうまで、ひろく はしる しんかんせん"
   },
   {
     "id": "yakumo-273",
@@ -112,7 +122,7 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW_Series273-Y1.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "あたらしい やくも の とっきゅう でんしゃ"
+    "descriptionShort": "どういろ の しゃたいで、おかやま と いずもし を むすぶ やくも"
   },
   {
     "id": "yufuin-no-mori",
@@ -127,7 +137,7 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2013-01-03_%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E3%81%AE%E6%A3%AE%E5%8F%B7.jpg",
     "imageLicense": "CC BY 2.0",
     "imageAuthor": "veroyama",
-    "descriptionShort": "もりの みどり が かっこいい とっきゅう"
+    "descriptionShort": "みどり の しゃたいで、はかた と ゆふいん を むすぶ とっきゅう"
   },
   {
     "id": "e353-azusa",
@@ -137,7 +147,8 @@
     "category": "limited_express",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E353系電車",
-    "wikipediaQuery": "E353系電車"
+    "wikipediaQuery": "E353系電車",
+    "descriptionShort": "ゆれを おさえて、しんじゅく から まつもとへ むかう あずさ"
   },
   {
     "id": "nankai-rapit",
@@ -147,7 +158,8 @@
     "category": "limited_express",
     "operator": "南海電気鉄道",
     "wikipediaTitle": "南海50000系電車",
-    "wikipediaQuery": "南海50000系電車"
+    "wikipediaQuery": "南海50000系電車",
+    "descriptionShort": "まるい まどが めだち、なんば から くうこうへ むかう とっきゅう"
   },
   {
     "id": "spacia-x",
@@ -157,7 +169,8 @@
     "category": "limited_express",
     "operator": "東武鉄道",
     "wikipediaTitle": "東武N100系電車",
-    "wikipediaQuery": "東武N100系電車"
+    "wikipediaQuery": "東武N100系電車",
+    "descriptionShort": "かどばった かおで、あさくさ から にっこう ほうめんへ むかう とっきゅう"
   },
   {
     "id": "hinotori",
@@ -167,7 +180,8 @@
     "category": "limited_express",
     "operator": "近畿日本鉄道",
     "wikipediaTitle": "近鉄80000系電車",
-    "wikipediaQuery": "近鉄80000系電車"
+    "wikipediaQuery": "近鉄80000系電車",
+    "descriptionShort": "あかい しゃたいで、おおさか と なごやを むすぶ きんてつ とっきゅう"
   },
   {
     "id": "odakyu-gse",
@@ -177,7 +191,8 @@
     "category": "limited_express",
     "operator": "小田急電鉄",
     "wikipediaTitle": "小田急70000形電車",
-    "wikipediaQuery": "小田急70000形電車"
+    "wikipediaQuery": "小田急70000形電車",
+    "descriptionShort": "まえが よく みえる せきがあり、ロマンスカー で はこねへ むかう"
   },
   {
     "id": "meitetsu-mu-sky",
@@ -187,7 +202,8 @@
     "category": "limited_express",
     "operator": "名古屋鉄道",
     "wikipediaTitle": "名鉄2000系電車",
-    "wikipediaQuery": "名鉄2000系電車"
+    "wikipediaQuery": "名鉄2000系電車",
+    "descriptionShort": "そらいろ と しろで、ちゅうぶこくさいくうこう へ むかう とっきゅう"
   },
   {
     "id": "haruka-281",
@@ -197,7 +213,8 @@
     "category": "limited_express",
     "operator": "JR西日本",
     "wikipediaTitle": "JR西日本281系電車",
-    "wikipediaQuery": "281系電車"
+    "wikipediaQuery": "281系電車",
+    "descriptionShort": "しろ と あお の いろで、かんさいくうこう へ むかう はるか"
   },
   {
     "id": "super-hakuto",
@@ -207,7 +224,8 @@
     "category": "limited_express",
     "operator": "智頭急行 / JR西日本",
     "wikipediaTitle": "智頭急行HOT7000系気動車",
-    "wikipediaQuery": "HOT7000系気動車"
+    "wikipediaQuery": "HOT7000系気動車",
+    "descriptionShort": "ディーゼルで はしり、きょうと と とっとり を むすぶ とっきゅう"
   },
   {
     "id": "shimakaze",
@@ -217,7 +235,8 @@
     "category": "limited_express",
     "operator": "近畿日本鉄道",
     "wikipediaTitle": "近鉄50000系電車",
-    "wikipediaQuery": "近鉄50000系電車"
+    "wikipediaQuery": "近鉄50000系電車",
+    "descriptionShort": "しまかぜ の なまえで、おおさか や なごや から いせしまへ むかう"
   },
   {
     "id": "e235-yamanote",
@@ -227,7 +246,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E235系電車",
-    "wikipediaQuery": "E235系電車"
+    "wikipediaQuery": "E235系電車",
+    "descriptionShort": "みどり の ラインで、やまのてせん を ぐるっと はしる でんしゃ"
   },
   {
     "id": "e231-near",
@@ -243,7 +263,7 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E231%E7%B3%BB%E8%BF%91%E9%83%8A%E5%BD%A2%E3%83%BBK-38%E7%B7%A8%E6%88%90%EF%BC%88%E5%89%8D%E7%85%A7%E7%81%AF%E6%9B%B4%E6%96%B0%E5%BE%8C%EF%BC%89.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "PQ Usui",
-    "descriptionShort": "しょうなんしんじゅくライン を はしる きんこうがた"
+    "descriptionShort": "オレンジ と みどり の いろで、しょうなんしんじゅくライン も はしる"
   },
   {
     "id": "e531-joban",
@@ -253,7 +273,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E531系電車",
-    "wikipediaQuery": "E531系電車"
+    "wikipediaQuery": "E531系電車",
+    "descriptionShort": "あおい ラインで、じょうばんせん を はしる こうちょくりゅう でんしゃ"
   },
   {
     "id": "shinkaisoku-225",
@@ -263,7 +284,8 @@
     "category": "commuter",
     "operator": "JR西日本",
     "wikipediaTitle": "JR西日本225系電車",
-    "wikipediaQuery": "225系電車"
+    "wikipediaQuery": "225系電車",
+    "descriptionShort": "しろい かおで、おおさか と ひめじ ほうめんを はしる しんかいそく"
   },
   {
     "id": "osaka-loop-323",
@@ -273,7 +295,8 @@
     "category": "commuter",
     "operator": "JR西日本",
     "wikipediaTitle": "JR西日本323系電車",
-    "wikipediaQuery": "323系電車"
+    "wikipediaQuery": "323系電車",
+    "descriptionShort": "オレンジ の ラインで、おおさかかんじょうせん を はしる"
   },
   {
     "id": "chuo-315",
@@ -283,7 +306,8 @@
     "category": "commuter",
     "operator": "JR東海",
     "wikipediaTitle": "JR東海315系電車",
-    "wikipediaQuery": "315系電車"
+    "wikipediaQuery": "315系電車",
+    "descriptionShort": "JRとうかい の あたらしい でんしゃで、ちゅうおうほんせん を はしる"
   },
   {
     "id": "tx-3000",
@@ -293,7 +317,8 @@
     "category": "commuter",
     "operator": "首都圏新都市鉄道",
     "wikipediaTitle": "首都圏新都市鉄道TX-3000系電車",
-    "wikipediaQuery": "首都圏新都市鉄道TX-3000系電車"
+    "wikipediaQuery": "首都圏新都市鉄道TX-3000系電車",
+    "descriptionShort": "あおい ラインで、つくばエクスプレス を はしる あたらしい でんしゃ"
   },
   {
     "id": "meitetsu-6500",
@@ -303,7 +328,8 @@
     "category": "commuter",
     "operator": "名古屋鉄道",
     "wikipediaTitle": "名鉄6500系電車",
-    "wikipediaQuery": "名鉄6500系電車"
+    "wikipediaQuery": "名鉄6500系電車",
+    "descriptionShort": "あかい でんしゃで、めいてつ の まちの せんろを はしる"
   },
   {
     "id": "osaka-metro-400",
@@ -313,7 +339,8 @@
     "category": "commuter",
     "operator": "Osaka Metro",
     "wikipediaTitle": "Osaka Metro400系電車",
-    "wikipediaQuery": "Osaka Metro400系電車"
+    "wikipediaQuery": "Osaka Metro400系電車",
+    "descriptionShort": "むらさき の ラインで、おおさかメトロ ちゅうおうせん を はしる"
   },
   {
     "id": "eh500-kintaro",
@@ -323,7 +350,8 @@
     "category": "freight",
     "operator": "JR貨物",
     "wikipediaTitle": "JR貨物EH500形電気機関車",
-    "wikipediaQuery": "EH500形電気機関車"
+    "wikipediaQuery": "EH500形電気機関車",
+    "descriptionShort": "3つの でんきに あわせて、かもつ を ひく きんたろう"
   },
   {
     "id": "ef210-momotaro",
@@ -333,7 +361,8 @@
     "category": "freight",
     "operator": "JR貨物",
     "wikipediaTitle": "JR貨物EF210形電気機関車",
-    "wikipediaQuery": "EF210形電気機関車"
+    "wikipediaQuery": "EF210形電気機関車",
+    "descriptionShort": "ももたろう の あだなで、あおい からだの かもつ きかんしゃ"
   },
   {
     "id": "ef510-red-thunder",
@@ -343,7 +372,8 @@
     "category": "freight",
     "operator": "JR貨物 / JR東日本",
     "wikipediaTitle": "JR貨物EF510形電気機関車",
-    "wikipediaQuery": "EF510形電気機関車"
+    "wikipediaQuery": "EF510形電気機関車",
+    "descriptionShort": "レッドサンダー の あだなで、あかい いろが めだつ きかんしゃ"
   },
   {
     "id": "ef66",
@@ -353,7 +383,8 @@
     "category": "freight",
     "operator": "JR貨物 / JR西日本",
     "wikipediaTitle": "国鉄EF66形電気機関車",
-    "wikipediaQuery": "EF66形電気機関車"
+    "wikipediaQuery": "EF66形電気機関車",
+    "descriptionShort": "パワーが つよく、こうそく かもつ も ひいた でんき きかんしゃ"
   },
   {
     "id": "d51-200",
@@ -363,7 +394,8 @@
     "category": "steam",
     "operator": "JR西日本",
     "wikipediaTitle": "国鉄D51形蒸気機関車",
-    "wikipediaQuery": "D51形蒸気機関車"
+    "wikipediaQuery": "D51形蒸気機関車",
+    "descriptionShort": "デゴイチ と よばれ、ちからづよく きしゃ を ひく SL"
   },
   {
     "id": "c61-20",
@@ -373,7 +405,8 @@
     "category": "steam",
     "operator": "JR東日本",
     "wikipediaTitle": "国鉄C61形蒸気機関車",
-    "wikipediaQuery": "C61形蒸気機関車"
+    "wikipediaQuery": "C61形蒸気機関車",
+    "descriptionShort": "D51 の ボイラーから うまれた、きゅうこう れっしゃ の SL"
   },
   {
     "id": "c57-yamaguchi",
@@ -383,7 +416,8 @@
     "category": "steam",
     "operator": "JR西日本",
     "wikipediaTitle": "国鉄C57形蒸気機関車",
-    "wikipediaQuery": "C57形蒸気機関車"
+    "wikipediaQuery": "C57形蒸気機関車",
+    "descriptionShort": "きふじん と よばれ、SLやまぐちごう を ひく SL"
   },
   {
     "id": "n700a",
@@ -393,7 +427,8 @@
     "category": "shinkansen",
     "operator": "JR東海 / JR西日本",
     "wikipediaTitle": "新幹線N700系電車",
-    "commonsFileTitle": "File:JR-Tokaido-Shinkansen-N700A 01.jpg"
+    "commonsFileTitle": "File:JR-Tokaido-Shinkansen-N700A 01.jpg",
+    "descriptionShort": "N700けい を もっと あんしんにした、A の しんかんせん"
   },
   {
     "id": "n700-mizuho-sakura",
@@ -403,7 +438,8 @@
     "category": "shinkansen",
     "operator": "JR西日本 / JR九州",
     "wikipediaTitle": "新幹線N700系電車",
-    "commonsFileTitle": "File:Series-N700-7000-S8 Sakura-540.jpg"
+    "commonsFileTitle": "File:Series-N700-7000-S8 Sakura-540.jpg",
+    "descriptionShort": "みずほ と さくら の なまえで、さんよう から きゅうしゅうを はしる"
   },
   {
     "id": "e3-tsubasa-2000",
@@ -413,7 +449,8 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
-    "commonsFileTitle": "File:E3-2000-L67-of-Yamagata-Shinkansen.jpg"
+    "commonsFileTitle": "File:E3-2000-L67-of-Yamagata-Shinkansen.jpg",
+    "descriptionShort": "2000ばんだい の つばさで、やまがたしんかんせん を はしる"
   },
   {
     "id": "doctor-yellow-t3",
@@ -423,7 +460,8 @@
     "category": "shinkansen",
     "operator": "JR東海 / JR西日本",
     "wikipediaTitle": "ドクターイエロー",
-    "commonsFileTitle": "File:Doctor Yellow 922-26 T3 SCMaglev and Railway Park.jpg"
+    "commonsFileTitle": "File:Doctor Yellow 922-26 T3 SCMaglev and Railway Park.jpg",
+    "descriptionShort": "0けい みたいな かおで、せんろ を しらべた T3 へんせい"
   },
   {
     "id": "e5-hayabusa-speed-change",
@@ -433,7 +471,8 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E5系・H5系電車",
-    "wikipediaQuery": "E5系新幹線"
+    "wikipediaQuery": "E5系新幹線",
+    "descriptionShort": "みどり の しゃたいで、JRひがしにほん の はやぶさ として はしる"
   },
   {
     "id": "narita-express",
@@ -443,7 +482,8 @@
     "category": "limited_express",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E259系電車",
-    "wikipediaQuery": "成田エクスプレス E259系"
+    "wikipediaQuery": "成田エクスプレス E259系",
+    "descriptionShort": "くうこう へ むかう とっきゅうで、とうきょう と なりたを むすぶ"
   },
   {
     "id": "l0-maglev",
@@ -453,7 +493,8 @@
     "category": "maglev",
     "operator": "JR東海",
     "wikipediaTitle": "L0系",
-    "commonsFileTitle": "File:Series L0.JPG"
+    "commonsFileTitle": "File:Series L0.JPG",
+    "descriptionShort": "うかんで はしる リニアで、ちゅうおうしんかんせん の しけんしゃ"
   },
   {
     "id": "e657-hitachi-yellow",
@@ -463,7 +504,8 @@
     "category": "limited_express",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E657系電車",
-    "commonsFileTitle": "File:JRE Series-E657-K12 Hitachi-6.jpg"
+    "commonsFileTitle": "File:JRE Series-E657-K12 Hitachi-6.jpg",
+    "descriptionShort": "きいろい ラッピングで、ひたち として じょうばんせん を はしる"
   },
   {
     "id": "cassiopeia",
@@ -473,7 +515,8 @@
     "category": "sleeper",
     "operator": "JR東日本 / JR北海道",
     "wikipediaTitle": "カシオペア (列車)",
-    "wikipediaQuery": "寝台特急カシオペア"
+    "wikipediaQuery": "寝台特急カシオペア",
+    "descriptionShort": "ごうかな へやが あり、うえの と さっぽろを むすんだ しんだい とっきゅう"
   },
   {
     "id": "hankyu-2300-private",
@@ -483,7 +526,8 @@
     "category": "commuter",
     "operator": "阪急電鉄",
     "wikipediaTitle": "阪急2300系電車 (2代)",
-    "commonsFileTitle": "File:Hankyu Kyoto Line Series-2300.jpg"
+    "commonsFileTitle": "File:Hankyu Kyoto Line Series-2300.jpg",
+    "descriptionShort": "PRiVACE を つないで、おおさか と きょうとを むすぶ はんきゅう とっきゅう"
   },
   {
     "id": "keisei-skyliner-ae",
@@ -493,7 +537,8 @@
     "category": "limited_express",
     "operator": "京成電鉄",
     "wikipediaTitle": "京成AE形電車 (2代)",
-    "wikipediaQuery": "京成AE形 スカイライナー"
+    "wikipediaQuery": "京成AE形 スカイライナー",
+    "descriptionShort": "はやく くうこうへ むかう、スカイライナー の AEがた"
   },
   {
     "id": "tobu-8000",
@@ -503,7 +548,8 @@
     "category": "commuter",
     "operator": "東武鉄道",
     "wikipediaTitle": "東武8000系電車",
-    "wikipediaQuery": "東武8000系"
+    "wikipediaQuery": "東武8000系",
+    "descriptionShort": "ながく あいされ、とうぶ てつどう の いろいろな せんを はしる"
   },
   {
     "id": "iyonada-monogatari",
@@ -513,7 +559,8 @@
     "category": "limited_express",
     "operator": "JR四国",
     "wikipediaTitle": "伊予灘ものがたり",
-    "commonsFileTitle": "File:Iyonada Monogatari 2020.08 (2).jpg"
+    "commonsFileTitle": "File:Iyonada Monogatari 2020.08 (2).jpg",
+    "descriptionShort": "うみぞい を ながめながら、まつやま から いよおおず ほうめんへ むかう"
   },
   {
     "id": "urbanliner-next",
@@ -523,7 +570,8 @@
     "category": "limited_express",
     "operator": "近畿日本鉄道",
     "wikipediaTitle": "近鉄21020系電車",
-    "wikipediaQuery": "近鉄21020系 アーバンライナーnext"
+    "wikipediaQuery": "近鉄21020系 アーバンライナーnext",
+    "descriptionShort": "アーバンライナー の しんしい すがたで、おおさか と なごやを むすぶ"
   },
   {
     "id": "rapid-acty-211",
@@ -533,7 +581,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "国鉄211系電車",
-    "commonsFileTitle": "File:国鉄211系電車.JPG"
+    "commonsFileTitle": "File:国鉄211系電車.JPG",
+    "descriptionShort": "2かい ドアで、とうかいどうせん の かいそくアクティー を はしった"
   },
   {
     "id": "hello-kitty-shinkansen",
@@ -543,7 +592,8 @@
     "category": "shinkansen",
     "operator": "JR西日本",
     "wikipediaTitle": "新幹線500系電車",
-    "commonsFileTitle": "File:Shinkansen 500 Hello Kitty at Nishi-Akashi Station 2019-11-15 (49765227723).jpg"
+    "commonsFileTitle": "File:Shinkansen 500 Hello Kitty at Nishi-Akashi Station 2019-11-15 (49765227723).jpg",
+    "descriptionShort": "ハローキティ の えが ついて、さんようしんかんせん を はしる"
   },
   {
     "id": "panda-kuroshio",
@@ -553,7 +603,8 @@
     "category": "limited_express",
     "operator": "JR西日本",
     "wikipediaTitle": "JR西日本287系電車",
-    "commonsFileTitle": "File:JRW Series287-HC605 Panda-Kuroshio.jpg"
+    "commonsFileTitle": "File:JRW Series287-HC605 Panda-Kuroshio.jpg",
+    "descriptionShort": "パンダ の かおが えがかれ、しらはま ほうめんへ むかう くろしお"
   },
   {
     "id": "keihan-thomas",
@@ -563,7 +614,8 @@
     "category": "commuter",
     "operator": "京阪電気鉄道",
     "wikipediaTitle": "京阪13000系電車",
-    "commonsFileTitle": "File:京阪13000系7両.jpg"
+    "commonsFileTitle": "File:京阪13000系7両.jpg",
+    "descriptionShort": "トーマス の ラッピングで、けいはん の せんろを はしる"
   },
   {
     "id": "pikmin-train",
@@ -573,7 +625,8 @@
     "category": "limited_express",
     "operator": "JR九州",
     "wikipediaTitle": "JR九州885系電車",
-    "commonsFileTitle": "File:L Nippo 885.jpg"
+    "commonsFileTitle": "File:L Nippo 885.jpg",
+    "descriptionShort": "ピクミン の ラッピングで、JRきゅうしゅう の とっきゅう として はしる"
   },
   {
     "id": "blue-mu-sky-130th",
@@ -583,7 +636,8 @@
     "category": "limited_express",
     "operator": "名古屋鉄道",
     "wikipediaTitle": "名鉄2000系電車",
-    "commonsFileTitle": "File:名鉄2000系電車（2003F） ブルーミュースカイ.jpg"
+    "commonsFileTitle": "File:名鉄2000系電車（2003F） ブルーミュースカイ.jpg",
+    "descriptionShort": "あお と しろ を いれかえた、130しゅうねん きねん の ミュースカイ"
   },
   {
     "id": "e235-yokosuka",
@@ -593,7 +647,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E235系電車",
-    "commonsFileTitle": "File:E235 YokosukaLine.jpg"
+    "commonsFileTitle": "File:E235 YokosukaLine.jpg",
+    "descriptionShort": "こんいろ の いろで、よこすかせん と そうぶかいそく を はしる"
   },
   {
     "id": "e233-chuo-green",
@@ -603,7 +658,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E233系電車",
-    "commonsFileTitle": "File:JRE Series-E233-0 4-Green-cars.jpg"
+    "commonsFileTitle": "File:JRE Series-E233-0 4-Green-cars.jpg",
+    "descriptionShort": "グリーンしゃ を つないで、ちゅうおうせん を はしる E233けい"
   },
   {
     "id": "e233-shonan",
@@ -613,7 +669,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "東海道線 (JR東日本)",
-    "commonsFileTitle": "File:Tokaido-Line-Series-E233-3000.jpg"
+    "commonsFileTitle": "File:Tokaido-Line-Series-E233-3000.jpg",
+    "descriptionShort": "オレンジ と みどり の いろで、しょうなん ほうめんを はしる"
   },
   {
     "id": "e233-keihin-tohoku",
@@ -623,7 +680,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "京浜東北線",
-    "commonsFileTitle": "File:20230911 JR East E233-1000 115 entering Shinagawa Station.jpg"
+    "commonsFileTitle": "File:20230911 JR East E233-1000 115 entering Shinagawa Station.jpg",
+    "descriptionShort": "みずいろ の ラインで、おおみや から よこはま を むすぶ"
   },
   {
     "id": "e231-sobu",
@@ -633,7 +691,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "中央・総武緩行線",
-    "commonsFileTitle": "File:Series_E231-500_A536_A509.jpg"
+    "commonsFileTitle": "File:Series_E231-500_A536_A509.jpg",
+    "descriptionShort": "きいろ の ラインで、そうぶせん を のんびり はしる"
   },
   {
     "id": "e233-keiyo",
@@ -643,7 +702,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "京葉線",
-    "wikipediaQuery": "E233系 京葉線"
+    "wikipediaQuery": "E233系 京葉線",
+    "descriptionShort": "あかい ラインで、けいようせん を はしる"
   },
   {
     "id": "103-saikyo",
@@ -653,7 +713,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "国鉄103系電車",
-    "commonsFileTitle": "File:103-3500 56 Kawagoe 20020622.jpg"
+    "commonsFileTitle": "File:103-3500 56 Kawagoe 20020622.jpg",
+    "descriptionShort": "みどり の ラインで、むかしの さいきょうせん を はしった"
   },
   {
     "id": "103-joban",
@@ -663,7 +724,8 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "国鉄103系電車",
-    "commonsFileTitle": "File:JNR 103-0 Joban Line.jpg"
+    "commonsFileTitle": "File:JNR 103-0 Joban Line.jpg",
+    "descriptionShort": "エメラルドいろ で、むかしの じょうばんせん を はしった"
   },
   {
     "id": "e3-tsubasa-2000-renewal",
@@ -673,6 +735,7 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
-    "commonsFileTitle": "File:JR-East E3-2000 L63 Tokyo Station 20221116.jpg"
+    "commonsFileTitle": "File:JR-East E3-2000 L63 Tokyo Station 20221116.jpg",
+    "descriptionShort": "あたらしい ぬりわけで、やまがたしんかんせん を はしる つばさ"
   }
 ]

@@ -5,6 +5,9 @@ import { readFileSync } from "node:fs";
 const trains = JSON.parse(
   readFileSync(new URL("../data/trains.json", import.meta.url), "utf8"),
 );
+const seeds = JSON.parse(
+  readFileSync(new URL("../data/train-seeds.json", import.meta.url), "utf8"),
+);
 
 test("train data contains the minimum required fields", () => {
   assert.ok(Array.isArray(trains));
@@ -60,4 +63,14 @@ test("published data includes line-color and livery variants as separate questio
   assert.equal(ids.has("e235-yokosuka"), true);
   assert.equal(ids.has("panda-kuroshio"), true);
   assert.equal(ids.has("urbanliner-next"), true);
+});
+
+test("descriptionShort stays in sync between train seeds and published data", () => {
+  const seedDescriptions = new Map(
+    seeds.map((seed) => [seed.id, seed.descriptionShort ?? ""]),
+  );
+
+  for (const train of trains) {
+    assert.equal(train.descriptionShort, seedDescriptions.get(train.id));
+  }
 });
