@@ -74,3 +74,41 @@ test("descriptionShort stays in sync between train seeds and published data", ()
     assert.equal(train.descriptionShort, seedDescriptions.get(train.id));
   }
 });
+
+test("selected trains expose encyclopedia fields for parent-child learning", () => {
+  const sampleIds = new Set([
+    "e5-hayabusa",
+    "h5-hayabusa",
+    "e235-yamanote",
+    "e235-yokosuka",
+    "meitetsu-mu-sky",
+    "blue-mu-sky-130th",
+    "eh500-kintaro",
+    "ef210-momotaro",
+    "ef510-red-thunder",
+    "d51-200",
+    "c61-20",
+    "c57-yamaguchi",
+  ]);
+
+  for (const train of trains.filter((entry) => sampleIds.has(entry.id))) {
+    assert.ok(train.encyclopedia);
+    assert.notEqual(train.encyclopedia.routeSummary.trim(), "");
+    assert.notEqual(train.encyclopedia.featureSummary.trim(), "");
+    assert.notEqual(train.encyclopedia.speedLabel.trim(), "");
+    assert.ok(typeof train.encyclopedia.topSpeedKmh === "number");
+  }
+});
+
+test("encyclopedia fields stay in sync between train seeds and published data", () => {
+  const seedEncyclopedia = new Map(
+    seeds.map((seed) => [seed.id, JSON.stringify(seed.encyclopedia ?? null)]),
+  );
+
+  for (const train of trains) {
+    assert.equal(
+      JSON.stringify(train.encyclopedia ?? null),
+      seedEncyclopedia.get(train.id),
+    );
+  }
+});

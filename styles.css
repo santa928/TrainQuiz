@@ -296,6 +296,76 @@ body::before {
   color: rgba(32, 48, 77, 0.9);
 }
 
+.encyclopedia-specs-panel[hidden] {
+  display: none;
+}
+
+.encyclopedia-specs-panel {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 22px;
+  background: rgba(11, 102, 216, 0.06);
+}
+
+.encyclopedia-specs-heading {
+  margin-bottom: -2px;
+}
+
+.encyclopedia-specs-list {
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.encyclopedia-spec-item {
+  display: grid;
+  gap: 4px;
+}
+
+.encyclopedia-spec-item dt {
+  color: #5375ad;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.encyclopedia-spec-item dd {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.encyclopedia-compare[hidden] {
+  display: none;
+}
+
+.encyclopedia-compare {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.92);
+}
+
+.encyclopedia-compare-label,
+.encyclopedia-compare-text {
+  margin: 0;
+}
+
+.encyclopedia-compare-label {
+  color: var(--blue-dark);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.encyclopedia-compare-text {
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 .encyclopedia-credit-panel {
   margin-top: auto;
 }
@@ -718,6 +788,21 @@ h1 {
 
   .encyclopedia-detail-body {
     gap: 12px;
+  }
+
+  .encyclopedia-specs-panel {
+    gap: 12px;
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .encyclopedia-specs-list {
+    gap: 10px;
+  }
+
+  .encyclopedia-spec-item dd,
+  .encyclopedia-compare-text {
+    font-size: 0.92rem;
   }
 
   .score-text {

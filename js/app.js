@@ -42,6 +42,19 @@ export function createApp({
     encyclopediaDetailDescription: document.querySelector(
       "[data-encyclopedia-detail-description]",
     ),
+    encyclopediaSpecsPanel: document.querySelector("[data-encyclopedia-specs-panel]"),
+    encyclopediaDetailRoute: document.querySelector("[data-encyclopedia-detail-route]"),
+    encyclopediaDetailFeature: document.querySelector("[data-encyclopedia-detail-feature]"),
+    encyclopediaDetailSpeed: document.querySelector("[data-encyclopedia-detail-speed]"),
+    encyclopediaDetailCompare: document.querySelector(
+      "[data-encyclopedia-detail-compare]",
+    ),
+    encyclopediaDetailCompareLabel: document.querySelector(
+      "[data-encyclopedia-detail-compare-label]",
+    ),
+    encyclopediaDetailCompareText: document.querySelector(
+      "[data-encyclopedia-detail-compare-text]",
+    ),
     encyclopediaDetailCredit: document.querySelector(
       "[data-encyclopedia-detail-credit]",
     ),
@@ -201,6 +214,44 @@ export function createApp({
     setView("encyclopedia-list");
   }
 
+  function hideEncyclopediaSpecs() {
+    elements.encyclopediaSpecsPanel.hidden = true;
+    elements.encyclopediaDetailRoute.textContent = "";
+    elements.encyclopediaDetailFeature.textContent = "";
+    elements.encyclopediaDetailSpeed.textContent = "";
+    elements.encyclopediaDetailCompare.hidden = true;
+    elements.encyclopediaDetailCompareLabel.textContent = "";
+    elements.encyclopediaDetailCompareText.textContent = "";
+  }
+
+  function renderEncyclopediaSpecs(train) {
+    const details = train.encyclopedia;
+    if (!details) {
+      hideEncyclopediaSpecs();
+      return;
+    }
+
+    elements.encyclopediaSpecsPanel.hidden = false;
+    elements.encyclopediaDetailRoute.textContent = details.routeSummary;
+    elements.encyclopediaDetailFeature.textContent = details.featureSummary;
+    elements.encyclopediaDetailSpeed.textContent = `${details.speedLabel} / ${details.topSpeedKmh} km/h`;
+
+    if (!details.comparison) {
+      elements.encyclopediaDetailCompare.hidden = true;
+      elements.encyclopediaDetailCompareLabel.textContent = "";
+      elements.encyclopediaDetailCompareText.textContent = "";
+      return;
+    }
+
+    const otherTrain = state.trains.find(
+      (entry) => entry.id === details.comparison.otherTrainId,
+    );
+    const otherLabel = otherTrain?.displayName ?? details.comparison.otherTrainId;
+    elements.encyclopediaDetailCompare.hidden = false;
+    elements.encyclopediaDetailCompareLabel.textContent = `${otherLabel} との ちがい`;
+    elements.encyclopediaDetailCompareText.textContent = details.comparison.summary;
+  }
+
   function showEncyclopediaDetail(trainId) {
     const train = state.trains.find((entry) => entry.id === trainId);
     if (!train) {
@@ -212,6 +263,7 @@ export function createApp({
     elements.encyclopediaDetailImage.src = train.imageUrl;
     elements.encyclopediaDetailImage.alt = `${train.displayName} のしゃしん`;
     elements.encyclopediaDetailDescription.textContent = train.descriptionShort;
+    renderEncyclopediaSpecs(train);
     renderReferences(
       {
         credit: elements.encyclopediaDetailCredit,

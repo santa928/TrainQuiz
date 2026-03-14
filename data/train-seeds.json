@@ -8,7 +8,17 @@
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E5系・H5系電車",
     "wikipediaQuery": "E5系新幹線",
-    "descriptionShort": "ながい はなで、とうほく と ほっかいどうを はしる はやぶさ"
+    "descriptionShort": "ながい はなで、とうほく と ほっかいどうを はしる はやぶさ",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から しんあおもり・しんはこだてほくと ほうめん",
+      "featureSummary": "みどり の しゃたい と、320キロで はしる ながい はな",
+      "speedLabel": "とても はやい",
+      "topSpeedKmh": 320,
+      "comparison": {
+        "otherTrainId": "h5-hayabusa",
+        "summary": "H5けい は JRほっかいどう の くるまで、ふじいろ の せん が ある"
+      }
+    }
   },
   {
     "id": "e6-komachi",
@@ -63,7 +73,17 @@
     "operator": "JR北海道",
     "wikipediaTitle": "新幹線E5系・H5系電車",
     "wikipediaQuery": "H5系新幹線",
-    "descriptionShort": "ふじいろ の せんがあり、JRほっかいどう の はやぶさ"
+    "descriptionShort": "ふじいろ の せんがあり、JRほっかいどう の はやぶさ",
+    "encyclopedia": {
+      "routeSummary": "しんあおもり から しんはこだてほくと ほうめん",
+      "featureSummary": "E5けい に にているが、JRほっかいどう の はやぶさ",
+      "speedLabel": "とても はやい",
+      "topSpeedKmh": 320,
+      "comparison": {
+        "otherTrainId": "e5-hayabusa",
+        "summary": "E5けい は JRひがしにほん の くるまで、みどり が もっと めだつ"
+      }
+    }
   },
   {
     "id": "500-nozomi",
@@ -203,7 +223,17 @@
     "operator": "名古屋鉄道",
     "wikipediaTitle": "名鉄2000系電車",
     "wikipediaQuery": "名鉄2000系電車",
-    "descriptionShort": "そらいろ と しろで、ちゅうぶこくさいくうこう へ むかう とっきゅう"
+    "descriptionShort": "そらいろ と しろで、ちゅうぶこくさいくうこう へ むかう とっきゅう",
+    "encyclopedia": {
+      "routeSummary": "なごや ほうめん から ちゅうぶこくさいくうこう",
+      "featureSummary": "ぜんぶ とくべつしゃ の 4りょうへんせい",
+      "speedLabel": "はやい",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "blue-mu-sky-130th",
+        "summary": "ブルーミュースカイ は 130しゅうねん きねんで、あお と しろ が ぎゃく"
+      }
+    }
   },
   {
     "id": "haruka-281",
@@ -247,7 +277,17 @@
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E235系電車",
     "wikipediaQuery": "E235系電車",
-    "descriptionShort": "みどり の ラインで、やまのてせん を ぐるっと はしる でんしゃ"
+    "descriptionShort": "みどり の ラインで、やまのてせん を ぐるっと はしる でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "とうきょう の まんなか を 1しゅう する やまのてせん",
+      "featureSummary": "おおきな まど と あたらしい しくみを もつ つうきんでんしゃ",
+      "speedLabel": "まちで はしる はやさ",
+      "topSpeedKmh": 90,
+      "comparison": {
+        "otherTrainId": "e235-yokosuka",
+        "summary": "よこすかせん の E235けい は こんいろ で、ながい きょりを はしる"
+      }
+    }
   },
   {
     "id": "e231-near",
@@ -351,7 +391,17 @@
     "operator": "JR貨物",
     "wikipediaTitle": "JR貨物EH500形電気機関車",
     "wikipediaQuery": "EH500形電気機関車",
-    "descriptionShort": "3つの でんきに あわせて、かもつ を ひく きんたろう"
+    "descriptionShort": "3つの でんきに あわせて、かもつ を ひく きんたろう",
+    "encyclopedia": {
+      "routeSummary": "とうほくせん・じょうばんせん・さんようせん・かごしまほんせん",
+      "featureSummary": "こうりゅう と ちょくりゅう の りょうほうで はしれる きかんしゃ",
+      "speedLabel": "はやい きかんしゃ",
+      "topSpeedKmh": 110,
+      "comparison": {
+        "otherTrainId": "ef210-momotaro",
+        "summary": "EF210 は ちょくりゅう せんく ようで、からだ が もっと みじかい"
+      }
+    }
   },
   {
     "id": "ef210-momotaro",
@@ -362,7 +412,17 @@
     "operator": "JR貨物",
     "wikipediaTitle": "JR貨物EF210形電気機関車",
     "wikipediaQuery": "EF210形電気機関車",
-    "descriptionShort": "ももたろう の あだなで、あおい からだの かもつ きかんしゃ"
+    "descriptionShort": "ももたろう の あだなで、あおい からだの かもつ きかんしゃ",
+    "encyclopedia": {
+      "routeSummary": "とうほくせん・たかさきせん・とうかいどうせん・さんようせん・よさんせん",
+      "featureSummary": "JRかもつ の しゅりょく の でんききかんしゃ",
+      "speedLabel": "はやい きかんしゃ",
+      "topSpeedKmh": 110,
+      "comparison": {
+        "otherTrainId": "eh500-kintaro",
+        "summary": "EH500 は こうちょくりょうよう で、とうほく や かごしま ほうめん でも はしる"
+      }
+    }
   },
   {
     "id": "ef510-red-thunder",
@@ -373,7 +433,17 @@
     "operator": "JR貨物 / JR東日本",
     "wikipediaTitle": "JR貨物EF510形電気機関車",
     "wikipediaQuery": "EF510形電気機関車",
-    "descriptionShort": "レッドサンダー の あだなで、あかい いろが めだつ きかんしゃ"
+    "descriptionShort": "レッドサンダー の あだなで、あかい いろが めだつ きかんしゃ",
+    "encyclopedia": {
+      "routeSummary": "にほんかいがわ や しゅとけん ほうめん の かもつ せんく",
+      "featureSummary": "あかい からだ と レッドサンダー の なまえが めじるし",
+      "speedLabel": "はやい きかんしゃ",
+      "topSpeedKmh": 110,
+      "comparison": {
+        "otherTrainId": "ef210-momotaro",
+        "summary": "EF210 は あおい からだで、ちょくりゅう せんく を ちゅうしんに はしる"
+      }
+    }
   },
   {
     "id": "ef66",
@@ -395,7 +465,17 @@
     "operator": "JR西日本",
     "wikipediaTitle": "国鉄D51形蒸気機関車",
     "wikipediaQuery": "D51形蒸気機関車",
-    "descriptionShort": "デゴイチ と よばれ、ちからづよく きしゃ を ひく SL"
+    "descriptionShort": "デゴイチ と よばれ、ちからづよく きしゃ を ひく SL",
+    "encyclopedia": {
+      "routeSummary": "SLやまぐちごう など かんこうれっしゃ で かつやく",
+      "featureSummary": "デゴイチ と よばれる、ちからもち の SL",
+      "speedLabel": "SL として はやい",
+      "topSpeedKmh": 85,
+      "comparison": {
+        "otherTrainId": "c57-yamaguchi",
+        "summary": "C57 は すらっと みえる きふじん で、たびきゃく れっしゃむき"
+      }
+    }
   },
   {
     "id": "c61-20",
@@ -406,7 +486,13 @@
     "operator": "JR東日本",
     "wikipediaTitle": "国鉄C61形蒸気機関車",
     "wikipediaQuery": "C61形蒸気機関車",
-    "descriptionShort": "D51 の ボイラーから うまれた、きゅうこう れっしゃ の SL"
+    "descriptionShort": "D51 の ボイラーから うまれた、きゅうこう れっしゃ の SL",
+    "encyclopedia": {
+      "routeSummary": "ぐんま ほうめん の SLれっしゃ で かつやく",
+      "featureSummary": "D51 の ボイラーから うまれた、たびきゃく れっしゃむき の SL",
+      "speedLabel": "SL として はやい",
+      "topSpeedKmh": 100
+    }
   },
   {
     "id": "c57-yamaguchi",
@@ -417,7 +503,17 @@
     "operator": "JR西日本",
     "wikipediaTitle": "国鉄C57形蒸気機関車",
     "wikipediaQuery": "C57形蒸気機関車",
-    "descriptionShort": "きふじん と よばれ、SLやまぐちごう を ひく SL"
+    "descriptionShort": "きふじん と よばれ、SLやまぐちごう を ひく SL",
+    "encyclopedia": {
+      "routeSummary": "しんやまぐち から つわの ほうめん の SLやまぐちごう",
+      "featureSummary": "きふじん と よばれる、すらっと した すがた の SL",
+      "speedLabel": "SL として はやい",
+      "topSpeedKmh": 100,
+      "comparison": {
+        "otherTrainId": "d51-200",
+        "summary": "D51 は もっと ごつくて、デゴイチ の あだなで しられる"
+      }
+    }
   },
   {
     "id": "n700a",
@@ -637,7 +733,17 @@
     "operator": "名古屋鉄道",
     "wikipediaTitle": "名鉄2000系電車",
     "commonsFileTitle": "File:名鉄2000系電車（2003F） ブルーミュースカイ.jpg",
-    "descriptionShort": "あお と しろ を いれかえた、130しゅうねん きねん の ミュースカイ"
+    "descriptionShort": "あお と しろ を いれかえた、130しゅうねん きねん の ミュースカイ",
+    "encyclopedia": {
+      "routeSummary": "ミュースカイ と おなじ くうこう ほうめん",
+      "featureSummary": "めいてつ 130しゅうねん の きねん ぬりわけ",
+      "speedLabel": "はやい",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "meitetsu-mu-sky",
+        "summary": "ふつう の ミュースカイ は しろ が おおく、いつもの ぬりわけ"
+      }
+    }
   },
   {
     "id": "e235-yokosuka",
@@ -648,7 +754,17 @@
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E235系電車",
     "commonsFileTitle": "File:E235 YokosukaLine.jpg",
-    "descriptionShort": "こんいろ の いろで、よこすかせん と そうぶかいそく を はしる"
+    "descriptionShort": "こんいろ の いろで、よこすかせん と そうぶかいそく を はしる",
+    "encyclopedia": {
+      "routeSummary": "とうきょう から よこすか・ちば ほうめん",
+      "featureSummary": "やまのてせん と おなじ E235けい でも、ながい きょりよう の でんしゃ",
+      "speedLabel": "はやめ",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "e235-yamanote",
+        "summary": "やまのてせん の E235けい は みどり の ラインで、まちなか を 1しゅう する"
+      }
+    }
   },
   {
     "id": "e233-chuo-green",
