@@ -49,7 +49,7 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
-    "wikipediaQuery": "E3系新幹線",
+    "commonsFileTitle": "File:Series-E3-1000 L53 Tsubasa.jpg",
     "descriptionShort": "やまがたへ いく ミニしんかんせん の つばさ",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
@@ -104,7 +104,7 @@
     "category": "shinkansen",
     "operator": "JR北海道",
     "wikipediaTitle": "新幹線E5系・H5系電車",
-    "wikipediaQuery": "H5系新幹線",
+    "commonsFileTitle": "File:JRH Series-H5 H1.jpg",
     "descriptionShort": "ふじいろ の せんがあり、JRほっかいどう の はやぶさ",
     "encyclopedia": {
       "routeSummary": "しんあおもり から しんはこだてほくと ほうめん",
@@ -850,17 +850,17 @@
   },
   {
     "id": "e657-hitachi-yellow",
-    "displayName": "E657系特急ひたち 黄色",
-    "canonicalName": "E657系ひたち黄色",
+    "displayName": "E657系特急ひたち",
+    "canonicalName": "E657系ひたち",
     "productName": "S-19 E657系特急ひたち（リバイバルカラー黄色）",
     "category": "limited_express",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E657系電車",
-    "commonsFileTitle": "File:JRE Series-E657-K12 Hitachi-6.jpg",
-    "descriptionShort": "きいろい ラッピングで、ひたち として じょうばんせん を はしる",
+    "commonsFileTitle": "File:Series-E657-K19 Hitachi-20.jpg",
+    "descriptionShort": "しろい しゃたいに あかい ラインで、ひたち として じょうばんせん を はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう・うえの から みと・いわき ほうめん",
-      "featureSummary": "きいろい ラッピング の E657けい ひたち",
+      "featureSummary": "しろい しゃたい と あかい ライン の E657けい ひたち",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
     }
@@ -996,7 +996,7 @@
     "category": "shinkansen",
     "operator": "JR西日本",
     "wikipediaTitle": "新幹線500系電車",
-    "commonsFileTitle": "File:Shinkansen 500 Hello Kitty at Nishi-Akashi Station 2019-11-15 (49765227723).jpg",
+    "commonsFileTitle": "File:Hello Kitty Shinkansen in Shin-Shimonoseki.jpg",
     "descriptionShort": "ハローキティ の えが ついて、さんようしんかんせん を はしる",
     "encyclopedia": {
       "routeSummary": "しんおおさか から はかた ほうめん の さんようしんかんせん",
@@ -1022,40 +1022,6 @@
     "encyclopedia": {
       "routeSummary": "てんのうじ・しんおおさか から しらはま・しんぐう ほうめん",
       "featureSummary": "パンダ の かお を えがいた くろしお ラッピング",
-      "topSpeedKmh": 130,
-      "speedLabel": "はやい"
-    }
-  },
-  {
-    "id": "keihan-thomas",
-    "displayName": "京阪13000系きかんしゃトーマス号",
-    "canonicalName": "京阪13000系きかんしゃトーマス号",
-    "productName": "S-59 京阪電車13000系きかんしゃトーマス号",
-    "category": "commuter",
-    "operator": "京阪電気鉄道",
-    "wikipediaTitle": "京阪13000系電車",
-    "commonsFileTitle": "File:京阪13000系7両.jpg",
-    "descriptionShort": "トーマス の ラッピングで、けいはん の せんろを はしる",
-    "encyclopedia": {
-      "routeSummary": "よどやばし・なかのしま から ひらかた・でまちやなぎ ほうめん",
-      "featureSummary": "きかんしゃトーマス の なかまたち を えがいた ラッピング",
-      "topSpeedKmh": 110,
-      "speedLabel": "まちで はしる はやさ"
-    }
-  },
-  {
-    "id": "pikmin-train",
-    "displayName": "JR九州 ピクミントレイン",
-    "canonicalName": "ピクミントレイン",
-    "productName": "JR九州 ピクミントレイン",
-    "category": "limited_express",
-    "operator": "JR九州",
-    "wikipediaTitle": "JR九州885系電車",
-    "commonsFileTitle": "File:L Nippo 885.jpg",
-    "descriptionShort": "ピクミン の ラッピングで、JRきゅうしゅう の とっきゅう として はしる",
-    "encyclopedia": {
-      "routeSummary": "はかた から おおいた・みやざき ほうめん など JRきゅうしゅう の とっきゅう",
-      "featureSummary": "ピクミン の なかまたち を えがいた 885けい の ラッピング",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
     }
@@ -1104,13 +1070,13 @@
   },
   {
     "id": "e233-chuo-green",
-    "displayName": "E233系中央線 グリーン車",
-    "canonicalName": "E233系中央線グリーン車",
+    "displayName": "E233系中央線",
+    "canonicalName": "E233系中央線",
     "productName": "S-30 E233系中央線（2階建てグリーン車）",
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E233系電車",
-    "commonsFileTitle": "File:JRE Series-E233-0 4-Green-cars.jpg",
+    "commonsFileTitle": "File:JR East Series E233 with green cars approaching Chuo Line Musashi-Sakai Station.jpg",
     "descriptionShort": "グリーンしゃ を つないで、ちゅうおうせん を はしる E233けい",
     "encyclopedia": {
       "routeSummary": "とうきょう から たちかわ・はちおうじ ほうめん の ちゅうおうせん",
@@ -1231,27 +1197,6 @@
         "summary": "さいきょうせん の 103けい は みどり の ライン で はしっていた"
       },
       "speedLabel": "まちで はしる はやさ"
-    }
-  },
-  {
-    "id": "e3-tsubasa-2000-renewal",
-    "displayName": "E3系新幹線つばさ2000番代リニューアルカラー",
-    "canonicalName": "E3系2000番代リニューアルカラー",
-    "productName": "ありがとう！E3系新幹線つばさ2000番代リニューアルカラー（連結仕様）",
-    "category": "shinkansen",
-    "operator": "JR東日本",
-    "wikipediaTitle": "新幹線E3系電車",
-    "commonsFileTitle": "File:JR-East E3-2000 L63 Tokyo Station 20221116.jpg",
-    "descriptionShort": "あたらしい ぬりわけで、やまがたしんかんせん を はしる つばさ",
-    "encyclopedia": {
-      "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
-      "featureSummary": "あたらしい ぬりわけ に かわった つばさ 2000ばんだい",
-      "topSpeedKmh": 275,
-      "comparison": {
-        "otherTrainId": "e3-tsubasa-2000",
-        "summary": "ふつう の 2000ばんだい は まえ の ぬりわけ で はしる"
-      },
-      "speedLabel": "はやい"
     }
   }
 ]

@@ -8,6 +8,8 @@ const trains = JSON.parse(
 const seeds = JSON.parse(
   readFileSync(new URL("../data/train-seeds.json", import.meta.url), "utf8"),
 );
+const normalizeCommonsSource = (url) =>
+  decodeURIComponent(url).replaceAll("_", " ");
 
 test("train data contains the minimum required fields", () => {
   assert.ok(Array.isArray(trains));
@@ -103,4 +105,62 @@ test("encyclopedia fields stay in sync between train seeds and published data", 
       seedEncyclopedia.get(train.id),
     );
   }
+});
+
+test("issue 6 image overrides keep the intended train variants", () => {
+  const byId = new Map(trains.map((train) => [train.id, train]));
+  const h5Hayabusa = byId.get("h5-hayabusa");
+  const e5Hayabusa = byId.get("e5-hayabusa");
+  const e3Tsubasa = byId.get("e3-tsubasa");
+  const e3Tsubasa2000 = byId.get("e3-tsubasa-2000");
+  const helloKitty = byId.get("hello-kitty-shinkansen");
+
+  assert.ok(h5Hayabusa);
+  assert.ok(e5Hayabusa);
+  assert.ok(e3Tsubasa);
+  assert.ok(e3Tsubasa2000);
+  assert.ok(helloKitty);
+
+  assert.notEqual(h5Hayabusa.imageSourceUrl, e5Hayabusa.imageSourceUrl);
+  assert.match(
+    normalizeCommonsSource(h5Hayabusa.imageSourceUrl),
+    /File:JRH Series-H5 H1\.jpg$/,
+  );
+  assert.match(
+    normalizeCommonsSource(e3Tsubasa.imageSourceUrl),
+    /File:Series-E3-1000 L53 Tsubasa\.jpg$/,
+  );
+  assert.match(
+    normalizeCommonsSource(e3Tsubasa2000.imageSourceUrl),
+    /File:E3-2000-L67-of-Yamagata-Shinkansen\.jpg$/,
+  );
+  assert.match(
+    normalizeCommonsSource(helloKitty.imageSourceUrl),
+    /File:Hello Kitty Shinkansen in Shin-Shimonoseki\.jpg$/,
+  );
+});
+
+test("issue 6 naming cleanup is reflected in published data", () => {
+  const byId = new Map(trains.map((train) => [train.id, train]));
+  const e657Hitachi = byId.get("e657-hitachi-yellow");
+  const e233Chuo = byId.get("e233-chuo-green");
+
+  assert.ok(e657Hitachi);
+  assert.ok(e233Chuo);
+  assert.equal(e657Hitachi.displayName, "E657系特急ひたち");
+  assert.equal(e657Hitachi.canonicalName, "E657系ひたち");
+  assert.match(
+    normalizeCommonsSource(e657Hitachi.imageSourceUrl),
+    /File:Series-E657-K19 Hitachi-20\.jpg$/,
+  );
+  assert.equal(e233Chuo.displayName, "E233系中央線");
+  assert.equal(e233Chuo.canonicalName, "E233系中央線");
+  assert.equal(byId.has("e3-tsubasa-2000-renewal"), false);
+});
+
+test("issue 6 removes wrap-train questions when no wrap image is available", () => {
+  const byId = new Map(trains.map((train) => [train.id, train]));
+
+  assert.equal(byId.has("keihan-thomas"), false);
+  assert.equal(byId.has("pikmin-train"), false);
 });
