@@ -33,6 +33,9 @@ export function createApp({
     encyclopediaDetailBackButton: document.querySelector(
       "[data-encyclopedia-detail-back-button]",
     ),
+    encyclopediaDetailImagePanel: document.querySelector(
+      "[data-encyclopedia-detail-image-panel]",
+    ),
     encyclopediaDetailTitle: document.querySelector(
       "[data-encyclopedia-detail-title]",
     ),
@@ -105,6 +108,23 @@ export function createApp({
     target.credit.textContent = `しゃしん: ${train.imageAuthor} / ${train.imageLicense}`;
     target.sourceLink.href = train.imageSourceUrl;
     target.articleLink.href = train.wikipediaUrl;
+  }
+
+  function renderPanelImage(panel, image, { src, alt }) {
+    panel.dataset.loaded = "false";
+    image.alt = alt;
+    image.addEventListener(
+      "load",
+      () => {
+        panel.dataset.loaded = "true";
+      },
+      { once: true },
+    );
+    image.src = src;
+
+    if (image.complete && image.naturalWidth !== 0) {
+      panel.dataset.loaded = "true";
+    }
   }
 
   function showFeedback({ tone, text }) {
@@ -260,8 +280,10 @@ export function createApp({
 
     state.selectedTrainId = train.id;
     elements.encyclopediaDetailTitle.textContent = train.displayName;
-    elements.encyclopediaDetailImage.src = train.imageUrl;
-    elements.encyclopediaDetailImage.alt = `${train.displayName} のしゃしん`;
+    renderPanelImage(elements.encyclopediaDetailImagePanel, elements.encyclopediaDetailImage, {
+      src: train.imageUrl,
+      alt: `${train.displayName} のしゃしん`,
+    });
     elements.encyclopediaDetailDescription.textContent = train.descriptionShort;
     renderEncyclopediaSpecs(train);
     renderReferences(
@@ -285,16 +307,10 @@ export function createApp({
 
     const { answer, choices, prompt } = state.currentQuestion;
     elements.title.textContent = prompt;
-    elements.image.src = answer.imageUrl;
-    elements.image.alt = `${answer.displayName} のしゃしん`;
-    elements.imageWrap.dataset.loaded = "false";
-    elements.image.addEventListener(
-      "load",
-      () => {
-        elements.imageWrap.dataset.loaded = "true";
-      },
-      { once: true },
-    );
+    renderPanelImage(elements.imageWrap, elements.image, {
+      src: answer.imageUrl,
+      alt: `${answer.displayName} のしゃしん`,
+    });
 
     elements.choices.replaceChildren(
       ...choices.map((choice, index) => createChoiceButton(choice, index)),

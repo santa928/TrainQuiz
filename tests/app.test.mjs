@@ -92,6 +92,7 @@ function createDocument() {
     encyclopediaCount: new FakeElement("p"),
     encyclopediaBackButton: new FakeElement("button"),
     encyclopediaDetailBackButton: new FakeElement("button"),
+    encyclopediaDetailImagePanel: new FakeElement("div"),
     encyclopediaDetailTitle: new FakeElement("h1"),
     encyclopediaDetailImage: new FakeElement("img"),
     encyclopediaDetailDescription: new FakeElement("p"),
@@ -141,6 +142,7 @@ function createDocument() {
     ["[data-encyclopedia-count]", elements.encyclopediaCount],
     ["[data-encyclopedia-back-button]", elements.encyclopediaBackButton],
     ["[data-encyclopedia-detail-back-button]", elements.encyclopediaDetailBackButton],
+    ["[data-encyclopedia-detail-image-panel]", elements.encyclopediaDetailImagePanel],
     ["[data-encyclopedia-detail-title]", elements.encyclopediaDetailTitle],
     ["[data-encyclopedia-detail-image]", elements.encyclopediaDetailImage],
     ["[data-encyclopedia-detail-description]", elements.encyclopediaDetailDescription],
@@ -281,9 +283,11 @@ test("図鑑一覧のカードを押すと詳細が表示され、もどるで�
   await app.bootstrap();
   elements.encyclopediaButton.click();
   elements.encyclopediaList.children[0].click();
+  elements.encyclopediaDetailImage.dispatch("load");
 
   assert.equal(elements.encyclopediaListScreen.hidden, true);
   assert.equal(elements.encyclopediaDetailScreen.hidden, false);
+  assert.equal(elements.encyclopediaDetailImagePanel.dataset.loaded, "true");
   assert.equal(elements.encyclopediaDetailTitle.textContent, "はやぶさ");
   assert.equal(elements.encyclopediaDetailDescription.textContent, "はやい しんかんせん");
   assert.equal(elements.encyclopediaDetailImage.src, "https://example.com/hayabusa.png");
