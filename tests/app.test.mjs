@@ -180,8 +180,8 @@ function createFetchStub(trains) {
   });
 }
 
-function createHarness() {
-  const trains = [
+function createHarness({ trains: customTrains } = {}) {
+  const trains = customTrains ?? [
     {
       id: "train-a",
       displayName: "はやぶさ",
@@ -275,6 +275,79 @@ test("タイトル画面の ずかん を押すと図鑑一覧が表示される
   assert.equal(elements.encyclopediaDetailScreen.hidden, true);
   assert.equal(elements.encyclopediaList.children.length, 2);
   assert.equal(elements.encyclopediaCount.textContent, "2 しゅるい");
+});
+
+test("図鑑一覧では同じ表示名の別商品を重複表示しない", async () => {
+  const duplicateTrains = [
+    {
+      id: "train-a",
+      displayName: "はやぶさ",
+      canonicalName: "E5系",
+      category: "shinkansen",
+      operator: "JR東日本",
+      descriptionShort: "はやい しんかんせん",
+      encyclopedia: {
+        routeSummary: "とうきょう から ほっかいどう ほうめん",
+        featureSummary: "ながい はな と みどり の しゃたい",
+        speedLabel: "とても はやい",
+        topSpeedKmh: 320,
+      },
+      imageUrl: "https://example.com/hayabusa.png",
+      imageAuthor: "author",
+      imageLicense: "license",
+      imageSourceUrl: "https://example.com/source-a",
+      wikipediaUrl: "https://example.com/article-a",
+    },
+    {
+      id: "train-b",
+      displayName: "こまち",
+      canonicalName: "E6系",
+      category: "shinkansen",
+      operator: "JR東日本",
+      descriptionShort: "あかい しんかんせん",
+      encyclopedia: {
+        routeSummary: "とうきょう から あきた ほうめん",
+        featureSummary: "あかい しゃたい の ミニしんかんせん",
+        speedLabel: "とても はやい",
+        topSpeedKmh: 320,
+      },
+      imageUrl: "https://example.com/komachi.png",
+      imageAuthor: "author",
+      imageLicense: "license",
+      imageSourceUrl: "https://example.com/source-b",
+      wikipediaUrl: "https://example.com/article-b",
+    },
+    {
+      id: "train-c",
+      displayName: "はやぶさ",
+      canonicalName: "E5系はやぶさ",
+      category: "shinkansen",
+      operator: "JR東日本",
+      descriptionShort: "べつ しょうひん の はやぶさ",
+      encyclopedia: {
+        routeSummary: "とうきょう から ほっかいどう ほうめん",
+        featureSummary: "そくど ちぇんじ ばん",
+        speedLabel: "とても はやい",
+        topSpeedKmh: 320,
+      },
+      imageUrl: "https://example.com/hayabusa-2.png",
+      imageAuthor: "author",
+      imageLicense: "license",
+      imageSourceUrl: "https://example.com/source-c",
+      wikipediaUrl: "https://example.com/article-c",
+    },
+  ];
+  const { app, elements } = createHarness({ trains: duplicateTrains });
+
+  await app.bootstrap();
+  elements.encyclopediaButton.click();
+
+  assert.equal(elements.encyclopediaList.children.length, 2);
+  assert.equal(elements.encyclopediaCount.textContent, "2 しゅるい");
+  assert.deepEqual(
+    elements.encyclopediaList.children.map((child) => child.children[1].textContent),
+    ["はやぶさ", "こまち"],
+  );
 });
 
 test("図鑑一覧のカードを押すと詳細が表示され、もどるで一覧へ戻れる", async () => {

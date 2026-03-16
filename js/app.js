@@ -222,10 +222,25 @@ export function createApp({
     return button;
   }
 
+  function getEncyclopediaTrains() {
+    const seenDisplayNames = new Set();
+
+    return state.trains.filter((train) => {
+      if (seenDisplayNames.has(train.displayName)) {
+        return false;
+      }
+
+      seenDisplayNames.add(train.displayName);
+      return true;
+    });
+  }
+
   function renderEncyclopediaList() {
-    elements.encyclopediaCount.textContent = `${state.trains.length} しゅるい`;
+    const encyclopediaTrains = getEncyclopediaTrains();
+
+    elements.encyclopediaCount.textContent = `${encyclopediaTrains.length} しゅるい`;
     elements.encyclopediaList.replaceChildren(
-      ...state.trains.map((train, index) => createEncyclopediaCard(train, index)),
+      ...encyclopediaTrains.map((train, index) => createEncyclopediaCard(train, index)),
     );
   }
 

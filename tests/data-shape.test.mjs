@@ -164,3 +164,19 @@ test("issue 6 removes wrap-train questions when no wrap image is available", () 
   assert.equal(byId.has("keihan-thomas"), false);
   assert.equal(byId.has("pikmin-train"), false);
 });
+
+test("tsubasa variants describe 1000 and 2000 series consistently", () => {
+  const byId = new Map(trains.map((train) => [train.id, train]));
+  const tsubasa1000 = byId.get("e3-tsubasa");
+  const tsubasa2000 = byId.get("e3-tsubasa-2000");
+
+  assert.ok(tsubasa1000);
+  assert.ok(tsubasa2000);
+  assert.equal(tsubasa1000.displayName, "E3系新幹線つばさ1000番台");
+  assert.equal(tsubasa1000.canonicalName, "E3系1000番代");
+  assert.match(tsubasa1000.descriptionShort, /1000ばんだい/);
+  assert.match(tsubasa1000.encyclopedia.featureSummary, /ぎんいろ|シルバー|ぎん/);
+  assert.match(tsubasa2000.descriptionShort, /2000ばんだい/);
+  assert.match(tsubasa2000.encyclopedia.featureSummary, /E5 と つなぐ/);
+  assert.match(tsubasa2000.encyclopedia.comparison.summary, /1000ばんだい|ぎんいろ|シルバー|ぎん/);
+});
