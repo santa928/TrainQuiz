@@ -128,11 +128,11 @@ test("issue 6 image overrides keep the intended train variants", () => {
   );
   assert.match(
     normalizeCommonsSource(e3Tsubasa.imageSourceUrl),
-    /File:Series-E3-1000 L53 Tsubasa\.jpg$/,
+    /File:Shinkansen-e3-tsubasa colour\.jpg$/,
   );
   assert.match(
     normalizeCommonsSource(e3Tsubasa2000.imageSourceUrl),
-    /File:E3-2000-L67-of-Yamagata-Shinkansen\.jpg$/,
+    /File:E3-2000 L67 Akayu Tsubasa 128 20150905\.jpg$/,
   );
   assert.match(
     normalizeCommonsSource(helloKitty.imageSourceUrl),
@@ -175,8 +175,18 @@ test("tsubasa variants describe 1000 and 2000 series consistently", () => {
   assert.equal(tsubasa1000.displayName, "E3系新幹線つばさ1000番台");
   assert.equal(tsubasa1000.canonicalName, "E3系1000番代");
   assert.match(tsubasa1000.descriptionShort, /1000ばんだい/);
-  assert.match(tsubasa1000.encyclopedia.featureSummary, /ぎんいろ|シルバー|ぎん/);
+  assert.match(
+    normalizeCommonsSource(tsubasa1000.imageSourceUrl),
+    /File:Shinkansen-e3-tsubasa colour\.jpg$/,
+  );
+  assert.match(tsubasa1000.descriptionShort, /ぎん|シルバー/);
+  assert.match(tsubasa1000.encyclopedia.featureSummary, /ぎん|シルバー/);
   assert.match(tsubasa2000.descriptionShort, /2000ばんだい/);
-  assert.match(tsubasa2000.encyclopedia.featureSummary, /E5 と つなぐ/);
-  assert.match(tsubasa2000.encyclopedia.comparison.summary, /1000ばんだい|ぎんいろ|シルバー|ぎん/);
+  assert.match(
+    normalizeCommonsSource(tsubasa2000.imageSourceUrl),
+    /File:E3-2000 L67 Akayu Tsubasa 128 20150905\.jpg$/,
+  );
+  assert.match(tsubasa2000.descriptionShort, /むらさき/);
+  assert.match(tsubasa2000.encyclopedia.featureSummary, /むらさき/);
+  assert.match(tsubasa2000.encyclopedia.comparison.summary, /1000ばんだい/);
 });

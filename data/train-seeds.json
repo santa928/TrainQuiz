@@ -49,15 +49,15 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
-    "commonsFileTitle": "File:Series-E3-1000 L53 Tsubasa.jpg",
+    "commonsFileTitle": "File:Shinkansen-e3-tsubasa colour.jpg",
     "descriptionShort": "1000ばんだい の つばさで、ぎんいろ ベース の しゃたいが めじるし",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
-      "featureSummary": "ぎんいろ ベース の しゃたいで、ざいらいせん にも はいる ミニしんかんせん",
+      "featureSummary": "ぎんいろ ベース の しゃたいに むらさき の ライン が はいった ミニしんかんせん",
       "topSpeedKmh": 275,
       "comparison": {
         "otherTrainId": "e3-tsubasa-2000",
-        "summary": "2000ばんだい は E5 と つなぐ ため せんとうしゃ の かお が かわっている"
+        "summary": "2000ばんだい は ぎんいろ ベース の シルバーカラーで、E5 と つなぐ ため かお が かわっている"
       },
       "speedLabel": "はやい"
     }
@@ -759,11 +759,11 @@
     "category": "shinkansen",
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
-    "commonsFileTitle": "File:E3-2000-L67-of-Yamagata-Shinkansen.jpg",
-    "descriptionShort": "2000ばんだい の つばさで、E5 と つなぐ ため かお が かわっている",
+    "commonsFileTitle": "File:E3-2000 L67 Akayu Tsubasa 128 20150905.jpg",
+    "descriptionShort": "2000ばんだい の つばさで、むらさき の ライン と かわった かお が めじるし",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
-      "featureSummary": "E5 と つなぐ ため せんとうしゃ の かお が かわった つばさ",
+      "featureSummary": "むらさき の ライン が はいり、E5 と つなぐ ため せんとうしゃ の かお が かわった つばさ",
       "topSpeedKmh": 275,
       "comparison": {
         "otherTrainId": "e3-tsubasa",

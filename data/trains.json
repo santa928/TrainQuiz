@@ -61,18 +61,18 @@
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
     "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE3%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Series-E3-1000_L53_Tsubasa.jpg",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E3-1000_L53_Tsubasa.jpg",
-    "imageLicense": "CC BY-SA 4.0",
-    "imageAuthor": "MaedaAkihiko",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Shinkansen-e3-tsubasa_colour.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen-e3-tsubasa_colour.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAuthor": "Sui-setz",
     "descriptionShort": "1000ばんだい の つばさで、ぎんいろ ベース の しゃたいが めじるし",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
-      "featureSummary": "ぎんいろ ベース の しゃたいで、ざいらいせん にも はいる ミニしんかんせん",
+      "featureSummary": "ぎんいろ ベース の しゃたいに むらさき の ライン が はいった ミニしんかんせん",
       "topSpeedKmh": 275,
       "comparison": {
         "otherTrainId": "e3-tsubasa-2000",
-        "summary": "2000ばんだい は E5 と つなぐ ため せんとうしゃ の かお が かわっている"
+        "summary": "2000ばんだい は ぎんいろ ベース の シルバーカラーで、E5 と つなぐ ため かお が かわっている"
       },
       "speedLabel": "はやい"
     }
@@ -943,14 +943,14 @@
     "operator": "JR東日本",
     "wikipediaTitle": "新幹線E3系電車",
     "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE3%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/E3-2000-L67-of-Yamagata-Shinkansen.jpg",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E3-2000-L67-of-Yamagata-Shinkansen.jpg",
-    "imageLicense": "CC BY-SA 3.0",
-    "imageAuthor": "Original uploader was Jet-0 at ja.wikipedia",
-    "descriptionShort": "2000ばんだい の つばさで、E5 と つなぐ ため かお が かわっている",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/E3-2000_L67_Akayu_Tsubasa_128_20150905.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E3-2000_L67_Akayu_Tsubasa_128_20150905.jpg",
+    "imageLicense": "CC BY 3.0",
+    "imageAuthor": "ttzshirasawa",
+    "descriptionShort": "2000ばんだい の つばさで、むらさき の ライン と かわった かお が めじるし",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
-      "featureSummary": "E5 と つなぐ ため せんとうしゃ の かお が かわった つばさ",
+      "featureSummary": "むらさき の ライン が はいり、E5 と つなぐ ため せんとうしゃ の かお が かわった つばさ",
       "topSpeedKmh": 275,
       "comparison": {
         "otherTrainId": "e3-tsubasa",
