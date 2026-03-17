@@ -188,5 +188,10 @@ test("tsubasa variants describe 1000 and 2000 series consistently", () => {
   );
   assert.match(tsubasa2000.descriptionShort, /むらさき/);
   assert.match(tsubasa2000.encyclopedia.featureSummary, /むらさき/);
+  assert.doesNotMatch(tsubasa2000.encyclopedia.featureSummary, /E5/);
+  assert.match(tsubasa2000.encyclopedia.featureSummary, /かお|ライト/);
   assert.match(tsubasa2000.encyclopedia.comparison.summary, /1000ばんだい/);
+  assert.doesNotMatch(tsubasa1000.encyclopedia.comparison.summary, /E5/);
+  assert.match(tsubasa1000.encyclopedia.comparison.summary, /むらさき/);
+  assert.match(tsubasa1000.encyclopedia.comparison.summary, /かお|ライト/);
 });

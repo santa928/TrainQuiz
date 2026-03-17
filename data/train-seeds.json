@@ -57,7 +57,7 @@
       "topSpeedKmh": 275,
       "comparison": {
         "otherTrainId": "e3-tsubasa-2000",
-        "summary": "2000ばんだい は ぎんいろ ベース の シルバーカラーで、E5 と つなぐ ため かお が かわっている"
+        "summary": "2000ばんだい は むらさき の ライン が あり、せんとうしゃ の ライト と かお が かわっている"
       },
       "speedLabel": "はやい"
     }
@@ -763,7 +763,7 @@
     "descriptionShort": "2000ばんだい の つばさで、むらさき の ライン と かわった かお が めじるし",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
-      "featureSummary": "むらさき の ライン が はいり、E5 と つなぐ ため せんとうしゃ の かお が かわった つばさ",
+      "featureSummary": "むらさき の ライン が はいり、せんとうしゃ の ライト と かお が かわった つばさ",
       "topSpeedKmh": 275,
       "comparison": {
         "otherTrainId": "e3-tsubasa",
