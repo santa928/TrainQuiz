@@ -195,3 +195,27 @@ test("tsubasa variants describe 1000 and 2000 series consistently", () => {
   assert.match(tsubasa1000.encyclopedia.comparison.summary, /むらさき/);
   assert.match(tsubasa1000.encyclopedia.comparison.summary, /かお|ライト/);
 });
+
+test("issue 9 adds the requested Keio train questions", () => {
+  const ids = new Set(trains.map((train) => train.id));
+
+  assert.equal(ids.has("keio-7000"), true);
+  assert.equal(ids.has("keio-8000"), true);
+  assert.equal(ids.has("keio-9000"), true);
+  assert.equal(ids.has("keio-2000"), true);
+  assert.equal(ids.has("keio-9000-takao"), true);
+});
+
+test("issue 9 treats keio-2000 as the 2026 model, not the retired first generation", () => {
+  const byId = new Map(trains.map((train) => [train.id, train]));
+  const keio2000 = byId.get("keio-2000");
+
+  assert.ok(keio2000);
+  assert.equal(keio2000.wikipediaTitle, "Keio 2000 series");
+  assert.match(
+    normalizeCommonsSource(keio2000.imageSourceUrl),
+    /File:Keio2000 2751 for Keio-Hachioji 20260201\.jpg$/,
+  );
+  assert.match(keio2000.descriptionShort, /ひだまり|あたらしい/);
+  assert.doesNotMatch(keio2000.descriptionShort, /むかし|ライトグリーン/);
+});

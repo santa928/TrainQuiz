@@ -248,17 +248,24 @@ def build_seed_record(seed: dict[str, Any], evidence_url: str) -> dict[str, Any]
 
 def build_dataset(seed_path: Path, output_path: Path) -> list[dict[str, Any]]:
     seeds = json.loads(seed_path.read_text(encoding="utf-8"))
-    evidence_html = normalize_text(fetch_text(EVIDENCE_URL))
     dataset = []
+    evidence_cache: dict[str, str] = {}
 
     for seed in seeds:
-        normalized_product = normalize_text(seed["productName"])
+        evidence_url = seed.get("productEvidenceUrl") or EVIDENCE_URL
+        evidence_text = seed.get("productEvidenceText") or seed["productName"]
+        evidence_html = evidence_cache.get(evidence_url)
+        if evidence_html is None:
+            evidence_html = normalize_text(fetch_text(evidence_url))
+            evidence_cache[evidence_url] = evidence_html
+
+        normalized_product = normalize_text(evidence_text)
         if normalized_product not in evidence_html:
             raise RuntimeError(
-                f"Product evidence not found on official page: {seed['productName']}"
+                f"Product evidence not found on source page: {evidence_text}"
             )
 
-        dataset.append(build_seed_record(seed, EVIDENCE_URL))
+        dataset.append(build_seed_record(seed, evidence_url))
 
     output_path.write_text(
         json.dumps(dataset, ensure_ascii=False, indent=2) + "\n",

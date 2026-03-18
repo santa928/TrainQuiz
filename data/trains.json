@@ -1166,6 +1166,136 @@
     }
   },
   {
+    "id": "keio-7000",
+    "displayName": "京王7000系",
+    "canonicalName": "京王7000系",
+    "productName": "京王7000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B7000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "category": "commuter",
+    "operator": "京王電鉄",
+    "wikipediaTitle": "京王7000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B7000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Keio-Series7000-7805.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series7000-7805.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "けいおう の まちの せんろで、ながく はしる ベテラン でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "しんじゅく から けいおうはちおうじ・たかおさんぐち ほうめん",
+      "featureSummary": "けいおうせん で ながく かつやくする ベテラン つうきんでんしゃ",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "keio-8000",
+        "summary": "8000けい は もっと あたらしく、かおつき が かわっている"
+      },
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "keio-8000",
+    "displayName": "京王8000系",
+    "canonicalName": "京王8000系",
+    "productName": "京王8000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "category": "commuter",
+    "operator": "京王電鉄",
+    "wikipediaTitle": "京王8000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Keio-Series8000.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series8000.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "まるみ の ある かおで、けいおうせん を はしる でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "しんじゅく から けいおうはちおうじ・たかおさんぐち ほうめん",
+      "featureSummary": "まるみ の ある せんとうしゃ で、けいおう の つうきん を ささえる",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "keio-7000",
+        "summary": "7000けい より あたらしく、かおつき が いんしょうてき"
+      },
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "keio-9000",
+    "displayName": "京王9000系",
+    "canonicalName": "京王9000系",
+    "productName": "京王9000系",
+    "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/info/special.htm",
+    "category": "commuter",
+    "operator": "京王電鉄",
+    "wikipediaTitle": "京王9000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B9000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Keio-Series9000-9701.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series9000-9701.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "しんじゅく から はしり、とえいしんじゅくせん に いく へんせい も ある",
+    "encyclopedia": {
+      "routeSummary": "けいおうせん と、へんせい によっては とえいしんじゅくせん",
+      "featureSummary": "けいおう の つうきん でんしゃ で、ちかてつ へのりいれる へんせい も ある",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "keio-9000-takao",
+        "summary": "たかおさんぐち ゆき は おなじ 9000けい でも いきさき ひょうじ が ちがう"
+      },
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "keio-2000",
+    "displayName": "京王2000系",
+    "canonicalName": "京王2000系",
+    "productName": "京王2000系",
+    "productEvidenceUrl": "https://www.keio.co.jp/news/update/news_release/news_all.html",
+    "category": "commuter",
+    "operator": "京王電鉄",
+    "wikipediaTitle": "Keio 2000 series",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Keio_2000_series",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Keio2000_2751_for_Keio-Hachioji_20260201.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio2000_2751_for_Keio-Hachioji_20260201.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAuthor": "Rsa",
+    "descriptionShort": "ひだまりスペース があり、けいおうせん を はしる あたらしい でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "けいおうせん と さがみはらせん を はしる あたらしい つうきんでんしゃ",
+      "featureSummary": "ロングシート と クロスシート を きりかえられ、ひだまりスペース も ある",
+      "topSpeedKmh": 130,
+      "comparison": {
+        "otherTrainId": "keio-7000",
+        "summary": "7000けい は これまでの ベテラン で、2000けい は 2026ねん に とうじょうした あたらしい けいしき"
+      },
+      "speedLabel": "はやい"
+    }
+  },
+  {
+    "id": "keio-9000-takao",
+    "displayName": "京王9000系高尾山口行き",
+    "canonicalName": "京王9000系高尾山口行き",
+    "productName": "京王9000系高尾山口行き",
+    "productEvidenceUrl": "https://github.com/santa928/TrainQuiz/issues/9",
+    "category": "commuter",
+    "operator": "京王電鉄",
+    "wikipediaTitle": "京王9000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B9000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/%E4%BA%AC%E7%8E%8B%E9%AB%98%E5%B0%BE%E7%B7%9A9000%E7%B3%BB%40Takao_Line_Hazama_Sta..JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%AC%E7%8E%8B%E9%AB%98%E5%B0%BE%E7%B7%9A9000%E7%B3%BB@Takao_Line_Hazama_Sta..JPG",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "Buncho794",
+    "descriptionShort": "たかおさんぐち ゆき の ひょうじで、たかおせん を はしる 9000けい",
+    "encyclopedia": {
+      "routeSummary": "たかおせん で たかおさんぐち ほうめん に むかう 9000けい",
+      "featureSummary": "おなじ 9000けい でも、いきさき ひょうじ が たかおさんぐち に なる",
+      "topSpeedKmh": 120,
+      "comparison": {
+        "otherTrainId": "keio-9000",
+        "summary": "ふつう の 9000けい と しゃたい は にている が、いきさき が ちがう"
+      },
+      "speedLabel": "はやめ"
+    }
+  },
+  {
     "id": "iyonada-monogatari",
     "displayName": "伊予灘ものがたり",
     "canonicalName": "伊予灘ものがたり",

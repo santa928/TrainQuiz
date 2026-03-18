@@ -161,6 +161,54 @@ class BuildSeedRecordTest(unittest.TestCase):
         self.assertEqual(record["imageLicense"], "CC BY-SA 4.0")
         self.assertEqual(record["imageAuthor"], "PQ Usui")
 
+    def test_build_dataset_uses_seed_product_evidence_overrides(self):
+        seeds = [
+            {
+                "id": "keio-9000-takao",
+                "displayName": "京王9000系高尾山口行き",
+                "canonicalName": "京王9000系高尾山口行き",
+                "productName": "京王9000系高尾山口行き",
+                "productEvidenceUrl": "https://example.com/issue-9",
+                "productEvidenceText": "高尾山口行き",
+                "category": "commuter",
+                "operator": "京王電鉄",
+            }
+        ]
+
+        def fake_build_seed_record(seed, evidence_url):
+            return {
+                "id": seed["id"],
+                "displayName": seed["displayName"],
+                "canonicalName": seed["canonicalName"],
+                "productName": seed["productName"],
+                "productEvidenceUrl": evidence_url,
+                "category": seed["category"],
+                "operator": seed["operator"],
+                "wikipediaTitle": seed["displayName"],
+                "wikipediaUrl": f"https://example.com/{seed['id']}",
+                "imageUrl": f"https://example.com/{seed['id']}.jpg",
+                "imageSourceUrl": f"https://commons.wikimedia.org/wiki/File:{seed['id']}.jpg",
+                "imageLicense": "CC BY 4.0",
+                "imageAuthor": "Example",
+                "descriptionShort": "",
+            }
+
+        with TemporaryDirectory() as temp_dir:
+            seed_path = Path(temp_dir) / "seed.json"
+            output_path = Path(temp_dir) / "trains.json"
+            seed_path.write_text(__import__("json").dumps(seeds, ensure_ascii=False), encoding="utf-8")
+
+            with (
+                patch("scripts.build_dataset.fetch_text") as fetch_text,
+                patch("scripts.build_dataset.build_seed_record", side_effect=fake_build_seed_record),
+            ):
+                fetch_text.return_value = seeds[0]["productEvidenceText"]
+                dataset = build_dataset(seed_path, output_path)
+
+        fetch_text.assert_called_once_with("https://example.com/issue-9")
+        self.assertEqual(dataset[0]["productEvidenceUrl"], "https://example.com/issue-9")
+        self.assertEqual(dataset[0]["productName"], "京王9000系高尾山口行き")
+
 
 if __name__ == "__main__":
     unittest.main()
