@@ -219,3 +219,12 @@ test("issue 9 treats keio-2000 as the 2026 model, not the retired first generati
   assert.match(keio2000.descriptionShort, /ひだまり|あたらしい/);
   assert.doesNotMatch(keio2000.descriptionShort, /むかし|ライトグリーン/);
 });
+
+test("issue 9 adds representative Toei subway train questions", () => {
+  const ids = new Set(trains.map((train) => train.id));
+
+  assert.equal(ids.has("toei-shinjuku-10-300"), true);
+  assert.equal(ids.has("toei-mita-6500"), true);
+  assert.equal(ids.has("toei-oedo-12-600"), true);
+  assert.equal(ids.has("toei-asakusa-5500"), true);
+});

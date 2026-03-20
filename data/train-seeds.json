@@ -1047,6 +1047,82 @@
     }
   },
   {
+    "id": "toei-shinjuku-10-300",
+    "displayName": "都営新宿線10-300形",
+    "canonicalName": "都営新宿線10-300形",
+    "productName": "都営新宿線10-300形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "productEvidenceText": "新宿線 10-300形",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局10-300形電車",
+    "commonsFileTitle": "File:Toei_Series10-300_10-450.jpg",
+    "descriptionShort": "みどり の ラインで、しんじゅくせん と けいおうせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "とえいしんじゅくせん を はしり、けいおうせん に のりいれる へんせい も ある",
+      "featureSummary": "10りょうへんせい の ながい でんしゃ で、みどり の ライン が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "toei-mita-6500",
+    "displayName": "都営三田線6500形",
+    "canonicalName": "都営三田線6500形",
+    "productName": "都営三田線6500形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "productEvidenceText": "三田線 6500形",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局6500形電車 (鉄道)",
+    "commonsFileTitle": "File:Toei_Series6500-6502.jpg",
+    "descriptionShort": "あたらしい 8りょうへんせい で、みたせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "みたせん を はしり、めぐろせん ほうめん に つながる",
+      "featureSummary": "8りょうへんせい の あたらしい でんしゃ で、あお の ライン が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "まちで はしる はやさ"
+    }
+  },
+  {
+    "id": "toei-oedo-12-600",
+    "displayName": "都営大江戸線12-600形",
+    "canonicalName": "都営大江戸線12-600形",
+    "productName": "都営大江戸線12-600形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "productEvidenceText": "大江戸線 12-600形",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局12-600形電車",
+    "commonsFileTitle": "File:Toei-subway12-600.jpg",
+    "descriptionShort": "ワインいろ と ピンク の ラインで、おおえどせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "おおえどせん の ぐるり と した ルート を はしる",
+      "featureSummary": "リニアモーター で はしる 8りょうへんせい で、ワインいろ の ライン が めじるし",
+      "topSpeedKmh": 70,
+      "speedLabel": "まちで はしる はやさ"
+    }
+  },
+  {
+    "id": "toei-asakusa-5500",
+    "displayName": "都営浅草線5500形",
+    "canonicalName": "都営浅草線5500形",
+    "productName": "都営浅草線5500形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "productEvidenceText": "浅草線 5500形",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局5500形電車 (鉄道)",
+    "commonsFileTitle": "File:Toei-Type5522-1.jpg",
+    "descriptionShort": "あさくさせん から けいせい や けいきゅう へ つながる",
+    "encyclopedia": {
+      "routeSummary": "あさくさせん を はしり、けいせい・けいきゅう ほうめん に つながる",
+      "featureSummary": "くまとり みたいな かおつき と、あかい ライン が めじるし",
+      "topSpeedKmh": 120,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
     "id": "iyonada-monogatari",
     "displayName": "伊予灘ものがたり",
     "canonicalName": "伊予灘ものがたり",

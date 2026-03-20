@@ -1296,6 +1296,94 @@
     }
   },
   {
+    "id": "toei-shinjuku-10-300",
+    "displayName": "都営新宿線10-300形",
+    "canonicalName": "都営新宿線10-300形",
+    "productName": "都営新宿線10-300形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局10-300形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%8010-300%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Toei_Series10-300_10-450.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei_Series10-300_10-450.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "みどり の ラインで、しんじゅくせん と けいおうせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "とえいしんじゅくせん を はしり、けいおうせん に のりいれる へんせい も ある",
+      "featureSummary": "10りょうへんせい の ながい でんしゃ で、みどり の ライン が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "toei-mita-6500",
+    "displayName": "都営三田線6500形",
+    "canonicalName": "都営三田線6500形",
+    "productName": "都営三田線6500形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局6500形電車 (鉄道)",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%806500%E5%BD%A2%E9%9B%BB%E8%BB%8A_(%E9%89%84%E9%81%93)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Toei_Series6500-6502.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei_Series6500-6502.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "あたらしい 8りょうへんせい で、みたせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "みたせん を はしり、めぐろせん ほうめん に つながる",
+      "featureSummary": "8りょうへんせい の あたらしい でんしゃ で、あお の ライン が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "まちで はしる はやさ"
+    }
+  },
+  {
+    "id": "toei-oedo-12-600",
+    "displayName": "都営大江戸線12-600形",
+    "canonicalName": "都営大江戸線12-600形",
+    "productName": "都営大江戸線12-600形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局12-600形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%8012-600%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Toei-subway12-600.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei-subway12-600.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAuthor": "Nyohoho",
+    "descriptionShort": "ワインいろ と ピンク の ラインで、おおえどせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "おおえどせん の ぐるり と した ルート を はしる",
+      "featureSummary": "リニアモーター で はしる 8りょうへんせい で、ワインいろ の ライン が めじるし",
+      "topSpeedKmh": 70,
+      "speedLabel": "まちで はしる はやさ"
+    }
+  },
+  {
+    "id": "toei-asakusa-5500",
+    "displayName": "都営浅草線5500形",
+    "canonicalName": "都営浅草線5500形",
+    "productName": "都営浅草線5500形",
+    "productEvidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+    "category": "commuter",
+    "operator": "東京都交通局",
+    "wikipediaTitle": "東京都交通局5500形電車 (鉄道)",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%805500%E5%BD%A2%E9%9B%BB%E8%BB%8A_(%E9%89%84%E9%81%93)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Toei-Type5522-1.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei-Type5522-1.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II",
+    "descriptionShort": "あさくさせん から けいせい や けいきゅう へ つながる",
+    "encyclopedia": {
+      "routeSummary": "あさくさせん を はしり、けいせい・けいきゅう ほうめん に つながる",
+      "featureSummary": "くまとり みたいな かおつき と、あかい ライン が めじるし",
+      "topSpeedKmh": 120,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
     "id": "iyonada-monogatari",
     "displayName": "伊予灘ものがたり",
     "canonicalName": "伊予灘ものがたり",
