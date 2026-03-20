@@ -1123,6 +1123,177 @@
     }
   },
   {
+    "id": "metro-ginza-1000",
+    "displayName": "東京メトロ銀座線1000系",
+    "canonicalName": "東京メトロ銀座線1000系",
+    "productName": "東京メトロ銀座線1000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD1000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ1000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ1000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro_Series1000-1008_Marunouchi-Line.jpg",
+    "descriptionShort": "レトロ な かおつきで、ぎんざせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "ぎんざせん を はしる 6りょうへんせい の でんしゃ",
+      "featureSummary": "むかし の 1000がた を イメージ した レトロ な デザイン",
+      "topSpeedKmh": 65,
+      "speedLabel": "まちで はしる はやさ"
+    }
+  },
+  {
+    "id": "metro-marunouchi-2000",
+    "displayName": "東京メトロ丸ノ内線2000系",
+    "canonicalName": "東京メトロ丸ノ内線2000系",
+    "productName": "東京メトロ丸ノ内線2000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD2000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ2000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ2000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro_Series2000-2026.jpg",
+    "descriptionShort": "あかい しゃたいで、まるのうちせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "まるのうちせん を はしる 6りょうへんせい の あたらしい でんしゃ",
+      "featureSummary": "あかい しゃたい と まるい まど が めじるし",
+      "topSpeedKmh": 75,
+      "speedLabel": "まちで はしる はやさ"
+    }
+  },
+  {
+    "id": "metro-hibiya-13000",
+    "displayName": "東京メトロ日比谷線13000系",
+    "canonicalName": "東京メトロ日比谷線13000系",
+    "productName": "東京メトロ日比谷線13000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD13000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ13000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ13000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro-Series13000-13111.jpg",
+    "descriptionShort": "ひびやせん から とうぶせん へ つながる でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "ひびやせん を はしり、とうぶせん へ のりいれる",
+      "featureSummary": "7りょうへんせい の あたらしい でんしゃ で、グレー の ライン が めじるし",
+      "topSpeedKmh": 100,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "metro-tozai-15000",
+    "displayName": "東京メトロ東西線15000系",
+    "canonicalName": "東京メトロ東西線15000系",
+    "productName": "東京メトロ東西線15000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD15000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ15000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ15000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro_Series15000-15001.jpg",
+    "descriptionShort": "みずいろ の ラインで、とうざいせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "とうざいせん を はしり、とうようこうそくせん や JR へ つながる",
+      "featureSummary": "10りょうへんせい の ながい でんしゃ で、みずいろ の ライン が めじるし",
+      "topSpeedKmh": 100,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "metro-chiyoda-16000",
+    "displayName": "東京メトロ千代田線16000系",
+    "canonicalName": "東京メトロ千代田線16000系",
+    "productName": "東京メトロ千代田線16000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD16000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ16000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ16000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro_Series16000-16001.jpg",
+    "descriptionShort": "ちよだせん から JR や おだきゅう へ つながる",
+    "encyclopedia": {
+      "routeSummary": "ちよだせん を はしり、JRじょうばんせん や おだきゅうせん へ のりいれる",
+      "featureSummary": "みどり の ライン が めじるし の 10りょうへんせい",
+      "topSpeedKmh": 100,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "metro-yurakucho-17000",
+    "displayName": "東京メトロ有楽町線17000系",
+    "canonicalName": "東京メトロ有楽町線17000系",
+    "productName": "東京メトロ有楽町線17000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD17000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ17000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ17000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro-Series17000_17105.jpg",
+    "descriptionShort": "ゆうらくちょうせん を はしる あたらしい でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "ゆうらくちょうせん を はしり、とうぶ・せいぶ・とうきゅう ほうめん に つながる",
+      "featureSummary": "10りょう と 8りょう が あり、きいろ の ライン が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "metro-fukutoshin-17000",
+    "displayName": "東京メトロ副都心線17000系",
+    "canonicalName": "東京メトロ副都心線17000系",
+    "productName": "東京メトロ副都心線17000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD17000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ17000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ17000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro-Series17000_17105.jpg",
+    "descriptionShort": "ふくとしんせん を はしる あたらしい でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "ふくとしんせん を はしり、とうぶ・せいぶ・とうきゅう ほうめん に つながる",
+      "featureSummary": "10りょう と 8りょう が あり、ちゃいろ の ライン が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "metro-hanzomon-18000",
+    "displayName": "東京メトロ半蔵門線18000系",
+    "canonicalName": "東京メトロ半蔵門線18000系",
+    "productName": "東京メトロ半蔵門線18000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD18000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "東京メトロ18000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "東京メトロ18000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro_Series18000-18007.jpg",
+    "descriptionShort": "むらさき の ラインで、はんぞうもんせん を はしる",
+    "encyclopedia": {
+      "routeSummary": "はんぞうもんせん を はしり、とうぶ ほうめん に のりいれる",
+      "featureSummary": "むらさき の ライン が めじるし の あたらしい 10りょうへんせい",
+      "topSpeedKmh": 110,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
+    "id": "metro-namboku-9000",
+    "displayName": "東京メトロ南北線9000系",
+    "canonicalName": "東京メトロ南北線9000系",
+    "productName": "東京メトロ南北線9000系",
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E5%96%B6%E5%9B%A39000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "営団地下鉄9000系電車",
+    "category": "commuter",
+    "operator": "東京地下鉄",
+    "wikipediaTitle": "営団9000系電車",
+    "commonsFileTitle": "File:Tokyo-Metro_Series9000R-9803.jpg",
+    "descriptionShort": "なんぼくせん を はしり、とうきゅうせん にも つながる",
+    "encyclopedia": {
+      "routeSummary": "なんぼくせん を はしり、さいたまこうそくせん や とうきゅうせん へ のりいれる",
+      "featureSummary": "みどり の ライン が めじるし で、6りょう と 8りょう が ある",
+      "topSpeedKmh": 110,
+      "speedLabel": "はやめ"
+    }
+  },
+  {
     "id": "iyonada-monogatari",
     "displayName": "伊予灘ものがたり",
     "canonicalName": "伊予灘ものがたり",
