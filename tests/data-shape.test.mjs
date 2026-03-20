@@ -252,7 +252,7 @@ test("issue 9 adds representative Tokyo Metro train questions", () => {
   assert.equal(ids.has("metro-hibiya-13000"), true);
   assert.equal(ids.has("metro-tozai-15000"), true);
   assert.equal(ids.has("metro-chiyoda-16000"), true);
-  assert.equal(ids.has("metro-yurakucho-17000"), true);
+  assert.equal(ids.has("metro-yurakucho-17000"), false);
   assert.equal(ids.has("metro-fukutoshin-17000"), true);
   assert.equal(ids.has("metro-hanzomon-18000"), true);
   assert.equal(ids.has("metro-namboku-9000"), true);

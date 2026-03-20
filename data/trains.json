@@ -1494,28 +1494,6 @@
     }
   },
   {
-    "id": "metro-yurakucho-17000",
-    "displayName": "東京メトロ有楽町線17000系",
-    "canonicalName": "東京メトロ有楽町線17000系",
-    "productName": "東京メトロ有楽町線17000系",
-    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD17000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-    "category": "commuter",
-    "operator": "東京地下鉄",
-    "wikipediaTitle": "東京メトロ17000系電車",
-    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD17000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Tokyo-Metro-Series17000_17105.jpg",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro-Series17000_17105.jpg",
-    "imageLicense": "CC BY-SA 4.0",
-    "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "ゆうらくちょうせん を はしる あたらしい でんしゃ",
-    "encyclopedia": {
-      "routeSummary": "ゆうらくちょうせん を はしり、とうぶ・せいぶ・とうきゅう ほうめん に つながる",
-      "featureSummary": "10りょう と 8りょう が あり、きいろ の ライン が めじるし",
-      "topSpeedKmh": 110,
-      "speedLabel": "はやめ"
-    }
-  },
-  {
     "id": "metro-fukutoshin-17000",
     "displayName": "東京メトロ副都心線17000系",
     "canonicalName": "東京メトロ副都心線17000系",
