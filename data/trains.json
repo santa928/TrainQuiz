@@ -1238,7 +1238,7 @@
       "topSpeedKmh": 120,
       "comparison": {
         "otherTrainId": "keio-9000-takao",
-        "summary": "たかおさんぐち ゆき は おなじ 9000けい でも いきさき ひょうじ が ちがう"
+        "summary": "たかおさんトレイン は 8000けい の みどり の ラッピング で、9000けい とは けいしき が ちがう"
       },
       "speedLabel": "はやめ"
     }
@@ -1271,26 +1271,26 @@
   },
   {
     "id": "keio-9000-takao",
-    "displayName": "京王9000系高尾山口行き",
-    "canonicalName": "京王9000系高尾山口行き",
-    "productName": "京王9000系高尾山口行き",
-    "productEvidenceUrl": "https://github.com/santa928/TrainQuiz/issues/9",
+    "displayName": "京王8000系高尾山トレイン",
+    "canonicalName": "京王8000系高尾山トレイン",
+    "productName": "京王8000系高尾山トレイン",
+    "productEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000000020.000022856.html",
     "category": "commuter",
     "operator": "京王電鉄",
-    "wikipediaTitle": "京王9000系電車",
-    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B9000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/%E4%BA%AC%E7%8E%8B%E9%AB%98%E5%B0%BE%E7%B7%9A9000%E7%B3%BB%40Takao_Line_Hazama_Sta..JPG",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%AC%E7%8E%8B%E9%AB%98%E5%B0%BE%E7%B7%9A9000%E7%B3%BB@Takao_Line_Hazama_Sta..JPG",
+    "wikipediaTitle": "京王8000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Keio-Series8000-8713_Takao-wrapping.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series8000-8713_Takao-wrapping.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageAuthor": "Buncho794",
-    "descriptionShort": "たかおさんぐち ゆき の ひょうじで、たかおせん を はしる 9000けい",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "みどり の ラッピングで、たかおさん を イメージした 8000けい",
     "encyclopedia": {
-      "routeSummary": "たかおせん で たかおさんぐち ほうめん に むかう 9000けい",
-      "featureSummary": "おなじ 9000けい でも、いきさき ひょうじ が たかおさんぐち に なる",
+      "routeSummary": "けいおうせん ぜんせん を はしる、たかおさん の ラッピングれっしゃ",
+      "featureSummary": "みどり の しゃたい に、しき の たかおさん が えがかれた ラッピング",
       "topSpeedKmh": 120,
       "comparison": {
-        "otherTrainId": "keio-9000",
-        "summary": "ふつう の 9000けい と しゃたい は にている が、いきさき が ちがう"
+        "otherTrainId": "keio-8000",
+        "summary": "ふつう の 8000けい と おなじ けいしき で、こちらは たかおさん の ラッピング に なっている"
       },
       "speedLabel": "はやめ"
     }

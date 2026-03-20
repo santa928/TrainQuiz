@@ -994,7 +994,7 @@
       "topSpeedKmh": 120,
       "comparison": {
         "otherTrainId": "keio-9000-takao",
-        "summary": "たかおさんぐち ゆき は おなじ 9000けい でも いきさき ひょうじ が ちがう"
+        "summary": "たかおさんトレイン は 8000けい の みどり の ラッピング で、9000けい とは けいしき が ちがう"
       },
       "speedLabel": "はやめ"
     }
@@ -1025,23 +1025,23 @@
   },
   {
     "id": "keio-9000-takao",
-    "displayName": "京王9000系高尾山口行き",
-    "canonicalName": "京王9000系高尾山口行き",
-    "productName": "京王9000系高尾山口行き",
-    "productEvidenceUrl": "https://github.com/santa928/TrainQuiz/issues/9",
-    "productEvidenceText": "高尾山口行き",
+    "displayName": "京王8000系高尾山トレイン",
+    "canonicalName": "京王8000系高尾山トレイン",
+    "productName": "京王8000系高尾山トレイン",
+    "productEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000000020.000022856.html",
+    "productEvidenceText": "高尾山トレイン",
     "category": "commuter",
     "operator": "京王電鉄",
-    "wikipediaTitle": "京王9000系電車",
-    "commonsFileTitle": "File:京王高尾線9000系@Takao Line Hazama Sta..JPG",
-    "descriptionShort": "たかおさんぐち ゆき の ひょうじで、たかおせん を はしる 9000けい",
+    "wikipediaTitle": "京王8000系電車",
+    "commonsFileTitle": "File:Keio-Series8000-8713 Takao-wrapping.jpg",
+    "descriptionShort": "みどり の ラッピングで、たかおさん を イメージした 8000けい",
     "encyclopedia": {
-      "routeSummary": "たかおせん で たかおさんぐち ほうめん に むかう 9000けい",
-      "featureSummary": "おなじ 9000けい でも、いきさき ひょうじ が たかおさんぐち に なる",
+      "routeSummary": "けいおうせん ぜんせん を はしる、たかおさん の ラッピングれっしゃ",
+      "featureSummary": "みどり の しゃたい に、しき の たかおさん が えがかれた ラッピング",
       "topSpeedKmh": 120,
       "comparison": {
-        "otherTrainId": "keio-9000",
-        "summary": "ふつう の 9000けい と しゃたい は にている が、いきさき が ちがう"
+        "otherTrainId": "keio-8000",
+        "summary": "ふつう の 8000けい と おなじ けいしき で、こちらは たかおさん の ラッピング に なっている"
       },
       "speedLabel": "はやめ"
     }

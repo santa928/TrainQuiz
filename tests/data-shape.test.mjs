@@ -220,6 +220,21 @@ test("issue 9 treats keio-2000 as the 2026 model, not the retired first generati
   assert.doesNotMatch(keio2000.descriptionShort, /むかし|ライトグリーン/);
 });
 
+test("issue 9 treats keio-9000-takao as the green Takao Train wrapping", () => {
+  const byId = new Map(trains.map((train) => [train.id, train]));
+  const takaoTrain = byId.get("keio-9000-takao");
+
+  assert.ok(takaoTrain);
+  assert.equal(takaoTrain.displayName, "京王8000系高尾山トレイン");
+  assert.equal(takaoTrain.wikipediaTitle, "京王8000系電車");
+  assert.match(
+    normalizeCommonsSource(takaoTrain.imageSourceUrl),
+    /File:Keio-Series8000-8713 Takao-wrapping\.jpg$/,
+  );
+  assert.match(takaoTrain.descriptionShort, /みどり|ラッピング|たかお/);
+  assert.doesNotMatch(takaoTrain.descriptionShort, /9000けい/);
+});
+
 test("issue 9 adds representative Toei subway train questions", () => {
   const ids = new Set(trains.map((train) => train.id));
 

@@ -165,11 +165,11 @@ class BuildSeedRecordTest(unittest.TestCase):
         seeds = [
             {
                 "id": "keio-9000-takao",
-                "displayName": "京王9000系高尾山口行き",
-                "canonicalName": "京王9000系高尾山口行き",
-                "productName": "京王9000系高尾山口行き",
+                "displayName": "京王8000系高尾山トレイン",
+                "canonicalName": "京王8000系高尾山トレイン",
+                "productName": "京王8000系高尾山トレイン",
                 "productEvidenceUrl": "https://example.com/issue-9",
-                "productEvidenceText": "高尾山口行き",
+                "productEvidenceText": "高尾山トレイン",
                 "category": "commuter",
                 "operator": "京王電鉄",
             }
@@ -207,7 +207,7 @@ class BuildSeedRecordTest(unittest.TestCase):
 
         fetch_text.assert_called_once_with("https://example.com/issue-9")
         self.assertEqual(dataset[0]["productEvidenceUrl"], "https://example.com/issue-9")
-        self.assertEqual(dataset[0]["productName"], "京王9000系高尾山口行き")
+        self.assertEqual(dataset[0]["productName"], "京王8000系高尾山トレイン")
 
 
 if __name__ == "__main__":
