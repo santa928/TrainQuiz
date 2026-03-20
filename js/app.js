@@ -7,6 +7,7 @@ export function createApp({
   buildQuestionFn = buildQuestion,
   buildRoundOrderFn = buildRoundOrder,
 }) {
+  const viewWindow = document.defaultView ?? null;
   const elements = {
     status: document.querySelector("[data-status]"),
     title: document.querySelector("[data-title]"),
@@ -85,6 +86,8 @@ export function createApp({
     currentView: "title",
     correctCount: 0,
     selectedTrainId: null,
+    encyclopediaListScrollTop: 0,
+    encyclopediaPageScrollY: 0,
   };
 
   function setView(view) {
@@ -244,9 +247,66 @@ export function createApp({
     );
   }
 
-  function showEncyclopediaList() {
+  function setEncyclopediaListScrollTop(scrollTop) {
+    if (typeof elements.encyclopediaList.scrollTo === "function") {
+      elements.encyclopediaList.scrollTo({ top: scrollTop, left: 0 });
+      return;
+    }
+
+    elements.encyclopediaList.scrollTop = scrollTop;
+  }
+
+  function setPageScrollTop(scrollTop) {
+    if (!viewWindow || typeof viewWindow.scrollTo !== "function") {
+      return;
+    }
+
+    viewWindow.scrollTo(0, scrollTop);
+  }
+
+  function restoreEncyclopediaListPosition() {
+    setEncyclopediaListScrollTop(state.encyclopediaListScrollTop);
+    setPageScrollTop(state.encyclopediaPageScrollY);
+  }
+
+  function runAfterNextPaint(callback) {
+    if (!viewWindow || typeof viewWindow.requestAnimationFrame !== "function") {
+      callback();
+      return;
+    }
+
+    viewWindow.requestAnimationFrame(() => {
+      viewWindow.requestAnimationFrame(callback);
+    });
+  }
+
+  function stabilizePageScroll(scrollTop) {
+    setPageScrollTop(scrollTop);
+    runAfterNextPaint(() => {
+      setPageScrollTop(scrollTop);
+    });
+
+    if (viewWindow && typeof viewWindow.setTimeout === "function") {
+      viewWindow.setTimeout(() => {
+        setPageScrollTop(scrollTop);
+      }, 120);
+    }
+  }
+
+  function showEncyclopediaList({ restoreScroll = false } = {}) {
     renderEncyclopediaList();
     setView("encyclopedia-list");
+
+    if (restoreScroll) {
+      restoreEncyclopediaListPosition();
+      stabilizePageScroll(state.encyclopediaPageScrollY);
+      return;
+    }
+
+    state.encyclopediaListScrollTop = 0;
+    state.encyclopediaPageScrollY = 0;
+    setEncyclopediaListScrollTop(0);
+    setPageScrollTop(0);
   }
 
   function hideEncyclopediaSpecs() {
@@ -293,6 +353,8 @@ export function createApp({
       return;
     }
 
+    state.encyclopediaListScrollTop = elements.encyclopediaList.scrollTop;
+    state.encyclopediaPageScrollY = viewWindow?.scrollY ?? 0;
     state.selectedTrainId = train.id;
     elements.encyclopediaDetailTitle.textContent = train.displayName;
     renderPanelImage(elements.encyclopediaDetailImagePanel, elements.encyclopediaDetailImage, {
@@ -384,9 +446,12 @@ export function createApp({
     state.currentIndex = 0;
     state.correctCount = 0;
     state.selectedTrainId = null;
+    state.encyclopediaListScrollTop = 0;
+    state.encyclopediaPageScrollY = 0;
     elements.next.textContent = "つぎへ";
     setQuizMode("question");
     setView("title");
+    setPageScrollTop(0);
   }
 
   function handleNext() {
@@ -438,7 +503,9 @@ export function createApp({
     elements.startButton.addEventListener("click", startQuiz);
     elements.encyclopediaButton.addEventListener("click", showEncyclopediaList);
     elements.encyclopediaBackButton.addEventListener("click", handleReturnToTitle);
-    elements.encyclopediaDetailBackButton.addEventListener("click", showEncyclopediaList);
+    elements.encyclopediaDetailBackButton.addEventListener("click", () =>
+      showEncyclopediaList({ restoreScroll: true }),
+    );
     elements.retryButton.addEventListener("click", handleRetry);
     elements.homeButton.addEventListener("click", handleReturnToTitle);
 
