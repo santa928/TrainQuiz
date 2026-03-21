@@ -7,6 +7,8 @@ export function createApp({
   buildQuestionFn = buildQuestion,
   buildRoundOrderFn = buildRoundOrder,
 }) {
+  const isQuizEligibleTrain = (train) => train.category !== "steam";
+
   const viewWindow = document.defaultView ?? null;
   const elements = {
     status: document.querySelector("[data-status]"),
@@ -77,6 +79,7 @@ export function createApp({
 
   const state = {
     trains: [],
+    quizTrains: [],
     order: [],
     currentIndex: 0,
     currentQuestion: null,
@@ -376,7 +379,7 @@ export function createApp({
 
   function renderQuestion() {
     const currentId = state.order[state.currentIndex];
-    state.currentQuestion = buildQuestionFn(state.trains, currentId);
+    state.currentQuestion = buildQuestionFn(state.quizTrains, currentId);
     state.answered = false;
     state.disabledChoices = new Set();
     state.completedRound = false;
@@ -430,13 +433,13 @@ export function createApp({
   }
 
   function handleRetry() {
-    if (!state.trains.length) {
+    if (!state.quizTrains.length) {
       return;
     }
 
     state.currentIndex = 0;
     state.correctCount = 0;
-    state.order = buildRoundOrderFn(state.trains.map((train) => train.id));
+    state.order = buildRoundOrderFn(state.quizTrains.map((train) => train.id));
     elements.next.textContent = "つぎへ";
     renderQuestion();
   }
@@ -472,13 +475,13 @@ export function createApp({
   }
 
   function startQuiz() {
-    if (!state.trains.length) {
+    if (!state.quizTrains.length) {
       return;
     }
 
     state.currentIndex = 0;
     state.correctCount = 0;
-    state.order = buildRoundOrderFn(state.trains.map((train) => train.id));
+    state.order = buildRoundOrderFn(state.quizTrains.map((train) => train.id));
     elements.next.textContent = "つぎへ";
     renderQuestion();
   }
@@ -511,10 +514,11 @@ export function createApp({
 
     try {
       state.trains = await loadTrains();
-      state.order = buildRoundOrderFn(state.trains.map((train) => train.id));
+      state.quizTrains = state.trains.filter(isQuizEligibleTrain);
+      state.order = buildRoundOrderFn(state.quizTrains.map((train) => train.id));
       elements.loader.hidden = true;
-      elements.startButton.disabled = false;
-      elements.encyclopediaButton.disabled = false;
+      elements.startButton.disabled = state.quizTrains.length === 0;
+      elements.encyclopediaButton.disabled = state.trains.length === 0;
     } catch (error) {
       console.error(error);
       elements.loader.hidden = true;

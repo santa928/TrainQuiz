@@ -463,6 +463,118 @@ test("クイズをはじめるを押すとクイズ画面に切り替わる", as
   assert.equal(elements.choices.children.length, 2);
 });
 
+test("汽車カテゴリは図鑑に残しつつクイズ出題順から除外する", async () => {
+  const trains = [
+    {
+      id: "train-a",
+      displayName: "はやぶさ",
+      canonicalName: "E5系",
+      category: "shinkansen",
+      operator: "JR東日本",
+      descriptionShort: "はやい しんかんせん",
+      encyclopedia: {
+        routeSummary: "とうきょう から ほっかいどう ほうめん",
+        featureSummary: "ながい はな と みどり の しゃたい",
+        speedLabel: "とても はやい",
+        topSpeedKmh: 320,
+      },
+      imageUrl: "https://example.com/hayabusa.png",
+      imageAuthor: "author",
+      imageLicense: "license",
+      imageSourceUrl: "https://example.com/source-a",
+      wikipediaUrl: "https://example.com/article-a",
+    },
+    {
+      id: "train-b",
+      displayName: "こまち",
+      canonicalName: "E6系",
+      category: "shinkansen",
+      operator: "JR東日本",
+      descriptionShort: "あかい しんかんせん",
+      encyclopedia: {
+        routeSummary: "とうきょう から あきた ほうめん",
+        featureSummary: "あかい しゃたい の ミニしんかんせん",
+        speedLabel: "とても はやい",
+        topSpeedKmh: 320,
+      },
+      imageUrl: "https://example.com/komachi.png",
+      imageAuthor: "author",
+      imageLicense: "license",
+      imageSourceUrl: "https://example.com/source-b",
+      wikipediaUrl: "https://example.com/article-b",
+    },
+    {
+      id: "train-c",
+      displayName: "D51",
+      canonicalName: "D51形",
+      category: "steam",
+      operator: "JR東日本",
+      descriptionShort: "きしゃ",
+      encyclopedia: {
+        routeSummary: "こうえん てんじ",
+        featureSummary: "くろい ボディ",
+        speedLabel: "ゆっくり",
+        topSpeedKmh: 85,
+      },
+      imageUrl: "https://example.com/d51.png",
+      imageAuthor: "author",
+      imageLicense: "license",
+      imageSourceUrl: "https://example.com/source-c",
+      wikipediaUrl: "https://example.com/article-c",
+    },
+  ];
+  const { document, elements } = createDocument();
+  const buildRoundOrderCalls = [];
+  const buildQuestionCalls = [];
+  const app = createApp({
+    document,
+    fetchImpl: createFetchStub(trains),
+    buildRoundOrderFn: (ids) => {
+      buildRoundOrderCalls.push(ids);
+      return ["train-a", "train-b"];
+    },
+    buildQuestionFn: (quizTrains, currentId) => {
+      buildQuestionCalls.push({
+        ids: quizTrains.map((train) => train.id),
+        currentId,
+      });
+      const answer = quizTrains.find((train) => train.id === currentId);
+
+      return {
+        prompt: "これ なあに？",
+        answer,
+        choices: quizTrains.map((train) => ({
+          id: train.id,
+          displayName: train.displayName,
+          category: train.category,
+        })),
+      };
+    },
+  });
+
+  await app.bootstrap();
+  elements.encyclopediaButton.click();
+  assert.equal(elements.encyclopediaList.children.length, 3);
+
+  elements.encyclopediaBackButton.click();
+  elements.startButton.click();
+
+  assert.deepEqual(buildRoundOrderCalls, [
+    ["train-a", "train-b"],
+    ["train-a", "train-b"],
+  ]);
+  assert.deepEqual(buildQuestionCalls, [
+    {
+      ids: ["train-a", "train-b"],
+      currentId: "train-a",
+    },
+  ]);
+  assert.deepEqual(
+    elements.choices.children.map((button) => button.dataset.choiceId),
+    ["train-a", "train-b"],
+  );
+});
+
 test("5問終了後は結果画面でせいかい数と 2 本の導線を表示する", async () => {
   const { app, elements } = createHarness();
 

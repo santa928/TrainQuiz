@@ -125,3 +125,21 @@ test("buildQuestion does not include duplicate display names in the choices", ()
     ].sort(),
   );
 });
+
+test("buildQuestion can exclude steam trains from both answers and distractors", () => {
+  const pool = [
+    ...sampleTrains,
+    {
+      id: "d51",
+      displayName: "D51 200号機",
+      canonicalName: "D51形",
+      category: "steam",
+      imageUrl: "https://example.com/d51.jpg",
+    },
+  ].filter((train) => train.category !== "steam");
+
+  const question = buildQuestion(pool, "e5-hayabusa", () => 0.2);
+
+  assert.equal(question.choices.some((choice) => choice.category === "steam"), false);
+  assert.equal(question.answer.category, "shinkansen");
+});
