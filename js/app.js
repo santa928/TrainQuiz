@@ -50,6 +50,12 @@ export function createApp({
     ),
     encyclopediaSpecsPanel: document.querySelector("[data-encyclopedia-specs-panel]"),
     encyclopediaDetailRoute: document.querySelector("[data-encyclopedia-detail-route]"),
+    encyclopediaRouteEndpointsItem: document.querySelector(
+      "[data-encyclopedia-route-endpoints-item]",
+    ),
+    encyclopediaDetailRouteEndpoints: document.querySelector(
+      "[data-encyclopedia-detail-route-endpoints]",
+    ),
     encyclopediaDetailFeature: document.querySelector("[data-encyclopedia-detail-feature]"),
     encyclopediaDetailSpeed: document.querySelector("[data-encyclopedia-detail-speed]"),
     encyclopediaDetailCompare: document.querySelector(
@@ -315,6 +321,8 @@ export function createApp({
   function hideEncyclopediaSpecs() {
     elements.encyclopediaSpecsPanel.hidden = true;
     elements.encyclopediaDetailRoute.textContent = "";
+    elements.encyclopediaRouteEndpointsItem.hidden = true;
+    elements.encyclopediaDetailRouteEndpoints.textContent = "";
     elements.encyclopediaDetailFeature.textContent = "";
     elements.encyclopediaDetailSpeed.textContent = "";
     elements.encyclopediaDetailCompare.hidden = true;
@@ -331,6 +339,16 @@ export function createApp({
 
     elements.encyclopediaSpecsPanel.hidden = false;
     elements.encyclopediaDetailRoute.textContent = details.routeSummary;
+
+    if (details.routeEndpointsSummary) {
+      elements.encyclopediaRouteEndpointsItem.hidden = false;
+      elements.encyclopediaDetailRouteEndpoints.textContent =
+        details.routeEndpointsSummary;
+    } else {
+      elements.encyclopediaRouteEndpointsItem.hidden = true;
+      elements.encyclopediaDetailRouteEndpoints.textContent = "";
+    }
+
     elements.encyclopediaDetailFeature.textContent = details.featureSummary;
     elements.encyclopediaDetailSpeed.textContent = `${details.speedLabel} / ${details.topSpeedKmh} km/h`;
 

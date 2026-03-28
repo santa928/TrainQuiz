@@ -117,6 +117,8 @@ function createDocument() {
     encyclopediaDetailDescription: new FakeElement("p"),
     encyclopediaSpecsPanel: new FakeElement("section"),
     encyclopediaDetailRoute: new FakeElement("dd"),
+    encyclopediaRouteEndpointsItem: new FakeElement("div"),
+    encyclopediaDetailRouteEndpoints: new FakeElement("dd"),
     encyclopediaDetailFeature: new FakeElement("dd"),
     encyclopediaDetailSpeed: new FakeElement("dd"),
     encyclopediaDetailCompare: new FakeElement("div"),
@@ -130,6 +132,7 @@ function createDocument() {
   elements.encyclopediaListScreen.hidden = true;
   elements.encyclopediaDetailScreen.hidden = true;
   elements.encyclopediaSpecsPanel.hidden = true;
+  elements.encyclopediaRouteEndpointsItem.hidden = true;
   elements.encyclopediaDetailCompare.hidden = true;
 
   const selectorMap = new Map([
@@ -167,6 +170,8 @@ function createDocument() {
     ["[data-encyclopedia-detail-description]", elements.encyclopediaDetailDescription],
     ["[data-encyclopedia-specs-panel]", elements.encyclopediaSpecsPanel],
     ["[data-encyclopedia-detail-route]", elements.encyclopediaDetailRoute],
+    ["[data-encyclopedia-route-endpoints-item]", elements.encyclopediaRouteEndpointsItem],
+    ["[data-encyclopedia-detail-route-endpoints]", elements.encyclopediaDetailRouteEndpoints],
     ["[data-encyclopedia-detail-feature]", elements.encyclopediaDetailFeature],
     ["[data-encyclopedia-detail-speed]", elements.encyclopediaDetailSpeed],
     ["[data-encyclopedia-detail-compare]", elements.encyclopediaDetailCompare],
@@ -219,6 +224,7 @@ function createHarness({ trains: customTrains } = {}) {
       descriptionShort: "はやい しんかんせん",
       encyclopedia: {
         routeSummary: "とうきょう から ほっかいどう ほうめん",
+        routeEndpointsSummary: "とうきょう 〜 しんはこだてほくと",
         featureSummary: "ながい はな と みどり の しゃたい",
         speedLabel: "とても はやい",
         topSpeedKmh: 320,
@@ -316,6 +322,7 @@ test("図鑑一覧では同じ表示名の別商品を重複表示しない", as
       descriptionShort: "はやい しんかんせん",
       encyclopedia: {
         routeSummary: "とうきょう から ほっかいどう ほうめん",
+        routeEndpointsSummary: "とうきょう 〜 しんはこだてほくと",
         featureSummary: "ながい はな と みどり の しゃたい",
         speedLabel: "とても はやい",
         topSpeedKmh: 320,
@@ -354,6 +361,7 @@ test("図鑑一覧では同じ表示名の別商品を重複表示しない", as
       descriptionShort: "べつ しょうひん の はやぶさ",
       encyclopedia: {
         routeSummary: "とうきょう から ほっかいどう ほうめん",
+        routeEndpointsSummary: "とうきょう 〜 しんはこだてほくと",
         featureSummary: "そくど ちぇんじ ばん",
         speedLabel: "とても はやい",
         topSpeedKmh: 320,
@@ -394,6 +402,8 @@ test("図鑑一覧のカードを押すと詳細が表示され、もどるで�
   assert.equal(elements.encyclopediaDetailImage.src, "https://example.com/hayabusa.png");
   assert.equal(elements.encyclopediaSpecsPanel.hidden, false);
   assert.equal(elements.encyclopediaDetailRoute.textContent, "とうきょう から ほっかいどう ほうめん");
+  assert.equal(elements.encyclopediaRouteEndpointsItem.hidden, false);
+  assert.equal(elements.encyclopediaDetailRouteEndpoints.textContent, "とうきょう 〜 しんはこだてほくと");
   assert.equal(elements.encyclopediaDetailFeature.textContent, "ながい はな と みどり の しゃたい");
   assert.equal(elements.encyclopediaDetailSpeed.textContent, "とても はやい / 320 km/h");
   assert.equal(elements.encyclopediaDetailCompare.hidden, false);
@@ -445,6 +455,8 @@ test("比較情報がない車両では比較欄を表示しない", async () =>
 
   assert.equal(elements.encyclopediaSpecsPanel.hidden, false);
   assert.equal(elements.encyclopediaDetailRoute.textContent, "とうきょう から あきた ほうめん");
+  assert.equal(elements.encyclopediaRouteEndpointsItem.hidden, true);
+  assert.equal(elements.encyclopediaDetailRouteEndpoints.textContent, "");
   assert.equal(elements.encyclopediaDetailFeature.textContent, "あかい しゃたい の ミニしんかんせん");
   assert.equal(elements.encyclopediaDetailSpeed.textContent, "とても はやい / 320 km/h");
   assert.equal(elements.encyclopediaDetailCompare.hidden, true);
@@ -474,6 +486,7 @@ test("汽車カテゴリは図鑑に残しつつクイズ出題順から除外�
       descriptionShort: "はやい しんかんせん",
       encyclopedia: {
         routeSummary: "とうきょう から ほっかいどう ほうめん",
+        routeEndpointsSummary: "とうきょう 〜 しんはこだてほくと",
         featureSummary: "ながい はな と みどり の しゃたい",
         speedLabel: "とても はやい",
         topSpeedKmh: 320,
@@ -493,6 +506,7 @@ test("汽車カテゴリは図鑑に残しつつクイズ出題順から除外�
       descriptionShort: "あかい しんかんせん",
       encyclopedia: {
         routeSummary: "とうきょう から あきた ほうめん",
+        routeEndpointsSummary: "とうきょう 〜 あきた",
         featureSummary: "あかい しゃたい の ミニしんかんせん",
         speedLabel: "とても はやい",
         topSpeedKmh: 320,
@@ -512,6 +526,7 @@ test("汽車カテゴリは図鑑に残しつつクイズ出題順から除外�
       descriptionShort: "きしゃ",
       encyclopedia: {
         routeSummary: "こうえん てんじ",
+        routeEndpointsSummary: "こうえん てんじ せんろ で かつやく",
         featureSummary: "くろい ボディ",
         speedLabel: "ゆっくり",
         topSpeedKmh: 85,

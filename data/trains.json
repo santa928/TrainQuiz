@@ -16,6 +16,7 @@
     "descriptionShort": "ながい はなで、とうほく と ほっかいどうを はしる はやぶさ",
     "encyclopedia": {
       "routeSummary": "とうきょう から しんあおもり・しんはこだてほくと ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 しんあおもり・しんはこだてほくと",
       "featureSummary": "みどり の しゃたい と、320キロで はしる ながい はな",
       "topSpeedKmh": 320,
       "comparison": {
@@ -42,6 +43,7 @@
     "descriptionShort": "あかい しゃたいで、とうきょう と あきたを むすぶ こまち",
     "encyclopedia": {
       "routeSummary": "とうきょう から もりおか を へて あきた ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 あきた",
       "featureSummary": "あかい しゃたい と、ざいらいせん にも はいる ミニしんかんせん",
       "topSpeedKmh": 320,
       "comparison": {
@@ -68,6 +70,7 @@
     "descriptionShort": "1000ばんだい の つばさで、ぎんいろ ベース の しゃたいが めじるし",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 やまがた・しんじょう",
       "featureSummary": "ぎんいろ ベース の しゃたいに むらさき の ライン が はいった ミニしんかんせん",
       "topSpeedKmh": 275,
       "comparison": {
@@ -94,6 +97,7 @@
     "descriptionShort": "ぜんぶ 2かいだてで、Max の あいしょうで はしった しんかんせん",
     "encyclopedia": {
       "routeSummary": "とうきょう から にいがた ほうめん を ちゅうしんに はしった",
+      "routeEndpointsSummary": "とうきょう 〜 にいがた",
       "featureSummary": "ぜんしゃ 2かいだて で、たくさん のれる Max",
       "topSpeedKmh": 240,
       "speedLabel": "しんかんせん の はやさ"
@@ -116,6 +120,7 @@
     "descriptionShort": "あお と きん の いろで、ほくりくしんかんせん を はしる かがやき",
     "encyclopedia": {
       "routeSummary": "とうきょう から かなざわ・つるが ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 かなざわ・つるが",
       "featureSummary": "あお と きん の しゃたい と グランクラス",
       "topSpeedKmh": 260,
       "speedLabel": "はやい"
@@ -138,6 +143,7 @@
     "descriptionShort": "ふじいろ の せんがあり、JRほっかいどう の はやぶさ",
     "encyclopedia": {
       "routeSummary": "しんあおもり から しんはこだてほくと ほうめん",
+      "routeEndpointsSummary": "しんあおもり 〜 しんはこだてほくと",
       "featureSummary": "E5けい に にているが、JRほっかいどう の はやぶさ",
       "topSpeedKmh": 320,
       "comparison": {
@@ -164,6 +170,7 @@
     "descriptionShort": "とがった かおで、とうかいどう と さんよう を はしる しんかんせん",
     "encyclopedia": {
       "routeSummary": "とうかいどう・さんようしんかんせん を はしる",
+      "routeEndpointsSummary": "とうきょう 〜 はかた",
       "featureSummary": "とがった せんとうぶ と えんどうけい の しゃたい",
       "topSpeedKmh": 270,
       "comparison": {
@@ -190,6 +197,7 @@
     "descriptionShort": "きいろい からだで、せんろや でんきを しらべる しんかんせん",
     "encyclopedia": {
       "routeSummary": "とうかいどう・さんようしんかんせん の せんろ と でんき を けんそく",
+      "routeEndpointsSummary": "とうきょう 〜 はかた を けんそく",
       "featureSummary": "きいろい しゃたい で しんかんせん の あんぜん を しらべる",
       "topSpeedKmh": 210,
       "comparison": {
@@ -216,6 +224,7 @@
     "descriptionShort": "きゅうしゅう を はしる、はじめて の きゅうしゅうしんかんせん",
     "encyclopedia": {
       "routeSummary": "はかた から かごしまちゅうおう ほうめん の きゅうしゅうしんかんせん",
+      "routeEndpointsSummary": "はかた 〜 かごしまちゅうおう",
       "featureSummary": "きゅうしゅう で さいしょ に はしった しんかんせん",
       "topSpeedKmh": 260,
       "speedLabel": "はやい"
@@ -238,6 +247,7 @@
     "descriptionShort": "とうかいどう から きゅうしゅうまで、ひろく はしる しんかんせん",
     "encyclopedia": {
       "routeSummary": "とうきょう から はかた・かごしまちゅうおう ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 はかた・かごしまちゅうおう",
       "featureSummary": "かーぶ で からだを かたむける しくみ を もつ N700けい",
       "topSpeedKmh": 300,
       "comparison": {
@@ -264,6 +274,7 @@
     "descriptionShort": "どういろ の しゃたいで、おかやま と いずもし を むすぶ やくも",
     "encyclopedia": {
       "routeSummary": "おかやま から くらしき・よなご を へて いずもし ほうめん",
+      "routeEndpointsSummary": "おかやま 〜 いずもし",
       "featureSummary": "どういろ の しゃたい と、ゆれ を へらした あたらしい やくも",
       "topSpeedKmh": 120,
       "speedLabel": "とっきゅう の はやさ"
@@ -286,6 +297,7 @@
     "descriptionShort": "みどり の しゃたいで、はかた と ゆふいん を むすぶ とっきゅう",
     "encyclopedia": {
       "routeSummary": "はかた から ゆふいん・べっぷ ほうめん",
+      "routeEndpointsSummary": "はかた 〜 ゆふいん・べっぷ",
       "featureSummary": "みどり の しゃたい と おおきな まど の かんこう とっきゅう",
       "topSpeedKmh": 120,
       "speedLabel": "とっきゅう の はやさ"
@@ -308,6 +320,7 @@
     "descriptionShort": "ゆれを おさえて、しんじゅく から まつもとへ むかう あずさ",
     "encyclopedia": {
       "routeSummary": "しんじゅく から こうふ・まつもと ほうめん",
+      "routeEndpointsSummary": "しんじゅく 〜 こうふ・まつもと",
       "featureSummary": "くねくね した せんろでも ゆれ を おさえる あずさ",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
@@ -330,6 +343,7 @@
     "descriptionShort": "まるい まどが めだち、なんば から くうこうへ むかう とっきゅう",
     "encyclopedia": {
       "routeSummary": "なんば から かんさいくうこう",
+      "routeEndpointsSummary": "なんば 〜 かんさいくうこう",
       "featureSummary": "まるい まど と てつじん みたいな かお の ラピート",
       "topSpeedKmh": 120,
       "speedLabel": "とっきゅう の はやさ"
@@ -352,6 +366,7 @@
     "descriptionShort": "かどばった かおで、あさくさ から にっこう ほうめんへ むかう とっきゅう",
     "encyclopedia": {
       "routeSummary": "あさくさ から とうぶにっこう・きぬがわおんせん ほうめん",
+      "routeEndpointsSummary": "あさくさ 〜 とうぶにっこう・きぬがわおんせん",
       "featureSummary": "かどばった かお と ゆったり すわれる あたらしい スペーシア",
       "topSpeedKmh": 120,
       "speedLabel": "とっきゅう の はやさ"
@@ -374,6 +389,7 @@
     "descriptionShort": "あかい しゃたいで、おおさか と なごやを むすぶ きんてつ とっきゅう",
     "encyclopedia": {
       "routeSummary": "おおさかなんば と きんてつなごや を むすぶ",
+      "routeEndpointsSummary": "おおさかなんば 〜 きんてつなごや",
       "featureSummary": "まっかな しゃたい と、ひろびろ すわれる ざせき の ひのとり",
       "topSpeedKmh": 130,
       "comparison": {
@@ -400,6 +416,7 @@
     "descriptionShort": "まえが よく みえる せきがあり、ロマンスカー で はこねへ むかう",
     "encyclopedia": {
       "routeSummary": "しんじゅく から はこねゆもと ほうめん",
+      "routeEndpointsSummary": "しんじゅく 〜 はこねゆもと",
       "featureSummary": "まえめん てんぼう せき が ある ロマンスカー",
       "topSpeedKmh": 110,
       "speedLabel": "とっきゅう の はやさ"
@@ -422,6 +439,7 @@
     "descriptionShort": "そらいろ と しろで、ちゅうぶこくさいくうこう へ むかう とっきゅう",
     "encyclopedia": {
       "routeSummary": "なごや ほうめん から ちゅうぶこくさいくうこう",
+      "routeEndpointsSummary": "めいてつなごや 〜 ちゅうぶこくさいくうこう",
       "featureSummary": "ぜんぶ とくべつしゃ の 4りょうへんせい",
       "topSpeedKmh": 120,
       "comparison": {
@@ -448,6 +466,7 @@
     "descriptionShort": "しろ と あお の いろで、かんさいくうこう へ むかう はるか",
     "encyclopedia": {
       "routeSummary": "きょうと・しんおおさか から かんさいくうこう",
+      "routeEndpointsSummary": "きょうと・しんおおさか 〜 かんさいくうこう",
       "featureSummary": "しろ と あお の しゃたい の くうこう とっきゅう",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
@@ -470,6 +489,7 @@
     "descriptionShort": "ディーゼルで はしり、きょうと と とっとり を むすぶ とっきゅう",
     "encyclopedia": {
       "routeSummary": "きょうと・おおさか から とっとり・くらよし ほうめん",
+      "routeEndpointsSummary": "きょうと・おおさか 〜 とっとり・くらよし",
       "featureSummary": "でんしゃ ではなく ディーゼルで はしる スーパーはくと",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
@@ -492,6 +512,7 @@
     "descriptionShort": "しまかぜ の なまえで、おおさか や なごや から いせしまへ むかう",
     "encyclopedia": {
       "routeSummary": "おおさか・きょうと・なごや から いせしま ほうめん",
+      "routeEndpointsSummary": "おおさか・きょうと・なごや 〜 いせしま",
       "featureSummary": "プレミアムシート や カフェしゃ が ある しまかぜ",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
@@ -514,6 +535,7 @@
     "descriptionShort": "みどり の ラインで、やまのてせん を ぐるっと はしる でんしゃ",
     "encyclopedia": {
       "routeSummary": "とうきょう の まんなか を 1しゅう する やまのてせん",
+      "routeEndpointsSummary": "とうきょう・しながわ・しんじゅく を ぐるっと 1しゅう",
       "featureSummary": "おおきな まど と あたらしい しくみを もつ つうきんでんしゃ",
       "topSpeedKmh": 90,
       "comparison": {
@@ -540,6 +562,7 @@
     "descriptionShort": "オレンジ と みどり の いろで、しょうなんしんじゅくライン も はしる",
     "encyclopedia": {
       "routeSummary": "うえのとうきょうライン・しょうなんしんじゅくライン で とうきょう と かながわ・さいたま・ぐんま ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 かながわ・さいたま・ぐんま ほうめん",
       "featureSummary": "オレンジ と みどり の いろで、ながい きょりも はしる",
       "topSpeedKmh": 120,
       "comparison": {
@@ -566,6 +589,7 @@
     "descriptionShort": "あおい ラインで、じょうばんせん を はしる こうちょくりゅう でんしゃ",
     "encyclopedia": {
       "routeSummary": "しながわ・うえの から みと・いわき ほうめん の じょうばんせん",
+      "routeEndpointsSummary": "しながわ・うえの 〜 みと・いわき",
       "featureSummary": "あおい ライン と、こうちょくりょうよう の しくみ を もつ",
       "topSpeedKmh": 130,
       "speedLabel": "はやめ"
@@ -588,6 +612,7 @@
     "descriptionShort": "しろい かおで、おおさか と ひめじ ほうめんを はしる しんかいそく",
     "encyclopedia": {
       "routeSummary": "きょうと・おおさか から こうべ・ひめじ ほうめん",
+      "routeEndpointsSummary": "きょうと・おおさか 〜 こうべ・ひめじ",
       "featureSummary": "しろい かお と ひろい まど の しんかいそく",
       "topSpeedKmh": 130,
       "speedLabel": "はやめ"
@@ -610,6 +635,7 @@
     "descriptionShort": "オレンジ の ラインで、おおさかかんじょうせん を はしる",
     "encyclopedia": {
       "routeSummary": "おおさかえき を ぐるっと まわる おおさかかんじょうせん",
+      "routeEndpointsSummary": "おおさかえき を ぐるっと 1しゅう",
       "featureSummary": "オレンジ の ライン と、ホームドア に あわせた あたらしい でんしゃ",
       "topSpeedKmh": 100,
       "speedLabel": "まちで はしる はやさ"
@@ -632,6 +658,7 @@
     "descriptionShort": "JRとうかい の あたらしい でんしゃで、ちゅうおうほんせん を はしる",
     "encyclopedia": {
       "routeSummary": "なごや から たじみ・なかつがわ ほうめん",
+      "routeEndpointsSummary": "なごや 〜 たじみ・なかつがわ",
       "featureSummary": "JRとうかい の あたらしい つうきんでんしゃ",
       "topSpeedKmh": 130,
       "speedLabel": "はやめ"
@@ -654,6 +681,7 @@
     "descriptionShort": "あおい ラインで、つくばエクスプレス を はしる あたらしい でんしゃ",
     "encyclopedia": {
       "routeSummary": "あきはばら から つくば",
+      "routeEndpointsSummary": "あきはばら 〜 つくば",
       "featureSummary": "あおい ライン と ワンマン うんてん に そなえた あたらしい でんしゃ",
       "topSpeedKmh": 130,
       "speedLabel": "はやめ"
@@ -676,6 +704,7 @@
     "descriptionShort": "あかい でんしゃで、めいてつ の まちの せんろを はしる",
     "encyclopedia": {
       "routeSummary": "なごや ほうめん の ほんせん や まちの せんろ",
+      "routeEndpointsSummary": "めいてつなごや を ちゅうしんに いろいろな せんろ",
       "featureSummary": "あかい しゃたい の めいてつ つうきんでんしゃ",
       "topSpeedKmh": 110,
       "speedLabel": "まちで はしる はやさ"
@@ -698,6 +727,7 @@
     "descriptionShort": "むらさき の ラインで、おおさかメトロ ちゅうおうせん を はしる",
     "encyclopedia": {
       "routeSummary": "コスモスクエア から ながた ほうめん の ちゅうおうせん",
+      "routeEndpointsSummary": "コスモスクエア 〜 ながた",
       "featureSummary": "むらさき の ライン と みらいかん の ある かお",
       "topSpeedKmh": 95,
       "speedLabel": "まちで はしる はやさ"
@@ -720,6 +750,7 @@
     "descriptionShort": "3つの でんきに あわせて、かもつ を ひく きんたろう",
     "encyclopedia": {
       "routeSummary": "とうほくせん・じょうばんせん・さんようせん・かごしまほんせん",
+      "routeEndpointsSummary": "とうほく 〜 きゅうしゅう の かもつ せんく",
       "featureSummary": "こうりゅう と ちょくりゅう の りょうほうで はしれる きかんしゃ",
       "topSpeedKmh": 110,
       "comparison": {
@@ -746,6 +777,7 @@
     "descriptionShort": "ももたろう の あだなで、あおい からだの かもつ きかんしゃ",
     "encyclopedia": {
       "routeSummary": "とうほくせん・たかさきせん・とうかいどうせん・さんようせん・よさんせん",
+      "routeEndpointsSummary": "とうほく 〜 しこく の かもつ せんく",
       "featureSummary": "JRかもつ の しゅりょく の でんききかんしゃ",
       "topSpeedKmh": 110,
       "comparison": {
@@ -772,6 +804,7 @@
     "descriptionShort": "レッドサンダー の あだなで、あかい いろが めだつ きかんしゃ",
     "encyclopedia": {
       "routeSummary": "にほんかいがわ や しゅとけん ほうめん の かもつ せんく",
+      "routeEndpointsSummary": "にほんかいがわ 〜 しゅとけん の かもつ せんく",
       "featureSummary": "あかい からだ と レッドサンダー の なまえが めじるし",
       "topSpeedKmh": 110,
       "comparison": {
@@ -798,6 +831,7 @@
     "descriptionShort": "パワーが つよく、こうそく かもつ も ひいた でんき きかんしゃ",
     "encyclopedia": {
       "routeSummary": "とうかいどう・さんよう ほうめん の かもつれっしゃ",
+      "routeEndpointsSummary": "とうかいどう・さんよう の かもつ せんく",
       "featureSummary": "パワー が つよく、こうそく かもつ も ひいた でんききかんしゃ",
       "topSpeedKmh": 110,
       "comparison": {
@@ -824,6 +858,7 @@
     "descriptionShort": "デゴイチ と よばれ、ちからづよく きしゃ を ひく SL",
     "encyclopedia": {
       "routeSummary": "SLやまぐちごう など かんこうれっしゃ で かつやく",
+      "routeEndpointsSummary": "SLやまぐちごう など の かんこうれっしゃ",
       "featureSummary": "デゴイチ と よばれる、ちからもち の SL",
       "topSpeedKmh": 85,
       "comparison": {
@@ -850,6 +885,7 @@
     "descriptionShort": "D51 の ボイラーから うまれた、きゅうこう れっしゃ の SL",
     "encyclopedia": {
       "routeSummary": "ぐんま ほうめん の SLれっしゃ で かつやく",
+      "routeEndpointsSummary": "ぐんま の SLれっしゃ",
       "featureSummary": "D51 の ボイラーから うまれた、たびきゃく れっしゃむき の SL",
       "topSpeedKmh": 100,
       "speedLabel": "SL として はやい"
@@ -872,6 +908,7 @@
     "descriptionShort": "きふじん と よばれ、SLやまぐちごう を ひく SL",
     "encyclopedia": {
       "routeSummary": "しんやまぐち から つわの ほうめん の SLやまぐちごう",
+      "routeEndpointsSummary": "しんやまぐち 〜 つわの",
       "featureSummary": "きふじん と よばれる、すらっと した すがた の SL",
       "topSpeedKmh": 100,
       "comparison": {
@@ -898,6 +935,7 @@
     "descriptionShort": "N700けい を もっと あんしんにした、A の しんかんせん",
     "encyclopedia": {
       "routeSummary": "とうきょう から はかた・かごしまちゅうおう ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 はかた・かごしまちゅうおう",
       "featureSummary": "N700 に ブレーキ などの かいりょう を くわえた A",
       "topSpeedKmh": 300,
       "comparison": {
@@ -924,6 +962,7 @@
     "descriptionShort": "みずほ と さくら の なまえで、さんよう から きゅうしゅうを はしる",
     "encyclopedia": {
       "routeSummary": "しんおおさか・はかた から かごしまちゅうおう ほうめん",
+      "routeEndpointsSummary": "しんおおさか・はかた 〜 かごしまちゅうおう",
       "featureSummary": "みずほ と さくら に つかわれる、きゅうしゅう まで いく N700",
       "topSpeedKmh": 300,
       "comparison": {
@@ -950,6 +989,7 @@
     "descriptionShort": "2000ばんだい の つばさで、むらさき の ライン と かわった かお が めじるし",
     "encyclopedia": {
       "routeSummary": "とうきょう から ふくしま を へて やまがた・しんじょう ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 やまがた・しんじょう",
       "featureSummary": "むらさき の ライン が はいり、せんとうしゃ の ライト と かお が かわった つばさ",
       "topSpeedKmh": 275,
       "comparison": {
@@ -976,6 +1016,7 @@
     "descriptionShort": "0けい みたいな かおで、せんろ を しらべた T3 へんせい",
     "encyclopedia": {
       "routeSummary": "とうかいどう・さんようしんかんせん の せんろ と でんき を けんそく",
+      "routeEndpointsSummary": "とうきょう 〜 はかた を けんそく",
       "featureSummary": "0けい に にた まるい かお の T3 へんせい",
       "topSpeedKmh": 210,
       "comparison": {
@@ -1002,6 +1043,7 @@
     "descriptionShort": "みどり の しゃたいで、JRひがしにほん の はやぶさ として はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう から しんあおもり・しんはこだてほくと ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 しんあおもり・しんはこだてほくと",
       "featureSummary": "みどり の しゃたい と、320キロで はしる ながい はな",
       "topSpeedKmh": 320,
       "comparison": {
@@ -1028,6 +1070,7 @@
     "descriptionShort": "くうこう へ むかう とっきゅうで、とうきょう と なりたを むすぶ",
     "encyclopedia": {
       "routeSummary": "とうきょう・しんじゅく・よこはま から なりたくうこう",
+      "routeEndpointsSummary": "とうきょう・しんじゅく・よこはま 〜 なりたくうこう",
       "featureSummary": "しろ と くろ の しゃたい の くうこう とっきゅう",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
@@ -1050,6 +1093,7 @@
     "descriptionShort": "うかんで はしる リニアで、ちゅうおうしんかんせん の しけんしゃ",
     "encyclopedia": {
       "routeSummary": "やまなし じっけんせん で しけん そうこう",
+      "routeEndpointsSummary": "やまなし じっけんせん を しけん そうこう",
       "featureSummary": "しゃりん ではなく うかんで はしる リニア",
       "topSpeedKmh": 603,
       "speedLabel": "びっくりするほど はやい"
@@ -1072,6 +1116,7 @@
     "descriptionShort": "しろい しゃたいに あかい ラインで、ひたち として じょうばんせん を はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう・うえの から みと・いわき ほうめん",
+      "routeEndpointsSummary": "とうきょう・うえの 〜 みと・いわき",
       "featureSummary": "しろい しゃたい と あかい ライン の E657けい ひたち",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
@@ -1094,6 +1139,7 @@
     "descriptionShort": "ごうかな へやが あり、うえの と さっぽろを むすんだ しんだい とっきゅう",
     "encyclopedia": {
       "routeSummary": "うえの から さっぽろ を むすんだ しんだいとっきゅう",
+      "routeEndpointsSummary": "うえの 〜 さっぽろ",
       "featureSummary": "スイート や ダイニングカー が ある ごうか れっしゃ",
       "topSpeedKmh": 110,
       "speedLabel": "とっきゅう の はやさ"
@@ -1116,6 +1162,7 @@
     "descriptionShort": "PRiVACE を つないで、おおさか と きょうとを むすぶ はんきゅう とっきゅう",
     "encyclopedia": {
       "routeSummary": "おおさかうめだ から きょうとかわらまち ほうめん",
+      "routeEndpointsSummary": "おおさかうめだ 〜 きょうとかわらまち",
       "featureSummary": "PRiVACE の ざせき を つないだ はんきゅう とっきゅう",
       "topSpeedKmh": 130,
       "speedLabel": "はやめ"
@@ -1138,6 +1185,7 @@
     "descriptionShort": "はやく くうこうへ むかう、スカイライナー の AEがた",
     "encyclopedia": {
       "routeSummary": "けいせいうえの から なりたくうこう",
+      "routeEndpointsSummary": "けいせいうえの 〜 なりたくうこう",
       "featureSummary": "160キロ で くうこう へ むかう スカイライナー",
       "topSpeedKmh": 160,
       "speedLabel": "かなり はやい"
@@ -1160,6 +1208,7 @@
     "descriptionShort": "ながく あいされ、とうぶ てつどう の いろいろな せんを はしる",
     "encyclopedia": {
       "routeSummary": "とうぶ の いろいろな せんろ を ながく はしってきた",
+      "routeEndpointsSummary": "とうぶ の いろいろな せんろ で かつやく",
       "featureSummary": "ながく あいされる とうぶ の ベテラン でんしゃ",
       "topSpeedKmh": 100,
       "speedLabel": "まちで はしる はやさ"
@@ -1182,6 +1231,7 @@
     "descriptionShort": "けいおう の まちの せんろで、ながく はしる ベテラン でんしゃ",
     "encyclopedia": {
       "routeSummary": "しんじゅく から けいおうはちおうじ・たかおさんぐち ほうめん",
+      "routeEndpointsSummary": "しんじゅく 〜 けいおうはちおうじ・たかおさんぐち",
       "featureSummary": "けいおうせん で ながく かつやくする ベテラン つうきんでんしゃ",
       "topSpeedKmh": 120,
       "comparison": {
@@ -1208,6 +1258,7 @@
     "descriptionShort": "まるみ の ある かおで、けいおうせん を はしる でんしゃ",
     "encyclopedia": {
       "routeSummary": "しんじゅく から けいおうはちおうじ・たかおさんぐち ほうめん",
+      "routeEndpointsSummary": "しんじゅく 〜 けいおうはちおうじ・たかおさんぐち",
       "featureSummary": "まるみ の ある せんとうしゃ で、けいおう の つうきん を ささえる",
       "topSpeedKmh": 120,
       "comparison": {
@@ -1234,6 +1285,7 @@
     "descriptionShort": "しんじゅく から はしり、とえいしんじゅくせん に いく へんせい も ある",
     "encyclopedia": {
       "routeSummary": "けいおうせん と、へんせい によっては とえいしんじゅくせん",
+      "routeEndpointsSummary": "けいおうせん と とえいしんじゅくせん を つないで はしる",
       "featureSummary": "けいおう の つうきん でんしゃ で、ちかてつ へのりいれる へんせい も ある",
       "topSpeedKmh": 120,
       "comparison": {
@@ -1260,6 +1312,7 @@
     "descriptionShort": "ひだまりスペース があり、けいおうせん を はしる あたらしい でんしゃ",
     "encyclopedia": {
       "routeSummary": "けいおうせん と さがみはらせん を はしる あたらしい つうきんでんしゃ",
+      "routeEndpointsSummary": "しんじゅく 〜 はしもと・たかおさんぐち",
       "featureSummary": "ロングシート と クロスシート を きりかえられ、ひだまりスペース も ある",
       "topSpeedKmh": 130,
       "comparison": {
@@ -1286,6 +1339,7 @@
     "descriptionShort": "みどり の ラッピングで、たかおさん を イメージした 8000けい",
     "encyclopedia": {
       "routeSummary": "けいおうせん ぜんせん を はしる、たかおさん の ラッピングれっしゃ",
+      "routeEndpointsSummary": "しんじゅく 〜 たかおさんぐち",
       "featureSummary": "みどり の しゃたい に、しき の たかおさん が えがかれた ラッピング",
       "topSpeedKmh": 120,
       "comparison": {
@@ -1312,6 +1366,7 @@
     "descriptionShort": "みどり の ラインで、しんじゅくせん と けいおうせん を はしる",
     "encyclopedia": {
       "routeSummary": "とえいしんじゅくせん を はしり、けいおうせん に のりいれる へんせい も ある",
+      "routeEndpointsSummary": "とえいしんじゅくせん と けいおうせん を つないで はしる",
       "featureSummary": "10りょうへんせい の ながい でんしゃ で、みどり の ライン が めじるし",
       "topSpeedKmh": 110,
       "speedLabel": "はやめ"
@@ -1334,6 +1389,7 @@
     "descriptionShort": "あたらしい 8りょうへんせい で、みたせん を はしる",
     "encyclopedia": {
       "routeSummary": "みたせん を はしり、めぐろせん ほうめん に つながる",
+      "routeEndpointsSummary": "みたせん と めぐろせん を つないで はしる",
       "featureSummary": "8りょうへんせい の あたらしい でんしゃ で、あお の ライン が めじるし",
       "topSpeedKmh": 110,
       "speedLabel": "まちで はしる はやさ"
@@ -1356,6 +1412,7 @@
     "descriptionShort": "ワインいろ と ピンク の ラインで、おおえどせん を はしる",
     "encyclopedia": {
       "routeSummary": "おおえどせん の ぐるり と した ルート を はしる",
+      "routeEndpointsSummary": "しんじゅく・ろっぽんぎ・としまえん を ぐるり",
       "featureSummary": "リニアモーター で はしる 8りょうへんせい で、ワインいろ の ライン が めじるし",
       "topSpeedKmh": 70,
       "speedLabel": "まちで はしる はやさ"
@@ -1378,6 +1435,7 @@
     "descriptionShort": "あさくさせん から けいせい や けいきゅう へ つながる",
     "encyclopedia": {
       "routeSummary": "あさくさせん を はしり、けいせい・けいきゅう ほうめん に つながる",
+      "routeEndpointsSummary": "あさくさせん と けいせい・けいきゅう を つないで はしる",
       "featureSummary": "くまとり みたいな かおつき と、あかい ライン が めじるし",
       "topSpeedKmh": 120,
       "speedLabel": "はやめ"
@@ -1400,6 +1458,7 @@
     "descriptionShort": "レトロ な かおつきで、ぎんざせん を はしる",
     "encyclopedia": {
       "routeSummary": "ぎんざせん を はしる 6りょうへんせい の でんしゃ",
+      "routeEndpointsSummary": "しぶや 〜 あさくさ",
       "featureSummary": "むかし の 1000がた を イメージ した レトロ な デザイン",
       "topSpeedKmh": 65,
       "speedLabel": "まちで はしる はやさ"
@@ -1422,6 +1481,7 @@
     "descriptionShort": "あかい しゃたいで、まるのうちせん を はしる",
     "encyclopedia": {
       "routeSummary": "まるのうちせん を はしる 6りょうへんせい の あたらしい でんしゃ",
+      "routeEndpointsSummary": "おぎくぼ 〜 いけぶくろ",
       "featureSummary": "あかい しゃたい と まるい まど が めじるし",
       "topSpeedKmh": 75,
       "speedLabel": "まちで はしる はやさ"
@@ -1444,6 +1504,7 @@
     "descriptionShort": "ひびやせん から とうぶせん へ つながる でんしゃ",
     "encyclopedia": {
       "routeSummary": "ひびやせん を はしり、とうぶせん へ のりいれる",
+      "routeEndpointsSummary": "なかめぐろ 〜 きたせんじゅ・とうぶ ほうめん",
       "featureSummary": "7りょうへんせい の あたらしい でんしゃ で、グレー の ライン が めじるし",
       "topSpeedKmh": 100,
       "speedLabel": "はやめ"
@@ -1466,6 +1527,7 @@
     "descriptionShort": "みずいろ の ラインで、とうざいせん を はしる",
     "encyclopedia": {
       "routeSummary": "とうざいせん を はしり、とうようこうそくせん や JR へ つながる",
+      "routeEndpointsSummary": "なかの 〜 にしふなばし・とうようこうそく ほうめん",
       "featureSummary": "10りょうへんせい の ながい でんしゃ で、みずいろ の ライン が めじるし",
       "topSpeedKmh": 100,
       "speedLabel": "はやめ"
@@ -1488,6 +1550,7 @@
     "descriptionShort": "ちよだせん から JR や おだきゅう へ つながる",
     "encyclopedia": {
       "routeSummary": "ちよだせん を はしり、JRじょうばんせん や おだきゅうせん へ のりいれる",
+      "routeEndpointsSummary": "よよぎうえはら 〜 あやせ・JR・おだきゅう ほうめん",
       "featureSummary": "みどり の ライン が めじるし の 10りょうへんせい",
       "topSpeedKmh": 100,
       "speedLabel": "はやめ"
@@ -1510,6 +1573,7 @@
     "descriptionShort": "ふくとしんせん を はしる あたらしい でんしゃ",
     "encyclopedia": {
       "routeSummary": "ふくとしんせん を はしり、とうぶ・せいぶ・とうきゅう ほうめん に つながる",
+      "routeEndpointsSummary": "わこうし 〜 しぶや・とうぶ・せいぶ・とうきゅう ほうめん",
       "featureSummary": "10りょう と 8りょう が あり、ちゃいろ の ライン が めじるし",
       "topSpeedKmh": 110,
       "speedLabel": "はやめ"
@@ -1532,6 +1596,7 @@
     "descriptionShort": "むらさき の ラインで、はんぞうもんせん を はしる",
     "encyclopedia": {
       "routeSummary": "はんぞうもんせん を はしり、とうぶ ほうめん に のりいれる",
+      "routeEndpointsSummary": "しぶや 〜 おしあげ・とうぶ ほうめん",
       "featureSummary": "むらさき の ライン が めじるし の あたらしい 10りょうへんせい",
       "topSpeedKmh": 110,
       "speedLabel": "はやめ"
@@ -1554,6 +1619,7 @@
     "descriptionShort": "なんぼくせん を はしり、とうきゅうせん にも つながる",
     "encyclopedia": {
       "routeSummary": "なんぼくせん を はしり、さいたまこうそくせん や とうきゅうせん へ のりいれる",
+      "routeEndpointsSummary": "めぐろ 〜 あかばねいわぶち・さいたまこうそく・とうきゅう ほうめん",
       "featureSummary": "みどり の ライン が めじるし で、6りょう と 8りょう が ある",
       "topSpeedKmh": 110,
       "speedLabel": "はやめ"
@@ -1576,6 +1642,7 @@
     "descriptionShort": "うみぞい を ながめながら、まつやま から いよおおず ほうめんへ むかう",
     "encyclopedia": {
       "routeSummary": "まつやま から いよおおず・やわたはま ほうめん の うみぞい",
+      "routeEndpointsSummary": "まつやま 〜 いよおおず・やわたはま",
       "featureSummary": "おおきな まど から いよなだ を たのしむ かんこうれっしゃ",
       "topSpeedKmh": 110,
       "speedLabel": "とっきゅう の はやさ"
@@ -1598,6 +1665,7 @@
     "descriptionShort": "アーバンライナー の しんしい すがたで、おおさか と なごやを むすぶ",
     "encyclopedia": {
       "routeSummary": "おおさかなんば と きんてつなごや を むすぶ",
+      "routeEndpointsSummary": "おおさかなんば 〜 きんてつなごや",
       "featureSummary": "シルバー の しゃたい と まるい まど の アーバンライナー",
       "topSpeedKmh": 130,
       "comparison": {
@@ -1624,6 +1692,7 @@
     "descriptionShort": "2かい ドアで、とうかいどうせん の かいそくアクティー を はしった",
     "encyclopedia": {
       "routeSummary": "とうきょう・よこはま から あつぎ・おだわら ほうめん の とうかいどうせん",
+      "routeEndpointsSummary": "とうきょう・よこはま 〜 おだわら",
       "featureSummary": "2かい ドア で はしった 211けい の かいそくアクティー",
       "topSpeedKmh": 120,
       "speedLabel": "はやめ"
@@ -1646,6 +1715,7 @@
     "descriptionShort": "ハローキティ の えが ついて、さんようしんかんせん を はしる",
     "encyclopedia": {
       "routeSummary": "しんおおさか から はかた ほうめん の さんようしんかんせん",
+      "routeEndpointsSummary": "しんおおさか 〜 はかた",
       "featureSummary": "ハローキティ の ラッピング と かわいい ないそう の 500けい",
       "topSpeedKmh": 270,
       "comparison": {
@@ -1672,6 +1742,7 @@
     "descriptionShort": "パンダ の かおが えがかれ、しらはま ほうめんへ むかう くろしお",
     "encyclopedia": {
       "routeSummary": "てんのうじ・しんおおさか から しらはま・しんぐう ほうめん",
+      "routeEndpointsSummary": "てんのうじ・しんおおさか 〜 しらはま・しんぐう",
       "featureSummary": "パンダ の かお を えがいた くろしお ラッピング",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
@@ -1694,6 +1765,7 @@
     "descriptionShort": "あお と しろ を いれかえた、130しゅうねん きねん の ミュースカイ",
     "encyclopedia": {
       "routeSummary": "ミュースカイ と おなじ くうこう ほうめん",
+      "routeEndpointsSummary": "めいてつなごや 〜 ちゅうぶこくさいくうこう",
       "featureSummary": "めいてつ 130しゅうねん の きねん ぬりわけ",
       "topSpeedKmh": 120,
       "comparison": {
@@ -1720,6 +1792,7 @@
     "descriptionShort": "こんいろ の いろで、よこすかせん と そうぶかいそく を はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう から よこすか・ちば ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 よこすか・ちば",
       "featureSummary": "やまのてせん と おなじ E235けい でも、ながい きょりよう の でんしゃ",
       "topSpeedKmh": 120,
       "comparison": {
@@ -1746,6 +1819,7 @@
     "descriptionShort": "グリーンしゃ を つないで、ちゅうおうせん を はしる E233けい",
     "encyclopedia": {
       "routeSummary": "とうきょう から たちかわ・はちおうじ ほうめん の ちゅうおうせん",
+      "routeEndpointsSummary": "とうきょう 〜 たちかわ・はちおうじ",
       "featureSummary": "2かいだて の グリーンしゃ を つないだ E233けい",
       "topSpeedKmh": 100,
       "speedLabel": "まちで はしる はやさ"
@@ -1768,6 +1842,7 @@
     "descriptionShort": "オレンジ と みどり の いろで、しょうなん ほうめんを はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう から しょうなん・おだわら ほうめん",
+      "routeEndpointsSummary": "とうきょう 〜 しょうなん・おだわら",
       "featureSummary": "オレンジ と みどり の しょうなんいろ の E233けい",
       "topSpeedKmh": 120,
       "comparison": {
@@ -1794,6 +1869,7 @@
     "descriptionShort": "みずいろ の ラインで、おおみや から よこはま を むすぶ",
     "encyclopedia": {
       "routeSummary": "おおみや から とうきょう・よこはま",
+      "routeEndpointsSummary": "おおみや 〜 よこはま",
       "featureSummary": "みずいろ の ライン で まち を たてに むすぶ",
       "topSpeedKmh": 90,
       "speedLabel": "まちで はしる はやさ"
@@ -1816,6 +1892,7 @@
     "descriptionShort": "きいろ の ラインで、そうぶせん を のんびり はしる",
     "encyclopedia": {
       "routeSummary": "みたか から あきはばら・ちば ほうめん の そうぶせん",
+      "routeEndpointsSummary": "みたか 〜 ちば",
       "featureSummary": "きいろ の ライン で えき ひとつずつ とまる",
       "topSpeedKmh": 95,
       "speedLabel": "まちで はしる はやさ"
@@ -1838,6 +1915,7 @@
     "descriptionShort": "あかい ラインで、けいようせん を はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう から まいはま・そが ほうめん の けいようせん",
+      "routeEndpointsSummary": "とうきょう 〜 そが",
       "featureSummary": "あかい ライン で、うみちかく を はしる E233けい",
       "topSpeedKmh": 100,
       "speedLabel": "まちで はしる はやさ"
@@ -1860,6 +1938,7 @@
     "descriptionShort": "みどり の ラインで、むかしの さいきょうせん を はしった",
     "encyclopedia": {
       "routeSummary": "いけぶくろ・しんじゅく から おおみや ほうめん の むかしの さいきょうせん",
+      "routeEndpointsSummary": "いけぶくろ・しんじゅく 〜 おおみや",
       "featureSummary": "みどり の ライン で かつやく した むかしの つうきんでんしゃ",
       "topSpeedKmh": 100,
       "comparison": {
@@ -1886,6 +1965,7 @@
     "descriptionShort": "エメラルドいろ で、むかしの じょうばんせん を はしった",
     "encyclopedia": {
       "routeSummary": "うえの から とりで ほうめん の むかしの じょうばんせん",
+      "routeEndpointsSummary": "うえの 〜 とりで",
       "featureSummary": "エメラルドいろ の ライン で かつやく した 103けい",
       "topSpeedKmh": 100,
       "comparison": {

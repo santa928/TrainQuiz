@@ -83,6 +83,7 @@ test("every published train exposes encyclopedia fields for parent-child learnin
   for (const train of trains) {
     assert.ok(train.encyclopedia);
     assert.notEqual(train.encyclopedia.routeSummary.trim(), "");
+    assert.notEqual(train.encyclopedia.routeEndpointsSummary.trim(), "");
     assert.notEqual(train.encyclopedia.featureSummary.trim(), "");
     assert.notEqual(train.encyclopedia.speedLabel.trim(), "");
     assert.ok(typeof train.encyclopedia.topSpeedKmh === "number");
