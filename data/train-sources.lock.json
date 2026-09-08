@@ -1,0 +1,1655 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "e5-hayabusa",
+      "sourceFingerprint": "7a07735e28a7f0c7a0b38c8287c2cf5295efc27e0dacd058cae7f559be83acb8",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-03 E5系新幹線はやぶさ(連結仕様)",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E5系・H5系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE5%E7%B3%BB%E3%83%BBH5%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Series-E5-U15_Yamabiko-50.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E5-U15_Yamabiko-50.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "e6-komachi",
+      "sourceFingerprint": "a00d2028cbcc687125c8c570300143483c67c8f99f4e1bb84bdfeccfb1628d25",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-14 E6系新幹線こまち（連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E6系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE6%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Series-E6_Z14_Komachi.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E6_Z14_Komachi.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "e3-tsubasa",
+      "sourceFingerprint": "1eac196b04b15c4556226e57a3a6c5a6179d69168749bb61132c26a4cdfcc72b",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-06 E3系新幹線つばさ(連結仕様)",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E3系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE3%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Shinkansen-e3-tsubasa_colour.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen-e3-tsubasa_colour.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Sui-setz"
+      }
+    },
+    {
+      "id": "e4-max",
+      "sourceFingerprint": "babc832295b7d8446b1902613d4baa926df8382fbfbddeb58d9b8f2b4cf18626",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-10 E4系新幹線Max（連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E4系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE4%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/JR_East_Shinkansen_E4.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR_East_Shinkansen_E4.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Sui-setz"
+      }
+    },
+    {
+      "id": "e7-kagayaki",
+      "sourceFingerprint": "f371d7068e840c6322b888a5be6ddfbb86cc6bb4061448e65f8358f4e62c95de",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-05 ライト付Ｅ７系新幹線かがやき",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E7系・W7系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE7%E7%B3%BB%E3%83%BBW7%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Series-E7_F29_Tanigawa-410.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E7_F29_Tanigawa-410.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "h5-hayabusa",
+      "sourceFingerprint": "cbc1821bfbf41220c5632143b84ae2c2e9b0f315d4e5340511acf8467d23fbdb",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-40 レールで往復！Ｈ５系新幹線はやぶさ",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E5系・H5系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE5%E7%B3%BB%E3%83%BBH5%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/JRH_Series-H5_H1.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRH_Series-H5_H1.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "500-nozomi",
+      "sourceFingerprint": "dc09f285514ef395babed71251610d798ef786833497121d32b3cabff81a097c",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-02 ライト付500系新幹線（ハイパワーライト)",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線500系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9A500%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/JRW-500-nozomi.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW-500-nozomi.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Mitsuki-2368"
+      }
+    },
+    {
+      "id": "doctor-yellow",
+      "sourceFingerprint": "d65455657ab863e472a6d8389f4bdd292b1aeccceb9c9a59e1e40701482ae155",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-07 ライト付923形ドクターイエローT4編成",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "ドクターイエロー",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%A4%E3%82%A8%E3%83%AD%E3%83%BC",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Type923-T4.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Type923-T4.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "800-tsubame",
+      "sourceFingerprint": "ed421c99839f113565c72722268bad8e93a6d9ff8f42b7b41731eb9bfea8cdb4",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-22 800系新幹線つばめ",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線800系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9A800%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/800_Series_in_Kagoshima-Chuo.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:800_Series_in_Kagoshima-Chuo.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Kazehayashi"
+      }
+    },
+    {
+      "id": "n700",
+      "sourceFingerprint": "afd5d7b34a416b9c5c9c37570562cfc5cda9006f119b008d7c9b576aaf754713",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-11 サウンドN700系新幹線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線N700系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shinkansen_N700_z15.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700_z15.jpg",
+        "imageLicense": "CC BY 3.0",
+        "imageAuthor": "TC411-507 at Japanese Wikipedia"
+      }
+    },
+    {
+      "id": "yakumo-273",
+      "sourceFingerprint": "a9f5843c51582b2890faea28bcfae3694365742e4bc24e61e636bdf95806bf45",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-08 273系特急やくも",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "273 series",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/273_series",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/JRW_Series273-Y1.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW_Series273-Y1.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "yufuin-no-mori",
+      "sourceFingerprint": "8b6e06184de18a97602f8b1238ccb87f1a7acd237064f4294622512258922b1c",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-21 JR九州ゆふいんの森",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "Yufuin no Mori",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Yufuin_no_Mori",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2013-01-03_%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E3%81%AE%E6%A3%AE%E5%8F%B7.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2013-01-03_%E3%82%86%E3%81%B5%E3%81%84%E3%82%93%E3%81%AE%E6%A3%AE%E5%8F%B7.jpg",
+        "imageLicense": "CC BY 2.0",
+        "imageAuthor": "veroyama"
+      }
+    },
+    {
+      "id": "e353-azusa",
+      "sourceFingerprint": "503619f5dc487c05435e93588a2e7b7994b02bf5da270024425ce2a67fbad0bb",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-23 E353系あずさ（専用連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E353系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE353%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Series_E353_S107.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_E353_S107.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "nankai-rapit",
+      "sourceFingerprint": "5c03452b61b8ab4baf51af31acba35f99822dc405efe8af773e9e046eef39ff3",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-35 南海ラピート",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "南海50000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%8D%97%E6%B5%B750000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Nankai_Series50000.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nankai_Series50000.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "spacia-x",
+      "sourceFingerprint": "b8fcc68c04d3d641b2b2fe89f911ecb016a24b006857ba70143a567708f6434e",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-36 東武スペーシア X",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東武N100系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6N100%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tobu_Series-N100-N101.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu_Series-N100-N101.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "hinotori",
+      "sourceFingerprint": "dfa17056626b86e1d77f20be34a8ff8c95a686afa382535f8fb0a382329cd2ce",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-44 ライト付近鉄名阪特急ひのとり",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "近鉄80000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%8480000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kintetsu_80000_Series_between_Kasumigaura_and_Kintetsu-Tomida.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kintetsu_80000_Series_between_Kasumigaura_and_Kintetsu-Tomida.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "さりと"
+      }
+    },
+    {
+      "id": "odakyu-gse",
+      "sourceFingerprint": "4b219a201121a9d1b5a97a1951f96127687e104a36331a0d403d8a59df0c4dac",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-52 小田急ロマンスカーGSE70000形",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "小田急70000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A570000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Odakyu-Series70000_GSE.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-Series70000_GSE.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "meitetsu-mu-sky",
+      "sourceFingerprint": "b25665efc4b9d4025f618b65734367b00abeb09172d22353c905710f2f9a30a6",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-55 名鉄2000系ミュースカイ",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "名鉄2000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%842000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nagoya_Railway_2000.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nagoya_Railway_2000.jpg",
+        "imageLicense": "Public domain",
+        "imageAuthor": "Sui-setz"
+      }
+    },
+    {
+      "id": "haruka-281",
+      "sourceFingerprint": "37ff3a7a99cd776fa0b43c8b293f4f24c4b9d8cfa77e68a156ae1434bb1f0cd0",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-57 281系特急はるか（専用連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR西日本281系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC281%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Series281_Hanwa_Line.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series281_Hanwa_Line.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "super-hakuto",
+      "sourceFingerprint": "613494dc82ce09310c0ba28dc527bc849c90462420f32590c9ac9314ad5e258d",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-63 智頭急行 特急スーパーはくと",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "智頭急行HOT7000系気動車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%99%BA%E9%A0%AD%E6%80%A5%E8%A1%8CHOT7000%E7%B3%BB%E6%B0%97%E5%8B%95%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/HOT7000-7000.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:HOT7000-7000.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "shimakaze",
+      "sourceFingerprint": "64d50ba4624375754eab99491d8cceef2e04587a18ef1c7d4f741df696668527",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-48 近鉄観光特急しまかぜ",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "近鉄50000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%8450000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/KINTETSU50000_20140121A.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:KINTETSU50000_20140121A.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "\"Oka21000\""
+      }
+    },
+    {
+      "id": "e235-yamanote",
+      "sourceFingerprint": "762cfbe6bd2bc560fc0d7e8c0d7ff75e262a9906719be1aa0f0bf7630532d308",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-32 ドア開閉E235系山手線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E235系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE235%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Series-E235-0_9.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E235-0_9.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "e231-near",
+      "sourceFingerprint": "b12d5de6a18121b3495f463a6c1f1130170d154a45e50b04a9e2aa706d864745",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-43 サウンドE231系近郊電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E231系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE231%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/E231%E7%B3%BB%E8%BF%91%E9%83%8A%E5%BD%A2%E3%83%BBK-38%E7%B7%A8%E6%88%90%EF%BC%88%E5%89%8D%E7%85%A7%E7%81%AF%E6%9B%B4%E6%96%B0%E5%BE%8C%EF%BC%89.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E231%E7%B3%BB%E8%BF%91%E9%83%8A%E5%BD%A2%E3%83%BBK-38%E7%B7%A8%E6%88%90%EF%BC%88%E5%89%8D%E7%85%A7%E7%81%AF%E6%9B%B4%E6%96%B0%E5%BE%8C%EF%BC%89.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "PQ Usui"
+      }
+    },
+    {
+      "id": "e531-joban",
+      "sourceFingerprint": "7d779c03b4400a63748ef2c8f90669ad3f6bda7086bfda954d67b6c31c3c25eb",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-50 E531系常磐線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E531系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE531%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/E531%E7%B3%BB0%E7%95%AA%E5%8F%B0%E3%82%AB%E3%83%84K425%E7%B7%A8%E6%88%90.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E531%E7%B3%BB0%E7%95%AA%E5%8F%B0%E3%82%AB%E3%83%84K425%E7%B7%A8%E6%88%90.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "えぬはち"
+      }
+    },
+    {
+      "id": "shinkaisoku-225",
+      "sourceFingerprint": "2565fd4aa0a0c9cb0794d9b1b13c29634a019b7fdf2bbd05278560fd487579d5",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-42 225系新快速（専用連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR西日本225系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC225%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Series225-0-I7-Rapid_%282021-09-07%29.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series225-0-I7-Rapid_(2021-09-07).jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Himeji-Higashi11184"
+      }
+    },
+    {
+      "id": "osaka-loop-323",
+      "sourceFingerprint": "e27ff8b8247ab98ef7bee9607e504a4ecbf3c64eb00a3de93d2062b299f2000e",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-45 323系大阪環状線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR西日本323系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC323%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Series323-LS21.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series323-LS21.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "chuo-315",
+      "sourceFingerprint": "e55abba704efc9a42fdb6c87f4573714ca8e6006b9df33784fe1f6e9cdf2f3ed",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-39 315系中央本線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東海315系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%B5%B7315%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Series315_C6.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series315_C6.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "ひろばのさるの"
+      }
+    },
+    {
+      "id": "tx-3000",
+      "sourceFingerprint": "22fca2a9a470535b6894ad0a29cf9fb5c78fb4bd75281fa982919848afa6ac17",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-62 つくばエクスプレス3000系",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "首都圏新都市鉄道TX-3000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E9%A6%96%E9%83%BD%E5%9C%8F%E6%96%B0%E9%83%BD%E5%B8%82%E9%89%84%E9%81%93TX-3000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/TX_Series3000-3685.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:TX_Series3000-3685.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "meitetsu-6500",
+      "sourceFingerprint": "554df4aa245d0545eeac68d1ecb63c182b2e7e1de2dafebb569ddf5bf35ea5e2",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-65 名鉄6500系",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "名鉄6000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%846000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Meitetsu_6000_series_031.JPG",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Meitetsu_6000_series_031.JPG",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Tennen-Gas"
+      }
+    },
+    {
+      "id": "osaka-metro-400",
+      "sourceFingerprint": "0a8639736a139ba3ede00b93180ef77501fc76438bf23080e35f93303bbf4c50",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-37 Osaka Metro中央線400系（クロスシート車仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "Osaka Metro400系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/Osaka_Metro400%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/406-18f.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:406-18f.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "Springuy"
+      }
+    },
+    {
+      "id": "eh500-kintaro",
+      "sourceFingerprint": "21c715d88e0dbb16cd28ac451fe8b1602624ef709c04e4bfe3955e9055f6dad4",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-25 EH500金太郎",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR貨物EH500形電気機関車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%B2%A8%E7%89%A9EH500%E5%BD%A2%E9%9B%BB%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/EH500-32.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:EH500-32.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II"
+      }
+    },
+    {
+      "id": "ef210-momotaro",
+      "sourceFingerprint": "6cbfdb4c4c22bff9c5a8cb069559c1908b651702e282e0ed4e892d202d3b91c8",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-26 EF210桃太郎",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR貨物EF210形電気機関車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%B2%A8%E7%89%A9EF210%E5%BD%A2%E9%9B%BB%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/JRF_EF210-4_20140517.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRF_EF210-4_20140517.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Mitsuki-2368"
+      }
+    },
+    {
+      "id": "ef510-red-thunder",
+      "sourceFingerprint": "5ec5f92bdb1f98316a7605a525d2c7a531656374e13cdd58fac1e91f678e8a5e",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-46 EF510レッドサンダー（シルバー仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR貨物EF510形電気機関車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%B2%A8%E7%89%A9EF510%E5%BD%A2%E9%9B%BB%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/JRE_EF510-501_and_JRF_EF510-1_in_Omiya_20100522.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_EF510-501_and_JRF_EF510-1_in_Omiya_20100522.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Rsa"
+      }
+    },
+    {
+      "id": "ef66",
+      "sourceFingerprint": "4e9eb4a1e74688657c0e418923ba9fe7d1d56dcfb78904c76b3fc82da2462856",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-60 EF66電気機関車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "国鉄EF66形電気機関車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84EF66%E5%BD%A2%E9%9B%BB%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/JNR_EF66_42_20050308.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR_EF66_42_20050308.jpg",
+        "imageLicense": "CC BY 3.0",
+        "imageAuthor": "ja:User:DD51612"
+      }
+    },
+    {
+      "id": "d51-200",
+      "sourceFingerprint": "0bbe0083cabbbbc18e0ff8b61cc7d7f9f76a695918a44efafef5dc737ee02be5",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-28 ライト付D51 200号機蒸気機関車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "国鉄D51形蒸気機関車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84D51%E5%BD%A2%E8%92%B8%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/D51498-080929.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:D51498-080929.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Mutimaro"
+      }
+    },
+    {
+      "id": "c61-20",
+      "sourceFingerprint": "f322648198f80669e3007e468566d12691ba66d12227d2a33db18616249dfcc5",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-29 ライト付C61 20号機蒸気機関車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "国鉄C61形蒸気機関車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84C61%E5%BD%A2%E8%92%B8%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JNR-C61-2.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR-C61-2.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Photo and"
+      }
+    },
+    {
+      "id": "c57-yamaguchi",
+      "sourceFingerprint": "6ee9390feb71bbcd8b57c74c99c0735f5290fbab8908f81f2d85f46a651416e3",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-53 C57 1号機SLやまぐち号",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "国鉄C57形蒸気機関車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84C57%E5%BD%A2%E8%92%B8%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Imgc571.1123.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Imgc571.1123.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "C57yamaguti"
+      }
+    },
+    {
+      "id": "n700a",
+      "sourceFingerprint": "16518b647530f89ef9480a3995acac89359e9ad5caf30991896edac6173a7213",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-01 ライト付Ｎ７００Ａ新幹線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線N700系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/JR-Tokaido-Shinkansen-N700A_01.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR-Tokaido-Shinkansen-N700A_01.jpg",
+        "imageLicense": "CC BY 4.0",
+        "imageAuthor": "RuinDig/Yuki Uchida"
+      }
+    },
+    {
+      "id": "n700-mizuho-sakura",
+      "sourceFingerprint": "fa32938361c05796c40d3e954ece5de106b15dab62cc4fb2b12550c05afee5d1",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-04 ライト付N700系新幹線みずほ・さくら",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線N700系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Series-N700-7000-S8_Sakura-540.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-N700-7000-S8_Sakura-540.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "e3-tsubasa-2000",
+      "sourceFingerprint": "ca3d27fd0c3019ff70cccc8ea7d9c91219994630b60f152a30981702443b7848",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-09 E3系新幹線つばさ2000番代（連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E3系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE3%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/E3-2000_L67_Akayu_Tsubasa_128_20150905.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E3-2000_L67_Akayu_Tsubasa_128_20150905.jpg",
+        "imageLicense": "CC BY 3.0",
+        "imageAuthor": "ttzshirasawa"
+      }
+    },
+    {
+      "id": "doctor-yellow-t3",
+      "sourceFingerprint": "61a6f8e1df34816730bfb7dc39024e07eb4cb72a21bdecb83cf9956fe86d23c1",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-12 ライト付922形ドクターイエローT3編成",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "ドクターイエロー",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%A4%E3%82%A8%E3%83%AD%E3%83%BC",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Doctor_Yellow_922-26_T3_SCMaglev_and_Railway_Park.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Doctor_Yellow_922-26_T3_SCMaglev_and_Railway_Park.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Morio"
+      }
+    },
+    {
+      "id": "e5-hayabusa-speed-change",
+      "sourceFingerprint": "7767256a988b1daa0da319d2b14c0ba3fd053847d4d01b590761cdc09d6618d4",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-16 レールで速度チェンジ!! E5系新幹線はやぶさ",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E5系・H5系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE5%E7%B3%BB%E3%83%BBH5%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Series-E5-U15_Yamabiko-50.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E5-U15_Yamabiko-50.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "narita-express",
+      "sourceFingerprint": "13016b3b0287f1c7affb9d0a1c130167310a8ffbb7c75f483848293261bed7bd",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-15 成田エクスプレス（専用連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E259系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE259%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Series-E259_NE018.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E259_NE018.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "l0-maglev",
+      "sourceFingerprint": "39431e0f70f74c8b748970bc9c5232dd910c7655d9682f2902507083fb425149",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-17 レールで速度チェンジ!! 超電導リニアL0系 改良型試験車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "L0系",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/L0%E7%B3%BB",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Series_L0.JPG",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_L0.JPG",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Saruno Hirobano"
+      }
+    },
+    {
+      "id": "e657-hitachi-yellow",
+      "sourceFingerprint": "5a22a86c9953842363c42781c675c5ed8d105ce1a94c2ae3630f774a7081c074",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-19 E657系特急ひたち（リバイバルカラー黄色）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E657系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE657%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Series-E657-K19_Hitachi-20.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E657-K19_Hitachi-20.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "cassiopeia",
+      "sourceFingerprint": "31e04182b957861bd42e2e05042ca753e783a322abfb687022fa529e9eccd478",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-41 寝台特急カシオペア",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "カシオペア (列車)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E3%83%9A%E3%82%A2_(%E5%88%97%E8%BB%8A)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cassiopeia_No1.JPG",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cassiopeia_No1.JPG",
+        "imageLicense": "Public domain",
+        "imageAuthor": "toshinori baba"
+      }
+    },
+    {
+      "id": "hankyu-2300-private",
+      "sourceFingerprint": "b0e8108d6cdead388712bbd2ea04634983b69080586031d087494e7425e0e27c",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-47 阪急電鉄2300系 PRiVACE（プライベース）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "阪急2300系電車 (2代)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A52300%E7%B3%BB%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Hankyu_Kyoto_Line_Series-2300.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hankyu_Kyoto_Line_Series-2300.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "Springuy"
+      }
+    },
+    {
+      "id": "keisei-skyliner-ae",
+      "sourceFingerprint": "74ae97cc9ba2609dd0b943a2296b77c3e2296c686c8effb7010af95fc71415ff",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-54 京成スカイライナーAE形",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "京成AE形電車 (2代)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%88%90AE%E5%BD%A2%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Keisei-Type-AE.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keisei-Type-AE.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "tobu-8000",
+      "sourceFingerprint": "8d68d7efb505e08e19cad7afb33d22d2f40b888436c619f91a684306e2d5a8ce",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-61 東武8000型",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東武8000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A68000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Tobu-Series8000_8163.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu-Series8000_8163.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "keio-7000",
+      "sourceFingerprint": "f4da72f2aa232823146791d4f22e44fb6ca708f39a9277a1991e5fe645d85de0",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B7000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "京王7000系",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "京王7000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B7000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Keio-Series7000-7805.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series7000-7805.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "keio-8000",
+      "sourceFingerprint": "3a527b92553dbd4adbcfcc7fd83a6a68312e88bca669e76a7aea925a16f270ca",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "京王8000系",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "京王8000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Keio-Series8000.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series8000.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "keio-9000",
+      "sourceFingerprint": "72332fc3f1ec42b89a446a9bc36540771129b8ec5b75495552894a76343fd536",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/info/special.htm",
+      "evidenceText": "京王9000系",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "京王9000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B9000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Keio-Series9000-9701.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series9000-9701.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "keio-2000",
+      "sourceFingerprint": "e6bf1a758c5586a4acdffbe69bd1212c4798d9f617991c7db67f4c238f9d3262",
+      "evidenceUrl": "https://www.keio.co.jp/news/update/news_release/news_all.html",
+      "evidenceText": "新型通勤車両「２０００系」２０２６年１月３１日（土）に運行開始します",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "Keio 2000 series",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Keio_2000_series",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Keio2000_2751_for_Keio-Hachioji_20260201.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio2000_2751_for_Keio-Hachioji_20260201.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Rsa"
+      }
+    },
+    {
+      "id": "keio-9000-takao",
+      "sourceFingerprint": "cc6b21cef958288ee0dc7008f3ad5971f1740a18d3a69df95efc5fed819c78d4",
+      "evidenceUrl": "https://prtimes.jp/main/html/rd/p/000000020.000022856.html",
+      "evidenceText": "高尾山トレイン",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "京王8000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Keio-Series8000-8713_Takao-wrapping.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series8000-8713_Takao-wrapping.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "toei-shinjuku-10-300",
+      "sourceFingerprint": "a3df6ecb1159cc4f3136c2e6931667cb7af1c19d4ec2d72536f3df062e4d6a62",
+      "evidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+      "evidenceText": "新宿線 10-300形",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京都交通局10-300形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%8010-300%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Toei_Series10-300_10-450.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei_Series10-300_10-450.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "toei-mita-6500",
+      "sourceFingerprint": "bbc51e54b840bced3f355035fd113b736778a5a471671dc8d2ea9f227a04c9e6",
+      "evidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+      "evidenceText": "三田線 6500形",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京都交通局6500形電車 (鉄道)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%806500%E5%BD%A2%E9%9B%BB%E8%BB%8A_(%E9%89%84%E9%81%93)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Toei_Series6500-6502.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei_Series6500-6502.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "toei-oedo-12-600",
+      "sourceFingerprint": "b99febd1a771aee8e3e2711bfe958976110a83129b886f9c9a505569dd92b9a0",
+      "evidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+      "evidenceText": "大江戸線 12-600形",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京都交通局12-600形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%8012-600%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Toei-subway12-600.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei-subway12-600.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Nyohoho"
+      }
+    },
+    {
+      "id": "toei-asakusa-5500",
+      "sourceFingerprint": "aab6707c07e0a7e849b994bb854164960038eb3a4eaef596f376eaa528ad3343",
+      "evidenceUrl": "https://www.kotsu.metro.tokyo.jp/about/koukai/vehicle_outline/model_diagram/",
+      "evidenceText": "浅草線 5500形",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京都交通局5500形電車 (鉄道)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%BA%A4%E9%80%9A%E5%B1%805500%E5%BD%A2%E9%9B%BB%E8%BB%8A_(%E9%89%84%E9%81%93)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Toei-Type5522-1.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Toei-Type5522-1.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II"
+      }
+    },
+    {
+      "id": "metro-ginza-1000",
+      "sourceFingerprint": "55de8464a7ced67f69b5a6d6d8b71e39c4186b01ffda76369c3a494d66016250",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD1000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "東京メトロ1000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京メトロ1000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD1000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tokyo-Metro_Series1000-1008_Marunouchi-Line.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro_Series1000-1008_Marunouchi-Line.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "metro-marunouchi-2000",
+      "sourceFingerprint": "021da23c7cd8e21d9769ae2bdc8af0bceafd2675e90ee7733ebc0c1ee1584b97",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD2000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "東京メトロ2000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京メトロ2000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD2000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tokyo-Metro_Series2000-2026.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro_Series2000-2026.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "metro-hibiya-13000",
+      "sourceFingerprint": "e313d41455e68abac48a3f4bb82f31ebe111389e7a4baab5d92bb270a02af943",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD13000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "東京メトロ13000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京メトロ13000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD13000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tokyo-Metro-Series13000-13111.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro-Series13000-13111.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "metro-tozai-15000",
+      "sourceFingerprint": "00bb0dcee04cb4c2e645ba82dac5d68268a327610ea0d200b4302b1c49da90ad",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD15000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "東京メトロ15000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京メトロ15000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD15000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Tokyo-Metro_Series15000-15001.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro_Series15000-15001.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "metro-chiyoda-16000",
+      "sourceFingerprint": "21bf7935308118eaee7e66e04f08fbcf367880e8380017cbe4d3eb61f8b50273",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD16000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "東京メトロ16000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京メトロ16000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD16000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tokyo-Metro_Series16000-16001.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro_Series16000-16001.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "metro-fukutoshin-17000",
+      "sourceFingerprint": "0a18a4551e8216d464f9a1a6dabfb8ab8be419185391412954588b1da1a22592",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD17000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "東京メトロ17000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京メトロ17000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD17000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Tokyo-Metro-Series17000_17105.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro-Series17000_17105.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "metro-hanzomon-18000",
+      "sourceFingerprint": "e5950b2f7f014fdca878014175b838d7d0e807c9ff92b09110408872c59c162c",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD18000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "東京メトロ18000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東京メトロ18000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%A1%E3%83%88%E3%83%AD18000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Tokyo-Metro_Series18000-18007.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro_Series18000-18007.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "metro-namboku-9000",
+      "sourceFingerprint": "f6738631f0d63998e32d21f56e11007348e033306c18dd0c8b6146e6a94e8388",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E5%96%B6%E5%9B%A39000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "営団地下鉄9000系電車",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "営団9000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%96%B6%E5%9B%A39000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tokyo-Metro_Series9000R-9803.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Metro_Series9000R-9803.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "iyonada-monogatari",
+      "sourceFingerprint": "af6a3e404cc9820577a157e9d13e313fabc677585a92258d362e83a912f2f75f",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-64 伊予灘ものがたり",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "伊予灘ものがたり",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E4%BA%88%E7%81%98%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Iyonada_Monogatari_2020.08_%282%29.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Iyonada_Monogatari_2020.08_(2).jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Sunport1216"
+      }
+    },
+    {
+      "id": "urbanliner-next",
+      "sourceFingerprint": "cc8581bc0893d7be868face3c596d4bfbcc4b1e59d6c61d40739880963691886",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "近鉄アーバンライナーnext",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "近鉄21020系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%BF%91%E9%89%8421020%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/UL21_Kasumori.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:UL21_Kasumori.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Unmo371"
+      }
+    },
+    {
+      "id": "rapid-acty-211",
+      "sourceFingerprint": "3decd04331e412e13ac441261b724238ede45409eba9469f4dcf6c50272f36b5",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "ありがとう！快速アクティー211系",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "国鉄211系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84211%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E5%9B%BD%E9%89%84211%E7%B3%BB%E9%9B%BB%E8%BB%8A.JPG",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E9%89%84211%E7%B3%BB%E9%9B%BB%E8%BB%8A.JPG",
+        "imageLicense": "Public domain",
+        "imageAuthor": "41"
+      }
+    },
+    {
+      "id": "hello-kitty-shinkansen",
+      "sourceFingerprint": "237272701d329e6ee1d507656c29e4863d569a03ae19ac564f07e0ed82d0f7b8",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-18 ハローキティ新幹線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "新幹線500系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9A500%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hello_Kitty_Shinkansen_in_Shin-Shimonoseki.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hello_Kitty_Shinkansen_in_Shin-Shimonoseki.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Kazehayashi"
+      }
+    },
+    {
+      "id": "panda-kuroshio",
+      "sourceFingerprint": "c46d3c5a7e05fe3d264a7edf5f4f599e69d8a7c0141c8119ea2f4bc2ff9a1f72",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-24 パンダくろしお「Smileアドベンチャートレイン」（専用連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR西日本287系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC287%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JRW_Series287-HC605_Panda-Kuroshio.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW_Series287-HC605_Panda-Kuroshio.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "blue-mu-sky-130th",
+      "sourceFingerprint": "2b1afc159371f247ff954d34e28ced867417ada8e18bb423db471b0669604297",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "名鉄創業130周年記念 反転塗装ブルーミュースカイ",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "名鉄2000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%842000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/%E5%90%8D%E9%89%842000%E7%B3%BB%E9%9B%BB%E8%BB%8A%EF%BC%882003F%EF%BC%89_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%90%8D%E9%89%842000%E7%B3%BB%E9%9B%BB%E8%BB%8A%EF%BC%882003F%EF%BC%89_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "ひろばのさるの"
+      }
+    },
+    {
+      "id": "e235-yokosuka",
+      "sourceFingerprint": "3a9d414196e240030d207b368d6b875cf29adfa219b51f08b6fb5bba485fb520",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-27 E235系横須賀線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E235系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE235%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/E235_YokosukaLine.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E235_YokosukaLine.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Sakurayama 7"
+      }
+    },
+    {
+      "id": "e233-chuo-green",
+      "sourceFingerprint": "f7ceadbc622e7a296503ef4c776ea9210c4806046b52b6371931d830c990da38",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-30 E233系中央線（2階建てグリーン車）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E233系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE233%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/JR_East_Series_E233_with_green_cars_approaching_Chuo_Line_Musashi-Sakai_Station.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR_East_Series_E233_with_green_cars_approaching_Chuo_Line_Musashi-Sakai_Station.jpg",
+        "imageLicense": "CC BY 4.0",
+        "imageAuthor": "Plaraildaisuki"
+      }
+    },
+    {
+      "id": "e233-shonan",
+      "sourceFingerprint": "3b24a3cb80b94d2320a1f9c11ecebdcdbe165c80879d3d1607ad235b38f8af00",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-31 E233系湘南色（専用連結仕様）",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "東海道線 (JR東日本)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E9%81%93%E7%B7%9A_(JR%E6%9D%B1%E6%97%A5%E6%9C%AC)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Tokaido-Line-Series-E233-3000.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokaido-Line-Series-E233-3000.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "e233-keihin-tohoku",
+      "sourceFingerprint": "e5497eb8fc8e935419657609a394c41f94c7b12d4e90ebc120ea7aa9ba853aba",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-33 E233系京浜東北線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "京浜東北線",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%B5%9C%E6%9D%B1%E5%8C%97%E7%B7%9A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/20230911_JR_East_E233-1000_115_entering_Shinagawa_Station.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20230911_JR_East_E233-1000_115_entering_Shinagawa_Station.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Windmemories"
+      }
+    },
+    {
+      "id": "e231-sobu",
+      "sourceFingerprint": "d1b14587d585e98873e6104f6d0e5f6667ec0d90c4781c13e677a9f2bce62bb0",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "S-49 サウンドE231系総武線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "中央・総武緩行線",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E3%83%BB%E7%B7%8F%E6%AD%A6%E7%B7%A9%E8%A1%8C%E7%B7%9A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Series_E231-500_A536_A509.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_E231-500_A536_A509.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "e233-keiyo",
+      "sourceFingerprint": "fe671b1336c88cfd82192eb307c50f7c6e54581a928be9f39d71ff4f81de8b73",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "E233系京葉線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "京葉線",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E8%91%89%E7%B7%9A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Keiyo-Line-SeriesE233-209.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keiyo-Line-SeriesE233-209.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II"
+      }
+    },
+    {
+      "id": "103-saikyo",
+      "sourceFingerprint": "7242a9fdc64b9b115b6308fcac2f3cf64ac705e3efbbcb5e21f32207ffa61dd8",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "103系埼京線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "国鉄103系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84103%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/103-3500_56_Kawagoe_20020622.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:103-3500_56_Kawagoe_20020622.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "DAJF"
+      }
+    },
+    {
+      "id": "103-joban",
+      "sourceFingerprint": "e3790240402b3f9e79bd02b19b93c6ff63e0b58b93c3aa966433a6eee3d58105",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "103系常磐線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "metadata": {
+        "wikipediaTitle": "国鉄103系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84103%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/JNR_103-0_Joban_Line.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR_103-0_Joban_Line.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "シャレー女苑"
+      }
+    },
+    {
+      "id": "odakyu-mse",
+      "sourceFingerprint": "96fb3bf54f2a9882d1d95b7a501f046bddc64dcdc434eef3bc65cebac7737a4f",
+      "evidenceUrl": "https://www.odakyu.jp/romancecar/features/line_up/60000/",
+      "evidenceText": "MSE",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急60000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A560000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Odakyu-Type60000-MSE-Hakone.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-Type60000-MSE-Hakone.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "odakyu-vse",
+      "sourceFingerprint": "2090fe1380b6a85bd0862d649b587ab38bffba5f78ecf70562d4d2ddf40573ae",
+      "evidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+      "evidenceText": "VSE",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急50000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A550000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Odakyu.type50000.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu.type50000.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "odakyu-exe",
+      "sourceFingerprint": "d5059ddd35d94f269611deaad8c40365db029e124f55cb7c4f147e4ce5201e0c",
+      "evidenceUrl": "https://www.odakyu.jp/romancecar/features/line_up/30000/",
+      "evidenceText": "EXE",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急30000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A530000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Odakyu-EXE-30000.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-EXE-30000.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "odakyu-exe-alpha",
+      "sourceFingerprint": "4f5130b6e046b13f49d4cecb42ce20e661d4e8bcea387fd66ee51bcbedb93bd6",
+      "evidenceUrl": "https://www.odakyu.jp/romancecar/features/line_up/30000/",
+      "evidenceText": "EXEα",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急30000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A530000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Odakyu-Type30000-EXEa-Hakone.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-Type30000-EXEa-Hakone.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "odakyu-lse",
+      "sourceFingerprint": "b608df99a3d511f2dc80c6106a860d70a25cd3eb9148f0673163a778a07c611e",
+      "evidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+      "evidenceText": "LSE",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急7000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A57000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%E5%B0%8F%E7%94%B0%E6%80%A57000%E5%BD%A2LSE%E8%BB%8A.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E7%94%B0%E6%80%A57000%E5%BD%A2LSE%E8%BB%8A.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "odakyu-hise",
+      "sourceFingerprint": "d58289c43df0b778250a60b101367b5af12d075cd620e1c7a8da462b16eaee23",
+      "evidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+      "evidenceText": "HiSE",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急10000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A510000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Odakyu_10000.JPG",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu_10000.JPG",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Toshinori baba"
+      }
+    },
+    {
+      "id": "odakyu-rse",
+      "sourceFingerprint": "c5200c37162c15c90caa60d8297a04627717450fc6f046333fa1b95429f8e7b5",
+      "evidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+      "evidenceText": "RSE",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急20000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A520000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Odakyu_20000_RSE_Asagiri_20100515.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu_20000_RSE_Asagiri_20100515.jpg",
+        "imageLicense": "CC BY 2.1 jp",
+        "imageAuthor": "かときち"
+      }
+    },
+    {
+      "id": "odakyu-nse",
+      "sourceFingerprint": "4956a700086f75e04a6e08915a0515f8a03c7d8e4b6d54e41e6dc42dc0af25f4",
+      "evidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+      "evidenceText": "NSE",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "小田急3100形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A53100%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Odakyu_NSE_3100.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu_NSE_3100.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "spaceaero2"
+      }
+    },
+    {
+      "id": "seibu-laview",
+      "sourceFingerprint": "9b4a3908071986e3a5b6a6fe5731773def4478a99c7038823b6017016915f368",
+      "evidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/001/",
+      "evidenceText": "001",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "西武001系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A6001%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Seibu_Series001_Chichibu-20.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu_Series001_Chichibu-20.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "seibu-new-red-arrow",
+      "sourceFingerprint": "a51baf33d0adecf281f199f8e18a4269b3ba9d0d914a9363e87e1b957da8a2e0",
+      "evidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/10000/",
+      "evidenceText": "10000",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "西武10000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A610000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Seibu-Series10000-10108F_Koedo-7.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Series10000-10108F_Koedo-7.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "seibu-smile-train",
+      "sourceFingerprint": "a559af7cadf96ba1353b45d527916fbd5199445255e33c95a201ea874c8566bc",
+      "evidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/30000/",
+      "evidenceText": "30000",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "西武30000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A630000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Seibu-Ikebukuro-Line_Series30000-38811.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Ikebukuro-Line_Series30000-38811.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "seibu-2000",
+      "sourceFingerprint": "d040a1892a913fd5ebed69a2bc580728733b52fc699a845a9293e5ce6e8eef50",
+      "evidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/2000/",
+      "evidenceText": "2000",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "西武2000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A62000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Seibu-Series2000_Haijima-Line_Express.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Series2000_Haijima-Line_Express.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "tokyu-2020",
+      "sourceFingerprint": "3593a1a5244c6ae9df670742ab766ac4efd74ce867209f2d8a287d15371c900d",
+      "evidenceUrl": "https://www.tokyu.co.jp/railway/trains/01/",
+      "evidenceText": "2020",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "東急2020系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%80%A52020%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Tokyu-Series2020-2141F.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyu-Series2020-2141F.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "tokyu-6020",
+      "sourceFingerprint": "c7bb7bea7f4a3c40491f7484a3b195eb01208c59765f9fc29d0fc52d1bef62ce",
+      "evidenceUrl": "https://www.tokyu.co.jp/railway/trains/01/",
+      "evidenceText": "6020",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "東急2020系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%80%A52020%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tokyu_Series6020-6122.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyu_Series6020-6122.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "tokyu-5050",
+      "sourceFingerprint": "ccfd79af1980dc4803ad73d8270f2b6319d55fd64a59b85bc3a133137fad17fa",
+      "evidenceUrl": "https://www.tokyu.co.jp/railway/trains/02/",
+      "evidenceText": "5050",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "東急5000系電車 (2代)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%80%A55000%E7%B3%BB%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Tokyu_5050_series.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyu_5050_series.jpg",
+        "imageLicense": "CC BY-SA 2.0",
+        "imageAuthor": "Cheng-en Cheng"
+      }
+    },
+    {
+      "id": "sotetsu-12000",
+      "sourceFingerprint": "b77dd66a73bb35d02544ecc97701822b4343f915cd8ec772f970c3d912805ffe",
+      "evidenceUrl": "https://www.sotetsu.co.jp/life/gallery/train/",
+      "evidenceText": "12000",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "相鉄12000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%89%8412000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sagami_Railway_12000_series_Izumino_Line_Ryokuentoshi_Station_20190420.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sagami_Railway_12000_series_Izumino_Line_Ryokuentoshi_Station_20190420.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Cfktj1596"
+      }
+    },
+    {
+      "id": "sotetsu-20000",
+      "sourceFingerprint": "7fbece1d639b9850ef59ac3abb20f649058db5299a2d3494864d35694370189e",
+      "evidenceUrl": "https://www.sotetsu.co.jp/life/gallery/train/",
+      "evidenceText": "20000",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "相鉄20000系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%89%8420000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sagami-Railway-21000-20103F.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sagami-Railway-21000-20103F.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "keikyu-2100",
+      "sourceFingerprint": "2820fb36fbf78636aa3ec1cce1042fa3614ad687e1f416a80bce17f2f1dcda97",
+      "evidenceUrl": "https://www.keikyu.co.jp/ride/train/",
+      "evidenceText": "2100",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "京急2100形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A52100%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Keikyu-Type2100-73.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keikyu-Type2100-73.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "keikyu-1000",
+      "sourceFingerprint": "4342bab96b89b7a353043fa831b439d75e7743533d069c6db9b40bbe76157dd4",
+      "evidenceUrl": "https://www.keikyu.co.jp/ride/train/",
+      "evidenceText": "1000",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "京急1000形電車 (2代)",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A51000%E5%BD%A2%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Keikyu-Type1000-1209F-Lot17.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keikyu-Type1000-1209F-Lot17.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "keikyu-blue-sky",
+      "sourceFingerprint": "190e47b8aa06f6c29f40902735cb2d536e193a1763aa47e678b1deee7aa02147",
+      "evidenceUrl": "https://www.keikyu.co.jp/ride/train/keikyublueskytrain.html",
+      "evidenceText": "2100",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "京急2100形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A52100%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Keikyu_Type_2100-2133F_Limited_Express.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keikyu_Type_2100-2133F_Limited_Express.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "Kuroc622"
+      }
+    },
+    {
+      "id": "e8-tsubasa",
+      "sourceFingerprint": "0b56177619eeb21880e893606c34f1fed70941b8aeb489bac7548488c5da4392",
+      "evidenceUrl": "https://www.jreast.co.jp/train/shinkan/e8.html",
+      "evidenceText": "E8",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "新幹線E8系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE8%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Series-E8_G1_Nasuno266.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E8_G1_Nasuno266.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "n700s-kamome",
+      "sourceFingerprint": "3f28fed946c5ca3d1d268afbd3bb20c8362a632fdc7c091bc7ee656ff6af06ac",
+      "evidenceUrl": "https://www.jrkyushu.co.jp/english/train/shinkansen_kamome.html",
+      "evidenceText": "KAMOME",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "新幹線N700S系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700S%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/N700S-Y4_Kamome-29.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700S-Y4_Kamome-29.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "0-shinkansen",
+      "sourceFingerprint": "06ae4b48b438a872c3a6eac5272f9c190e1f63151125b5a95c1cefe401393c1b",
+      "evidenceUrl": "https://www.westjr.co.jp/fan/paper/nostalgia/",
+      "evidenceText": "0系",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "新幹線0系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9A0%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Shinkansen_0-series.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen_0-series.jpg",
+        "imageLicense": "Public domain",
+        "imageAuthor": "Sui-setz"
+      }
+    },
+    {
+      "id": "tobu-spacia-100",
+      "sourceFingerprint": "450aca5008c7b8aa1d2fb35377f9dcb4fdea496ab4e8135910e5030bc52bf3d4",
+      "evidenceUrl": "https://www.tobu.co.jp/railway/special_express/vehicle/spacia/",
+      "evidenceText": "100系",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "東武100系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6100%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tobu100.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu100.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Yaguchi"
+      }
+    },
+    {
+      "id": "tobu-revaty",
+      "sourceFingerprint": "9dccb14d00f4fe426caa5f490c38794730fee91ba9ef8d14146e0e62588b6aad",
+      "evidenceUrl": "https://www.tobu.co.jp/corporation/rail/vehicles/",
+      "evidenceText": "500系",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "東武500系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6500%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Tobu-Series500_Revaty_Kegon28_Aizu128.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu-Series500_Revaty_Kegon28_Aizu128.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "sonic-883",
+      "sourceFingerprint": "46f82e7cca210fb3adfde71073a76f1a2f9310c1e7ea80303b1e2b1f247882c5",
+      "evidenceUrl": "https://www.jrkyushu.co.jp/trains/sp/sonic/",
+      "evidenceText": "883",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "JR九州883系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E4%B9%9D%E5%B7%9E883%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/L_Kagoshima_883.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:L_Kagoshima_883.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "東風みるく"
+      }
+    },
+    {
+      "id": "sunrise-285",
+      "sourceFingerprint": "87991c6176d54b2d21f441cb15f807d6fee51f63e2aa0158ec6f5dc2771947be",
+      "evidenceUrl": "https://www.jr-odekake.net/railroad/train/sunriseseto_izumo/",
+      "evidenceText": "サンライズ",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "JR西日本285系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC285%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Series285-0_I2.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series285-0_I2.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "saphir-odoriko",
+      "sourceFingerprint": "094ede717bff5800901cbc4e6992e4f6eb1e7a33b7d5dd5ab5a7a686d730a55a",
+      "evidenceUrl": "https://www.jreast.co.jp/saphir/cars/",
+      "evidenceText": "E261",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "JR東日本E261系電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE261%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/JRE_SeriesE261_RS2.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_SeriesE261_RS2.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
+      }
+    },
+    {
+      "id": "enoden-300",
+      "sourceFingerprint": "aefd787aa2796f26acafc8cd7b9a87ca3fb9a4e6272a48c66c3a60f3bd4f5007",
+      "evidenceUrl": "https://www.enoden.co.jp/fan/museum/vehicle/300/",
+      "evidenceText": "300形",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "江ノ島鎌倉観光300形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%B1%9F%E3%83%8E%E5%B3%B6%E9%8E%8C%E5%80%89%E8%A6%B3%E5%85%89300%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%E6%B1%9F%E3%83%8E%E9%9B%BB300%E5%BD%A2305F.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E3%83%8E%E9%9B%BB300%E5%BD%A2305F.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "面デカ"
+      }
+    },
+    {
+      "id": "hakone-allegra",
+      "sourceFingerprint": "51488fa5275eb0c544b84d6774065793e51f5d67ca0cf41a3d08d15532b227c7",
+      "evidenceUrl": "https://www.hakonenavi.jp/special/",
+      "evidenceText": "3000",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "metadata": {
+        "wikipediaTitle": "箱根登山鉄道3000形電車",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E7%99%BB%E5%B1%B1%E9%89%84%E9%81%933000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tozan_ALLEGRA_Gora_Sta_20141102.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tozan_ALLEGRA_Gora_Sta_20141102.jpg",
+        "imageLicense": "Public domain",
+        "imageAuthor": "Cassiopeia sweet"
+      }
+    }
+  ]
+}

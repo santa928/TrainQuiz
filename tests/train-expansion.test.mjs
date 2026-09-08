@@ -63,3 +63,16 @@ test("retired additions describe their former service in the past tense", () => 
     assert.match(train.encyclopedia.routeEndpointsSummary, /はしった/);
   }
 });
+
+test("Keikyu 2100 livery choices distinguish red trains from Blue Sky", () => {
+  const pool = trains.filter((train) => [
+    "keikyu-2100", "keikyu-1000", "keikyu-blue-sky", "enoden-300",
+  ].includes(train.id));
+  const question = buildQuestion(pool, "keikyu-blue-sky", () => 0.5);
+  const redChoice = question.choices.find((choice) => choice.id === "keikyu-2100");
+
+  assert.ok(redChoice);
+  assert.match(redChoice.displayName, /赤|あか/);
+  assert.match(question.answer.displayName, /ブルースカイ/);
+  assert.ok(!question.choices.some((choice) => choice.displayName === "京急2100形"));
+});
