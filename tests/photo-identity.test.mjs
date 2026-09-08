@@ -44,6 +44,18 @@ test("yellow Hitachi uses the yellow K2 revival livery in photo and learning tex
   assert.doesNotMatch(train.descriptionShort + train.encyclopedia.featureSummary, /あかい ライン/);
 });
 
+test("ordinary 500 series and Hello Kitty names do not overlap in the same four choices", () => {
+  const ids = ["500-nozomi", "doctor-yellow", "800-tsubame", "hello-kitty-shinkansen"];
+  const pool = trains.filter(train => ids.includes(train.id));
+  for (const answerId of ["500-nozomi", "hello-kitty-shinkansen"]) {
+    const question = buildQuestion(pool, answerId, () => 0.5);
+    assert.equal(question.choices.length, 4);
+    assert.equal(question.answer.id, answerId);
+    assert.equal(question.choices.find(train => train.id === "500-nozomi").displayName, "500系新幹線（通常色）");
+    assert.equal(question.choices.find(train => train.id === "hello-kitty-shinkansen").displayName, "ハローキティ新幹線");
+  }
+});
+
 test("ordinary and special Keio 8000 liveries do not overlap in four choices", () => {
   const pool = trains.filter(train => ["keio-8000", "keio-9000-takao", "keio-7000", "keio-9000"].includes(train.id));
   const question = buildQuestion(pool, "keio-9000-takao", () => 0.5);
