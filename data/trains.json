@@ -1974,5 +1974,795 @@
       },
       "speedLabel": "まちで はしる はやさ"
     }
+  },
+  {
+    "id": "odakyu-mse",
+    "displayName": "小田急ロマンスカーMSE",
+    "canonicalName": "小田急60000形",
+    "productName": "小田急ロマンスカーMSE",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecar/features/line_up/60000/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急60000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A560000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Odakyu-Type60000-MSE-Hakone.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-Type60000-MSE-Hakone.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "あおい からだで、ちかてつ にも はいる ロマンスカー",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん と ちよだせん、JRごてんばせん を はしる",
+      "routeEndpointsSummary": "しんじゅく・きたせんじゅ 〜 はこねゆもと ほうめん／しんじゅく 〜 ごてんば",
+      "featureSummary": "あおい しゃたい に オレンジ の おび。ちかてつ の トンネル にも はいる",
+      "topSpeedKmh": 110,
+      "speedLabel": "おだきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-gse",
+        "summary": "GSE は あかい からだで、まえを みわたせる てんぼうせき が ある"
+      }
+    }
+  },
+  {
+    "id": "odakyu-vse",
+    "displayName": "小田急ロマンスカーVSE",
+    "canonicalName": "小田急50000形",
+    "productName": "小田急ロマンスカーVSE",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急50000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A550000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Odakyu.type50000.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu.type50000.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "しろい からだ と てんぼうせきで、はこねへ はしった ロマンスカー",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん から はこねゆもと ほうめん を はしった",
+      "routeEndpointsSummary": "しんじゅく 〜 はこねゆもと を はしった",
+      "featureSummary": "しろい しゃたい と オレンジ の おび。たかい てんじょう と てんぼうせき が あった",
+      "topSpeedKmh": 110,
+      "speedLabel": "えいぎょううんてん していた ときの はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-gse",
+        "summary": "GSE は あかい 7りょう。VSE は しろい 10りょう だった"
+      }
+    }
+  },
+  {
+    "id": "odakyu-exe",
+    "displayName": "小田急ロマンスカーEXE",
+    "canonicalName": "小田急30000形EXE",
+    "productName": "小田急ロマンスカーEXE",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecar/features/line_up/30000/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急30000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A530000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Odakyu-EXE-30000.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-EXE-30000.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "ちゃいろ の からだで、はこね や えのしまへ むかう ロマンスカー",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん の はこね・えのしま ほうめん を はしる",
+      "routeEndpointsSummary": "しんじゅく 〜 はこねゆもと・かたせえのしま ほうめん",
+      "featureSummary": "ブロンズいろ の しゃたい。6りょう と 4りょう に わかれて はしれる",
+      "topSpeedKmh": 110,
+      "speedLabel": "おだきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-exe-alpha",
+        "summary": "EXEアルファ は EXE を リニューアル した くるま。ぎんいろ と はいいろ に かわった"
+      }
+    }
+  },
+  {
+    "id": "odakyu-exe-alpha",
+    "displayName": "小田急ロマンスカーEXEα",
+    "canonicalName": "小田急30000形EXEα",
+    "productName": "小田急ロマンスカーEXEα",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecar/features/line_up/30000/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急30000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A530000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Odakyu-Type30000-EXEa-Hakone.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu-Type30000-EXEa-Hakone.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "ぎんいろ と はいいろ に うまれかわった、エクセアルファ",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん の はこね・えのしま ほうめん を はしる",
+      "routeEndpointsSummary": "しんじゅく 〜 はこねゆもと・かたせえのしま ほうめん",
+      "featureSummary": "EXE を リニューアル。ぎんいろ の からだ と オレンジ の おび が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "おだきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-exe",
+        "summary": "もとの EXE は ちゃいろ の からだ。アルファ は ぎんいろ と はいいろ の からだ"
+      }
+    }
+  },
+  {
+    "id": "odakyu-lse",
+    "displayName": "小田急ロマンスカーLSE",
+    "canonicalName": "小田急7000形",
+    "productName": "小田急ロマンスカーLSE",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急7000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A57000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%E5%B0%8F%E7%94%B0%E6%80%A57000%E5%BD%A2LSE%E8%BB%8A.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E7%94%B0%E6%80%A57000%E5%BD%A2LSE%E8%BB%8A.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "オレンジいろ の からだで、ながく かつやくした ロマンスカー",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん の はこね・えのしま ほうめん を はしった",
+      "routeEndpointsSummary": "しんじゅく 〜 はこねゆもと・かたせえのしま ほうめん を はしった",
+      "featureSummary": "まえを みわたせる てんぼうせき と、すっと のびた せんとうぶ",
+      "topSpeedKmh": 110,
+      "speedLabel": "えいぎょううんてん していた ときの はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-nse",
+        "summary": "NSE は もっと むかしの くるま。LSE は かお が すっきり した かたち"
+      }
+    }
+  },
+  {
+    "id": "odakyu-hise",
+    "displayName": "小田急ロマンスカーHiSE",
+    "canonicalName": "小田急10000形",
+    "productName": "小田急ロマンスカーHiSE",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急10000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A510000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Odakyu_10000.JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu_10000.JPG",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAuthor": "Toshinori baba",
+    "descriptionShort": "しろ と あか の からだで、たかい せきから けしきを たのしめた ロマンスカー",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん から はこねゆもと ほうめん を はしった",
+      "routeEndpointsSummary": "しんじゅく 〜 はこねゆもと ほうめん を はしった",
+      "featureSummary": "ゆか を たかく した きゃくせき と おおきな まど。まえには てんぼうせき も あった",
+      "topSpeedKmh": 110,
+      "speedLabel": "おだきゅう で はしっていた ときの はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-rse",
+        "summary": "RSE は あおい おびで、とちゅう に 2かいだて の くるま が あった"
+      }
+    }
+  },
+  {
+    "id": "odakyu-rse",
+    "displayName": "小田急ロマンスカーRSE",
+    "canonicalName": "小田急20000形",
+    "productName": "小田急ロマンスカーRSE",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急20000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A520000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Odakyu_20000_RSE_Asagiri_20100515.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu_20000_RSE_Asagiri_20100515.jpg",
+    "imageLicense": "CC BY 2.1 jp",
+    "imageAuthor": "かときち",
+    "descriptionShort": "2かいだて の くるまを つないで、あさぎり として はしった ロマンスカー",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん から JRごてんばせん へ はいって はしった",
+      "routeEndpointsSummary": "しんじゅく 〜 ごてんば・ぬまづ を はしった",
+      "featureSummary": "しろい からだ と あおい おび。まんなか に 2かいだて の くるま が あった",
+      "topSpeedKmh": 110,
+      "speedLabel": "おだきゅうせん で はしっていた ときの はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-mse",
+        "summary": "MSE も ごてんば ほうめんへ はしるが、2かいだて の くるま は ない"
+      }
+    }
+  },
+  {
+    "id": "odakyu-nse",
+    "displayName": "小田急ロマンスカーNSE",
+    "canonicalName": "小田急3100形",
+    "productName": "小田急ロマンスカーNSE",
+    "productEvidenceUrl": "https://www.odakyu.jp/romancecarmuseum/floor/romancecar-gallery/",
+    "category": "limited_express",
+    "operator": "小田急電鉄",
+    "wikipediaTitle": "小田急3100形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E6%80%A53100%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Odakyu_NSE_3100.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Odakyu_NSE_3100.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAuthor": "spaceaero2",
+    "descriptionShort": "うんてんせき を 2かいに のせ、まえの けしきを みせてくれた ロマンスカー",
+    "encyclopedia": {
+      "routeSummary": "おだきゅうせん の はこね・えのしま ほうめん を はしった",
+      "routeEndpointsSummary": "しんじゅく 〜 はこねゆもと・かたせえのしま ほうめん を はしった",
+      "featureSummary": "おだきゅう で はじめて てんぼうせき と 2かい の うんてんせき を そなえた",
+      "topSpeedKmh": 110,
+      "speedLabel": "えいぎょううんてん していた ときの はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-lse",
+        "summary": "LSE は NSE の あと に うまれた、オレンジいろ の てんぼうせきつき ロマンスカー"
+      }
+    }
+  },
+  {
+    "id": "seibu-laview",
+    "displayName": "西武001系ラビュー",
+    "canonicalName": "西武001系",
+    "productName": "西武001系ラビュー",
+    "productEvidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/001/",
+    "category": "limited_express",
+    "operator": "西武鉄道",
+    "wikipediaTitle": "西武001系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A6001%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Seibu_Series001_Chichibu-20.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu_Series001_Chichibu-20.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "ぎんいろ の まるい かお と おおきな まどで、ちちぶへ むかう ラビュー",
+    "encyclopedia": {
+      "routeSummary": "せいぶいけぶくろせん・せいぶちちぶせん を はしる",
+      "routeEndpointsSummary": "いけぶくろ 〜 はんのう・せいぶちちぶ",
+      "featureSummary": "まるい せんとうぶ と、あしもと ちかく まで ひろがる おおきな まど",
+      "topSpeedKmh": 105,
+      "speedLabel": "せいぶせん での はやさ",
+      "comparison": {
+        "otherTrainId": "seibu-new-red-arrow",
+        "summary": "ニューレッドアロー は はいいろ の からだ に あかい おび が ある"
+      }
+    }
+  },
+  {
+    "id": "seibu-new-red-arrow",
+    "displayName": "西武10000系ニューレッドアロー",
+    "canonicalName": "西武10000系",
+    "productName": "西武10000系ニューレッドアロー",
+    "productEvidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/10000/",
+    "category": "limited_express",
+    "operator": "西武鉄道",
+    "wikipediaTitle": "西武10000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A610000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Seibu-Series10000-10108F_Koedo-7.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Series10000-10108F_Koedo-7.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "あかい おびの とっきゅうで、こえど として かわごえへ むかう",
+    "encyclopedia": {
+      "routeSummary": "せいぶしんじゅくせん の こえど として はしる",
+      "routeEndpointsSummary": "せいぶしんじゅく 〜 ほんかわごえ",
+      "featureSummary": "はいいろ の しゃたい に あかい おび。7りょう の とっきゅうでんしゃ",
+      "topSpeedKmh": 105,
+      "speedLabel": "せいぶせん での はやさ",
+      "comparison": {
+        "otherTrainId": "seibu-laview",
+        "summary": "ラビュー は まるい かお と おおきな まど の ぎんいろ の とっきゅう"
+      }
+    }
+  },
+  {
+    "id": "seibu-smile-train",
+    "displayName": "西武30000系スマイルトレイン",
+    "canonicalName": "西武30000系",
+    "productName": "西武30000系スマイルトレイン",
+    "productEvidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/30000/",
+    "category": "commuter",
+    "operator": "西武鉄道",
+    "wikipediaTitle": "西武30000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A630000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Seibu-Ikebukuro-Line_Series30000-38811.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Ikebukuro-Line_Series30000-38811.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "わらった ような かおで、スマイルトレイン と よばれる でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "せいぶいけぶくろせん・しんじゅくせん など を はしる",
+      "routeEndpointsSummary": "いけぶくろ 〜 はんのう／せいぶしんじゅく 〜 ほんかわごえ ほうめん",
+      "featureSummary": "たまご の ように まるい かお と、あお・みどり の おび",
+      "topSpeedKmh": 105,
+      "speedLabel": "せいぶせん での はやさ"
+    }
+  },
+  {
+    "id": "seibu-2000",
+    "displayName": "西武2000系",
+    "canonicalName": "西武2000系",
+    "productName": "西武2000系",
+    "productEvidenceUrl": "https://kosodate.seiburailway.jp/kids/museum/zukan/2000/",
+    "category": "commuter",
+    "operator": "西武鉄道",
+    "wikipediaTitle": "西武2000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A62000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Seibu-Series2000_Haijima-Line_Express.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Series2000_Haijima-Line_Express.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "きいろい からだで、せいぶ の まちを はしる でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "せいぶしんじゅくせん・はいじません など を はしる",
+      "routeEndpointsSummary": "せいぶしんじゅく 〜 ほんかわごえ・はいじま ほうめん",
+      "featureSummary": "きいろい しゃたい と、りょうがわ に ひらく 4つ の ドア",
+      "topSpeedKmh": 105,
+      "speedLabel": "せいぶせん での はやさ",
+      "comparison": {
+        "otherTrainId": "seibu-smile-train",
+        "summary": "スマイルトレイン は ぎんいろ の からだで、かお が まるい"
+      }
+    }
+  },
+  {
+    "id": "tokyu-2020",
+    "displayName": "東急田園都市線2020系",
+    "canonicalName": "東急2020系",
+    "productName": "東急田園都市線2020系",
+    "productEvidenceUrl": "https://www.tokyu.co.jp/railway/trains/01/",
+    "category": "commuter",
+    "operator": "東急電鉄",
+    "wikipediaTitle": "東急2020系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%80%A52020%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Tokyu-Series2020-2141F.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyu-Series2020-2141F.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "みどり の おびで、でんえんとしせん を はしる でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "でんえんとしせん から はんぞうもんせん・とうぶせん へ はいる",
+      "routeEndpointsSummary": "ちゅうおうりんかん 〜 しぶや・おしあげ ほうめん",
+      "featureSummary": "しろ と くろ の かお に、みどり の ライン が はいる",
+      "topSpeedKmh": 110,
+      "speedLabel": "とうきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "tokyu-6020",
+        "summary": "6020けい は おおいまちせん の くるまで、オレンジ の おび が ある"
+      }
+    }
+  },
+  {
+    "id": "tokyu-6020",
+    "displayName": "東急大井町線6020系",
+    "canonicalName": "東急6020系",
+    "productName": "東急大井町線6020系",
+    "productEvidenceUrl": "https://www.tokyu.co.jp/railway/trains/01/",
+    "category": "commuter",
+    "operator": "東急電鉄",
+    "wikipediaTitle": "東急2020系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%80%A52020%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tokyu_Series6020-6122.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyu_Series6020-6122.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "オレンジ の おびで、おおいまちせん を はしる でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "とうきゅうおおいまちせん を はしる",
+      "routeEndpointsSummary": "おおいまち 〜 みぞのくち ほうめん",
+      "featureSummary": "2020けい に にた かおで、オレンジ の ライン が めじるし",
+      "topSpeedKmh": 110,
+      "speedLabel": "とうきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "tokyu-2020",
+        "summary": "2020けい は でんえんとしせん の くるまで、みどり の おび が ある"
+      }
+    }
+  },
+  {
+    "id": "tokyu-5050",
+    "displayName": "東急東横線5050系",
+    "canonicalName": "東急5050系",
+    "productName": "東急東横線5050系",
+    "productEvidenceUrl": "https://www.tokyu.co.jp/railway/trains/02/",
+    "category": "commuter",
+    "operator": "東急電鉄",
+    "wikipediaTitle": "東急5000系電車 (2代)",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%80%A55000%E7%B3%BB%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Tokyu_5050_series.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyu_5050_series.jpg",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageAuthor": "Cheng-en Cheng",
+    "descriptionShort": "ピンク の おびで、しぶや と よこはまを むすぶ でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "とうよこせん・みなとみらいせん と ふくとしんせん など を はしる",
+      "routeEndpointsSummary": "しぶや 〜 よこはま・もとまちちゅうかがい ほうめん",
+      "featureSummary": "ぎんいろ の しゃたい に ピンク の おび。ちかてつ にも はいる",
+      "topSpeedKmh": 110,
+      "speedLabel": "とうきゅうせん での はやさ"
+    }
+  },
+  {
+    "id": "sotetsu-12000",
+    "displayName": "相鉄12000系",
+    "canonicalName": "相鉄12000系",
+    "productName": "相鉄12000系",
+    "productEvidenceUrl": "https://www.sotetsu.co.jp/life/gallery/train/",
+    "category": "commuter",
+    "operator": "相模鉄道",
+    "wikipediaTitle": "相鉄12000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%89%8412000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sagami_Railway_12000_series_Izumino_Line_Ryokuentoshi_Station_20190420.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sagami_Railway_12000_series_Izumino_Line_Ryokuentoshi_Station_20190420.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "Cfktj1596",
+    "descriptionShort": "こい あお の からだで、JRせん にも はいる そうてつ の でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "そうてつせん から JRせん を とおって しんじゅく ほうめんへ はしる",
+      "routeEndpointsSummary": "えびな 〜 はざわよこはまこくだい・しんじゅく ほうめん",
+      "featureSummary": "こい あお の しゃたい と おおきな くろい かお。JRせん に ちょくつう する",
+      "topSpeedKmh": 100,
+      "speedLabel": "そうてつせん での はやさ",
+      "comparison": {
+        "otherTrainId": "sotetsu-20000",
+        "summary": "20000けい は とうきゅうとうよこせん に はいる くるまで、かおつき が ちがう"
+      }
+    }
+  },
+  {
+    "id": "sotetsu-20000",
+    "displayName": "相鉄20000系",
+    "canonicalName": "相鉄20000系",
+    "productName": "相鉄20000系",
+    "productEvidenceUrl": "https://www.sotetsu.co.jp/life/gallery/train/",
+    "category": "commuter",
+    "operator": "相模鉄道",
+    "wikipediaTitle": "相鉄20000系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%89%8420000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sagami-Railway-21000-20103F.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sagami-Railway-21000-20103F.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "こい あお の からだで、とうきゅうせん にも はいる そうてつ の でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "そうてつせん から しんよこはま を とおって とうよこせん へ はいる",
+      "routeEndpointsSummary": "えびな・しょうなんだい 〜 しんよこはま・しぶや ほうめん",
+      "featureSummary": "こい あお の しゃたい。10りょう で とうきゅうとうよこせん に ちょくつう する",
+      "topSpeedKmh": 100,
+      "speedLabel": "そうてつせん での はやさ",
+      "comparison": {
+        "otherTrainId": "sotetsu-12000",
+        "summary": "12000けい は JRせん に はいる くるま。くろい かお の かたち も ちがう"
+      }
+    }
+  },
+  {
+    "id": "keikyu-2100",
+    "displayName": "京急2100形",
+    "canonicalName": "京急2100形",
+    "productName": "京急2100形",
+    "productEvidenceUrl": "https://www.keikyu.co.jp/ride/train/",
+    "category": "commuter",
+    "operator": "京浜急行電鉄",
+    "wikipediaTitle": "京急2100形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A52100%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Keikyu-Type2100-73.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keikyu-Type2100-73.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "あか と しろ の からだで、みうらはんとうへ むかう けいきゅう",
+    "encyclopedia": {
+      "routeSummary": "けいきゅうほんせん・くりはません を はしる",
+      "routeEndpointsSummary": "せんがくじ・しながわ 〜 みさきぐち ほうめん",
+      "featureSummary": "かたがわ に 2つ の ドア。すすむ むき に あわせて せき の むき を かえられる",
+      "topSpeedKmh": 120,
+      "speedLabel": "けいきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "keikyu-blue-sky",
+        "summary": "ブルースカイトレイン は おなじ 2100がた の、あおい からだ の くるま"
+      }
+    }
+  },
+  {
+    "id": "keikyu-1000",
+    "displayName": "京急新1000形",
+    "canonicalName": "京急新1000形",
+    "productName": "京急新1000形",
+    "productEvidenceUrl": "https://www.keikyu.co.jp/ride/train/",
+    "category": "commuter",
+    "operator": "京浜急行電鉄",
+    "wikipediaTitle": "京急1000形電車 (2代)",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A51000%E5%BD%A2%E9%9B%BB%E8%BB%8A_(2%E4%BB%A3)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Keikyu-Type1000-1209F-Lot17.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keikyu-Type1000-1209F-Lot17.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "まち と くうこうを むすぶ、けいきゅう の でんしゃ",
+    "encyclopedia": {
+      "routeSummary": "けいきゅうほんせん・くうこうせん と あさくさせん など を はしる",
+      "routeEndpointsSummary": "しながわ 〜 はねだくうこう・みさきぐち ほうめん",
+      "featureSummary": "かたがわ に 3つ の ドア。つくられた じき で いろ や かたち が ちがう",
+      "topSpeedKmh": 120,
+      "speedLabel": "けいきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "keikyu-2100",
+        "summary": "2100がた は ドア が かたがわ に 2つ。しん1000がた は 3つ ある"
+      }
+    }
+  },
+  {
+    "id": "keikyu-blue-sky",
+    "displayName": "京急2100形ブルースカイトレイン",
+    "canonicalName": "京急2100形",
+    "productName": "京急2100形ブルースカイトレイン",
+    "productEvidenceUrl": "https://www.keikyu.co.jp/ride/train/keikyublueskytrain.html",
+    "category": "commuter",
+    "operator": "京浜急行電鉄",
+    "wikipediaTitle": "京急2100形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%80%A52100%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Keikyu_Type_2100-2133F_Limited_Express.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keikyu_Type_2100-2133F_Limited_Express.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "Kuroc622",
+    "descriptionShort": "そら と うみ の あおで はしる、けいきゅう の ブルースカイトレイン",
+    "encyclopedia": {
+      "routeSummary": "けいきゅうほんせん・くりはません を はしる",
+      "routeEndpointsSummary": "せんがくじ・しながわ 〜 みさきぐち ほうめん",
+      "featureSummary": "2100がた の あおい くるま。そら と うみ を イメージ した いろ",
+      "topSpeedKmh": 120,
+      "speedLabel": "けいきゅうせん での はやさ",
+      "comparison": {
+        "otherTrainId": "keikyu-2100",
+        "summary": "ふつう の 2100がた は あか と しろ。ブルースカイトレイン は あお と しろ"
+      }
+    }
+  },
+  {
+    "id": "e8-tsubasa",
+    "displayName": "E8系新幹線つばさ",
+    "canonicalName": "E8系",
+    "productName": "E8系新幹線つばさ",
+    "productEvidenceUrl": "https://www.jreast.co.jp/train/shinkan/e8.html",
+    "category": "shinkansen",
+    "operator": "JR東日本",
+    "wikipediaTitle": "新幹線E8系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AE8%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Series-E8_G1_Nasuno266.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E8_G1_Nasuno266.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "むらさき と しろ の からだに きいろい せん。やまがたへ むかう つばさ",
+    "encyclopedia": {
+      "routeSummary": "とうほく・やまがたしんかんせん を はしる",
+      "routeEndpointsSummary": "とうきょう 〜 やまがた・しんじょう",
+      "featureSummary": "9メートル の ながい はな と、べにばな を イメージ した きいろい せん",
+      "topSpeedKmh": 300,
+      "speedLabel": "しんかんせん くかん での はやさ",
+      "comparison": {
+        "otherTrainId": "e3-tsubasa-2000",
+        "summary": "E3けい より はな が ながく、E8けい は 300キロ で はしれる"
+      }
+    }
+  },
+  {
+    "id": "n700s-kamome",
+    "displayName": "N700S西九州新幹線かもめ",
+    "canonicalName": "N700S系8000番台",
+    "productName": "N700S西九州新幹線かもめ",
+    "productEvidenceUrl": "https://www.jrkyushu.co.jp/english/train/shinkansen_kamome.html",
+    "category": "shinkansen",
+    "operator": "JR九州",
+    "wikipediaTitle": "新幹線N700S系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700S%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/N700S-Y4_Kamome-29.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700S-Y4_Kamome-29.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "しろ と あか の 6りょうで、ながさきへ むかう しんかんせん かもめ",
+    "encyclopedia": {
+      "routeSummary": "にしきゅうしゅうしんかんせん を はしる",
+      "routeEndpointsSummary": "たけおおんせん 〜 ながさき",
+      "featureSummary": "しろい からだ の したがわ が あかい、6りょう の しんかんせん",
+      "topSpeedKmh": 260,
+      "speedLabel": "にしきゅうしゅうしんかんせん での はやさ",
+      "comparison": {
+        "otherTrainId": "800-tsubame",
+        "summary": "つばめ は はかた・かごしま ほうめん。かもめ は たけおおんせん・ながさき を むすぶ"
+      }
+    }
+  },
+  {
+    "id": "0-shinkansen",
+    "displayName": "0系新幹線",
+    "canonicalName": "0系",
+    "productName": "0系新幹線",
+    "productEvidenceUrl": "https://www.westjr.co.jp/fan/paper/nostalgia/",
+    "category": "shinkansen",
+    "operator": "国鉄 / JR東海 / JR西日本",
+    "wikipediaTitle": "新幹線0系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9A0%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Shinkansen_0-series.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen_0-series.jpg",
+    "imageLicense": "Public domain",
+    "imageAuthor": "Sui-setz",
+    "descriptionShort": "まるい はなで、いちばん はじめに はしった しんかんせん",
+    "encyclopedia": {
+      "routeSummary": "とうかいどう・さんようしんかんせん を はしった",
+      "routeEndpointsSummary": "とうきょう 〜 はかた を はしった",
+      "featureSummary": "しろ と あお の からだ、まるい はな と まるい ライト が めじるし",
+      "topSpeedKmh": 220,
+      "speedLabel": "えいぎょううんてん していた ときの はやさ",
+      "comparison": {
+        "otherTrainId": "e8-tsubasa",
+        "summary": "E8けい は はな が ながい。0けい は まるくて みじかい はな だった"
+      }
+    }
+  },
+  {
+    "id": "tobu-spacia-100",
+    "displayName": "東武100系スペーシア",
+    "canonicalName": "東武100系",
+    "productName": "東武100系スペーシア",
+    "productEvidenceUrl": "https://www.tobu.co.jp/railway/special_express/vehicle/spacia/",
+    "category": "limited_express",
+    "operator": "東武鉄道",
+    "wikipediaTitle": "東武100系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6100%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tobu100.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu100.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageAuthor": "Yaguchi",
+    "descriptionShort": "まるみ の ある かおで、にっこう や きぬがわへ むかう スペーシア",
+    "encyclopedia": {
+      "routeSummary": "とうぶにっこうせん・きぬがわせん など を はしる",
+      "routeEndpointsSummary": "あさくさ 〜 とうぶにっこう・きぬがわおんせん ほうめん",
+      "featureSummary": "6りょう の とっきゅうで、かぞくで すごせる こしつ が ある",
+      "topSpeedKmh": 120,
+      "speedLabel": "とうぶせん での はやさ",
+      "comparison": {
+        "otherTrainId": "spacia-x",
+        "summary": "スペーシアX は しろい からだで、ろっかくけい の まど が ある あたらしい なかま"
+      }
+    }
+  },
+  {
+    "id": "tobu-revaty",
+    "displayName": "東武500系リバティ",
+    "canonicalName": "東武500系",
+    "productName": "東武500系リバティ",
+    "productEvidenceUrl": "https://www.tobu.co.jp/corporation/rail/vehicles/",
+    "category": "limited_express",
+    "operator": "東武鉄道",
+    "wikipediaTitle": "東武500系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6500%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Tobu-Series500_Revaty_Kegon28_Aizu128.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu-Series500_Revaty_Kegon28_Aizu128.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "つながったり わかれたりして、いろいろな まちへ むかう リバティ",
+    "encyclopedia": {
+      "routeSummary": "とうぶにっこうせん・きぬがわせん や あいづ ほうめん など を はしる",
+      "routeEndpointsSummary": "あさくさ 〜 とうぶにっこう・きぬがわおんせん・あいづたじま ほうめん",
+      "featureSummary": "3りょう ずつ の くるまを つなげて 6りょう に できる。かお の まんなか に とびら が ある",
+      "topSpeedKmh": 120,
+      "speedLabel": "とうぶせん での はやさ",
+      "comparison": {
+        "otherTrainId": "tobu-spacia-100",
+        "summary": "100けい スペーシア は 6りょう。リバティ は 3りょう ずつ に わかれて はしれる"
+      }
+    }
+  },
+  {
+    "id": "sonic-883",
+    "displayName": "883系ソニック",
+    "canonicalName": "883系",
+    "productName": "883系ソニック",
+    "productEvidenceUrl": "https://www.jrkyushu.co.jp/trains/sp/sonic/",
+    "category": "limited_express",
+    "operator": "JR九州",
+    "wikipediaTitle": "JR九州883系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E4%B9%9D%E5%B7%9E883%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/L_Kagoshima_883.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:L_Kagoshima_883.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "東風みるく",
+    "descriptionShort": "あおく かがやく からだで、おおいたへ むかう ソニック",
+    "encyclopedia": {
+      "routeSummary": "はかた から こくら を とおって おおいた ほうめんへ はしる",
+      "routeEndpointsSummary": "はかた 〜 おおいた ほうめん",
+      "featureSummary": "あおい しゃたい。カーブで からだを かたむけて はしる ふりこしき の とっきゅう",
+      "topSpeedKmh": 130,
+      "speedLabel": "とっきゅう の はやさ"
+    }
+  },
+  {
+    "id": "sunrise-285",
+    "displayName": "285系サンライズエクスプレス",
+    "canonicalName": "285系",
+    "productName": "285系サンライズエクスプレス",
+    "productEvidenceUrl": "https://www.jr-odekake.net/railroad/train/sunriseseto_izumo/",
+    "category": "sleeper",
+    "operator": "JR西日本 / JR東海",
+    "wikipediaTitle": "JR西日本285系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%A5%BF%E6%97%A5%E6%9C%AC285%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Series285-0_I2.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series285-0_I2.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "ベッドで ねている あいだに、よるの せんろを はしる サンライズ",
+    "encyclopedia": {
+      "routeSummary": "とうきょう と たかまつ・いずもし を むすぶ しんだいとっきゅう",
+      "routeEndpointsSummary": "とうきょう 〜 たかまつ・いずもし",
+      "featureSummary": "2かいだて の くるまに ベッド の へや が ある。おかやまで 2つ の ほうめん に わかれる",
+      "topSpeedKmh": 130,
+      "speedLabel": "しんだいとっきゅう の はやさ"
+    }
+  },
+  {
+    "id": "saphir-odoriko",
+    "displayName": "E261系サフィール踊り子",
+    "canonicalName": "E261系",
+    "productName": "E261系サフィール踊り子",
+    "productEvidenceUrl": "https://www.jreast.co.jp/saphir/cars/",
+    "category": "limited_express",
+    "operator": "JR東日本",
+    "wikipediaTitle": "JR東日本E261系電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE261%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/JRE_SeriesE261_RS2.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_SeriesE261_RS2.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "MaedaAkihiko",
+    "descriptionShort": "うみ の ような あおい からだで、いずへ むかう サフィールおどりこ",
+    "encyclopedia": {
+      "routeSummary": "とうかいどうほんせん・いとうせん・いずきゅうこうせん を はしる",
+      "routeEndpointsSummary": "とうきょう・しんじゅく 〜 いずきゅうしもだ",
+      "featureSummary": "あおい しゃたい に おおきな まど。こしつ や カフェテリア が ある",
+      "topSpeedKmh": 120,
+      "speedLabel": "とっきゅう の はやさ"
+    }
+  },
+  {
+    "id": "enoden-300",
+    "displayName": "江ノ電300形",
+    "canonicalName": "江ノ島電鉄300形",
+    "productName": "江ノ電300形",
+    "productEvidenceUrl": "https://www.enoden.co.jp/fan/museum/vehicle/300/",
+    "category": "commuter",
+    "operator": "江ノ島電鉄",
+    "wikipediaTitle": "江ノ島鎌倉観光300形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%B1%9F%E3%83%8E%E5%B3%B6%E9%8E%8C%E5%80%89%E8%A6%B3%E5%85%89300%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%E6%B1%9F%E3%83%8E%E9%9B%BB300%E5%BD%A2305F.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E3%83%8E%E9%9B%BB300%E5%BD%A2305F.jpg",
+    "imageLicense": "CC0",
+    "imageAuthor": "面デカ",
+    "descriptionShort": "みどり と クリームいろで、うみ の そばを はしる えのでん",
+    "encyclopedia": {
+      "routeSummary": "ふじさわ と かまくら の あいだを はしる",
+      "routeEndpointsSummary": "ふじさわ 〜 かまくら",
+      "featureSummary": "みどり と クリームいろ の レトロな くるま。まちや うみべを ゆっくり はしる",
+      "topSpeedKmh": 45,
+      "speedLabel": "えのでんせん での はやさ",
+      "comparison": {
+        "otherTrainId": "hakone-allegra",
+        "summary": "アレグラごう は はこね の やまを のぼる。えのでん は うみ の そばも はしる"
+      }
+    }
+  },
+  {
+    "id": "hakone-allegra",
+    "displayName": "箱根登山電車3000形アレグラ号",
+    "canonicalName": "箱根登山鉄道3000形",
+    "productName": "箱根登山電車3000形アレグラ号",
+    "productEvidenceUrl": "https://www.hakonenavi.jp/special/",
+    "category": "commuter",
+    "operator": "小田急箱根",
+    "wikipediaTitle": "箱根登山鉄道3000形電車",
+    "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E7%99%BB%E5%B1%B1%E9%89%84%E9%81%933000%E5%BD%A2%E9%9B%BB%E8%BB%8A",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tozan_ALLEGRA_Gora_Sta_20141102.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tozan_ALLEGRA_Gora_Sta_20141102.jpg",
+    "imageLicense": "Public domain",
+    "imageAuthor": "Cassiopeia sweet",
+    "descriptionShort": "おおきな まどから やまを ながめる、あかい はこねとざんでんしゃ",
+    "encyclopedia": {
+      "routeSummary": "はこねゆもと から ごうら へ やまを のぼる",
+      "routeEndpointsSummary": "はこねゆもと 〜 ごうら",
+      "featureSummary": "あか と ぎんいろ の からだ と おおきな まど。スイッチバックで むきを かえて やまを のぼる",
+      "topSpeedKmh": 40,
+      "speedLabel": "はこねゆもと〜ごうら の はやさ",
+      "comparison": {
+        "otherTrainId": "odakyu-gse",
+        "summary": "GSE は しんじゅく から はこねゆもと へ。アレグラごう は そこから ごうら へ はしる"
+      }
+    }
   }
 ]
