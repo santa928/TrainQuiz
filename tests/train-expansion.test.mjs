@@ -44,7 +44,7 @@ test("similar train variants retain their individually verified photographs", ()
     "tokyu-5050": "Tokyu 5050 series.jpg",
     "keikyu-2100": "Keikyu-Type2100-73.jpg",
     "keikyu-blue-sky": "Keikyu Type 2100-2133F Limited Express.jpg",
-    "n700s-kamome": "N700S-Y4 Kamome-29.jpg",
+    "n700s-kamome": "N700S 722-8102 Front-side.jpg",
   };
 
   for (const [id, filename] of Object.entries(expectedFiles)) {
