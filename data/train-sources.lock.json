@@ -423,17 +423,17 @@
     },
     {
       "id": "meitetsu-6500",
-      "sourceFingerprint": "554df4aa245d0545eeac68d1ecb63c182b2e7e1de2dafebb569ddf5bf35ea5e2",
+      "sourceFingerprint": "722d7a67d24c86c4af8c78889b7fa9b8b5aef678f861ce8db4fcdcc9334531e8",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-65 名鉄6500系",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。Commons説明の6500系碧南行きと車体・先頭形状を確認。6004F（6000系）の旧写真を置換。 写真出典: https://commons.wikimedia.org/wiki/File:Meitetsu_Mikawa_Line_6500_series_6.jpg。既存の商品出典の継承と写真の再確認は区別する。\n2026-09-08 Issue #13 記事名同期: https://ja.wikipedia.org/wiki/名鉄6000系電車 の冒頭および「6500系の登場」節で、6000・6500・6800の3形式をまとめて扱う記事であることをライブ再確認。seedの記事名・検索名を固定記録と同じ正式記事名に統一し、Commons写真指定を伴うlive生成と通常生成の記事名不一致を解消。6500系の車名・写真は維持。",
       "metadata": {
         "wikipediaTitle": "名鉄6000系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%90%8D%E9%89%846000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Meitetsu_6000_series_031.JPG",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Meitetsu_6000_series_031.JPG",
-        "imageLicense": "CC BY-SA 3.0",
-        "imageAuthor": "Tennen-Gas"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Meitetsu_Mikawa_Line_6500_series_6.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Meitetsu_Mikawa_Line_6500_series_6.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "ButuCC"
       }
     },
     {
@@ -483,17 +483,17 @@
     },
     {
       "id": "ef510-red-thunder",
-      "sourceFingerprint": "5ec5f92bdb1f98316a7605a525d2c7a531656374e13cdd58fac1e91f678e8a5e",
+      "sourceFingerprint": "fc1af039f08310c236d8857a5a3ac2c2a85de2ebe6f7a24ce8753aef30f76fdd",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-46 EF510レッドサンダー（シルバー仕様）",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。タカラトミーS-46公式説明のモデルは九州向けEF510形300番台。Commons説明の301号機と銀色の実画像を確認。501号機ではない。 写真出典: https://commons.wikimedia.org/wiki/File:JRF_EF510-301_Nippo-main-Line.jpg。既存の商品出典の継承と写真の再確認は区別する。",
       "metadata": {
         "wikipediaTitle": "JR貨物EF510形電気機関車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E8%B2%A8%E7%89%A9EF510%E5%BD%A2%E9%9B%BB%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/JRE_EF510-501_and_JRF_EF510-1_in_Omiya_20100522.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_EF510-501_and_JRF_EF510-1_in_Omiya_20100522.jpg",
-        "imageLicense": "CC BY-SA 3.0",
-        "imageAuthor": "Rsa"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/JRF_EF510-301_Nippo-main-Line.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRF_EF510-301_Nippo-main-Line.jpg",
+        "imageLicense": "CC0",
+        "imageAuthor": "MaedaAkihiko"
       }
     },
     {
@@ -513,32 +513,32 @@
     },
     {
       "id": "d51-200",
-      "sourceFingerprint": "0bbe0083cabbbbc18e0ff8b61cc7d7f9f76a695918a44efafef5dc737ee02be5",
+      "sourceFingerprint": "7d9e41b88542c91360b52d52f310a415708f54e7499a4644b85f234d896fe589",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-28 ライト付D51 200号機蒸気機関車",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。写真の前面番号D51 200とCommonsカテゴリを目視確認。D51 498の旧写真を置換。 写真出典: https://commons.wikimedia.org/wiki/File:D51_200_steam_locomotive_2018-05-05.jpg。既存の商品出典の継承と写真の再確認は区別する。",
       "metadata": {
         "wikipediaTitle": "国鉄D51形蒸気機関車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84D51%E5%BD%A2%E8%92%B8%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/D51498-080929.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:D51498-080929.jpg",
-        "imageLicense": "CC BY-SA 3.0",
-        "imageAuthor": "Mutimaro"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/D51_200_steam_locomotive_2018-05-05.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:D51_200_steam_locomotive_2018-05-05.jpg",
+        "imageLicense": "CC BY-SA 2.0",
+        "imageAuthor": "khws4v1"
       }
     },
     {
       "id": "c61-20",
-      "sourceFingerprint": "f322648198f80669e3007e468566d12691ba66d12227d2a33db18616249dfcc5",
+      "sourceFingerprint": "551fb1337948c53b9ebb45dc09a6591f116bde655c5d776037b0979eb0d91c95",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-29 ライト付C61 20号機蒸気機関車",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。Commons説明と前面番号C61 20を確認。C61 2の旧写真を置換。 写真出典: https://commons.wikimedia.org/wiki/File:C61_20_SL_rapid_train.jpg。既存の商品出典の継承と写真の再確認は区別する。",
       "metadata": {
         "wikipediaTitle": "国鉄C61形蒸気機関車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84C61%E5%BD%A2%E8%92%B8%E6%B0%97%E6%A9%9F%E9%96%A2%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/JNR-C61-2.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR-C61-2.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/C61_20_SL_rapid_train.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:C61_20_SL_rapid_train.jpg",
         "imageLicense": "CC BY-SA 3.0",
-        "imageAuthor": "Photo and"
+        "imageAuthor": "Toshinori baba"
       }
     },
     {
@@ -558,17 +558,17 @@
     },
     {
       "id": "n700a",
-      "sourceFingerprint": "16518b647530f89ef9480a3995acac89359e9ad5caf30991896edac6173a7213",
+      "sourceFingerprint": "54533383676b606434352d838b654313f2142e12b768be399719fc24195dae75",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-01 ライト付Ｎ７００Ａ新幹線",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13 追加目視監査: Wikipedia imageinfo API経由でCommonsメタデータを再取得。側面ロゴだけの写真から、N700A G1編成の先頭形状が分かる写真へ置換。 出典: https://commons.wikimedia.org/wiki/File:N700A-G1.jpg。商品出典は既存記録を継承。",
       "metadata": {
         "wikipediaTitle": "新幹線N700系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/JR-Tokaido-Shinkansen-N700A_01.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR-Tokaido-Shinkansen-N700A_01.jpg",
-        "imageLicense": "CC BY 4.0",
-        "imageAuthor": "RuinDig/Yuki Uchida"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/N700A-G1.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700A-G1.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "MaedaAkihiko"
       }
     },
     {
@@ -648,30 +648,30 @@
     },
     {
       "id": "l0-maglev",
-      "sourceFingerprint": "39431e0f70f74c8b748970bc9c5232dd910c7655d9682f2902507083fb425149",
+      "sourceFingerprint": "b294805f0d6350f26ebde9e6f25f519b7adf893b183a5884d8e5b5204bd84098",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-17 レールで速度チェンジ!! 超電導リニアL0系 改良型試験車",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。Commons説明L0系改良型950番台（2020-08-29）と実画像の先頭形状を確認。JR東海 https://linear-chuo-shinkansen.jr-central.co.jp/about/design/ の改良型諸元（営業最高速度500km/h）と照合。 写真出典: https://commons.wikimedia.org/wiki/File:L0-950.jpg。既存の商品出典の継承と写真の再確認は区別する。",
       "metadata": {
         "wikipediaTitle": "L0系",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/L0%E7%B3%BB",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Series_L0.JPG",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_L0.JPG",
-        "imageLicense": "CC BY-SA 3.0",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/L0-950.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:L0-950.jpg",
+        "imageLicense": "CC BY-SA 4.0",
         "imageAuthor": "Saruno Hirobano"
       }
     },
     {
       "id": "e657-hitachi-yellow",
-      "sourceFingerprint": "5a22a86c9953842363c42781c675c5ed8d105ce1a94c2ae3630f774a7081c074",
+      "sourceFingerprint": "06f1a33b3f70686a51c7b5032009959ce29f1a57e8666f108c19a51a3cd3b30d",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-19 E657系特急ひたち（リバイバルカラー黄色）",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。S-19公式説明の黄色リバイバルカラーと、Commons説明のK2編成イエロージョキル色・実画像を確認。通常色K19の旧写真を置換。 写真出典: https://commons.wikimedia.org/wiki/File:JRE_Series-E657-K2_Hitachi-6.jpg。既存の商品出典の継承と写真の再確認は区別する。",
       "metadata": {
         "wikipediaTitle": "JR東日本E657系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/JR%E6%9D%B1%E6%97%A5%E6%9C%ACE657%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Series-E657-K19_Hitachi-20.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E657-K19_Hitachi-20.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/JRE_Series-E657-K2_Hitachi-6.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_Series-E657-K2_Hitachi-6.jpg",
         "imageLicense": "CC BY-SA 4.0",
         "imageAuthor": "MaedaAkihiko"
       }
@@ -753,17 +753,17 @@
     },
     {
       "id": "keio-8000",
-      "sourceFingerprint": "3a527b92553dbd4adbcfcc7fd83a6a68312e88bca669e76a7aea925a16f270ca",
+      "sourceFingerprint": "51648f62d65ccf2c65d99a2d4f42736ac1c64dda239d094d43e5e6d8da563222",
       "evidenceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
       "evidenceText": "京王8000系",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。Commons説明の8725Fと通常色の単独編成を確認。2編成の離合写真を置換。 写真出典: https://commons.wikimedia.org/wiki/File:Keio8000_8725F_20090924.jpg。既存の商品出典の継承と写真の再確認は区別する。",
       "metadata": {
         "wikipediaTitle": "京王8000系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Keio-Series8000.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio-Series8000.jpg",
-        "imageLicense": "CC BY-SA 4.0",
-        "imageAuthor": "MaedaAkihiko"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Keio8000_8725F_20090924.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keio8000_8725F_20090924.jpg",
+        "imageLicense": "CC BY 3.0",
+        "imageAuthor": "Resident of higashi-fuchu"
       }
     },
     {
@@ -1023,32 +1023,32 @@
     },
     {
       "id": "rapid-acty-211",
-      "sourceFingerprint": "3decd04331e412e13ac441261b724238ede45409eba9469f4dcf6c50272f36b5",
+      "sourceFingerprint": "4a93c3e810044bd9442e7415f539cf9a55f94e12be63f6faa4cc096cb75926e3",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "ありがとう！快速アクティー211系",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13 追加目視監査: Wikipedia imageinfo API経由でCommonsメタデータを再取得。他形式と柵が目立つ写真から、東海道線仕様211系の単独編成へ置換。写真の行先表示は普通であり、快速運用の撮影証拠とは扱わない。 出典: https://commons.wikimedia.org/wiki/File:JNR_211.JPG。商品出典は既存記録を継承。",
       "metadata": {
         "wikipediaTitle": "国鉄211系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84211%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E5%9B%BD%E9%89%84211%E7%B3%BB%E9%9B%BB%E8%BB%8A.JPG",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E9%89%84211%E7%B3%BB%E9%9B%BB%E8%BB%8A.JPG",
-        "imageLicense": "Public domain",
-        "imageAuthor": "41"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/JNR_211.JPG",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR_211.JPG",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "TC411-507"
       }
     },
     {
       "id": "hello-kitty-shinkansen",
-      "sourceFingerprint": "237272701d329e6ee1d507656c29e4863d569a03ae19ac564f07e0ed82d0f7b8",
+      "sourceFingerprint": "91552c8205c2f10ae0bd67d7699b10be416b4c555026b6d20c4448f5cfe26cb2",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-18 ハローキティ新幹線",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13 追加目視監査: Wikipedia imageinfo API経由でCommonsメタデータを再取得。遠景から、ハローキティ塗装のピンク色・リボン・先頭形状が大きく見える写真へ置換。 出典: https://commons.wikimedia.org/wiki/File:JRW-500_V2_521-7002_HelloKitty_Shinkansen_in_Himeji.jpg。商品出典は既存記録を継承。",
       "metadata": {
         "wikipediaTitle": "新幹線500系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9A500%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hello_Kitty_Shinkansen_in_Shin-Shimonoseki.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hello_Kitty_Shinkansen_in_Shin-Shimonoseki.jpg",
-        "imageLicense": "CC BY-SA 4.0",
-        "imageAuthor": "Kazehayashi"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/JRW-500_V2_521-7002_HelloKitty_Shinkansen_in_Himeji.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW-500_V2_521-7002_HelloKitty_Shinkansen_in_Himeji.jpg",
+        "imageLicense": "CC BY-SA 3.0",
+        "imageAuthor": "Rsa"
       }
     },
     {
@@ -1113,15 +1113,15 @@
     },
     {
       "id": "e233-shonan",
-      "sourceFingerprint": "3b24a3cb80b94d2320a1f9c11ecebdcdbe165c80879d3d1607ad235b38f8af00",
+      "sourceFingerprint": "2832360f14331f512b0ff2cd8de845938616fedfe534581906267bc7f1203e34",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-31 E233系湘南色（専用連結仕様）",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13 追加目視監査: Wikipedia imageinfo API経由でCommonsメタデータを再取得。遠景から、湘南色E233系3000番台の先頭と帯色が大きく見える写真へ置換。 出典: https://commons.wikimedia.org/wiki/File:Series-E233-3000-Ino-STA.jpg。商品出典は既存記録を継承。",
       "metadata": {
         "wikipediaTitle": "東海道線 (JR東日本)",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E9%81%93%E7%B7%9A_(JR%E6%9D%B1%E6%97%A5%E6%9C%AC)",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Tokaido-Line-Series-E233-3000.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokaido-Line-Series-E233-3000.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Series-E233-3000-Ino-STA.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E233-3000-Ino-STA.jpg",
         "imageLicense": "CC BY-SA 4.0",
         "imageAuthor": "MaedaAkihiko"
       }
@@ -1143,46 +1143,46 @@
     },
     {
       "id": "e231-sobu",
-      "sourceFingerprint": "d1b14587d585e98873e6104f6d0e5f6667ec0d90c4781c13e677a9f2bce62bb0",
+      "sourceFingerprint": "071d228217caf613941bc14b3a8c5c6d0af32b87bf2053c9502faf2bdcc3815c",
       "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
       "evidenceText": "S-49 サウンドE231系総武線",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。Commons説明の中央・総武線E231系500番台と黄色帯の単独編成を確認。離合写真を置換。 写真出典: https://commons.wikimedia.org/wiki/File:JRE_E231_500_Chuo_Sobu.jpg。既存の商品出典の継承と写真の再確認は区別する。",
       "metadata": {
         "wikipediaTitle": "中央・総武緩行線",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E3%83%BB%E7%B7%8F%E6%AD%A6%E7%B7%A9%E8%A1%8C%E7%B7%9A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Series_E231-500_A536_A509.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series_E231-500_A536_A509.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/JRE_E231_500_Chuo_Sobu.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRE_E231_500_Chuo_Sobu.jpg",
+        "imageLicense": "CC BY-SA 4.0",
+        "imageAuthor": "Vlchang"
+      }
+    },
+    {
+      "id": "e233-keiyo",
+      "sourceFingerprint": "4b23c0179253451945bc1843cbd0c70ebf17d3eb8d42e36ee21c8feb9bf64832",
+      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
+      "evidenceText": "E233系京葉線",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Wikipedia imageinfo API経由でCommonsメタデータを再取得し、写真を目視照合。Commons説明の京葉線E233系5000番台502編成と赤帯の単独編成を確認。209系との離合写真を置換。 写真出典: https://commons.wikimedia.org/wiki/File:Series-E233-5000-502F.jpg。既存の商品出典の継承と写真の再確認は区別する。",
+      "metadata": {
+        "wikipediaTitle": "京葉線",
+        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E8%91%89%E7%B7%9A",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Series-E233-5000-502F.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E233-5000-502F.jpg",
         "imageLicense": "CC BY-SA 4.0",
         "imageAuthor": "MaedaAkihiko"
       }
     },
     {
-      "id": "e233-keiyo",
-      "sourceFingerprint": "fe671b1336c88cfd82192eb307c50f7c6e54581a928be9f39d71ff4f81de8b73",
-      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
-      "evidenceText": "E233系京葉線",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
-      "metadata": {
-        "wikipediaTitle": "京葉線",
-        "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E8%91%89%E7%B7%9A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Keiyo-Line-SeriesE233-209.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keiyo-Line-SeriesE233-209.jpg",
-        "imageLicense": "CC BY-SA 4.0",
-        "imageAuthor": "MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II"
-      }
-    },
-    {
       "id": "103-saikyo",
-      "sourceFingerprint": "7242a9fdc64b9b115b6308fcac2f3cf64ac705e3efbbcb5e21f32207ffa61dd8",
-      "evidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
-      "evidenceText": "103系埼京線",
-      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。",
+      "sourceFingerprint": "8bc9d2431d8b5dc34adbac5323f703070ff705e17993e56dc7c474c9d9b6bddd",
+      "evidenceUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84103%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+      "evidenceText": "八高線・川越線用の3500番台",
+      "verificationBasis": "既存公開データから継承: commit 6e10a852bcd994dae7de8e9f305ad24f68cd665d。今回のライブ再確認ではない。\n2026-09-08 Issue #13: Commons説明の103系3500番台ハエ56編成と、Wikipedia「国鉄103系電車」JR東日本3500番台節および川越線・八高線節を照合。玩具の出典としていた記録を、実車の形式・運用の出典へ訂正。写真は継続使用し、うぐいす色の車体を目視確認。ID 103-saikyoは互換性のため保持。\n2026-09-08 Issue #13 追加目視監査: Wikipedia imageinfo API経由でCommonsメタデータを再取得。3500番台ハエ56編成の近景に更新。前面・うぐいす色・川越の行先を目視確認。 出典: https://commons.wikimedia.org/wiki/File:103-3501_Nishi-Kawagoe_-_Matoba_20040605.JPG。商品出典は既存記録を継承。",
       "metadata": {
         "wikipediaTitle": "国鉄103系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84103%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/103-3500_56_Kawagoe_20020622.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:103-3500_56_Kawagoe_20020622.jpg",
-        "imageLicense": "CC BY-SA 4.0",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/103-3501_Nishi-Kawagoe_-_Matoba_20040605.JPG",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:103-3501_Nishi-Kawagoe_-_Matoba_20040605.JPG",
+        "imageLicense": "CC BY-SA 3.0",
         "imageAuthor": "DAJF"
       }
     },
@@ -1518,15 +1518,15 @@
     },
     {
       "id": "n700s-kamome",
-      "sourceFingerprint": "3f28fed946c5ca3d1d268afbd3bb20c8362a632fdc7c091bc7ee656ff6af06ac",
+      "sourceFingerprint": "e3d25618cece9c8c32b23bc97ad17dde2d0f6784db3d2cb01ef5968020ff7374",
       "evidenceUrl": "https://www.jrkyushu.co.jp/english/train/shinkansen_kamome.html",
       "evidenceText": "KAMOME",
-      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。",
+      "verificationBasis": "2026-09-08に公式出典と写真を確認: PR #12 / commit 79763fc73006bfa5894c57fea1c3fa13c5d8fcf6。自動取得できないページはWeb閲覧で照合。\n2026-09-08 Issue #13 追加目視監査: Wikipedia imageinfo API経由でCommonsメタデータを再取得。先頭2両が並ぶ写真から、かもめの単一先頭部・ロゴ・赤白塗装が見える写真へ置換。 出典: https://commons.wikimedia.org/wiki/File:N700S_722-8102_Front-side.jpg。商品出典は既存記録を継承。",
       "metadata": {
         "wikipediaTitle": "新幹線N700S系電車",
         "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700S%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/N700S-Y4_Kamome-29.jpg",
-        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700S-Y4_Kamome-29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/N700S_722-8102_Front-side.jpg",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700S_722-8102_Front-side.jpg",
         "imageLicense": "CC BY-SA 4.0",
         "imageAuthor": "MaedaAkihiko"
       }

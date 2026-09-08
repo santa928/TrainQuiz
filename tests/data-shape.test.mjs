@@ -137,7 +137,7 @@ test("issue 6 image overrides keep the intended train variants", () => {
   );
   assert.match(
     normalizeCommonsSource(helloKitty.imageSourceUrl),
-    /File:Hello Kitty Shinkansen in Shin-Shimonoseki\.jpg$/,
+    /File:JRW-500 V2 521-7002 HelloKitty Shinkansen in Himeji\.jpg$/,
   );
 });
 
@@ -148,11 +148,11 @@ test("issue 6 naming cleanup is reflected in published data", () => {
 
   assert.ok(e657Hitachi);
   assert.ok(e233Chuo);
-  assert.equal(e657Hitachi.displayName, "E657系特急ひたち");
+  assert.equal(e657Hitachi.displayName, "E657系特急ひたち（黄色）");
   assert.equal(e657Hitachi.canonicalName, "E657系ひたち");
   assert.match(
     normalizeCommonsSource(e657Hitachi.imageSourceUrl),
-    /File:Series-E657-K19 Hitachi-20\.jpg$/,
+    /File:JRE Series-E657-K2 Hitachi-6\.jpg$/,
   );
   assert.equal(e233Chuo.displayName, "E233系中央線");
   assert.equal(e233Chuo.canonicalName, "E233系中央線");

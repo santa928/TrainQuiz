@@ -257,7 +257,8 @@ body::before {
 .encyclopedia-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* 先頭部・号機・塗装を切らず、クイズと同じ写真全体を見せる。 */
+  object-fit: contain;
 }
 
 .encyclopedia-card-title {

@@ -347,7 +347,7 @@
   },
   {
     "id": "meitetsu-mu-sky",
-    "displayName": "名鉄ミュースカイ",
+    "displayName": "名鉄ミュースカイ（通常色）",
     "canonicalName": "名鉄2000系",
     "productName": "S-55 名鉄2000系ミュースカイ",
     "category": "limited_express",
@@ -567,8 +567,8 @@
     "productName": "S-65 名鉄6500系",
     "category": "commuter",
     "operator": "名古屋鉄道",
-    "wikipediaTitle": "名鉄6500系電車",
-    "wikipediaQuery": "名鉄6500系電車",
+    "wikipediaTitle": "名鉄6000系電車",
+    "wikipediaQuery": "名鉄6000系電車",
     "descriptionShort": "あかい でんしゃで、めいてつ の まちの せんろを はしる",
     "encyclopedia": {
       "routeSummary": "なごや ほうめん の ほんせん や まちの せんろ",
@@ -576,7 +576,8 @@
       "featureSummary": "あかい しゃたい の めいてつ つうきんでんしゃ",
       "topSpeedKmh": 110,
       "speedLabel": "まちで はしる はやさ"
-    }
+    },
+    "commonsFileTitle": "File:Meitetsu Mikawa Line 6500 series 6.jpg"
   },
   {
     "id": "osaka-metro-400",
@@ -642,25 +643,26 @@
   },
   {
     "id": "ef510-red-thunder",
-    "displayName": "EF510レッドサンダー",
-    "canonicalName": "EF510形",
+    "displayName": "EF510レッドサンダー（シルバー）",
+    "canonicalName": "EF510形300番台",
     "productName": "S-46 EF510レッドサンダー（シルバー仕様）",
     "category": "freight",
-    "operator": "JR貨物 / JR東日本",
+    "operator": "JR貨物",
     "wikipediaTitle": "JR貨物EF510形電気機関車",
     "wikipediaQuery": "EF510形電気機関車",
-    "descriptionShort": "レッドサンダー の あだなで、あかい いろが めだつ きかんしゃ",
+    "descriptionShort": "ぎんいろ の からだで、きゅうしゅう の にもつを はこぶ レッドサンダー",
     "encyclopedia": {
-      "routeSummary": "にほんかいがわ や しゅとけん ほうめん の かもつ せんく",
-      "routeEndpointsSummary": "にほんかいがわ 〜 しゅとけん の かもつ せんく",
-      "featureSummary": "あかい からだ と レッドサンダー の なまえが めじるし",
+      "routeSummary": "きゅうしゅう の かごしまほんせん・にっぽうほんせん",
+      "routeEndpointsSummary": "きたきゅうしゅう から きゅうしゅう の かもつえき へ",
+      "featureSummary": "ぎんいろ の からだ と あかい おび の 300ばんだい",
       "topSpeedKmh": 110,
       "comparison": {
         "otherTrainId": "ef210-momotaro",
         "summary": "EF210 は あおい からだで、ちょくりゅう せんく を ちゅうしんに はしる"
       },
       "speedLabel": "はやい きかんしゃ"
-    }
+    },
+    "commonsFileTitle": "File:JRF EF510-301 Nippo-main-Line.jpg"
   },
   {
     "id": "ef66",
@@ -704,7 +706,8 @@
         "summary": "C57 は すらっと みえる きふじん で、たびきゃく れっしゃむき"
       },
       "speedLabel": "SL として はやい"
-    }
+    },
+    "commonsFileTitle": "File:D51 200 steam locomotive 2018-05-05.jpg"
   },
   {
     "id": "c61-20",
@@ -722,7 +725,8 @@
       "featureSummary": "D51 の ボイラーから うまれた、たびきゃく れっしゃむき の SL",
       "topSpeedKmh": 100,
       "speedLabel": "SL として はやい"
-    }
+    },
+    "commonsFileTitle": "File:C61 20 SL rapid train.jpg"
   },
   {
     "id": "c57-yamaguchi",
@@ -754,7 +758,7 @@
     "category": "shinkansen",
     "operator": "JR東海 / JR西日本",
     "wikipediaTitle": "新幹線N700系電車",
-    "commonsFileTitle": "File:JR-Tokaido-Shinkansen-N700A 01.jpg",
+    "commonsFileTitle": "File:N700A-G1.jpg",
     "descriptionShort": "N700けい を もっと あんしんにした、A の しんかんせん",
     "encyclopedia": {
       "routeSummary": "とうきょう から はかた・かごしまちゅうおう ほうめん",
@@ -882,30 +886,30 @@
     "category": "maglev",
     "operator": "JR東海",
     "wikipediaTitle": "L0系",
-    "commonsFileTitle": "File:Series L0.JPG",
-    "descriptionShort": "うかんで はしる リニアで、ちゅうおうしんかんせん の しけんしゃ",
+    "commonsFileTitle": "File:L0-950.jpg",
+    "descriptionShort": "うかんで はしる リニアの、せんとう の かたちを かいりょうした しけんしゃ",
     "encyclopedia": {
       "routeSummary": "やまなし じっけんせん で しけん そうこう",
       "routeEndpointsSummary": "やまなし じっけんせん を しけん そうこう",
-      "featureSummary": "しゃりん ではなく うかんで はしる リニア",
-      "topSpeedKmh": 603,
-      "speedLabel": "びっくりするほど はやい"
+      "featureSummary": "ながい はな と あおい ラインが めじるしの、かいりょうがた リニア",
+      "topSpeedKmh": 500,
+      "speedLabel": "えいぎょううんてんで めざす はやさ"
     }
   },
   {
     "id": "e657-hitachi-yellow",
-    "displayName": "E657系特急ひたち",
+    "displayName": "E657系特急ひたち（黄色）",
     "canonicalName": "E657系ひたち",
     "productName": "S-19 E657系特急ひたち（リバイバルカラー黄色）",
     "category": "limited_express",
     "operator": "JR東日本",
     "wikipediaTitle": "JR東日本E657系電車",
-    "commonsFileTitle": "File:Series-E657-K19 Hitachi-20.jpg",
-    "descriptionShort": "しろい しゃたいに あかい ラインで、ひたち として じょうばんせん を はしる",
+    "commonsFileTitle": "File:JRE Series-E657-K2 Hitachi-6.jpg",
+    "descriptionShort": "きいろ の リバイバルカラーで、ひたち として じょうばんせん を はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう・うえの から みと・いわき ほうめん",
       "routeEndpointsSummary": "とうきょう・うえの 〜 みと・いわき",
-      "featureSummary": "しろい しゃたい と あかい ライン の E657けい ひたち",
+      "featureSummary": "きいろ の しゃたいは、ひたちかいひんこうえん と すいせん が テーマ",
       "topSpeedKmh": 130,
       "speedLabel": "はやい"
     }
@@ -1007,14 +1011,14 @@
   },
   {
     "id": "keio-8000",
-    "displayName": "京王8000系",
+    "displayName": "京王8000系（通常色）",
     "canonicalName": "京王8000系",
     "productName": "京王8000系",
     "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E7%8E%8B8000%E7%B3%BB%E9%9B%BB%E8%BB%8A",
     "category": "commuter",
     "operator": "京王電鉄",
     "wikipediaTitle": "京王8000系電車",
-    "commonsFileTitle": "File:Keio-Series8000.jpg",
+    "commonsFileTitle": "File:Keio8000 8725F 20090924.jpg",
     "descriptionShort": "まるみ の ある かおで、けいおうせん を はしる でんしゃ",
     "encyclopedia": {
       "routeSummary": "しんじゅく から けいおうはちおうじ・たかおさんぐち ほうめん",
@@ -1388,7 +1392,7 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "国鉄211系電車",
-    "commonsFileTitle": "File:国鉄211系電車.JPG",
+    "commonsFileTitle": "File:JNR 211.JPG",
     "descriptionShort": "2かい ドアで、とうかいどうせん の かいそくアクティー を はしった",
     "encyclopedia": {
       "routeSummary": "とうきょう・よこはま から あつぎ・おだわら ほうめん の とうかいどうせん",
@@ -1406,7 +1410,7 @@
     "category": "shinkansen",
     "operator": "JR西日本",
     "wikipediaTitle": "新幹線500系電車",
-    "commonsFileTitle": "File:Hello Kitty Shinkansen in Shin-Shimonoseki.jpg",
+    "commonsFileTitle": "File:JRW-500 V2 521-7002 HelloKitty Shinkansen in Himeji.jpg",
     "descriptionShort": "ハローキティ の えが ついて、さんようしんかんせん を はしる",
     "encyclopedia": {
       "routeSummary": "しんおおさか から はかた ほうめん の さんようしんかんせん",
@@ -1508,7 +1512,7 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "東海道線 (JR東日本)",
-    "commonsFileTitle": "File:Tokaido-Line-Series-E233-3000.jpg",
+    "commonsFileTitle": "File:Series-E233-3000-Ino-STA.jpg",
     "descriptionShort": "オレンジ と みどり の いろで、しょうなん ほうめんを はしる",
     "encyclopedia": {
       "routeSummary": "とうきょう から しょうなん・おだわら ほうめん",
@@ -1548,7 +1552,7 @@
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "中央・総武緩行線",
-    "commonsFileTitle": "File:Series_E231-500_A536_A509.jpg",
+    "commonsFileTitle": "File:JRE E231 500 Chuo Sobu.jpg",
     "descriptionShort": "きいろ の ラインで、そうぶせん を のんびり はしる",
     "encyclopedia": {
       "routeSummary": "みたか から あきはばら・ちば ほうめん の そうぶせん",
@@ -1574,29 +1578,32 @@
       "featureSummary": "あかい ライン で、うみちかく を はしる E233けい",
       "topSpeedKmh": 100,
       "speedLabel": "まちで はしる はやさ"
-    }
+    },
+    "commonsFileTitle": "File:Series-E233-5000-502F.jpg"
   },
   {
     "id": "103-saikyo",
-    "displayName": "103系埼京線",
-    "canonicalName": "103系埼京線",
-    "productName": "103系埼京線",
+    "displayName": "103系川越線（うぐいす色）",
+    "canonicalName": "103系3500番台（JR東日本）",
+    "productName": "103系川越線",
     "category": "commuter",
     "operator": "JR東日本",
     "wikipediaTitle": "国鉄103系電車",
-    "commonsFileTitle": "File:103-3500 56 Kawagoe 20020622.jpg",
-    "descriptionShort": "みどり の ラインで、むかしの さいきょうせん を はしった",
+    "commonsFileTitle": "File:103-3501 Nishi-Kawagoe - Matoba 20040605.JPG",
+    "descriptionShort": "うぐいすいろ の からだで、むかしの かわごえせん・はちこうせん を はしった",
     "encyclopedia": {
-      "routeSummary": "いけぶくろ・しんじゅく から おおみや ほうめん の むかしの さいきょうせん",
-      "routeEndpointsSummary": "いけぶくろ・しんじゅく 〜 おおみや",
-      "featureSummary": "みどり の ライン で かつやく した むかしの つうきんでんしゃ",
+      "routeSummary": "かわごえせん・はちこうせん で はしった でんしゃ",
+      "routeEndpointsSummary": "かわごえ 〜 こまがわ 〜 はちおうじ を はしった",
+      "featureSummary": "うぐいすいろ の からだ と しかくい かお の 3500ばんだい",
       "topSpeedKmh": 100,
       "comparison": {
         "otherTrainId": "103-joban",
-        "summary": "じょうばんせん の 103けい は エメラルドいろ の ライン が めじるし"
+        "summary": "じょうばんせん の 103けい は エメラルドいろ の からだ が めじるし"
       },
       "speedLabel": "まちで はしる はやさ"
-    }
+    },
+    "productEvidenceUrl": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%89%84103%E7%B3%BB%E9%9B%BB%E8%BB%8A",
+    "productEvidenceText": "八高線・川越線用の3500番台"
   },
   {
     "id": "103-joban",
@@ -1611,11 +1618,11 @@
     "encyclopedia": {
       "routeSummary": "うえの から とりで ほうめん の むかしの じょうばんせん",
       "routeEndpointsSummary": "うえの 〜 とりで",
-      "featureSummary": "エメラルドいろ の ライン で かつやく した 103けい",
+      "featureSummary": "エメラルドいろ の からだ で かつやく した 103けい",
       "topSpeedKmh": 100,
       "comparison": {
         "otherTrainId": "103-saikyo",
-        "summary": "さいきょうせん の 103けい は みどり の ライン で はしっていた"
+        "summary": "かわごえせん の 103けい は うぐいすいろ の からだ で はしっていた"
       },
       "speedLabel": "まちで はしる はやさ"
     }
@@ -2232,9 +2239,9 @@
     "operator": "JR九州",
     "wikipediaTitle": "新幹線N700S系電車",
     "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700S%E7%B3%BB%E9%9B%BB%E8%BB%8A",
-    "commonsFileTitle": "File:N700S-Y4 Kamome-29.jpg",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/N700S-Y4_Kamome-29.jpg",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700S-Y4_Kamome-29.jpg",
+    "commonsFileTitle": "File:N700S 722-8102 Front-side.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/N700S_722-8102_Front-side.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700S_722-8102_Front-side.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
     "descriptionShort": "しろ と あか の 6りょうで、ながさきへ むかう しんかんせん かもめ",
