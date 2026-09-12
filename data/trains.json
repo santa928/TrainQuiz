@@ -82,7 +82,7 @@
   },
   {
     "id": "e4-max",
-    "displayName": "E4系新幹線Max",
+    "displayName": "E4系新幹線Maxとき・Maxたにがわ",
     "canonicalName": "E4系",
     "productName": "S-10 E4系新幹線Max（連結仕様）",
     "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
@@ -94,10 +94,10 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JR_East_Shinkansen_E4.jpg",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Sui-setz",
-    "descriptionShort": "ぜんぶ 2かいだてで、Max の あいしょうで はしった しんかんせん",
+    "descriptionShort": "ぜんぶ 2かいだてで、マックスとき・マックスたにがわ として はしった しんかんせん",
     "encyclopedia": {
-      "routeSummary": "とうきょう から にいがた ほうめん を ちゅうしんに はしった",
-      "routeEndpointsSummary": "とうきょう 〜 にいがた",
+      "routeSummary": "とうきょう から にいがた・えちごゆざわ ほうめん を はしった",
+      "routeEndpointsSummary": "とうきょう 〜 にいがた・えちごゆざわ を はしった",
       "featureSummary": "ぜんしゃ 2かいだて で、たくさん のれる Max",
       "topSpeedKmh": 240,
       "speedLabel": "しんかんせん の はやさ"
@@ -155,7 +155,7 @@
   },
   {
     "id": "500-nozomi",
-    "displayName": "500系新幹線（通常色）",
+    "displayName": "500系新幹線こだま・のぞみ（通常色）",
     "canonicalName": "500系",
     "productName": "S-02 ライト付500系新幹線（ハイパワーライト)",
     "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
@@ -167,10 +167,10 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JRW-500-nozomi.jpg",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "Mitsuki-2368",
-    "descriptionShort": "とがった かおで、とうかいどう と さんよう を はしる しんかんせん",
+    "descriptionShort": "とがった はなの こだま。むかしは のぞみ としても かつやく",
     "encyclopedia": {
-      "routeSummary": "とうかいどう・さんようしんかんせん を はしる",
-      "routeEndpointsSummary": "とうきょう 〜 はかた",
+      "routeSummary": "さんようしんかんせん の こだま。むかしは とうかいどう・さんよう の のぞみ",
+      "routeEndpointsSummary": "しんおおさか 〜 はかた（むかしの のぞみは とうきょう 〜 はかた）",
       "featureSummary": "とがった せんとうぶ と えんどうけい の しゃたい",
       "topSpeedKmh": 270,
       "comparison": {
@@ -232,22 +232,22 @@
   },
   {
     "id": "n700",
-    "displayName": "N700系新幹線",
+    "displayName": "N700系新幹線のぞみ・ひかり・こだま",
     "canonicalName": "N700系",
     "productName": "S-11 サウンドN700系新幹線",
     "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
     "category": "shinkansen",
-    "operator": "JR東海 / JR西日本 / JR九州",
+    "operator": "JR東海 / JR西日本",
     "wikipediaTitle": "新幹線N700系電車",
     "wikipediaUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B9%B9%E7%B7%9AN700%E7%B3%BB%E9%9B%BB%E8%BB%8A",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shinkansen_N700_z15.jpg",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700_z15.jpg",
     "imageLicense": "CC BY 3.0",
     "imageAuthor": "TC411-507 at Japanese Wikipedia",
-    "descriptionShort": "とうかいどう から きゅうしゅうまで、ひろく はしる しんかんせん",
+    "descriptionShort": "のぞみ・ひかり・こだま の なまえで はしる、しろ と あお の N700けい",
     "encyclopedia": {
-      "routeSummary": "とうきょう から はかた・かごしまちゅうおう ほうめん",
-      "routeEndpointsSummary": "とうきょう 〜 はかた・かごしまちゅうおう",
+      "routeSummary": "とうきょう から はかた ほうめん の とうかいどう・さんようしんかんせん",
+      "routeEndpointsSummary": "とうきょう 〜 はかた",
       "featureSummary": "かーぶ で からだを かたむける しくみ を もつ N700けい",
       "topSpeedKmh": 300,
       "comparison": {
@@ -547,7 +547,7 @@
   },
   {
     "id": "e231-near",
-    "displayName": "E231系近郊電車",
+    "displayName": "E231系東海道線・高崎線・宇都宮線",
     "canonicalName": "E231系",
     "productName": "S-43 サウンドE231系近郊電車",
     "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
@@ -559,15 +559,15 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:E231%E7%B3%BB%E8%BF%91%E9%83%8A%E5%BD%A2%E3%83%BBK-38%E7%B7%A8%E6%88%90%EF%BC%88%E5%89%8D%E7%85%A7%E7%81%AF%E6%9B%B4%E6%96%B0%E5%BE%8C%EF%BC%89.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "PQ Usui",
-    "descriptionShort": "オレンジ と みどり の いろで、しょうなんしんじゅくライン も はしる",
+    "descriptionShort": "オレンジ と みどり の いろで、とうかいどうせん・たかさきせん・うつのみやせん を はしる",
     "encyclopedia": {
-      "routeSummary": "うえのとうきょうライン・しょうなんしんじゅくライン で とうきょう と かながわ・さいたま・ぐんま ほうめん",
-      "routeEndpointsSummary": "とうきょう 〜 かながわ・さいたま・ぐんま ほうめん",
+      "routeSummary": "とうかいどうせん・たかさきせん・うつのみやせん。うえのとうきょうライン・しょうなんしんじゅくライン にも はいる",
+      "routeEndpointsSummary": "とうきょう・しょうなん から ぐんま・とちぎ ほうめん",
       "featureSummary": "オレンジ と みどり の いろで、ながい きょりも はしる",
       "topSpeedKmh": 120,
       "comparison": {
         "otherTrainId": "e233-shonan",
-        "summary": "E233 しょうなんいろ は おなじ いろあい でも、より あたらしい でんしゃ"
+        "summary": "E233けい は おなじ いろあい でも、より あたらしい でんしゃ"
       },
       "speedLabel": "はやめ"
     }
@@ -724,11 +724,11 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:406-18f.jpg",
     "imageLicense": "CC0",
     "imageAuthor": "Springuy",
-    "descriptionShort": "むらさき の ラインで、おおさかメトロ ちゅうおうせん を はしる",
+    "descriptionShort": "みどり の ラインで、おおさかメトロ ちゅうおうせん を はしる",
     "encyclopedia": {
       "routeSummary": "コスモスクエア から ながた ほうめん の ちゅうおうせん",
       "routeEndpointsSummary": "コスモスクエア 〜 ながた",
-      "featureSummary": "むらさき の ライン と みらいかん の ある かお",
+      "featureSummary": "みどり の ライン と みらいかん の ある かお",
       "topSpeedKmh": 95,
       "speedLabel": "まちで はしる はやさ"
     }
@@ -920,7 +920,7 @@
   },
   {
     "id": "n700a",
-    "displayName": "N700A新幹線",
+    "displayName": "N700A新幹線のぞみ・ひかり・こだま",
     "canonicalName": "N700A",
     "productName": "S-01 ライト付Ｎ７００Ａ新幹線",
     "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
@@ -932,10 +932,10 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:N700A-G1.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "N700けい を もっと あんしんにした、A の しんかんせん",
+    "descriptionShort": "のぞみ・ひかり・こだま として はしる、N700けい の かいりょうがた",
     "encyclopedia": {
-      "routeSummary": "とうきょう から はかた・かごしまちゅうおう ほうめん",
-      "routeEndpointsSummary": "とうきょう 〜 はかた・かごしまちゅうおう",
+      "routeSummary": "とうきょう から はかた ほうめん の とうかいどう・さんようしんかんせん",
+      "routeEndpointsSummary": "とうきょう 〜 はかた",
       "featureSummary": "N700 に ブレーキ などの かいりょう を くわえた A",
       "topSpeedKmh": 300,
       "comparison": {
@@ -967,14 +967,14 @@
       "topSpeedKmh": 300,
       "comparison": {
         "otherTrainId": "n700",
-        "summary": "N700 は とうかいどう から きゅうしゅう まで ひろく はしる きほん しゃ"
+        "summary": "のぞみ・ひかり・こだま の N700 は 16りょう。みずほ・さくら は 8りょうで、きゅうしゅう まで はしる"
       },
       "speedLabel": "とても はやい"
     }
   },
   {
     "id": "e3-tsubasa-2000",
-    "displayName": "E3系新幹線つばさ2000番代",
+    "displayName": "E3系新幹線つばさ2000番台",
     "canonicalName": "E3系2000番代",
     "productName": "S-09 E3系新幹線つばさ2000番代（連結仕様）",
     "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
@@ -1313,7 +1313,7 @@
     "encyclopedia": {
       "routeSummary": "けいおうせん と さがみはらせん を はしる あたらしい つうきんでんしゃ",
       "routeEndpointsSummary": "しんじゅく 〜 はしもと・たかおさんぐち",
-      "featureSummary": "ロングシート と クロスシート を きりかえられ、ひだまりスペース も ある",
+      "featureSummary": "5ごうしゃ に ひだまりスペース が あり、おおきな まど から けしきを たのしめる",
       "topSpeedKmh": 130,
       "comparison": {
         "otherTrainId": "keio-7000",
@@ -1662,7 +1662,7 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:UL21_Kasumori.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "Unmo371",
-    "descriptionShort": "アーバンライナー の しんしい すがたで、おおさか と なごやを むすぶ",
+    "descriptionShort": "アーバンライナー の あたらしい すがたで、おおさか と なごやを むすぶ",
     "encyclopedia": {
       "routeSummary": "おおさかなんば と きんてつなごや を むすぶ",
       "routeEndpointsSummary": "おおさかなんば 〜 きんてつなごや",
@@ -1689,11 +1689,11 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JNR_211.JPG",
     "imageLicense": "CC BY-SA 3.0",
     "imageAuthor": "TC411-507",
-    "descriptionShort": "2かい ドアで、とうかいどうせん の かいそくアクティー を はしった",
+    "descriptionShort": "ぎんいろ の からだで、とうかいどうせん の かいそくアクティー を はしった",
     "encyclopedia": {
-      "routeSummary": "とうきょう・よこはま から あつぎ・おだわら ほうめん の とうかいどうせん",
-      "routeEndpointsSummary": "とうきょう・よこはま 〜 おだわら",
-      "featureSummary": "2かい ドア で はしった 211けい の かいそくアクティー",
+      "routeSummary": "とうきょう・よこはま から おだわら・あたみ ほうめん の とうかいどうせん を はしった",
+      "routeEndpointsSummary": "とうきょう 〜 あたみ を はしった",
+      "featureSummary": "ふつうしゃは かたがわに 3つの ドアがある、211けい の かいそくアクティー",
       "topSpeedKmh": 120,
       "speedLabel": "はやめ"
     }
@@ -1827,7 +1827,7 @@
   },
   {
     "id": "e233-shonan",
-    "displayName": "E233系湘南色",
+    "displayName": "E233系東海道線・高崎線・宇都宮線",
     "canonicalName": "E233系湘南色",
     "productName": "S-31 E233系湘南色（専用連結仕様）",
     "productEvidenceUrl": "https://www.takaratomy.co.jp/products/plarail/lineup/sharyou/",
@@ -1839,10 +1839,10 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Series-E233-3000-Ino-STA.jpg",
     "imageLicense": "CC BY-SA 4.0",
     "imageAuthor": "MaedaAkihiko",
-    "descriptionShort": "オレンジ と みどり の いろで、しょうなん ほうめんを はしる",
+    "descriptionShort": "オレンジ と みどり の いろで、とうかいどうせん・たかさきせん・うつのみやせん を はしる E233けい",
     "encyclopedia": {
-      "routeSummary": "とうきょう から しょうなん・おだわら ほうめん",
-      "routeEndpointsSummary": "とうきょう 〜 しょうなん・おだわら",
+      "routeSummary": "とうかいどうせん・たかさきせん・うつのみやせん。うえのとうきょうライン・しょうなんしんじゅくライン にも はいる",
+      "routeEndpointsSummary": "とうきょう・しょうなん から ぐんま・とちぎ ほうめん",
       "featureSummary": "オレンジ と みどり の しょうなんいろ の E233けい",
       "topSpeedKmh": 120,
       "comparison": {
@@ -2563,7 +2563,7 @@
   },
   {
     "id": "0-shinkansen",
-    "displayName": "0系新幹線",
+    "displayName": "0系新幹線ひかり・こだま",
     "canonicalName": "0系",
     "productName": "0系新幹線",
     "productEvidenceUrl": "https://www.westjr.co.jp/fan/paper/nostalgia/",
@@ -2575,7 +2575,7 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkansen_0-series.jpg",
     "imageLicense": "Public domain",
     "imageAuthor": "Sui-setz",
-    "descriptionShort": "まるい はなで、いちばん はじめに はしった しんかんせん",
+    "descriptionShort": "まるい はなの はじめての しんかんせん。ひかり・こだま として はしった",
     "encyclopedia": {
       "routeSummary": "とうかいどう・さんようしんかんせん を はしった",
       "routeEndpointsSummary": "とうきょう 〜 はかた を はしった",

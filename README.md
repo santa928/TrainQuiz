@@ -60,6 +60,7 @@ docker compose up
 鉄道会社の公式車両紹介を根拠にする場合は、seed の `productEvidenceUrl` と `productEvidenceText` を指定します。この場合の `productName` は車両の表示名で、玩具の商品化を意味しません。
 日本語 Wikipedia だけで安定取得できない車両は、`data/train-seeds.json` に `wikipediaTitle` と `commonsFileTitle` を持たせて、Commons 側の画像を固定できます。
 同じ系列でも別商品として出題するため、`canonicalName` は重複していても構いません。4択の選択肢では `displayName` が重複しないように調整しています。
+形式名だけでは分かりにくい車両には、子どもが知っている列車名や路線名を併記します。新幹線は「500系新幹線こだま・のぞみ（通常色）」のように、「E5系新幹線はやぶさ」「E6系新幹線こまち」と同じ「形式名＋新幹線＋呼び名」の順にし、塗装などの補足は末尾に付けます。選択肢・正解表示・図鑑・読み上げに同じ名前が反映され、同じ呼び名の車両も形式や塗装で区別できます。全110件を点検した対応表と根拠は [車両の呼び名と表記](docs/train-names.md) を参照してください。
 
 ```bash
 docker run --rm \

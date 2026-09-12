@@ -67,13 +67,14 @@ test("published data includes line-color and livery variants as separate questio
   assert.equal(ids.has("urbanliner-next"), true);
 });
 
-test("descriptionShort stays in sync between train seeds and published data", () => {
-  const seedDescriptions = new Map(
-    seeds.map((seed) => [seed.id, seed.descriptionShort ?? ""]),
+test("display names and descriptions stay in sync between train seeds and published data", () => {
+  const seedsById = new Map(
+    seeds.map((seed) => [seed.id, seed]),
   );
 
   for (const train of trains) {
-    assert.equal(train.descriptionShort, seedDescriptions.get(train.id));
+    assert.equal(train.displayName, seedsById.get(train.id).displayName, train.id);
+    assert.equal(train.descriptionShort, seedsById.get(train.id).descriptionShort ?? "", train.id);
   }
 });
 
@@ -174,6 +175,7 @@ test("tsubasa variants describe 1000 and 2000 series consistently", () => {
   assert.ok(tsubasa1000);
   assert.ok(tsubasa2000);
   assert.equal(tsubasa1000.displayName, "E3系新幹線つばさ1000番台");
+  assert.equal(tsubasa2000.displayName, "E3系新幹線つばさ2000番台");
   assert.equal(tsubasa1000.canonicalName, "E3系1000番代");
   assert.match(tsubasa1000.descriptionShort, /1000ばんだい/);
   assert.match(

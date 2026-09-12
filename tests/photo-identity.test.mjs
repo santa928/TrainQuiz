@@ -51,7 +51,11 @@ test("ordinary 500 series and Hello Kitty names do not overlap in the same four 
     const question = buildQuestion(pool, answerId, () => 0.5);
     assert.equal(question.choices.length, 4);
     assert.equal(question.answer.id, answerId);
-    assert.equal(question.choices.find(train => train.id === "500-nozomi").displayName, "500系新幹線（通常色）");
+    const ordinaryName = question.choices.find(train => train.id === "500-nozomi").displayName;
+    assert.match(ordinaryName, /こだま/);
+    assert.match(ordinaryName, /のぞみ/);
+    assert.match(ordinaryName, /^500系新幹線/);
+    assert.match(ordinaryName, /通常色/);
     assert.equal(question.choices.find(train => train.id === "hello-kitty-shinkansen").displayName, "ハローキティ新幹線");
   }
 });

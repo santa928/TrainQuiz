@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createApp } from "../js/app.js";
+import { buildQuestion } from "../js/quiz-engine.js";
 import { createSpeechWindow } from "./helpers/speech-window.mjs";
 
 const stylesSource = readFileSync(new URL("../styles.css", import.meta.url), "utf8");
@@ -317,26 +318,40 @@ test("bootstrap 後はタイトル画面が表示され、クイズ画面は隠�
   assert.equal(elements.encyclopediaButton.disabled, false);
 });
 
-test("よみあげONでは色順に読み、🔊の聞き直しは回答にならない", async () => {
+test("よみあげONでは実データの呼び名と形式を色順に読み、🔊の聞き直しは回答にならない", async () => {
   const speechWindow = createSpeechWindow();
-  const { app, elements } = createHarness({ speechWindow });
+  const trains = JSON.parse(readFileSync(new URL("../data/trains.json", import.meta.url)))
+    .filter((train) => ["500-nozomi", "n700", "n700a", "0-shinkansen"].includes(train.id));
+  const { document, elements, view } = createDocument();
+  Object.assign(view, speechWindow);
+  const app = createApp({
+    document,
+    fetchImpl: createFetchStub(trains),
+    buildRoundOrderFn: () => ["500-nozomi", "n700", "n700a", "0-shinkansen", "500-nozomi"],
+    buildQuestionFn: (pool, id) => buildQuestion(pool, id, () => 0.999),
+  });
   await app.bootstrap();
   elements.speechToggle.click();
   assert.equal(speechWindow.utterances.length, 0);
   elements.startButton.click();
   assert.deepEqual(speechWindow.utterances.map((u) => u.text), [
-    "みずいろの ボタン。はやぶさ", "ぴんくの ボタン。こまち",
+    "みずいろの ボタン。500系新幹線こだま・のぞみ（通常色）",
+    "ぴんくの ボタン。N700系新幹線のぞみ・ひかり・こだま",
+    "みどりの ボタン。N700A新幹線のぞみ・ひかり・こだま",
+    "きいろの ボタン。0系新幹線ひかり・こだま",
   ]);
+  assert.equal(elements.choices.children[0].children[0].textContent, "500系新幹線こだま・のぞみ（通常色）");
   speechWindow.utterances[0].onstart();
   assert.equal(elements.choices.children[0].dataset.speaking, "true");
   const [answer, listen] = elements.choices.children[1].children;
   listen.click();
-  assert.equal(speechWindow.utterances.at(-1).text, "ぴんくの ボタン。こまち");
+  assert.equal(speechWindow.utterances.at(-1).text, "ぴんくの ボタン。N700系新幹線のぞみ・ひかり・こだま");
   assert.equal(app.state.answered, false);
   assert.equal(app.state.correctCount, 0);
   assert.equal(elements.next.hidden, true);
   answer.click();
   assert.equal(app.state.answered, true);
+  assert.equal(elements.answer.textContent, "500系新幹線こだま・のぞみ（通常色）");
   assert.equal(listen.disabled, true);
   assert.equal(elements.speechReplay.disabled, true);
   assert.equal(app.state.speakingChoiceId, null);
