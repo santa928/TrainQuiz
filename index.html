@@ -27,6 +27,10 @@
           </div>
 
           <div class="title-actions">
+            <div class="speech-settings">
+              <button class="speech-toggle" data-speech-toggle type="button" aria-pressed="false" aria-describedby="title-speech-status">🔇 よみあげ OFF</button>
+              <p class="speech-help" id="title-speech-status" data-title-speech-status></p>
+            </div>
             <button class="start-button" data-start-button type="button" disabled>
               クイズをはじめる
             </button>
@@ -150,6 +154,14 @@
             <p class="answer" data-answer hidden></p>
           </div>
 
+          <div class="speech-toolbar">
+            <div class="speech-actions">
+              <button class="speech-toggle" data-quiz-speech-toggle type="button" aria-pressed="false">🔇 よみあげ OFF</button>
+              <button class="speech-replay" data-speech-replay type="button" hidden>🔊 ぜんぶ きく</button>
+            </div>
+            <p class="speech-help" data-speech-status role="status" aria-live="polite"></p>
+          </div>
+
           <section class="choices" data-choices aria-label="せんたくし"></section>
 
           <section class="result-panel" data-result-panel hidden>
@@ -168,7 +180,7 @@
             </div>
           </section>
 
-          <button class="next-button" data-next hidden type="button">つぎへ</button>
+          <button class="next-button" data-next hidden type="button">つぎへ ▶</button>
 
           <footer class="credit-panel">
             <p class="credit-text" data-credit></p>

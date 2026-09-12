@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createApp } from "../js/app.js";
+import { createSpeechWindow } from "./helpers/speech-window.mjs";
 
 const stylesSource = readFileSync(new URL("../styles.css", import.meta.url), "utf8");
 
@@ -56,6 +57,10 @@ class FakeElement {
     this.children = nodes;
   }
 
+  setAttribute(name, value) {
+    this[name] = String(value);
+  }
+
   scrollTo(leftOrOptions, top) {
     if (typeof leftOrOptions === "object" && leftOrOptions !== null) {
       this.scrollTop = leftOrOptions.top ?? this.scrollTop;
@@ -74,7 +79,10 @@ class FakeElement {
 
   querySelectorAll(selector) {
     if (selector === "button") {
-      return this.children.filter((child) => child.tagName === "button");
+      return this.children.flatMap((child) => [
+        ...(child.tagName === "button" ? [child] : []),
+        ...child.querySelectorAll(selector),
+      ]);
     }
 
     return [];
@@ -89,6 +97,11 @@ function createDocument() {
     imageWrap: new FakeElement("div"),
     feedback: new FakeElement("p"),
     choices: new FakeElement("section"),
+    speechToggle: new FakeElement("button"),
+    quizSpeechToggle: new FakeElement("button"),
+    speechReplay: new FakeElement("button"),
+    speechStatus: new FakeElement("p"),
+    titleSpeechStatus: new FakeElement("p"),
     next: new FakeElement("button"),
     credit: new FakeElement("p"),
     sourceLink: new FakeElement("a"),
@@ -142,6 +155,11 @@ function createDocument() {
     ["[data-image-wrap]", elements.imageWrap],
     ["[data-feedback]", elements.feedback],
     ["[data-choices]", elements.choices],
+    ["[data-speech-toggle]", elements.speechToggle],
+    ["[data-quiz-speech-toggle]", elements.quizSpeechToggle],
+    ["[data-speech-replay]", elements.speechReplay],
+    ["[data-speech-status]", elements.speechStatus],
+    ["[data-title-speech-status]", elements.titleSpeechStatus],
     ["[data-next]", elements.next],
     ["[data-credit]", elements.credit],
     ["[data-source-link]", elements.sourceLink],
@@ -213,7 +231,7 @@ function createFetchStub(trains) {
   });
 }
 
-function createHarness({ trains: customTrains } = {}) {
+function createHarness({ trains: customTrains, speechWindow = {} } = {}) {
   const trains = customTrains ?? [
     {
       id: "train-a",
@@ -260,6 +278,7 @@ function createHarness({ trains: customTrains } = {}) {
     },
   ];
   const { document, elements, view } = createDocument();
+  Object.assign(view, speechWindow);
   const app = createApp({
     document,
     fetchImpl: createFetchStub(trains),
@@ -296,6 +315,88 @@ test("bootstrap 後はタイトル画面が表示され、クイズ画面は隠�
   assert.equal(elements.quizScreen.hidden, true);
   assert.equal(elements.startButton.disabled, false);
   assert.equal(elements.encyclopediaButton.disabled, false);
+});
+
+test("よみあげONでは色順に読み、🔊の聞き直しは回答にならない", async () => {
+  const speechWindow = createSpeechWindow();
+  const { app, elements } = createHarness({ speechWindow });
+  await app.bootstrap();
+  elements.speechToggle.click();
+  assert.equal(speechWindow.utterances.length, 0);
+  elements.startButton.click();
+  assert.deepEqual(speechWindow.utterances.map((u) => u.text), [
+    "みずいろの ボタン。はやぶさ", "ぴんくの ボタン。こまち",
+  ]);
+  speechWindow.utterances[0].onstart();
+  assert.equal(elements.choices.children[0].dataset.speaking, "true");
+  const [answer, listen] = elements.choices.children[1].children;
+  listen.click();
+  assert.equal(speechWindow.utterances.at(-1).text, "ぴんくの ボタン。こまち");
+  assert.equal(app.state.answered, false);
+  assert.equal(app.state.correctCount, 0);
+  assert.equal(elements.next.hidden, true);
+  answer.click();
+  assert.equal(app.state.answered, true);
+  assert.equal(listen.disabled, true);
+  assert.equal(elements.speechReplay.disabled, true);
+  assert.equal(app.state.speakingChoiceId, null);
+  assert.match(elements.speechStatus.textContent, /つぎへ/);
+});
+
+test("よみあげOFFで停止し、設定を次回に引き継ぐが起動時は発話しない", async () => {
+  const speechWindow = createSpeechWindow();
+  const first = createHarness({ speechWindow });
+  await first.app.bootstrap();
+  first.elements.speechToggle.click();
+  const second = createHarness({ speechWindow });
+  await second.app.bootstrap();
+  assert.equal(second.app.state.speechEnabled, true);
+  assert.equal(speechWindow.utterances.length, 0);
+  second.elements.startButton.click();
+  const stale = speechWindow.utterances[0];
+  second.elements.quizSpeechToggle.click();
+  stale.onstart();
+  assert.equal(second.app.state.speechEnabled, false);
+  assert.equal(second.app.state.speakingChoiceId, null);
+  assert.equal(second.elements.choices.children[0].children[1].hidden, true);
+  const third = createHarness({ speechWindow });
+  await third.app.bootstrap();
+  assert.equal(third.app.state.speechEnabled, false);
+});
+
+test("問題移動・画面移動後の古い発話でカードが強調されない", async () => {
+  const speechWindow = createSpeechWindow();
+  const { app, elements } = createHarness({ speechWindow });
+  await app.bootstrap();
+  elements.speechToggle.click();
+  app.startQuiz();
+  const previous = speechWindow.utterances[0];
+  elements.choices.children[0].children[0].click();
+  elements.next.click();
+  previous.onstart();
+  assert.equal(app.state.speakingChoiceId, null);
+  assert.equal(speechWindow.utterances.length, 4);
+  speechWindow.utterances[2].onstart();
+  app.setView("title");
+  speechWindow.utterances[2].onstart();
+  assert.equal(app.state.speakingChoiceId, null);
+});
+
+test("音声エラーや保存不可でも回答と画面操作を続けられる", async () => {
+  const speechWindow = createSpeechWindow();
+  speechWindow.localStorage = {
+    getItem() { throw new Error("denied"); },
+    setItem() { throw new Error("denied"); },
+  };
+  const { app, elements } = createHarness({ speechWindow });
+  await app.bootstrap();
+  elements.speechToggle.click();
+  app.startQuiz();
+  speechWindow.utterances[0].onerror({ error: "not-allowed" });
+  assert.match(elements.speechStatus.textContent, /再生できません/);
+  assert.equal(elements.choices.children[0].children[0].disabled, false);
+  elements.choices.children[0].children[0].click();
+  assert.equal(app.state.correctCount, 1);
 });
 
 test("タイトル画面の ずかん を押すと図鑑一覧が表示される", async () => {
@@ -585,7 +686,7 @@ test("汽車カテゴリは図鑑に残しつつクイズ出題順から除外�
     },
   ]);
   assert.deepEqual(
-    elements.choices.children.map((button) => button.dataset.choiceId),
+    elements.choices.children.map((card) => card.children[0].dataset.choiceId),
     ["train-a", "train-b"],
   );
 });
@@ -654,7 +755,7 @@ test("不正解直後に正解を表示して つぎへ 進める", async () => 
   await app.bootstrap();
   app.startQuiz();
 
-  const [correctButton, wrongButton] = elements.choices.children;
+  const [correctButton, wrongButton] = elements.choices.children.map((card) => card.children[0]);
   wrongButton.click();
 
   assert.equal(elements.feedback.textContent, "❌ おしい！ これだよ");
@@ -679,7 +780,7 @@ test("不正解後に正解を押し直しても正解数は増えない", async
   await app.bootstrap();
   app.startQuiz();
 
-  const [correctButton, wrongButton] = elements.choices.children;
+  const [correctButton, wrongButton] = elements.choices.children.map((card) => card.children[0]);
   wrongButton.click();
   correctButton.click();
 
