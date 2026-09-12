@@ -1,6 +1,11 @@
 import { buildQuestion } from "./quiz-engine.js";
 import { buildRoundOrder } from "./round.js";
+import { createSpeechPlayer } from "./speech.js";
 
+const CHOICE_COLORS = ["みずいろ", "ぴんく", "みどり", "きいろ"];
+const SPEECH_SETTING_KEY = "trainquiz.read-aloud";
+
+/** Connect the quiz views, answer state and optional device speech to the DOM. */
 export function createApp({
   document,
   fetchImpl,
@@ -17,6 +22,11 @@ export function createApp({
     imageWrap: document.querySelector("[data-image-wrap]"),
     feedback: document.querySelector("[data-feedback]"),
     choices: document.querySelector("[data-choices]"),
+    speechToggle: document.querySelector("[data-speech-toggle]"),
+    quizSpeechToggle: document.querySelector("[data-quiz-speech-toggle]"),
+    speechReplay: document.querySelector("[data-speech-replay]"),
+    speechStatus: document.querySelector("[data-speech-status]"),
+    titleSpeechStatus: document.querySelector("[data-title-speech-status]"),
     next: document.querySelector("[data-next]"),
     credit: document.querySelector("[data-credit]"),
     sourceLink: document.querySelector("[data-source-link]"),
@@ -97,14 +107,90 @@ export function createApp({
     selectedTrainId: null,
     encyclopediaListScrollTop: 0,
     encyclopediaPageScrollY: 0,
+    speechEnabled: false,
+    speechStatus: "idle",
+    speakingChoiceId: null,
   };
+  let choiceControls = [];
+  const speech = createSpeechPlayer(viewWindow, ({ status, activeId }) => {
+    state.speechStatus = status;
+    state.speakingChoiceId = activeId;
+    updateSpeechControls();
+  });
 
+  /** Stop speech when navigation hides the question that supplied its choices. */
   function setView(view) {
+    if (view !== state.currentView) speech.stop();
     state.currentView = view;
     elements.titleScreen.hidden = view !== "title";
     elements.quizScreen.hidden = view !== "quiz";
     elements.encyclopediaListScreen.hidden = view !== "encyclopedia-list";
     elements.encyclopediaDetailScreen.hidden = view !== "encyclopedia-detail";
+  }
+
+  /** Keep both toggles, replay actions and guidance consistent with answer state. */
+  function updateSpeechControls() {
+    const enabled = state.speechEnabled && speech.supported;
+    for (const toggle of [elements.speechToggle, elements.quizSpeechToggle]) {
+      toggle.disabled = !speech.supported;
+      toggle.setAttribute("aria-pressed", String(enabled));
+      toggle.textContent = enabled ? "🔊 よみあげ ON" : "🔇 よみあげ OFF";
+    }
+    elements.speechReplay.hidden = !enabled;
+    elements.speechReplay.disabled = state.answered || state.completedRound;
+    elements.choices.dataset.speech = String(enabled);
+    elements.quizScreen.dataset.speech = String(enabled);
+    elements.quizScreen.dataset.answered = String(state.answered);
+    for (const { card, button, replay, id } of choiceControls) {
+      const speaking = state.speakingChoiceId === id;
+      card.dataset.speaking = String(speaking);
+      button.dataset.speaking = String(speaking);
+      replay.hidden = !enabled || state.answered;
+      replay.disabled = state.answered;
+    }
+    let message = enabled
+      ? "🔊で ききなおせるよ。こたえは なまえの ボタンを おしてね"
+      : "よみあげを ON にすると なまえを よむよ";
+    if (!speech.supported) {
+      message = "このブラウザでは よみあげが つかえません";
+    } else if (enabled && state.speechStatus === "unavailable") {
+      message = "日本語の音声が見つかりません。端末の日本語音声を確認して、🔊でもういちど試してください";
+    } else if (enabled && state.speechStatus === "error") {
+      message = "音声を再生できませんでした。音量を確認して、🔊でもういちど試してください";
+    } else if (enabled && state.answered) {
+      message = "つぎへ ▶ を おしてね";
+    } else if (enabled && state.speechStatus === "speaking") {
+      const slot = state.currentQuestion?.choices.findIndex((c) => c.id === state.speakingChoiceId);
+      message = slot >= 0 ? `${CHOICE_COLORS[slot]}の ボタンを よんでいるよ` : "よんでいるよ";
+    } else if (enabled && state.speechStatus === "loading") {
+      message = "おとを じゅんびしているよ…";
+    }
+    elements.speechStatus.textContent = message;
+    elements.titleSpeechStatus.textContent = !speech.supported || state.speechStatus === "unavailable" || state.speechStatus === "error"
+      ? message
+      : "ONにすると、4つの なまえを じゅんばんに よむよ";
+  }
+
+  /** Read only visible unanswered choices; replay never submits an answer. */
+  function readChoices(choiceId = null) {
+    if (!state.speechEnabled || state.currentView !== "quiz" || state.answered || state.completedRound) return;
+    const items = state.currentQuestion.choices.map((choice, slot) => ({
+      id: choice.id,
+      text: `${CHOICE_COLORS[slot]}の ボタン。${choice.displayName}`,
+    }));
+    speech.play(choiceId ? items.filter((item) => item.id === choiceId) : items);
+  }
+
+  /** Persist the parent's opt-in without making blocked storage fatal to play. */
+  function toggleSpeech() {
+    if (!speech.supported) return;
+    state.speechEnabled = !state.speechEnabled;
+    speech.stop();
+    try {
+      viewWindow.localStorage?.setItem(SPEECH_SETTING_KEY, String(state.speechEnabled));
+    } catch { /* Private browsing/storage restrictions must not block the quiz. */ }
+    updateSpeechControls();
+    if (state.speechEnabled) readChoices();
   }
 
   function setQuizMode(mode) {
@@ -152,7 +238,7 @@ export function createApp({
   }
 
   function markChoices(correctId, wrongId) {
-    for (const button of elements.choices.querySelectorAll("button")) {
+    for (const { button } of choiceControls) {
       if (button.dataset.choiceId === correctId) {
         button.dataset.state = "correct";
         button.disabled = state.answered;
@@ -166,11 +252,13 @@ export function createApp({
     }
   }
 
+  /** Score a single answer and cancel the now-obsolete spoken options. */
   function handleChoice(choiceId) {
     if (!state.currentQuestion || state.answered) {
       return;
     }
 
+    speech.stop();
     const { answer } = state.currentQuestion;
     if (choiceId === answer.id) {
       state.correctCount += 1;
@@ -180,6 +268,7 @@ export function createApp({
       elements.answer.textContent = answer.displayName;
       elements.next.hidden = false;
       markChoices(answer.id, "");
+      updateSpeechControls();
       return;
     }
 
@@ -190,10 +279,16 @@ export function createApp({
     elements.answer.textContent = answer.displayName;
     elements.next.hidden = false;
     markChoices(answer.id, choiceId);
+    updateSpeechControls();
   }
 
+  /** Group separate answer/listen buttons without nesting interactive elements. */
   function createChoiceButton(choice, slotIndex) {
+    const card = document.createElement("div");
     const button = document.createElement("button");
+    const replay = document.createElement("button");
+    card.className = "choice-card";
+    card.dataset.slot = String(slotIndex);
     button.type = "button";
     button.className = "choice-button";
     button.textContent = choice.displayName;
@@ -202,7 +297,14 @@ export function createApp({
     button.dataset.slot = String(slotIndex);
     button.disabled = state.disabledChoices.has(choice.id);
     button.addEventListener("click", () => handleChoice(choice.id));
-    return button;
+    replay.type = "button";
+    replay.className = "choice-listen";
+    replay.textContent = "🔊";
+    replay.setAttribute("aria-label", `${CHOICE_COLORS[slotIndex]}：${choice.displayName} を きく`);
+    replay.addEventListener("click", () => readChoices(choice.id));
+    card.replaceChildren(button, replay);
+    choiceControls.push({ card, button, replay, id: choice.id });
+    return card;
   }
 
   function createEncyclopediaCard(train, index) {
@@ -395,7 +497,9 @@ export function createApp({
     setView("encyclopedia-detail");
   }
 
+  /** Render a fresh question, then start opted-in speech inside the initiating tap. */
   function renderQuestion() {
+    speech.stop();
     const currentId = state.order[state.currentIndex];
     state.currentQuestion = buildQuestionFn(state.quizTrains, currentId);
     state.answered = false;
@@ -410,6 +514,7 @@ export function createApp({
       alt: `${answer.displayName} のしゃしん`,
     });
 
+    choiceControls = [];
     elements.choices.replaceChildren(
       ...choices.map((choice, index) => createChoiceButton(choice, index)),
     );
@@ -425,9 +530,13 @@ export function createApp({
     );
     updateProgress();
     setView("quiz");
+    updateSpeechControls();
+    readChoices();
   }
 
+  /** Present the round score after clearing any remaining spoken choice. */
   function showCompletion() {
+    speech.stop();
     const total = state.order.length;
     state.completedRound = true;
     elements.title.textContent = "ぜんぶ できたね！";
@@ -458,7 +567,7 @@ export function createApp({
     state.currentIndex = 0;
     state.correctCount = 0;
     state.order = buildRoundOrderFn(state.quizTrains.map((train) => train.id));
-    elements.next.textContent = "つぎへ";
+    elements.next.textContent = "つぎへ ▶";
     renderQuestion();
   }
 
@@ -469,7 +578,7 @@ export function createApp({
     state.selectedTrainId = null;
     state.encyclopediaListScrollTop = 0;
     state.encyclopediaPageScrollY = 0;
-    elements.next.textContent = "つぎへ";
+    elements.next.textContent = "つぎへ ▶";
     setQuizMode("question");
     setView("title");
     setPageScrollTop(0);
@@ -488,7 +597,7 @@ export function createApp({
       return;
     }
 
-    elements.next.textContent = "つぎへ";
+    elements.next.textContent = "つぎへ ▶";
     renderQuestion();
   }
 
@@ -500,7 +609,7 @@ export function createApp({
     state.currentIndex = 0;
     state.correctCount = 0;
     state.order = buildRoundOrderFn(state.quizTrains.map((train) => train.id));
-    elements.next.textContent = "つぎへ";
+    elements.next.textContent = "つぎへ ▶";
     renderQuestion();
   }
 
@@ -513,7 +622,19 @@ export function createApp({
     return response.json();
   }
 
+  /** Load data and the saved opt-in; initial page load never starts speech. */
   async function bootstrap() {
+    try {
+      state.speechEnabled = speech.supported && viewWindow.localStorage?.getItem(SPEECH_SETTING_KEY) === "true";
+    } catch { /* Storage can be denied; use the silent default for this visit. */ }
+    updateSpeechControls();
+    elements.speechToggle.addEventListener("click", toggleSpeech);
+    elements.quizSpeechToggle.addEventListener("click", toggleSpeech);
+    elements.speechReplay.addEventListener("click", () => readChoices());
+    document.addEventListener?.("visibilitychange", () => {
+      if (document.hidden) speech.stop();
+    });
+    viewWindow?.addEventListener?.("pagehide", () => speech.stop());
     setView("title");
     elements.error.hidden = true;
     elements.error.textContent = "";
