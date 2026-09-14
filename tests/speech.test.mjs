@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { createSpeechPlayer } from "../js/speech.js";
 
 import { createSpeechWindow } from "./helpers/speech-window.mjs";
@@ -12,7 +13,7 @@ test("順番に日本語で読み、実際の発話開始に合わせて対象�
   assert.deepEqual(view.utterances.map((u) => u.text), ["みずいろ。はやぶさ", "ぴんく。こまち"]);
   assert.equal(view.utterances[0].lang, "ja-JP");
   assert.equal(view.utterances[0].voice.localService, true);
-  assert.ok(view.utterances[0].rate < 1);
+  assert.equal(view.utterances[0].rate, 1);
   view.utterances[0].onstart();
   assert.equal(states.at(-1).activeId, "a");
   view.utterances[1].onstart();
@@ -20,6 +21,30 @@ test("順番に日本語で読み、実際の発話開始に合わせて対象�
   view.utterances[1].onend();
   assert.equal(states.at(-1).activeId, null);
   assert.equal(states.at(-1).status, "idle");
+});
+
+test("実データの路線名をかなで渡し、形式・色・補正対象外の名前を残す", () => {
+  const trains = JSON.parse(readFileSync(new URL("../data/trains.json", import.meta.url)));
+  const cases = [
+    ["E235系山手線", "E235系やまのてせん"],
+    ["E531系常磐線", "E531系じょうばんせん"],
+    ["103系常磐線", "103系じょうばんせん"],
+    ["E233系京葉線", "E233系けいようせん"],
+    ["E231系総武線", "E231系そうぶせん"],
+    ["E233系京浜東北線", "E233系けいひんとうほくせん"],
+    ["E235系横須賀線", "E235系よこすかせん"],
+    ["名鉄ミュースカイ（通常色）", "名鉄ミュースカイ（通常色）"],
+    ["京急2100形（あか）", "京急2100形（あか）"],
+  ];
+  const view = createSpeechWindow();
+  const player = createSpeechPlayer(view);
+  for (const [displayName, reading] of cases) {
+    const train = trains.find((entry) => entry.displayName === displayName);
+    assert.ok(train, `実データに ${displayName} が存在する`);
+    player.play([{ id: train.id, text: `みずいろの ボタン。${train.displayName}` }]);
+    assert.equal(view.utterances.at(-1).text, `みずいろの ボタン。${reading}`);
+    assert.equal(train.displayName, displayName);
+  }
 });
 
 test("聞き直し・停止後に古い音声イベントが来ても再生状態を変えない", () => {
