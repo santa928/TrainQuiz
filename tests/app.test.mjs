@@ -335,17 +335,17 @@ test("よみあげONでは実データの呼び名と形式を色順に読み、
   assert.equal(speechWindow.utterances.length, 0);
   elements.startButton.click();
   assert.deepEqual(speechWindow.utterances.map((u) => u.text), [
-    "みずいろの ボタン。500系新幹線こだま・のぞみ（通常色）",
-    "ぴんくの ボタン。N700系新幹線のぞみ・ひかり・こだま",
-    "みどりの ボタン。N700A新幹線のぞみ・ひかり・こだま",
-    "きいろの ボタン。0系新幹線ひかり・こだま",
+    "みずいろの ボタン。ごひゃくけい しんかんせん こだま・のぞみ（つうじょうしょく）",
+    "ぴんくの ボタン。えぬななひゃくけい しんかんせん のぞみ・ひかり・こだま",
+    "みどりの ボタン。えぬななひゃくえー しんかんせん のぞみ・ひかり・こだま",
+    "きいろの ボタン。ぜろけい しんかんせん ひかり・こだま",
   ]);
   assert.equal(elements.choices.children[0].children[0].textContent, "500系新幹線こだま・のぞみ（通常色）");
   speechWindow.utterances[0].onstart();
   assert.equal(elements.choices.children[0].dataset.speaking, "true");
   const [answer, listen] = elements.choices.children[1].children;
   listen.click();
-  assert.equal(speechWindow.utterances.at(-1).text, "ぴんくの ボタン。N700系新幹線のぞみ・ひかり・こだま");
+  assert.equal(speechWindow.utterances.at(-1).text, "ぴんくの ボタン。えぬななひゃくけい しんかんせん のぞみ・ひかり・こだま");
   assert.equal(app.state.answered, false);
   assert.equal(app.state.correctCount, 0);
   assert.equal(elements.next.hidden, true);
@@ -356,6 +356,39 @@ test("よみあげONでは実データの呼び名と形式を色順に読み、
   assert.equal(elements.speechReplay.disabled, true);
   assert.equal(app.state.speakingChoiceId, null);
   assert.match(elements.speechStatus.textContent, /つぎへ/);
+});
+
+test("全110件の全件再生と個別再生で漢字・英数字を音声エンジンへ渡さない", async () => {
+  const trains = JSON.parse(readFileSync(new URL("../data/trains.json", import.meta.url)));
+  const colors = ["みずいろ", "ぴんく", "みどり", "きいろ"];
+  for (let offset = 0; offset < trains.length; offset += 4) {
+    const choices = trains.slice(offset, offset + 4);
+    const speechWindow = createSpeechWindow();
+    const { document, elements, view } = createDocument();
+    Object.assign(view, speechWindow);
+    const app = createApp({
+      document,
+      fetchImpl: createFetchStub(trains),
+      buildRoundOrderFn: () => [trains[0].id],
+      // Include the encyclopedia-only steam names in this pronunciation audit, too.
+      buildQuestionFn: () => ({ prompt: "これ なあに？", answer: choices[0], choices }),
+    });
+    await app.bootstrap();
+    elements.speechToggle.click();
+    elements.startButton.click();
+    assert.equal(speechWindow.utterances.length, choices.length);
+    const allTexts = speechWindow.utterances.map((utterance) => utterance.text);
+    for (const [slot, choice] of choices.entries()) {
+      assert.match(allTexts[slot], /^[ぁ-ゖァ-ヺー・。 （）]+$/u, choice.displayName);
+      assert.ok(allTexts[slot].startsWith(`${colors[slot]}の ボタン。`));
+      const [answer, listen] = elements.choices.children[slot].children;
+      assert.equal(answer.textContent, choice.displayName);
+      listen.click();
+      assert.equal(speechWindow.utterances.at(-1).text, allTexts[slot], choice.id);
+      assert.equal(speechWindow.utterances.at(-1).rate, 1);
+      assert.equal(app.state.answered, false);
+    }
+  }
 });
 
 test("よみあげOFFで停止し、設定を次回に引き継ぐが起動時は発話しない", async () => {

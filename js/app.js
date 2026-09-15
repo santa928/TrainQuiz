@@ -1,6 +1,7 @@
 import { buildQuestion } from "./quiz-engine.js";
 import { buildRoundOrder } from "./round.js";
 import { createSpeechPlayer } from "./speech.js";
+import { getTrainReading } from "./train-readings.js";
 
 const CHOICE_COLORS = ["みずいろ", "ぴんく", "みどり", "きいろ"];
 const SPEECH_SETTING_KEY = "trainquiz.read-aloud";
@@ -171,12 +172,12 @@ export function createApp({
       : "ONにすると、4つの なまえを じゅんばんに よむよ";
   }
 
-  /** Read only visible unanswered choices; replay never submits an answer. */
+  /** Read complete kana names for visible unanswered choices; replay never submits an answer. */
   function readChoices(choiceId = null) {
     if (!state.speechEnabled || state.currentView !== "quiz" || state.answered || state.completedRound) return;
     const items = state.currentQuestion.choices.map((choice, slot) => ({
       id: choice.id,
-      text: `${CHOICE_COLORS[slot]}の ボタン。${choice.displayName}`,
+      text: `${CHOICE_COLORS[slot]}の ボタン。${getTrainReading(choice.displayName)}`,
     }));
     speech.play(choiceId ? items.filter((item) => item.id === choiceId) : items);
   }

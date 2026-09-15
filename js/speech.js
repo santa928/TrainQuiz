@@ -1,21 +1,3 @@
-// Keep route readings separate from visible names and photo/source records.
-const ROUTE_READINGS = [
-  ["山手線", "やまのてせん"],
-  ["常磐線", "じょうばんせん"],
-  ["京葉線", "けいようせん"],
-  ["総武線", "そうぶせん"],
-  ["京浜東北線", "けいひんとうほくせん"],
-  ["横須賀線", "よこすかせん"],
-];
-
-/** Supply explicit route readings while preserving color cues, series and livery. */
-function pronunciationText(text) {
-  return ROUTE_READINGS.reduce(
-    (reading, [name, kana]) => reading.replaceAll(name, kana),
-    text,
-  );
-}
-
 /** Read short queues using a device-local Japanese voice, invalidating stale events. */
 export function createSpeechPlayer(view, onState = () => {}) {
   const synth = view?.speechSynthesis;
@@ -71,7 +53,7 @@ export function createSpeechPlayer(view, onState = () => {}) {
       );
       if (!voice) return fail("unavailable");
       queue = items.map((item, index) => {
-        const utterance = new Utterance(pronunciationText(item.text));
+        const utterance = new Utterance(item.text);
         utterance.lang = "ja-JP";
         utterance.voice = voice;
         utterance.rate = 1.0;

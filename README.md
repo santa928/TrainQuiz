@@ -38,6 +38,7 @@
 - `js/quiz-engine.js`: 4択問題生成ロジック
 - `js/app.js`: ブラウザ表示ロジック
 - `js/speech.js`: 端末内の日本語音声による読み上げ・停止制御
+- `js/train-readings.js`: 全車両名の読み上げ用かな表記（[全件対応表と根拠](docs/train-readings.md)）
 - `data/train-seeds.json`: 調査 seed
 - `data/train-sources.lock.json`: 出典の指定と確認済み写真メタデータを対応付ける固定記録
 - `data/trains.json`: 公開用の確定データ
@@ -59,7 +60,7 @@ docker compose up
 出典URL・照合文字列・Wikipedia記事・写真指定の変更や、固定記録の欠落はエラーになります。エラー時に該当車両をスキップしたり、既存出力を書き換えたりしません。
 鉄道会社の公式車両紹介を根拠にする場合は、seed の `productEvidenceUrl` と `productEvidenceText` を指定します。この場合の `productName` は車両の表示名で、玩具の商品化を意味しません。
 日本語 Wikipedia だけで安定取得できない車両は、`data/train-seeds.json` に `wikipediaTitle` と `commonsFileTitle` を持たせて、Commons 側の画像を固定できます。
-同じ系列でも別商品として出題するため、`canonicalName` は重複していても構いません。4択の選択肢では `displayName` が重複しないように調整しています。
+同じ系列でも別商品として出題するため、`canonicalName` は重複していても構いません。4択の選択肢では `displayName` が重複しないように調整しています。表示名を追加・変更する際は `js/train-readings.js` の読みも更新してください。形式・英数字・路線名・塗装を含む全文をかなで登録し、全データの登録漏れをテストで検出します。
 形式名だけでは分かりにくい車両には、子どもが知っている列車名や路線名を併記します。新幹線は「500系新幹線こだま・のぞみ（通常色）」のように、「E5系新幹線はやぶさ」「E6系新幹線こまち」と同じ「形式名＋新幹線＋呼び名」の順にし、塗装などの補足は末尾に付けます。選択肢・正解表示・図鑑・読み上げに同じ名前が反映され、同じ呼び名の車両も形式や塗装で区別できます。全110件を点検した対応表と根拠は [車両の呼び名と表記](docs/train-names.md) を参照してください。
 
 ```bash
